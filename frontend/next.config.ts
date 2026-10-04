@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
     middlewareClientMaxBodySize: MAX_PDF_UPLOAD_BYTES
   },
   async rewrites() {
+    if (process.env.PORTABLE_BUILD === "1") return [];
     return [{ source: "/backend-api/:path*", destination: `${backend}/:path*` }];
   }
 };
