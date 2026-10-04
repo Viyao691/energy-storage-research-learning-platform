@@ -4,9 +4,9 @@ Updated: 2026-10-04
 
 ## Release scope
 
-Preparing the clean public GitHub release of Energy Research Copilot. The public `main` repository [Viyao691/energy-storage-research-learning-platform](https://github.com/Viyao691/energy-storage-research-learning-platform) has been created; the release source is awaiting its first push. The release preserves public interface assets, research teaching imagery, and campus public-information feature. A clean download starts with an empty personal library and default Mock model configuration.
+The clean public GitHub release of Energy Research Copilot has been pushed to [`Viyao691/energy-storage-research-learning-platform`](https://github.com/Viyao691/energy-storage-research-learning-platform) on `main`. The public version was created in the independent Git directory `outputs/github-release`; the original development directory, its Git history, and personal data remain preserved and must not be pushed to the new repository. Continue future cloud collaboration from the GitHub repository. A clean download starts with an empty personal library and default Mock model configuration.
 
-Current release-preparation checks: Docker frontend and backend image builds exited successfully; standalone TypeScript check reported 0 errors. In the isolated release runtime on ports 3018/8019, backend health, dashboard, paper API proxy, paper 1 figure thumbnail (PNG), and campus sources returned HTTP 200. The full test suites were not run in this release-preparation pass.
+The first two commits used `[skip ci]` as requested; no full test suites ran. Docker frontend/backend image builds exited successfully and standalone TypeScript check reported 0 errors. Isolated runtime checks on ports 3018/8019 returned HTTP 200 for health, dashboard, paper API proxy, paper 1 figure thumbnail (PNG), and campus sources. Temporary 3018/8019 services, 3019 dev server, and `outputs/github-preview` synthetic demo data have been removed. Original local 3001/8001 services were left untouched.
 
 The GitHub release includes the Next.js frontend, FastAPI backend, SQLite/Docker Compose local runtime, current feature source, and materials listed in the source/credit manifests. Personal papers, data, local database contents, model weights, and secrets are excluded. Code license: MIT; media follows separate asset rights and attribution records.
 
@@ -15,7 +15,7 @@ The GitHub release includes the Next.js frontend, FastAPI backend, SQLite/Docker
 - Responsive Web app; no native Android/iOS client yet.
 - Single-user local application. Public multi-user hosting requires authentication, user isolation, and production storage choices.
 - Campus information connects to Xi'an Jiaotong University public information sources. Availability follows the source sites and network.
-- Do not infer that a build, test suite, live server, or public GitHub repository is verified from this status file. Record only checks actually completed during the current release task.
+- Record only checks actually completed during the release; the first release used `[skip ci]` and no full test suites ran.
 
 ## Release docs
 

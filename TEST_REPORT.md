@@ -8,5 +8,6 @@ Release preparation on 2026-10-04:
 - Independent release runtime: ports 3018/8019; health, dashboard, paper API proxy, paper 1 figure thumbnail (image/png, 61,989 bytes), and campus sources returned HTTP 200.
 - Six public screenshots exist at 1280×720 initial viewport. Home-dark was captured from the viewport after fullPage capture failed; the other five used fullPage capture. No image edits were made.
 - Full frontend/backend test suites: not run for this release-preparation pass.
+- Initial push to public `main` succeeded; both release commits used `[skip ci]`. Temporary release containers/dev server and synthetic preview data were removed; original local 3001/8001 were not changed.
 
 These results cover the release-preparation revision only. They do not claim full-suite, end-to-end, or production deployment acceptance.
