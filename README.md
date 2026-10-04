@@ -1,9 +1,5 @@
 # Energy Research Copilot
 
-**面向大学生的储能科研学习平台**：把论文阅读、文献整理、证据核查、学习复习、竞赛准备和储能研究资料放在一个可本地运行的工作台中。项目由 Viyao 主导产品设计与迭代，AI 工具参与开发。
-
-> 当前版本是响应式 Web 应用，可在手机浏览器访问；原生 iOS/Android 应用尚未提供。默认单机、本地数据模式，适合个人学习与科研原型使用。
-
 ## 解决的问题
 
 大学生做科研时，常要在 PDF 阅读器、文献表格、笔记、课程资料、实验数据、竞赛通知和校园网站之间来回切换。英文论文读得慢、结论难以追溯到原文、复习容易中断、数据条件容易遗漏，刚入门时也难以判断一个想法能否验证。本项目将这些步骤串成可查看、可编辑、可复核的工作流：用自己的论文建立资料库，以页码和原文片段核对回答，整理学习卡片和复习计划，再把论文证据带入科研数据与实验设计。
@@ -38,7 +34,11 @@
 |---|---|
 | ![论文搜索页面](docs/github/screenshots/search.jpg) | ![论文上传页面](docs/github/screenshots/upload.jpg) |
 
-## 快速启动
+## Windows 便携安装包（准备中）
+
+便携版正在准备，暂未提供下载。发布后可从 [GitHub Releases](https://github.com/Viyao691/energy-storage-research-learning-platform/releases) 下载 ZIP，解压后双击启动器即可在本机浏览器运行，无需另装 Docker、Python 或 Node。真实模型与 OCR 功能仍需按需单独配置服务或模型。
+
+## 源码开发启动
 
 需要安装 Docker Desktop（Windows）或 Docker Engine 与 Docker Compose（Linux）。首次启动会构建前后端镜像并下载依赖，CPU 文档处理依赖较大，首次构建需要较多时间与磁盘空间；模型权重不随仓库或镜像复制。之后重新运行启动器即可。
 
@@ -76,7 +76,7 @@ Windows 启动器会打印实际网页地址（默认从 `http://localhost:3000`
 - `docker-compose.yml`：本地前后端编排，默认 SQLite 与本地文件存储。
 - `docs/`：架构、帮助、安装及研究/素材来源说明。
 
-下载后即可用 Compose 构建前后端。用户资料库存放在 Docker 持久卷，与仓库代码及公共界面素材分开。项目当前按单机个人使用设计；若部署成多人共用的公网网站，需要先加入账户认证、用户隔离和适合线上环境的存储配置。移动端目前通过响应式网页提供访问。
+当前通过本机启动并在浏览器中操作；公网网站与原生手机应用为后续开发。源码运行时，用户资料保存在本机 Docker 持久卷。
 
 ## 许可与素材
 
@@ -84,7 +84,8 @@ Windows 启动器会打印实际网页地址（默认从 `http://localhost:3000`
 
 ## 文档
 
-- [安装、配置与运行方式](docs/github/SETUP.md)
+- [Windows 便携安装包使用说明](docs/github/PORTABLE.md)
+- [源码开发安装与运行方式](docs/github/SETUP.md)
 - [本地开发与云端协作](docs/github/SETUP.md#本地开发)
 - [从论文到学习与研究的流程](docs/github/WORKFLOWS.md)
 - [公开版素材与许可说明](docs/github/ASSETS.md)
