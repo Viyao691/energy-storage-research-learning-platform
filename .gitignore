@@ -1,6 +1,7 @@
 # Runtime and secrets
 .env
 .env.*
+!.env.example
 !.env.*.example
 *.env.local
 data/
