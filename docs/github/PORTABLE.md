@@ -1,11 +1,15 @@
 # Windows 便携安装包
 
-便携版正在准备。发布后下载 Windows x64 ZIP，解压到可写目录，再双击其中的 `启动储能科研平台.cmd`，应用会在本机浏览器打开。首次运行会创建 `data` 空资料库。启动后保持弹出的控制台窗口开启；关闭窗口会结束本包服务，其他应用不受影响。
+Windows x64 便携版已发布：[直接下载 ZIP（926,812,896 字节，约 884 MiB）](https://github.com/Viyao691/energy-storage-research-learning-platform/releases/download/v0.1.0-windows-portable/Energy-Research-Copilot-Windows-x64.zip)，或打开 [GitHub Releases 发布页](https://github.com/Viyao691/energy-storage-research-learning-platform/releases/tag/v0.1.0-windows-portable)。请下载该 ZIP Release 资产；自动生成的 “Source code” ZIP/TAR 是源码归档。
+
+1. 下载 Windows x64 ZIP。
+2. 解压到可写目录。
+3. 双击 `启动储能科研平台.cmd`，应用会在本机浏览器打开。首次运行会创建空 `data` 资料库。保持控制台窗口开启；关闭窗口会结束本包服务，其他应用不受影响。
 
 解压目录中的 `data` 目录用于保存个人数据库、上传文件和其他资料；请保留此目录，备份或迁移时复制整个目录。
 
 安装包完整包含运行所需的 Python 3.12、Node 24、Pandoc 和 OCR 运行库，不需要另装 Docker、Python、Node 或 Python 库。默认 Mock 模式可用于演示；连接真实模型或使用 OCR 时，需自行配置相应 API/模型服务并准备模型权重。模型服务、API 密钥和模型权重不包含在便携包内。
 
-当前应用在本机启动并通过浏览器操作；公网网站和原生手机应用为后续开发。
+当前应用在本机启动并通过浏览器操作；尚未提供公网网站或原生手机应用。
 
 Docker Compose 方式面向从源码进行开发和构建的使用者，见[源码开发安装与运行方式](SETUP.md)。

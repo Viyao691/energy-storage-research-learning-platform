@@ -1,5 +1,13 @@
 # Release verification
 
+## Windows x64 portable runtime cold-start acceptance
+
+- One Windows portable build succeeded and complete Windows backend dependencies were installed. The runtime bundles Python 3.12, Node 24, Pandoc and OCR runtime libraries, with a local runtime proxy, Mock defaults and empty `data`.
+- Cold-start passed from a temporary path containing Chinese characters and spaces, with neither Python nor Node on system PATH. Health, home, dashboard and runtime proxy returned HTTP 200; the empty database initialized Alembic 0029 and campus seed 67. Synthetic PDF upload returned 201; page image and figure card returned 200; DOCX/PPTX creation returned 201 and downloads had PK container format.
+- With port 3100 occupied, the launcher selected 3101. On exit, 8100/3101 closed; temporary data was deleted and stage data is empty. Existing 3001/8001 were untouched.
+- Final asset `Energy-Research-Copilot-Windows-x64.zip`: 926,812,896 bytes (about 884 MiB), empty `data`, bundled licenses and asset manifest. GitHub API confirmed `v0.1.0-windows-portable` is published and the asset is uploaded at the expected size: [Release](https://github.com/Viyao691/energy-storage-research-learning-platform/releases/tag/v0.1.0-windows-portable) · [Download](https://github.com/Viyao691/energy-storage-research-learning-platform/releases/download/v0.1.0-windows-portable/Energy-Research-Copilot-Windows-x64.zip).
+- No Office rendering, real-model/OCR-weight acceptance, or full suites ran.
+
 Release preparation on 2026-10-04:
 
 - Docker frontend image build: exit 0.

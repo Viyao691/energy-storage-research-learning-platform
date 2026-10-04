@@ -34,9 +34,15 @@
 |---|---|
 | ![论文搜索页面](docs/github/screenshots/search.jpg) | ![论文上传页面](docs/github/screenshots/upload.jpg) |
 
-## Windows 便携安装包（准备中）
+## Windows 便携安装包
 
-便携版正在准备，暂未提供下载。发布后可从 [GitHub Releases](https://github.com/Viyao691/energy-storage-research-learning-platform/releases) 下载 ZIP，解压后双击启动器即可在本机浏览器运行，无需另装 Docker、Python 或 Node。真实模型与 OCR 功能仍需按需单独配置服务或模型。
+[下载 Windows x64 便携版 ZIP（926,812,896 字节，约 884 MiB）](https://github.com/Viyao691/energy-storage-research-learning-platform/releases/download/v0.1.0-windows-portable/Energy-Research-Copilot-Windows-x64.zip) · [GitHub Releases](https://github.com/Viyao691/energy-storage-research-learning-platform/releases/tag/v0.1.0-windows-portable)
+
+1. 下载上面的 ZIP Release 资产；GitHub 自动生成的 “Source code” ZIP/TAR 是源码归档，不是运行包。
+2. 解压到可写目录。
+3. 双击 `启动储能科研平台.cmd`。无需另装 Docker、Python 或 Node；首次运行会创建空的 `data` 资料库。使用时保持控制台开启，关闭后本包服务退出。
+
+默认 Mock 模式可用于演示。真实模型服务、API 密钥与 OCR 模型权重需自行配置，不包含在安装包内。完整说明见[Windows 便携安装包使用说明](docs/github/PORTABLE.md)。
 
 ## 源码开发启动
 
@@ -76,7 +82,7 @@ Windows 启动器会打印实际网页地址（默认从 `http://localhost:3000`
 - `docker-compose.yml`：本地前后端编排，默认 SQLite 与本地文件存储。
 - `docs/`：架构、帮助、安装及研究/素材来源说明。
 
-当前通过本机启动并在浏览器中操作；公网网站与原生手机应用为后续开发。源码运行时，用户资料保存在本机 Docker 持久卷。
+当前通过本机启动并在浏览器中操作；尚未提供公网网站或原生手机应用。源码运行时，用户资料保存在本机 Docker 持久卷。
 
 ## 许可与素材
 

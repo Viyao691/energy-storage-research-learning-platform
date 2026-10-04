@@ -71,7 +71,9 @@ try {
   $published = Invoke-Api PATCH "$base/releases/$($release.id)" @{ draft = $false; make_latest = 'true' }
   if ($published.Status -ne 200) { throw "Release publication failed (HTTP $($published.Status))." }
   $result = ConvertFrom-Json $published.Text
-  [Console]::Out.WriteLine("releaseURL=$($result.html_url) assetdownloadURL=$($asset.browser_download_url) id=$($result.id) size=$($asset.size)")
+  $publishedAsset = @($result.assets | Where-Object name -eq $assetFile.Name) | Select-Object -First 1
+  if (-not $publishedAsset) { throw 'The published release response did not include the uploaded asset.' }
+  [Console]::Out.WriteLine("releaseURL=$($result.html_url) assetdownloadURL=$($publishedAsset.browser_download_url) id=$($result.id) size=$($publishedAsset.size)")
 } finally {
   if ($uploadStream) { $uploadStream.Dispose() }; if ($git) { $git.Dispose() }; $client.Dispose(); $handler.Dispose(); $basic = $null; $credentialText = $null; $fields = $null; $start = $null; $git = $null
 }
