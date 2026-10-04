@@ -89,7 +89,34 @@ def make_zip() -> None:
         raise SystemExit("ZIP exceeds the 2 GB GitHub Releases asset limit")
 
 
+def collect_frontend_licenses() -> Path:
+    source = PUBLIC / "frontend/node_modules"
+    if not source.is_dir():
+        raise SystemExit("Frontend node_modules missing; run npm ci before packaging licenses")
+    target = STAGE / "licenses/frontend"
+    target.mkdir(parents=True, exist_ok=True)
+    manifest = ["bundled filename\tsource path"]
+    candidates = sorted(
+        path for path in source.rglob("*")
+        if path.is_file() and path.name.upper().startswith(("LICENSE", "LICENCE", "COPYING", "NOTICE"))
+    )
+    for index, path in enumerate(candidates, 1):
+        name = f"{index:04d}-{path.name}"
+        shutil.copy2(path, target / name)
+        manifest.append(f"{name}\tnode_modules/{path.relative_to(source).as_posix()}")
+    (target / "manifest.tsv").write_text("\n".join(manifest) + "\n", encoding="utf-8")
+    return target
+
+
 def main() -> None:
+    if os.environ.get("PORTABLE_ADD_LICENSES_ONLY") == "1":
+        directory = collect_frontend_licenses()
+        archive = RELEASES / f"{PACKAGE_NAME}.zip"
+        with zipfile.ZipFile(archive, "a", compression=zipfile.ZIP_DEFLATED, compresslevel=6, allowZip64=True) as zf:
+            for path in directory.iterdir():
+                zf.write(path, Path(PACKAGE_NAME) / "licenses/frontend" / path.name)
+        print(f"{archive} {archive.stat().st_size} bytes")
+        return
     if os.environ.get("PORTABLE_ZIP_ONLY") == "1":
         make_zip()
         return
@@ -176,6 +203,7 @@ def main() -> None:
     shutil.copy2(PUBLIC / "docs/github/ASSETS.md", STAGE / "docs/github/ASSETS.md")
     (STAGE / "frontend/lib/chronicle").mkdir(parents=True)
     shutil.copy2(PUBLIC / "frontend/lib/chronicle/assets.json", STAGE / "frontend/lib/chronicle/assets.json")
+    collect_frontend_licenses()
     shutil.copy2(Path(__file__).with_name("portable_launcher.py"), STAGE / "portable_launcher.py")
     shutil.copy2(Path(__file__).with_name("portable_start.cmd"), STAGE / "启动储能科研平台.cmd")
     shutil.copy2(PUBLIC / "LICENSE", STAGE / "LICENSE")
