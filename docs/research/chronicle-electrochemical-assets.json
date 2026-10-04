@@ -1,0 +1,384 @@
+{
+  "routes": [
+    "electrochemical-lead-acid",
+    "electrochemical-zinc",
+    "electrochemical-metal-air"
+  ],
+  "profiles": [
+    {
+      "id": "electrochemical-lead-acid-tianneng",
+      "country": "中国",
+      "summary": "天能电池集团经营铅蓄电池、铅炭储能等业务；集团规模不等于储能收入。",
+      "listing": "天能电池集团：上交所688819；天能动力香港00819为关联上市主体。",
+      "scale": "2025集团营收人民币457.92亿元、铅酸产品收入415.66亿元。和平共储一期2023年并网，官方披露全项目100MW/1000MWh，由国家电投与天能等共同建设。",
+      "asOf": "2025年报2026-03-28披露；项目进展据2023年材料。",
+      "sources": [
+        {
+          "label": "天能股份2025年报",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225042972.PDF"
+        },
+        {
+          "label": "和平共储项目说明",
+          "url": "https://www.tianneng.com/news/information/197"
+        },
+        {
+          "label": "天能2023 ESG报告",
+          "url": "https://www.tianneng.com/Public/Uploads/uploadfile/files/20240330/tiannengdianchijituangufenyouxianghuanjingshebaogao.pdf"
+        }
+      ]
+    },
+    {
+      "id": "electrochemical-lead-acid-enersys",
+      "country": "美国",
+      "summary": "EnerSys提供工业备用、牵引与动力电池；PowerSafe含固定式铅酸产品。",
+      "listing": "NYSE: ENS；上市主体EnerSys, Inc.",
+      "scale": "FY2025集团净销售额36.176亿美元，包含多类电源产品和服务，不是铅酸储能专属收入。PowerSafe DSG面向工业与公用事业备用。",
+      "asOf": "FY2025截至2025-03-31，2025-05-21发布结果。",
+      "sources": [
+        {
+          "label": "EnerSys FY2025结果",
+          "url": "https://investor.enersys.com/news/news-details/2025/ENERSYS-REPORTS-FOURTH-QUARTER-FISCAL-YEAR-2025-RESULTS-05-21-2025/default.aspx"
+        },
+        {
+          "label": "PowerSafe DSG资料",
+          "url": "https://www.enersys.com/49c727/globalassets/documents/marketing-literature/esg/industrial/flyers/amer/amer-en-sellsheet-powersafedsg-2025.pdf"
+        }
+      ]
+    },
+    {
+      "id": "electrochemical-zinc-eos",
+      "country": "美国",
+      "summary": "Eos Energy Enterprises制造静态锌卤水系电池；Z3单元内封装电解质，不用外置储液罐和循环泵。",
+      "listing": "NASDAQ: EOSE；上市主体Eos Energy Enterprises, Inc.",
+      "scale": "FY2025收入1.142亿美元，年末订单积压7.015亿美元/2.8GWh，非已交付量。公司称2025年末年化制造产能达到2GWh，非全年出货。",
+      "asOf": "FY2025结果于2026-02-26披露。",
+      "sources": [
+        {
+          "label": "Eos FY2025结果",
+          "url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-fourth-quarter-and-full-year-2025"
+        },
+        {
+          "label": "Z3技术说明",
+          "url": "https://www.eose.com/technology/"
+        }
+      ]
+    },
+    {
+      "id": "electrochemical-zinc-hfips",
+      "country": "中国",
+      "summary": "中科院合肥物质科学研究院固体所团队研究水系准固态锌离子电池与凝胶电解质，属科研机构而非公司。",
+      "listing": "中国科学院研究团队，不适用上市市值。",
+      "scale": "2025年报道醋酸锌水凝胶与软包研究；557%延伸率、3.7MPa压缩强度为材料力学测试，不是电池/电站性能。",
+      "asOf": "研究院报道2025-06-18与2025-06-24。",
+      "sources": [
+        {
+          "label": "中文研究成果",
+          "url": "https://www.hf.cas.cn/zhxw/jrtt/202506/t20250618_7871328.html"
+        },
+        {
+          "label": "英文报道与参数",
+          "url": "https://english.hf.cas.cn/nr/bth/202506/t20250624_1046068.html"
+        },
+        {
+          "label": "原论文",
+          "url": "https://doi.org/10.1002/anie.202508556"
+        }
+      ]
+    },
+    {
+      "id": "electrochemical-metal-air-form",
+      "country": "美国",
+      "summary": "Form Energy为私营储能企业，首个商业产品是可充铁空气系统，面向多日储能。",
+      "listing": "私营企业，无公开股票市值。",
+      "scale": "官网称员工超过1000人。公司称2025年与Great River Energy部署首套商业示范；2026公布的Xcel及爱尔兰项目仍为计划/协议。",
+      "asOf": "公司信息截至2026年；项目状态按各公告日期。",
+      "sources": [
+        {
+          "label": "Form Energy进展",
+          "url": "https://formenergy.com/about/"
+        },
+        {
+          "label": "技术说明",
+          "url": "https://formenergy.com/technology/battery-technology/"
+        },
+        {
+          "label": "Great River项目",
+          "url": "https://formenergy.com/great-river-energy-and-form-energy-break-ground-on-first-of-its-kind-multi-day-energy-storage-project/"
+        },
+        {
+          "label": "爱尔兰公告，2026-03-17",
+          "url": "https://formenergy.com/form-energy-and-futurenergy-ireland-announce-agreement-to-deploy-first-iron-air-battery-storage-project-in-ireland/"
+        }
+      ]
+    },
+    {
+      "id": "electrochemical-metal-air-sinap",
+      "country": "中国",
+      "summary": "中科院上海应用物理研究所公开研究方向包含面向规模储能的高温金属空气电池；不是商业企业或已投运项目。",
+      "listing": "国家科研院所课题，不适用上市市值。",
+      "scale": "招生目录列出高温金属空气和水系铁电池研究方向，未给出已完成实验、样机容量或并网状态。",
+      "asOf": "招生目录发表于2024-07。",
+      "sources": [
+        {
+          "label": "硕士招生目录",
+          "url": "https://sinap.cas.cn/yjsjynew/zsjz/sszs_177904/202407/W020240725722368110027.pdf"
+        }
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "electrochemical-lead-acid-tianneng-peace-storage",
+      "companyId": "electrochemical-lead-acid-tianneng",
+      "year": 2023,
+      "title": "和平共储铅炭储能一期并网",
+      "copy": "国家电投与天能等共同建设项目的一期于2023年并网。公司披露项目规模100MW/1000MWh、约300万个铅炭电池。",
+      "facts": [
+        [
+          "100MW/1000MWh",
+          "项目官方规模，不是完整运行曲线"
+        ],
+        [
+          "约300万个",
+          "项目电池数，公司披露口径"
+        ]
+      ],
+      "sourceUrl": "https://www.tianneng.com/news/information/197",
+      "subjects": [
+        "company:electrochemical-lead-acid-tianneng",
+        "route:electrochemical-lead-acid:history"
+      ]
+    },
+    {
+      "id": "electrochemical-zinc-eos-z3-2025",
+      "companyId": "electrochemical-zinc-eos",
+      "year": 2025,
+      "title": "Eos披露收入和订单积压",
+      "copy": "Eos 2025收入1.142亿美元，年末订单积压2.8GWh；订单不是已装机或并网电量。",
+      "facts": [
+        [
+          "$114.2m",
+          "FY2025公司收入"
+        ],
+        [
+          "2.8GWh",
+          "年末订单积压，非出货"
+        ]
+      ],
+      "sourceUrl": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-fourth-quarter-and-full-year-2025",
+      "subjects": [
+        "company:electrochemical-zinc-eos",
+        "route:electrochemical-zinc:history"
+      ]
+    },
+    {
+      "id": "electrochemical-zinc-hfips-2025",
+      "companyId": "electrochemical-zinc-hfips",
+      "year": 2025,
+      "title": "醋酸锌水凝胶用于准固态锌软包研究",
+      "copy": "尿素增溶醋酸锌并提升凝胶韧性，报告还说明原位聚脲SEI；属于实验研究而非量产。",
+      "facts": [
+        [
+          "557%",
+          "水凝胶拉伸延伸率"
+        ],
+        [
+          "3.7MPa",
+          "水凝胶压缩强度，非堆压"
+        ]
+      ],
+      "sourceUrl": "https://www.hf.cas.cn/zhxw/jrtt/202506/t20250618_7871328.html",
+      "subjects": [
+        "company:electrochemical-zinc-hfips",
+        "route:electrochemical-zinc:history"
+      ]
+    },
+    {
+      "id": "electrochemical-metal-air-form-gre-2025",
+      "companyId": "electrochemical-metal-air-form",
+      "year": 2025,
+      "title": "铁空气系统进入商业示范",
+      "copy": "Form称已与Great River Energy部署首套商业示范。Cambridge项目开工公告给出1.5MW/150MWh，后续需多年评估。",
+      "facts": [
+        [
+          "1.5MW/150MWh",
+          "试点开工公告规模"
+        ],
+        [
+          "100小时",
+          "系统设计目标，非多年现场实测"
+        ]
+      ],
+      "sourceUrl": "https://formenergy.com/about/",
+      "subjects": [
+        "company:electrochemical-metal-air-form",
+        "route:electrochemical-metal-air:history"
+      ]
+    },
+    {
+      "id": "electrochemical-metal-air-sinap-topic",
+      "companyId": "electrochemical-metal-air-sinap",
+      "year": 2025,
+      "title": "高温金属空气规模储能列入研究方向",
+      "copy": "上海应用物理研究所目录列出该方向；目录不提供实验性能或投运信息。",
+      "facts": [
+        [
+          "研究方向",
+          "高温金属空气，无公开样机容量"
+        ],
+        [
+          "边界",
+          "不是商业产品或已投运项目"
+        ]
+      ],
+      "sourceUrl": "https://sinap.cas.cn/yjsjynew/zsjz/sszs_177904/202407/W020240725722368110027.pdf",
+      "subjects": [
+        "company:electrochemical-metal-air-sinap",
+        "route:electrochemical-metal-air:history"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "ec-policy-ndrc-2025",
+      "src": "/chronicle/policy-ndrc-2025.png",
+      "alt": "国家发展改革委、国家能源局新型储能专项行动方案通知页",
+      "sourceUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/t20250912_1400427_ext.html",
+      "sourceImageUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/P020250912338810699902.pdf",
+      "credit": "国家发展改革委、国家能源局，发改能源〔2025〕1144号",
+      "license": "政府网站政策原文截图，保留发文机关与日期。",
+      "status": "usable",
+      "kind": "document",
+      "context": "2025-09-12发布、方案落款2025-08-27；总政策背景，不代表化学路线成熟认证。",
+      "subjects": [
+        "scene:electrochemical-policy"
+      ]
+    },
+    {
+      "id": "ec-lead-acid-tianneng-tn12-150",
+      "src": "/chronicle/ec-lead-acid-tianneng-product-final.png",
+      "alt": "天能官方储能手册中的TN12-150铅炭电池产品",
+      "sourceUrl": "https://www.tianneng.com/Public/Uploads/uploadfile2/files/20231011/tiannengchuneng.pdf",
+      "sourceImageUrl": "https://www.tianneng.com/Public/Uploads/uploadfile2/files/20231011/tiannengchuneng.pdf#page=8",
+      "credit": "天能电池集团储能产品目录",
+      "license": "官网产品图未标开放许可；本地科研展示署名来源，外部发布需许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "产品外观，非和平共储现场或显微图；12V、150Ah@25°C、20小时率。",
+      "subjects": [
+        "company:electrochemical-lead-acid-tianneng",
+        "route:electrochemical-lead-acid:history"
+      ]
+    },
+    {
+      "id": "ec-zinc-eos-z3-cutaway",
+      "src": "/chronicle/ec-zinc-eos-z3-tech.jpg",
+      "alt": "Eos Z3静态锌卤电池模块剖面图",
+      "sourceUrl": "https://www.eose.com/technology/",
+      "sourceImageUrl": "https://www.eose.com/wp-content/uploads/2023/04/technology-tab-full-text.jpg",
+      "credit": "Eos Energy Enterprises官网技术页",
+      "license": "公司官网图片保留版权；仅本地科研展示署名引用，外部发布需许可。",
+      "status": "usable",
+      "kind": "document",
+      "context": "厂商产品构造图，非实测显微图，也非锌溴液流设备。",
+      "subjects": [
+        "company:electrochemical-zinc-eos",
+        "route:electrochemical-zinc:history"
+      ]
+    },
+    {
+      "id": "ec-metal-air-form-grid-test",
+      "src": "/chronicle/ec-metal-air-form-grid-test.jpg",
+      "alt": "Form Energy在加州Sacramento Valley测试的首套并网铁空气系统",
+      "sourceUrl": "https://formenergy.com/about/",
+      "sourceImageUrl": "https://formenergy.com/wp-content/uploads/2025/08/f8915102-7415-4d89-bda5-cd8e4cdfbf47-2048x1819.jpg",
+      "credit": "Form Energy官网进展时间线",
+      "license": "公司官网版权图片；本地科研展示标明来源，外部发布需许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官网标为2023年首套并网现场测试系统，非商业运行的长期性能证据。",
+      "subjects": [
+        "company:electrochemical-metal-air-form",
+        "route:electrochemical-metal-air:history"
+      ]
+    },
+    {
+      "id": "ec-metal-air-form-demo-transport",
+      "src": "/chronicle/ec-metal-air-form-cambridge.jpg",
+      "alt": "Form Energy首个铁空气商业示范系统出厂装运照片",
+      "sourceUrl": "https://formenergy.com/about/",
+      "sourceImageUrl": "https://formenergy.com/wp-content/uploads/2025/10/photos-1536x1002.jpg",
+      "credit": "Form Energy官网进展时间线",
+      "license": "公司官网版权图片；本地科研展示标明来源，外部发布需许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官网称2025年系统运往Great River Energy示范地点；装运不等于运行验收。",
+      "subjects": [
+        "company:electrochemical-metal-air-form",
+        "route:electrochemical-metal-air:history"
+      ]
+    }
+  ],
+  "materialImageGaps": [
+    {
+      "subject": "material:electrochemical-lead-acid-pbo2",
+      "gap": "无符合对象的材料显微图。",
+      "recommendation": "需要AI标注的结构示意或经许可实测图。"
+    },
+    {
+      "subject": "material:electrochemical-lead-acid-sponge-lead-carbon",
+      "gap": "无符合对象的材料显微图。",
+      "recommendation": "需标注铅碳负极/碳添加机理示意。"
+    },
+    {
+      "subject": "material:electrochemical-lead-acid-sulfuric-acid-agm-gel",
+      "gap": "无符合对象的材料结构图。",
+      "recommendation": "需标注酸电解液、AGM与凝胶差异。"
+    },
+    {
+      "subject": "material:electrochemical-lead-acid-thin-plate-pure-lead",
+      "gap": "无符合对象的材料显微图。",
+      "recommendation": "需区分薄板纯铅结构与电站图。"
+    },
+    {
+      "subject": "material:electrochemical-zinc-zinc-anode",
+      "gap": "无匹配实测材料图。",
+      "recommendation": "示意锌沉积/剥离及枝晶风险。"
+    },
+    {
+      "subject": "material:electrochemical-zinc-cathode",
+      "gap": "Eos模块剖面不能替代多种锌基正极材料图。",
+      "recommendation": "分别说明锰/钒/镍/卤素正极。"
+    },
+    {
+      "subject": "material:electrochemical-zinc-aqueous-electrolyte",
+      "gap": "CAS研究报道有材料图但未采为素材。",
+      "recommendation": "示意时标AI，勿当原论文图。"
+    },
+    {
+      "subject": "material:electrochemical-zinc-separator-static-module",
+      "gap": "整模块图未呈现隔膜实测形貌。",
+      "recommendation": "图示静态模块隔膜与锌溴液流结构区别。"
+    },
+    {
+      "subject": "material:electrochemical-metal-air-iron-anode",
+      "gap": "Form现场照片是系统设备，不是铁电极显微图。",
+      "recommendation": "示意可逆铁氧化还原。"
+    },
+    {
+      "subject": "material:electrochemical-metal-air-air-cathode",
+      "gap": "无匹配空气电极实测图。",
+      "recommendation": "示意空气电极三相界面和氧反应。"
+    },
+    {
+      "subject": "material:electrochemical-metal-air-electrolyte",
+      "gap": "无匹配电解液材料图。",
+      "recommendation": "示意水/空气/铁界面并标注AI。"
+    },
+    {
+      "subject": "material:electrochemical-metal-air-reversible-cell",
+      "gap": "系统照片不能充当活性材料图。",
+      "recommendation": "说明可充铁空气循环，区分一次金属空气燃料。"
+    }
+  ]
+}

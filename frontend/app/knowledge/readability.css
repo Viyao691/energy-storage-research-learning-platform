@@ -1,0 +1,6 @@
+
+.workspace-v2 .app-main .knowledge-page .knowledge-question label,
+.workspace-v2 .app-main .knowledge-page .knowledge-question textarea,
+.workspace-v2 .app-main .knowledge-page .knowledge-index-facts small { font-size: 16px; }
+.workspace-v2 .app-main .knowledge-page .knowledge-status p { font-size: 16px; line-height: 1.65; }
+.workspace-v2 .app-main .knowledge-page .knowledge-status p.muted { font-size: 15px; }

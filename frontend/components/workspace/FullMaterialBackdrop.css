@@ -1,0 +1,71 @@
+.workspace-v2-full-material .app-main { position: relative; isolation: isolate; }
+.workspace-v2-full-material .app-main > :not(.full-material-backdrop) { position: relative; z-index: 1; }
+.workspace-v2-full-material .app-main > .full-material-backdrop { position: absolute; inset: 0; z-index: 0; pointer-events: none; animation: none !important; }
+.full-material-backdrop-viewport { position: sticky; top: 0; width: 100%; height: 100vh; overflow: hidden; }
+.full-material-backdrop-viewport canvas { position: absolute; inset: 0; z-index: 1; }
+.full-material-backdrop-static { position: absolute; inset: 0; background-position: center; background-size: cover; background-repeat: no-repeat; }
+.full-material-backdrop-carbon .full-material-backdrop-static { background-image: url('/workspace/motion/full-carbon-v1.png'); }
+.full-material-backdrop-electrode .full-material-backdrop-static { background-image: url('/workspace/motion/full-electrode-v1.png'); }
+.full-material-backdrop-crystal .full-material-backdrop-static { background-image: url('/workspace/motion/full-crystal-v1.png'); }
+.full-material-backdrop-learning .full-material-backdrop-static { background-image: url('/workspace/motion/full-learning-v1.png'); }
+.full-material-backdrop-contest .full-material-backdrop-static { background-image: url('/workspace/motion/full-contest-v1.png'); }
+.full-material-backdrop-viewport::after { content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse 640px 300px at 19% 19%, rgba(249,250,247,.86), rgba(249,250,247,.26) 67%, transparent 100%), linear-gradient(90deg, rgba(247,248,244,.10), transparent 70%); }
+html[data-theme='dark'] .full-material-backdrop-carbon .full-material-backdrop-static { background-image: url('/workspace/motion/night-v2/full-carbon.png'); }
+html[data-theme='dark'] .full-material-backdrop-electrode .full-material-backdrop-static { background-image: url('/workspace/motion/night-v2/full-electrode.png'); }
+html[data-theme='dark'] .full-material-backdrop-crystal .full-material-backdrop-static { background-image: url('/workspace/motion/night-v2/full-crystal.png'); }
+html[data-theme='dark'] .full-material-backdrop-learning .full-material-backdrop-static { background-image: url('/workspace/motion/night-v2/full-learning.png'); }
+html[data-theme='dark'] .full-material-backdrop-contest .full-material-backdrop-static { background-image: url('/workspace/motion/night-v2/full-contest.png'); }
+html[data-theme='dark'] .full-material-backdrop-viewport::after { background: radial-gradient(ellipse 650px 320px at 19% 19%, rgba(9,23,32,.86), rgba(9,23,32,.28) 67%, transparent 100%); }
+.workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header.workspace-header-artwork { align-items: flex-start; flex-direction: column; justify-content: center; gap: 12px; min-height: 200px; padding: 22px 28px; background: transparent !important; background-image: none !important; border-color: transparent !important; box-shadow: none !important; }
+.workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header.workspace-header-artwork::before,
+.workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header.workspace-header-artwork::after,
+.workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header .workspace-illustration-slot,
+.workspace-v2.workspace-v2-full-material .app-main :is(.compare-topic-artwork, .knowledge-topic-artwork) { display: none !important; content: none !important; }
+.workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header > div:first-child { width: min(62%, 700px); max-width: none; }
+.workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header-action { align-self: flex-start; margin: 0; }
+.workspace-v2.workspace-v2-full-material .app-main#workspace-action-surface :is(.search-page, .compare-workspace, .knowledge-page) :is(.card:not(button), .compare-evidence-panel, .knowledge-sources-panel) { background: rgba(249,251,248,.83) !important; border-color: rgba(223,232,227,.86) !important; box-shadow: 0 12px 38px rgba(19,32,35,.12) !important; backdrop-filter: blur(13px); }
+.workspace-v2.workspace-v2-full-material .app-main .compare-workspace .paper-choice-list label { background: rgba(255,255,253,.78) !important; }
+html[data-theme='dark'] .workspace-v2.workspace-v2-full-material .app-main#workspace-action-surface :is(.search-page, .compare-workspace, .knowledge-page) :is(.card:not(button), .compare-evidence-panel, .knowledge-sources-panel) { background: rgba(15,30,40,.77) !important; border-color: rgba(97,124,136,.55) !important; box-shadow: 0 12px 38px rgba(1,10,17,.26) !important; }
+html[data-theme='dark'] .workspace-v2.workspace-v2-full-material .app-main .compare-workspace .paper-choice-list label { background: rgba(27,47,57,.8) !important; }
+
+.workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header.workspace-header-artwork {
+  background: transparent !important;
+  background-image: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  min-height: 200px;
+  padding: 22px 28px;
+}
+.workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header.workspace-header-artwork::before,
+.workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header.workspace-header-artwork::after,
+.workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-illustration-slot { content: none !important; display: none !important; }
+.workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header > div:first-child {
+  background: linear-gradient(90deg, rgba(250,251,247,.91), rgba(250,251,247,.66) 77%, transparent);
+  border-radius: 12px;
+  max-width: 730px;
+  padding: 14px 18px;
+  width: min(68%, 730px);
+}
+html[data-theme='dark'] .workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header.workspace-header-artwork { background: transparent !important; }
+html[data-theme='dark'] .workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header > div:first-child {
+  background: linear-gradient(90deg, rgba(8,24,37,.91), rgba(8,24,37,.68) 77%, transparent);
+}
+.workspace-v2.workspace-v2-full-material .app-main#workspace-action-surface :is(.learning-refined, .contest-workspace) :is(.card:not(button), .editorial-empty-state, .tools-workflow li) {
+  background: rgba(249,251,248,.86) !important;
+  border-color: rgba(223,232,227,.87) !important;
+  box-shadow: 0 12px 38px rgba(19,32,35,.12) !important;
+  backdrop-filter: blur(13px);
+}
+html[data-theme='dark'] .workspace-v2.workspace-v2-full-material .app-main#workspace-action-surface :is(.learning-refined, .contest-workspace) :is(.card:not(button), .editorial-empty-state, .tools-workflow li) {
+  background: rgba(15,30,40,.82) !important;
+  border-color: rgba(97,124,136,.55) !important;
+  box-shadow: 0 12px 38px rgba(1,10,17,.26) !important;
+}
+@media (max-width: 700px) {
+  .workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header.workspace-header-artwork { min-height: 205px; padding: 20px 16px; }
+  .workspace-v2.workspace-v2-full-material .app-main :is(.search-page, .compare-workspace, .knowledge-page) .workspace-header > div:first-child { width: 100%; }
+  .full-material-backdrop-viewport::after { background: linear-gradient(180deg, rgba(249,250,247,.84), rgba(249,250,247,.25) 38%, transparent 65%); }
+  html[data-theme='dark'] .full-material-backdrop-viewport::after { background: linear-gradient(180deg, rgba(9,23,32,.88), rgba(9,23,32,.28) 38%, transparent 70%); }
+  .workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header.workspace-header-artwork { min-height: 190px; padding: 18px 0; }
+  .workspace-v2.workspace-v2-full-material .app-main :is(.learning-refined, .contest-workspace) .workspace-header > div:first-child { padding: 14px 16px; width: 100%; }
+}

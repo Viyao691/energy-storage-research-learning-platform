@@ -1,0 +1,9 @@
+.ghost-fibers-container { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.ghost-fibers-container:empty::before {
+  content: "";
+  position: absolute;
+  inset: 12% 2%;
+  background: radial-gradient(ellipse at 67% 45%, rgba(102, 148, 147, .13), transparent 66%);
+  border-top: 1px solid rgba(102, 148, 147, .13);
+  pointer-events: none;
+}

@@ -1,0 +1,184 @@
+/* Each non-home route selects one full scene and a separate header motif. */
+.workspace-v2-atmospheric .app-main {
+  background: radial-gradient(ellipse 72% 560px at 80% 260px, rgba(var(--scene-glow), .16), transparent 72%), var(--v2-bg);
+  isolation: isolate;
+  position: relative;
+}
+
+.workspace-v2-atmospheric .workspace-v2-topbar {
+  background-image: linear-gradient(90deg, transparent 14%, rgba(var(--scene-glow), .5) 73%, transparent);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+}
+
+html[data-theme="dark"] .workspace-v2-atmospheric .app-main {
+  background: radial-gradient(ellipse 72% 580px at 80% 260px, rgba(var(--scene-glow), .12), transparent 74%), var(--v2-bg) !important;
+}
+
+.workspace-v2-atmospheric .app-main > :not(.workspace-page-atmosphere) {
+  position: relative;
+  z-index: 1;
+}
+
+.workspace-v2-atmospheric .app-main > .workspace-page-atmosphere {
+  position: absolute;
+  z-index: 0;
+  top: 12px;
+  right: 0;
+  width: min(100%, 920px);
+  aspect-ratio: 1;
+  pointer-events: none;
+  background-image: url('/workspace/scene-atlas-light.webp');
+  background-size: 500% 400%;
+  background-position: var(--scene-x) var(--scene-y);
+  background-repeat: no-repeat;
+  filter: blur(1px) saturate(.82) contrast(.96);
+  opacity: .82;
+  -webkit-mask-image: radial-gradient(ellipse 74% 48% at 72% 48%, #000 15%, rgba(0, 0, 0, .84) 40%, transparent 100%);
+  mask-image: radial-gradient(ellipse 74% 48% at 72% 48%, #000 15%, rgba(0, 0, 0, .84) 40%, transparent 100%);
+  animation: workspace-atmosphere-breathe 18s ease-in-out infinite alternate;
+}
+
+.workspace-page-atmosphere::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 65% 44%, transparent 27%, rgba(var(--scene-glow), .15) 64%, transparent 78%);
+  mix-blend-mode: screen;
+}
+
+html[data-theme="dark"] .workspace-v2-atmospheric .app-main > .workspace-page-atmosphere {
+  background-image: url('/workspace/scene-atlas-dark.webp');
+  filter: blur(1px) saturate(.87) contrast(.94);
+  opacity: .72;
+}
+
+/* Old horizontal banner photographs would repeat across routes and compete with the scene. */
+.workspace-v2-atmospheric .app-main :is(.workspace-header-artwork, .daily-hero)::before {
+  content: none !important;
+}
+
+.workspace-v2-atmospheric .app-main :is(.workspace-page, .editorial-page, .evidence-workspace, .system-refined, .research-tools-refined) .workspace-header-artwork {
+  background: rgba(255, 253, 249, .79) !important;
+  backdrop-filter: blur(3px);
+  border-left: 3px solid rgba(var(--scene-glow), .55);
+}
+
+html[data-theme="dark"] .workspace-v2-atmospheric .app-main :is(.workspace-page, .editorial-page, .evidence-workspace, .system-refined, .research-tools-refined) .workspace-header-artwork {
+  background: rgba(12, 28, 45, .82) !important;
+}
+
+.workspace-v2-atmospheric .app-main .workspace-header {
+  position: relative;
+  isolation: isolate;
+}
+
+.workspace-v2-atmospheric .app-main .workspace-header .workspace-illustration-slot {
+  display: block !important;
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: clamp(12px, 4%, 58px);
+  width: clamp(112px, 15vw, 188px);
+  height: auto;
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  pointer-events: none;
+  background-image: url('/workspace/motif-atlas-light.webp');
+  background-size: 600% 400%;
+  background-position: var(--motif-x) var(--motif-y);
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 12px 17px rgba(45, 69, 83, .13));
+  -webkit-mask-image: radial-gradient(circle, #000 42%, rgba(0, 0, 0, .83) 64%, transparent 80%);
+  mask-image: radial-gradient(circle, #000 42%, rgba(0, 0, 0, .83) 64%, transparent 80%);
+}
+
+.workspace-v2-atmospheric .app-main .workspace-header > :not(.workspace-illustration-slot) {
+  position: relative;
+  z-index: 1;
+}
+
+html[data-theme="dark"] .workspace-v2-atmospheric .app-main .workspace-header .workspace-illustration-slot {
+  background-image: url('/workspace/motif-atlas-dark.webp');
+  filter: drop-shadow(0 12px 19px rgba(0, 9, 20, .3));
+}
+
+.workspace-v2-atmospheric .app-main :is(.daily-hero, .help-hero, .campus-hero, .reader-paper-header) {
+  isolation: isolate;
+  position: relative;
+}
+
+.workspace-v2-atmospheric .app-main :is(.daily-hero, .help-hero, .campus-hero, .reader-paper-header)::after,
+.workspace-v2-atmospheric .app-main .onboarding-refined::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  right: clamp(12px, 5%, 70px);
+  top: 50%;
+  width: clamp(128px, 17vw, 212px);
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  pointer-events: none;
+  background: url('/workspace/motif-atlas-light.webp') var(--motif-x) var(--motif-y) / 600% 400% no-repeat;
+  -webkit-mask-image: radial-gradient(circle, #000 43%, rgba(0, 0, 0, .8) 62%, transparent 80%);
+  mask-image: radial-gradient(circle, #000 43%, rgba(0, 0, 0, .8) 62%, transparent 80%);
+}
+
+.workspace-v2-atmospheric .app-main :is(.daily-hero, .help-hero, .campus-hero, .reader-paper-header) > * {
+  position: relative;
+  z-index: 1;
+}
+
+.workspace-v2-atmospheric .app-main .daily-hero::after {
+  width: 150px;
+}
+
+html[data-theme="dark"] .workspace-v2-atmospheric .app-main :is(.daily-hero, .help-hero, .campus-hero, .reader-paper-header)::after,
+html[data-theme="dark"] .workspace-v2-atmospheric .app-main .onboarding-refined::after {
+  background-image: url('/workspace/motif-atlas-dark.webp');
+}
+
+/* The onboarding page already supplies its own cards; use one shared page scene. */
+.workspace-v2-atmospheric .onboarding-atmosphere { display: none; }
+.workspace-v2-atmospheric .app-main .onboarding-refined::after {
+  top: 78px;
+  transform: none;
+  width: clamp(160px, 20vw, 250px);
+}
+
+.workspace-v2-atmospheric.workspace-v2-reader-atmosphere .app-main > .workspace-page-atmosphere {
+  width: min(62vw, 650px);
+  opacity: .3;
+}
+html[data-theme="dark"] .workspace-v2-atmospheric.workspace-v2-reader-atmosphere .app-main > .workspace-page-atmosphere { opacity: .3; }
+.workspace-v2-reader-atmosphere .app-main .workspace-header .workspace-illustration-slot {
+  width: 94px;
+  opacity: .48;
+}
+.workspace-v2-reader-atmosphere .app-main .reader-paper-header::after {
+  width: 92px;
+  right: 17%;
+  opacity: .32;
+}
+
+@keyframes workspace-atmosphere-breathe {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to { transform: translate3d(0, 12px, 0) scale(1.025); }
+}
+
+@media (max-width: 700px) {
+  .workspace-v2-atmospheric .app-main > .workspace-page-atmosphere { top: 42px; width: min(100%, 620px); opacity: .38; }
+  html[data-theme="dark"] .workspace-v2-atmospheric .app-main > .workspace-page-atmosphere { opacity: .36; }
+  .workspace-v2-atmospheric .app-main .workspace-header .workspace-illustration-slot,
+  .workspace-v2-atmospheric .app-main :is(.daily-hero, .help-hero, .campus-hero, .reader-paper-header)::after {
+    width: 94px;
+    right: 5px;
+    opacity: .3;
+  }
+  .workspace-v2-atmospheric .app-main .onboarding-refined::after { width: 115px; right: 4px; top: 25px; opacity: .38; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workspace-v2-atmospheric .app-main > .workspace-page-atmosphere { animation: none; }
+}

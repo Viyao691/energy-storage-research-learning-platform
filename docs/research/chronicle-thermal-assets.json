@@ -1,0 +1,342 @@
+{
+  "profiles": {
+    "thermal-sensible-rondo": {
+      "summary": "美国工业热储能开发商，以电加热耐火砖并经电阻元件储热，向工厂连续供蒸汽。",
+      "country": "美国",
+      "listing": "私营企业；无公开股票代码",
+      "scale": "2025年加州燃料生产设施有一套100 MWh热储能装置进入自动商业运行；公司称储热温度超过1000°C并连续24小时供高压蒸汽，未披露该项目热输出MWth。",
+      "asOf": "公司公告 2025-10-16",
+      "sources": [
+        {
+          "label": "Rondo官方商业运行公告，2025-10-16",
+          "url": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery"
+        }
+      ]
+    },
+    "thermal-sensible-antora": {
+      "summary": "美国工业热与电力储能开发商，利用电加热固体碳块储热，热可直接供工业使用，也可通过热光伏模块转为电力。",
+      "country": "美国",
+      "listing": "私营企业；无公开股票代码",
+      "scale": "2023年公司称一套全尺度模块在加州Wellhead设施投入运行，储热温度超过1800°C；公告未披露该系统额定MWhth或输出MW。",
+      "asOf": "公司公告 2023-09-12",
+      "sources": [
+        {
+          "label": "Antora官方系统发布公告，2023-09-12",
+          "url": "https://www.antora.com/insights/system-launch"
+        }
+      ]
+    },
+    "thermal-latent-mga": {
+      "summary": "澳大利亚MGA Thermal开发Miscibility Gap Alloy热储能模块，利用合金材料相变储存潜热，并与蒸汽系统集成。",
+      "country": "澳大利亚",
+      "listing": "私营公司；无公开股票代码",
+      "scale": "Tomago示范装置于2025年4月投运：5 MWhth储热、0.5 MWe充电、0.5 MWth放热，输出365°C过热蒸汽、设计10小时放热。企业称装置已完成示范并持续运行；年能量1800 MWhth是按每日一循环估算。",
+      "asOf": "公司项目页核查 2026-10-03；项目开始运行 2025-04",
+      "sources": [
+        {
+          "label": "MGA Thermal示范项目规格与状态",
+          "url": "https://mgathermal.com/flagship-projects/mga-demonstration-plant"
+        },
+        {
+          "label": "MGA Thermal关于潜热与约3700个MGA块的说明",
+          "url": "https://mgathermal.com/newsroom-posts/mga-thermal-achieves-world-first-latent-heat-leap----unlocking-24-7-renewable-industrial-steam"
+        }
+      ]
+    },
+    "thermal-latent-sunamp": {
+      "summary": "英国私营热储能企业Sunamp以Plentigrade相变材料为Thermino等建筑热水和供热产品储热。",
+      "country": "英国",
+      "listing": "私营企业；无公开股票代码",
+      "scale": "Thermino P58以58°C附近固液相变储热。官方Latham办公楼案例使用Thermino 70e并行对比热水器，报告峰值用电功率2198 W对3107 W、降低约29%；页面未披露该项目热容量MWhth。",
+      "asOf": "产品手册版本 2025-10-13；案例页核查 2026-10-03（案例日期未注明）",
+      "sources": [
+        {
+          "label": "Thermino P58安装手册：相变原理、58°C转变点",
+          "url": "https://installation.sunamp.com/thermino/north-america-us-ca/thermino/installation-user-manuals/d0063-thermino-p58-installation-and-user-instructions-manual~7615907194365528871?format=show_external_document"
+        },
+        {
+          "label": "Sunamp Latham办公楼案例与监测数据",
+          "url": "https://sunamp.com/en-ca/case-studies/sunamp-thermal-batteries-reduce-peak-load-in-a-new-york-office-building-a-nyserda-program/"
+        }
+      ]
+    },
+    "thermal-thermochemical-saltx": {
+      "summary": "瑞典SaltX Technology Holding开发纳米涂层盐热化学储能，也经营石灰和水泥行业电气化技术；公司上市于Nasdaq First North Premier Growth Market。",
+      "country": "瑞典",
+      "listing": "Nasdaq First North Premier Growth Market（SaltX Technology Holding AB）",
+      "scale": "Bollmora热化学储能试验自2021年运行，2022年结束并提交总结；公司报告新装系统换热系数为Berlin反应器的3–5倍。该数据是反应器换热比较，不能当作系统效率或已商业交付容量。",
+      "asOf": "公司试点总结 2022-10-26；上市关系核查 2026-10-03",
+      "sources": [
+        {
+          "label": "SaltX Bollmora试点结项公告，2022-10-26",
+          "url": "https://www.saltxtechnology.com/cision/final-report-for-the-pilot-plant-in-bollmora-completed-with-good-results/"
+        },
+        {
+          "label": "SaltX官方Q1 2020报告：纳米涂层盐热化学储能原理",
+          "url": "https://www.saltxtechnology.com/files/SALTX-Q1-2020-ENG-spreads.pdf"
+        }
+      ]
+    },
+    "thermal-thermochemical-cache": {
+      "summary": "美国私营公司Cache Energy研发可运输模块化热化学储能，为工业过程提供高温热。",
+      "country": "美国",
+      "listing": "私营企业；无公开股票代码",
+      "scale": "Cache称其Duke Energy Mt. Holly试验于2026年3月完成充放热循环；2026年5月在Whirlpool俄亥俄工厂部署试点，供24/7工业热、温度最高1000°F（约538°C）。这两项公告均未披露容量MWhth或额定热功率MWth。",
+      "asOf": "公司公告 2026-03-05、2026-05-04",
+      "sources": [
+        {
+          "label": "Duke Energy Mt. Holly示范公告，2026-03-05",
+          "url": "https://www.cache-energy.com/insights/cache-energy-demonstrates-rapid-modular-thermochemical-storage-at-duke-energys-mt-holly-facility"
+        },
+        {
+          "label": "Whirlpool工厂部署公告，2026-05-04",
+          "url": "https://www.cache-energy.com/insights/cache-deploys-electrified-heat-and-thermal-energy-storage-unit-at-whirlpool-ohio-facility"
+        }
+      ]
+    },
+    "thermal-thermochemical-tempo": {
+      "summary": "美国私营开发商Tempo与UC San Diego、EPRI等合作，计划示范混合金属氧化物热化学储能。",
+      "country": "美国",
+      "listing": "私营项目合作方；无公开股票代码",
+      "scale": "UC San Diego项目期为2024–2028，网页称仍处早期阶段。设计值为20 MWhth、4小时充电；目标是让100 kW发电机运行24小时以上并提供余热，尚未作为实测运行成绩。",
+      "asOf": "UC San Diego项目页核查 2026-10-03",
+      "sources": [
+        {
+          "label": "UC San Diego与Tempo热化学储能项目（CEC资助）",
+          "url": "https://www.energystorage.ucsd.edu/projects/demonstrating-tempo-thermochemical-energy-storage-at-uc-san-diego"
+        }
+      ]
+    }
+  },
+  "exhibits": [
+    {
+      "id": "rondo-100mwh-operation",
+      "label": "Rondo Energy",
+      "title": "100 MWh工业热储能装置进入商业运行",
+      "year": "2025",
+      "copy": "加州燃料生产设施的装置开始每日自动运行，由现场光伏充电并连续提供工业蒸汽。容量为热能口径；官方公告未列出额定热功率。",
+      "facts": [
+        [
+          "100 MWhth",
+          "Rondo公司公告标注储热量"
+        ],
+        [
+          ">1000°C",
+          "公司报告储热温度"
+        ],
+        [
+          "24小时",
+          "连续供高压热与蒸汽；运行十周后达成性能/可靠性里程碑"
+        ]
+      ],
+      "subject": "company:thermal-sensible-rondo"
+    },
+    {
+      "id": "antora-wellhead-operation",
+      "label": "Antora Energy / Wellhead",
+      "title": "全尺度碳块热电池在加州运行",
+      "year": "2023",
+      "copy": "模块在Wellhead设施投入运行，电力加热固体碳块储热；热可供工业，也可通过热光伏模块发电。1800°C是储热温度，不是热输出温度或发电效率。",
+      "facts": [
+        [
+          ">1800°C",
+          "公司所述全尺度储热温度"
+        ],
+        [
+          "已运行",
+          "Antora于2023-09披露Wellhead现场状态"
+        ],
+        [
+          "容量与额定功率未披露",
+          "不推断MWhth或MWth"
+        ]
+      ],
+      "subject": "company:thermal-sensible-antora"
+    },
+    {
+      "id": "mga-tomago-demonstration",
+      "label": "MGA Thermal",
+      "title": "Tomago 5 MWhth潜热示范装置投运",
+      "year": "2025",
+      "copy": "Steam-integrated示范系统以0.5 MWe充电、0.5 MWth输出365°C过热蒸汽，设计储热5 MWhth、10小时。约1800 MWhth/年为每日一循环估算，不是已经累计发出的年度计量。",
+      "facts": [
+        [
+          "5 MWhth",
+          "示范装置热容量"
+        ],
+        [
+          "0.5 MWe / 0.5 MWth",
+          "充电电功率 / 放热功率"
+        ],
+        [
+          "365°C · 10h",
+          "过热蒸汽温度与额定储热时长"
+        ]
+      ],
+      "subject": "company:thermal-latent-mga"
+    },
+    {
+      "id": "saltx-bollmora-closeout",
+      "label": "SaltX Technology",
+      "title": "Bollmora大型热化学试验结项",
+      "year": "2022",
+      "copy": "2021年以来的Bollmora试验期结束，公司提交项目总结。3–5倍指相对Berlin反应器的换热系数，不代表储热效率、循环保持率或商业运行规模。",
+      "facts": [
+        [
+          "2021–2022",
+          "大规模TCES试验期"
+        ],
+        [
+          "3–5倍",
+          "公司报告的换热系数提升"
+        ],
+        [
+          "下一阶段",
+          "公司公告仍在寻找承诺终端客户推进商业成熟"
+        ]
+      ],
+      "subject": "company:thermal-thermochemical-saltx"
+    },
+    {
+      "id": "cache-duke-demo",
+      "label": "Cache Energy / Duke Energy",
+      "title": "模块化热化学系统完成现场循环演示",
+      "year": "2026",
+      "copy": "Cache称Mt. Holly示范系统可在数日内运输、安装并开展完整充放热循环。公告未给出额定容量或功率。",
+      "facts": [
+        [
+          "2026-03-05",
+          "公司完成Duke测试设施示范"
+        ],
+        [
+          "完整充放热循环",
+          "现场工业工况，公司公告未提供定量性能"
+        ],
+        [
+          "under one week",
+          "抵达后不足一周产热"
+        ]
+      ],
+      "subject": "company:thermal-thermochemical-cache"
+    },
+    {
+      "id": "tempo-ucsd-planned-demo",
+      "label": "Tempo / UC San Diego",
+      "title": "混合金属氧化物TCES进入校园示范项目早期阶段",
+      "year": "2024–2028",
+      "copy": "CEC资助项目拟将系统接入UCSD 12 kV配电网。网页标注项目仍处早期阶段，20 MWhth和100 kW发电目标都属设计/验证目标。",
+      "facts": [
+        [
+          "20 MWhth",
+          "项目目标热容量"
+        ],
+        [
+          "4 h",
+          "计划充电窗口"
+        ],
+        [
+          "100 kW × 24+h",
+          "目标发电机供电时长，不是已测运行结果"
+        ]
+      ],
+      "subject": "company:thermal-thermochemical-tempo"
+    }
+  ],
+  "policy": {
+    "id": "thermal-policy-14th-plan",
+    "title": "“十四五”新型储能发展实施方案原文",
+    "issued": "2022-01-29",
+    "published": "2022-03-21",
+    "subjects": [
+      "scene:thermal-policy"
+    ],
+    "sourceUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202203/P020220321543703119995.pdf",
+    "page": 6,
+    "claims": "P2提出热（冷）储能长时间尺度技术突破；P5–6提出拓展热（冷）储能应用，并以高效储热示范覆盖日到周、周到季尺度。"
+  },
+  "assets": [
+    {
+      "id": "thermal-rondo-western",
+      "src": "/chronicle/thermal-rondo-western.jpg",
+      "alt": "Rondo Energy在加州工业设施的热电池建筑现场",
+      "sourceUrl": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+      "sourceImageUrl": "https://images.prismic.io/rondo/aO6L855xUNkB19P-_holmes_western_meta.jpg?auto=compress,format",
+      "credit": "Rondo Energy；图片取自2025-10-16项目公告",
+      "license": "Rondo网站版权保留；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Rondo加州100 MWh热储能装置现场；图中为设备外壳，不是耐火砖/电阻丝材料照片。",
+      "subjects": [
+        "company:thermal-sensible-rondo",
+        "route:thermal-sensible:history"
+      ]
+    },
+    {
+      "id": "thermal-mga-tomago",
+      "src": "/chronicle/thermal-mga-tomago.webp",
+      "alt": "MGA Thermal Tomago热储能示范装置与蒸汽系统",
+      "sourceUrl": "https://mgathermal.com/flagship-projects/mga-demonstration-plant",
+      "sourceImageUrl": "https://cdn.prod.website-files.com/6a374d4888d86c8f3b708bda/6a51f05a5c4d93162225b833_Project%20-%20Plant%20-%20Hero1.webp",
+      "credit": "MGA Thermal；图片展示Tomago项目设施",
+      "license": "官网未提供开放许可声明；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Tomago 5 MWhth示范设施照片；不作为合金微观结构或潜热材料样品证据。",
+      "subjects": [
+        "company:thermal-latent-mga",
+        "route:thermal-latent:history"
+      ]
+    },
+    {
+      "id": "thermal-cache-duke",
+      "src": "/chronicle/thermal-cache-duke.jpg",
+      "alt": "Cache Energy在Duke Energy Mt. Holly测试现场的热化学储能模块",
+      "sourceUrl": "https://www.cache-energy.com/insights/cache-energy-demonstrates-rapid-modular-thermochemical-storage-at-duke-energys-mt-holly-facility",
+      "sourceImageUrl": "https://www.cache-energy.com/images/cache-img-07.jpg",
+      "credit": "Cache Energy；图片说明为2026-03-05 Mt. Holly测试现场模块",
+      "license": "Cache Energy网站版权保留；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "热化学模块在Duke测试现场；图像说明依据页面标题/正文，模块额定容量未披露。",
+      "subjects": [
+        "company:thermal-thermochemical-cache",
+        "route:thermal-thermochemical:history"
+      ]
+    },
+    {
+      "id": "thermal-sunamp-thermino",
+      "src": "/chronicle/thermal-sunamp-thermino.png",
+      "alt": "Sunamp Thermino 70e P58相变热水储能系统方案图",
+      "sourceUrl": "https://sunamp.com/en-ca/case-studies/sunamp-thermal-batteries-reduce-peak-load-in-a-new-york-office-building-a-nyserda-program/",
+      "sourceImageUrl": "https://sunamp.com/en-ca/wp-content/uploads/sites/19/2024/10/thermino-system-300x208.png",
+      "credit": "Sunamp；Thermino官方产品图",
+      "license": "Sunamp网站版权保留；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "document",
+      "context": "官方案例方案图（300×208）；示出Thermino 70e与热水系统连接，非产品实拍或PCM样品。",
+      "subjects": [
+        "company:thermal-latent-sunamp",
+        "route:thermal-latent:history"
+      ]
+    },
+    {
+      "id": "thermal-policy-14th-plan-page6",
+      "src": "/chronicle/thermal-policy-14th-plan.png",
+      "alt": "国家发展改革委、国家能源局《十四五新型储能发展实施方案》涉及热储能原文页",
+      "sourceUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202203/P020220321543703119995.pdf",
+      "credit": "国家发展改革委、国家能源局；原文PDF第6页，2022年1月29日印发、3月21日公开",
+      "license": "政府网站公开文件；保留来源与文件信息，具体转载许可按政府网站规则核对。",
+      "status": "usable",
+      "kind": "document",
+      "context": "原始政府文件页面截图；明确提出高效储热日到周、周到季尺度示范。",
+      "subjects": [
+        "scene:thermal-policy"
+      ]
+    }
+  ],
+  "materialImageGaps": [
+    "未找到可直接用作真实材料样品图的水/熔盐/耐火固体热物性图；Rondo/Antora装置外观不代替材料样品。",
+    "未找到Sunamp PCM、MGA合金或封装件的真实材料/显微图；现有现场/产品照只映射企业与路线。",
+    "未找到SaltX盐水合、Cache hydroxide/carbonation反应材料的可用实物图；材料类别机制示意需单独标注为示意。"
+  ]
+}

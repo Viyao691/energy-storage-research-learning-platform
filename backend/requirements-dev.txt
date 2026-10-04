@@ -1,0 +1,4 @@
+moto[s3]==5.2.3
+locust==2.46.3
+bandit==1.9.4
+pip-audit==2.10.1

@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-03",
+  "assets": [
+    {
+      "id": "photo-company-extra-ima",
+      "src": "/chronicle/photo-company-extra-ima.png",
+      "subjects": [
+        "company:iron-chromium-imabattery"
+      ],
+      "alt": "IMA Battery 官方标识",
+      "caption": "IMA Battery 官方标识",
+      "kind": "logo",
+      "usable": true,
+      "sourceUrl": "https://imabattery.com/about-us",
+      "originalUrl": "https://img1.wsimg.com/isteam/ip/de569468-3dbc-4fd6-93b5-ef8fa36a22a6/Screen%20Shot%202022-01-03%20at%202.58.24%20PM_preview_r.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+      "credit": "IMA Battery",
+      "license": "原发布方保留版权；公开页面未提供开放转载许可。",
+      "width": 600,
+      "height": 411,
+      "notes": "官网 about-us 候选图经目视为公司标识，不是产品或项目照片。仅可作企业身份配图，不应作为沉浸式设备背景。"
+    },
+    {
+      "id": "photo-company-extra-hfips-salon3",
+      "src": "/chronicle/photo-company-extra-hfips-salon3.jpg",
+      "subjects": [
+        "company:electrochemical-zinc-hfips"
+      ],
+      "alt": "合肥固体所 2021 年能源材料学术沙龙现场（机构活动，非锌水凝胶电池样品）",
+      "caption": "合肥固体所 2021 年能源材料学术沙龙现场（机构活动，非锌水凝胶电池样品）",
+      "kind": "photo",
+      "usable": true,
+      "sourceUrl": "https://issp.cas.cn/gts/xwzx/zhxw/202106/t20210611_643428.html",
+      "originalUrl": "https://issp.cas.cn/gts/xwzx/zhxw/202106/W020250312610475657148.jpg",
+      "credit": "中国科学院合肥物质科学研究院固体物理研究所",
+      "license": "原发布方保留版权；公开页面未提供开放转载许可。",
+      "width": 600,
+      "height": 399,
+      "notes": "官方 2021-06-11 报道所内能源材料报告现场；胡林华参与主题报告。仅代表机构科研交流环境，不声称图中装置/演示内容属于 2025 锌水凝胶研究。"
+    },
+    {
+      "id": "photo-company-extra-sinap-gate",
+      "src": "/chronicle/photo-company-extra-sinap-gate.png",
+      "subjects": [
+        "company:electrochemical-metal-air-sinap"
+      ],
+      "alt": "上海应用物理研究所所门（机构背景，非金属空气电池设备）",
+      "caption": "上海应用物理研究所所门（机构背景，非金属空气电池设备）",
+      "kind": "photo",
+      "usable": true,
+      "sourceUrl": "https://www.sinap.cas.cn/zt/anniversary60/",
+      "originalUrl": "https://www.sinap.cas.cn/zt/anniversary60/syly/201907/W020240701616756408749.jpg",
+      "credit": "中国科学院上海应用物理研究所",
+      "license": "原发布方保留版权；公开页面未提供开放转载许可。",
+      "width": 342,
+      "height": 220,
+      "notes": "60 周年官网摄影栏目原图标注“所门口”。342 像素宽，适合淡化小图或卡片，不建议高清全屏；不推断具体拍摄年月。"
+    }
+  ],
+  "gaps": [
+    {
+      "subject": "company:hydrogen-carrier-sinopec-lohc",
+      "usable": false,
+      "reason": "本次定点搜索没有取得可确认与中国石化 LOHC 示范或试验装置对应的原始照片；不使用普通炼厂或其他制氢设备替代。",
+      "searchedPages": [
+        "https://www.sinopec.com/u/cms/gfzw/202603/22170726tr36.pdf",
+        "https://czpc.sinopec.com/czpc/info/gsxx/A070005009Gone1.shtml",
+        "https://czpc.sinopec.com/czpc/"
+      ],
+      "scope": "2025 可持续报告和沧州官方公示确认业务关联；不据此宣称照片或商业运行状态。"
+    }
+  ],
+  "notes": [
+    "仅绑定公司 subject，不绑定电池材料/论文样品/历史节点。",
+    "2 张机构实拍 + 1 张 IMA 标识；标识不是实拍。",
+    "每张下载后一次解码及目视；未修改 shared assets/源码/状态。"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "title": "热储能真实配图补充",
+  "date": "2026-10-03",
+  "assets": [
+    {
+      "id": "photo-revision-thermal-antora-carbon",
+      "route": "显热储能",
+      "src": "/chronicle/photo-revision-thermal-antora-carbon.jpg",
+      "alt": "Antora 固体碳储热块实物",
+      "sourceUrl": "https://www.antora.com/technology",
+      "originalUrl": "https://file-transforms.antora.com/production/Retouched-Images/ARPA_E_ANTORA_0030T01-2-1-edit.jpg?w=1000&h=1000&q=75&auto=format&fit=clip&dm=1727306157&s=2cb80836a23bc706b6c16b8f420dd6c1",
+      "credit": "Antora Energy",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 1000,
+      "height": 1000,
+      "subjects": [
+        "material:thermal-sensible-solid",
+        "route:thermal-sensible:papers"
+      ],
+      "notes": "官网明确图注为两列堆放的固体碳块；不是该页另一个标注 rendering 的单块示意。"
+    },
+    {
+      "id": "photo-revision-thermal-antora-module",
+      "route": "显热储能",
+      "src": "/chronicle/photo-revision-thermal-antora-module.jpg",
+      "alt": "Antora 工业设施外的热电池模块",
+      "sourceUrl": "https://www.antora.com/technology",
+      "originalUrl": "https://file-transforms.antora.com/production/Retouched-Images/Mask-group1.jpg?w=1000&h=1000&q=75&auto=format&fit=clip&dm=1727306196&s=4f9e8f115bf47a295f02dbcaaabbb6f2",
+      "credit": "Antora Energy",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 1000,
+      "height": 1000,
+      "subjects": [
+        "company:thermal-sensible-antora"
+      ],
+      "notes": "官网技术页明确指认为 Antora 模块；图片本身未标拍摄年月，不单独绑定 2023 Wellhead 事件。"
+    },
+    {
+      "id": "photo-revision-thermal-polar",
+      "route": "显热储能",
+      "src": "/chronicle/photo-revision-thermal-polar.jpg",
+      "alt": "2025 年 Pornainen 砂储热设施启用现场",
+      "sourceUrl": "https://polarnightenergy.com/news/worlds-largest-sand-battery-now-in-operation/",
+      "originalUrl": "https://polarnightenergy.com/wp-content/uploads/PNE-toukokuu-2025-10_grade-scaled.jpg",
+      "credit": "Polar Night Energy",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 2560,
+      "height": 1707,
+      "subjects": [
+        "event:thermal-sensible:2025",
+        "route:thermal-sensible:storage"
+      ],
+      "notes": "对应 2025-06-11 启用公告。1 MW_th / 100 MWh_th；介质为皂石碎料。"
+    },
+    {
+      "id": "photo-revision-thermal-mga-blocks",
+      "route": "潜热储能",
+      "src": "/chronicle/photo-revision-thermal-mga-blocks.webp",
+      "alt": "MGA 复合储热块实物",
+      "sourceUrl": "https://mgathermalstorage.squarespace.com/energystorage",
+      "originalUrl": "https://static1.squarespace.com/static/6371bcf77af85562378f3932/t/63cf28a4eb65a102c882bbbb/1674520740546/_NDY2359+-+clean.png?format=1500w",
+      "credit": "MGA Thermal",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 1500,
+      "height": 1000,
+      "subjects": [
+        "material:thermal-latent-metal",
+        "route:thermal-latent:papers"
+      ],
+      "notes": "官网储能页的复合储热块实拍；用于说明块体/金属相变复合结构，不能当作纯铝、盐水合物或某论文试样。"
+    },
+    {
+      "id": "photo-revision-thermal-mga-pilot",
+      "route": "潜热储能",
+      "src": "/chronicle/photo-revision-thermal-mga-pilot.webp",
+      "alt": "MGA Tomago 示范装置内部",
+      "sourceUrl": "https://mgathermalstorage.squarespace.com/pilot",
+      "originalUrl": "https://images.squarespace-cdn.com/content/v1/6371bcf77af85562378f3932/e09bfb6f-b3ba-47c9-8ffb-0d05e7b5d600/Demo+Unit+4.png",
+      "credit": "MGA Thermal",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 1377,
+      "height": 832,
+      "subjects": [
+        "event:thermal-latent:2025",
+        "route:thermal-latent:storage"
+      ],
+      "notes": "官方 pilot 页照片，管路与储热模块内部视角，与现有外观图不同；绑定 2025 Tomago 示范节点。"
+    },
+    {
+      "id": "photo-revision-thermal-sunamp-gomon",
+      "route": "潜热储能",
+      "src": "/chronicle/photo-revision-thermal-sunamp-gomon.png",
+      "alt": "Sunamp 与 Gomon 2025 年中国工厂合作发布现场及产品",
+      "sourceUrl": "https://sunamp.com/blog/sunamp-partners-with-gomon-to-launch-china-factory-expanding-heat-battery-production-to-asia-pacific/",
+      "originalUrl": "https://sunamp.com/wp-content/uploads/2025/11/Untitled-design-2025-11-27T122643.632.png",
+      "credit": "Sunamp / Gomon",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 1200,
+      "height": 627,
+      "subjects": [
+        "company:thermal-latent-sunamp"
+      ],
+      "notes": "2025-11 官方报道，现场展示产品；不是厂内生产线照片，也不是盐水合物内部显微图。"
+    },
+    {
+      "id": "photo-revision-thermal-saltx",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-saltx.png",
+      "alt": "SaltX 2019 年柏林试验储热装置新闻配图",
+      "sourceUrl": "https://news.cision.com/saltx-technology-holding-ab/r/saltx-s-pilot-plant-in-berlin-is-up-and-running,c2767314",
+      "originalUrl": "https://mb.cision.com/Public/11067/2767296/9ebb5b2a08b5f5c9_800x800ar.png",
+      "credit": "SaltX Technology / Cision",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 800,
+      "height": 407,
+      "subjects": [
+        "company:thermal-thermochemical-saltx"
+      ],
+      "notes": "2019-03-20 官方公告，包含真实设备照片及原发布版式文字；这是历史储热试验站，不能标成当前 EAC 煅烧设备。"
+    },
+    {
+      "id": "photo-revision-thermal-dlr-reactor",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-dlr-reactor.jpg",
+      "alt": "DLR CWS 石灰热化学储热试验台",
+      "sourceUrl": "https://www.dlr.de/en/tt/images/test-stand-cws-heat-storage-in-lime-stone",
+      "originalUrl": "https://www.dlr.de/en/tt/images/test-stand-cws-heat-storage-in-lime-stone/@@images/image-2000-b8cf9b0a6d9cb7a99f1b09a53343337e.jpeg",
+      "credit": "DLR",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 2000,
+      "height": 1333,
+      "subjects": [
+        "material:thermal-thermochemical-hydroxide"
+      ],
+      "notes": "原图页给出最多 10 kW_th、8 kWh 化学储热、约 22 kg Ca(OH)₂；与 2013 论文约 20 kg 试验数据分别记录，不合并同一工况或强绑年份。"
+    },
+    {
+      "id": "photo-revision-thermal-dlr-calogy",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-dlr-calogy.jpg",
+      "alt": "DLR CALOGY 长时储热供暖原型系统",
+      "sourceUrl": "https://www.dlr.de/en/tt/research-transfer/projects/project-archive/2025/calogy",
+      "originalUrl": "https://www.dlr.de/en/tt/research-transfer/projects/project-archive/2025/calogy/pilotanlage-zur-energiespeicherung-und-erneuerbaren-waermebereitstellung/@@images/image-1000-2fffeea2074c2467f954e752c81bc72b.jpeg",
+      "credit": "DLR",
+      "license": "CC BY-NC-ND 3.0（原页注明；保留署名，非商业引用，不改图）",
+      "kind": "photo",
+      "usable": true,
+      "width": 1000,
+      "height": 666,
+      "subjects": [
+        "route:thermal-thermochemical:storage"
+      ],
+      "notes": "左侧储料容器、中部反应器、右侧热水罐；项目 2024-05 至 2025-06，原型/试验用途，不绑定 HEAT-INSYDE 住宅节点。"
+    },
+    {
+      "id": "photo-revision-thermal-tempo-real-0",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-tempo-real-0.webp",
+      "alt": "Tempo 研究人员操作高温研究设备",
+      "sourceUrl": "https://tempoenergy.com/company/",
+      "originalUrl": "https://tempoenergy.com/wp-content/uploads/2026/04/KING5329-1246.webp",
+      "credit": "Tempo",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "photo",
+      "usable": true,
+      "width": 1246,
+      "height": 831,
+      "subjects": [
+        "company:thermal-thermochemical-tempo",
+        "route:thermal-thermochemical:papers"
+      ],
+      "notes": "Tempo 官方公司页研发现场实拍。只描述研究与设备，不根据照片推断具体反应器型号、温度、容量或工业投运。"
+    }
+  ],
+  "bindings": [
+    {
+      "route": "显热储能",
+      "year": 2025,
+      "subject": "event:thermal-sensible:2025"
+    },
+    {
+      "route": "潜热储能",
+      "year": 2025,
+      "subject": "event:thermal-latent:2025"
+    }
+  ],
+  "notes": [
+    "仅合并本清单 subjects，勿替换三路线全部 history 或全部年份。",
+    "材料仅精确替换固体碳/金属相变复合块/氢氧化物装置三主题；其他机制示意保留。",
+    "MSU 两张 Redoxblox 图实际为效果图，未纳入真实照片；已找到 Tempo 官网研发实拍替代。",
+    "Sunamp 产品页奖项图、普通公寓外景未采用；TNO 原型图片返回 403，未绕过。",
+    "未经证实拍摄年份的照片只用公司或主题，不假称对应年度实拍。"
+  ]
+}

@@ -1,0 +1,48 @@
+.paper-prompt { display: grid; gap: 8px; max-width: 760px; }
+.paper-prompt > label { color: var(--v2-ink, #19364d); font-size: 16px; font-weight: 700; }
+.paper-prompt__field { background: #f7fbfc; border: 1px solid #a6c5d3; border-radius: 20px; box-shadow: inset 0 1px #fff, 0 8px 24px #173b4d12; isolation: isolate; overflow: hidden; padding: 13px 14px 10px; position: relative; transition: border-color .22s ease, box-shadow .22s ease; }
+.paper-prompt__field::before { background: radial-gradient(ellipse at 70% 90%, #80c7e34d, transparent 60%); content: ""; inset: 0; opacity: 0; pointer-events: none; position: absolute; transition: opacity .45s ease; z-index: -1; }
+.paper-prompt__field:focus-within { border-color: #4b9ab9; box-shadow: inset 0 1px #fff, 0 0 0 3px #79c8e33d, 0 12px 30px #2b6e8926; }
+.paper-prompt__field:focus-within::before { opacity: 1; }
+html #workspace-action-surface .reader-workspace .paper-prompt__input { background: transparent !important; border: 0 !important; border-radius: 0; box-shadow: none !important; color: var(--v2-ink, #19364d); display: block; font: inherit; font-size: 16px !important; height: 48px; line-height: 24px; max-height: 156px; min-height: 48px !important; outline: 0 !important; padding: 0 !important; resize: none; width: 100%; }
+.paper-prompt__input::placeholder { color: #6c8799; }
+.paper-prompt__bar { align-items: center; display: flex; gap: 9px; min-height: 44px; position: relative; }
+.paper-prompt__hint, .paper-prompt__count { color: #607b8e; font-size: 13px; }
+.paper-prompt__count { margin-left: auto; white-space: nowrap; }
+html #workspace-action-surface .reader-workspace .paper-prompt__send { align-items: center; background: #145b7d !important; border: 1px solid #145b7d !important; border-radius: 14px !important; box-shadow: 0 5px 13px #0f587a30 !important; color: #fff !important; display: inline-flex; flex: 0 0 44px; height: 44px; justify-content: center; min-height: 44px; padding: 0 !important; position: relative; width: 44px; }
+html #workspace-action-surface .reader-workspace .paper-prompt__send:disabled { cursor: default; opacity: .6; }
+html #workspace-action-surface .reader-workspace .paper-prompt__send:focus-visible { outline: 3px solid #69b5d5 !important; outline-offset: 3px; }
+.paper-prompt__arrow { height: 23px; transform: scale(1); transition: opacity .22s ease, transform .22s cubic-bezier(.23,1,.32,1); width: 23px; }
+.paper-prompt__busy-glyph { align-items: center; display: flex; gap: 3px; opacity: 0; position: absolute; transform: scale(.45) rotate(-25deg); transition: opacity .22s ease, transform .22s cubic-bezier(.23,1,.32,1); }
+.paper-prompt__busy-glyph i { background: currentColor; border-radius: 3px; height: 5px; width: 3px; }
+.paper-prompt__busy-glyph i:nth-child(2) { height: 12px; }
+.paper-prompt__busy-glyph i:nth-child(3) { height: 8px; }
+.paper-prompt[aria-busy="true"] .paper-prompt__arrow { opacity: 0; transform: scale(.45) rotate(25deg); }
+.paper-prompt[aria-busy="true"] .paper-prompt__busy-glyph { opacity: 1; transform: scale(1) rotate(0); }
+.paper-prompt[aria-busy="true"] .paper-prompt__busy-glyph i { animation: paper-prompt-eq .9s ease-in-out infinite alternate; }
+.paper-prompt[aria-busy="true"] .paper-prompt__busy-glyph i:nth-child(2) { animation-delay: .15s; }
+.paper-prompt[aria-busy="true"] .paper-prompt__busy-glyph i:nth-child(3) { animation-delay: .3s; }
+.paper-prompt__spark { background: #9cdef7; border-radius: 50%; box-shadow: 0 0 8px #70cafa; height: 3px; opacity: 0; pointer-events: none; position: absolute; width: 3px; }
+.paper-prompt__spark--one { bottom: 16px; left: 22%; }.paper-prompt__spark--two { bottom: 26px; left: 59%; }.paper-prompt__spark--three { bottom: 11px; left: 83%; }
+.paper-prompt__field:focus-within .paper-prompt__spark { animation: paper-prompt-spark 2.2s ease-out infinite; }
+.paper-prompt__field:focus-within .paper-prompt__spark--two { animation-delay: .7s; }
+.paper-prompt__field:focus-within .paper-prompt__spark--three { animation-delay: 1.4s; }
+.paper-thought-line { align-items: center; color: #326c87; display: inline-flex; font-size: 16px; gap: 7px; line-height: 1.4; margin: 11px 0 2px; min-height: 27px; opacity: .85; }
+.paper-thought-line[data-working] .paper-thought-line__glyph { animation: paper-thought-breathe 1.6s ease-in-out infinite; }
+.paper-thought-line[data-working] .paper-thought-line__text { animation: paper-thought-shimmer 1.8s linear infinite; background: linear-gradient(100deg, #427d9a 30%, #c0e7f7 50%, #427d9a 70%); background-clip: text; background-size: 250% 100%; -webkit-text-fill-color: transparent; }
+.paper-thought-line:not([data-working]) { animation: paper-thought-settle 3.4s ease-in forwards; }
+.paper-thought-line__glyph { flex: none; height: 21px; width: 21px; }
+.paper-thought-line__time { font-variant-numeric: tabular-nums; white-space: nowrap; }
+html[data-theme="dark"] .paper-prompt__field { background: #0c2638; border-color: #416a7c; box-shadow: inset 0 1px #c8eaf020, 0 8px 24px #03142166; }
+html[data-theme="dark"] .paper-prompt__field:focus-within { border-color: #80c8df; box-shadow: inset 0 1px #c8eaf020, 0 0 0 3px #7bd2ec38; }
+html[data-theme="dark"] .paper-prompt__hint, html[data-theme="dark"] .paper-prompt__count { color: #aac8d7; }
+html[data-theme="dark"] .paper-prompt__input::placeholder { color: #94b3c5; }
+html[data-theme="dark"] .paper-thought-line { color: #add9ed; }
+html[data-theme="dark"] .paper-thought-line[data-working] .paper-thought-line__text { background-image: linear-gradient(100deg, #add9ed 30%, #fff 50%, #add9ed 70%); }
+@keyframes paper-prompt-eq { to { transform: scaleY(.4); } }
+@keyframes paper-prompt-spark { 0% { opacity: 0; transform: translateY(0); } 25% { opacity: .75; } 100% { opacity: 0; transform: translateY(-18px); } }
+@keyframes paper-thought-breathe { 50% { opacity: .45; transform: scale(.9); } }
+@keyframes paper-thought-shimmer { to { background-position: -125% 0; } }
+@keyframes paper-thought-settle { 0%, 65% { opacity: .85; filter: blur(0); transform: translateY(0); } 100% { opacity: 0; filter: blur(2px); transform: translateY(-4px); } }
+@media (max-width: 540px) { .paper-prompt__hint { font-size: 11px; } .paper-thought-line { flex-wrap: wrap; } }
+@media (prefers-reduced-motion: reduce) { .paper-prompt__spark, .paper-prompt__busy-glyph i, .paper-thought-line__glyph, .paper-thought-line__text, .paper-thought-line:not([data-working]) { animation: none !important; } .paper-prompt__field, .paper-prompt__field::before, .paper-prompt__arrow, .paper-prompt__busy-glyph { transition: none !important; } }

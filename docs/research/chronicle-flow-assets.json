@@ -1,0 +1,101 @@
+{
+  "assets": [
+    {
+      "id": "flow-sumitomo-hokkaido",
+      "src": "/chronicle/flow-sumitomo-hokkaido.jpg",
+      "alt": "Sumitomo Electric Hokkaido Minami-Hayakita vanadium redox flow battery project in winter",
+      "sourceUrl": "https://sumitomoelectric.com/products/flow-batteries/case-studies/hokkaido-wind-integration",
+      "credit": "Sumitomo Electric Industries, Ltd.",
+      "license": "Copyright Sumitomo Electric; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "北海道南早来17MW/51MWh全钒液流项目实景，2022年4月投运；不是电芯性能证据。",
+      "subjects": ["company:vanadium-sumitomo", "route:vanadium:history"]
+    },
+    {
+      "id": "flow-invinity-copwood",
+      "src": "/chronicle/flow-invinity-copwood.jpg",
+      "alt": "Installed Invinity vanadium flow battery containers at the Copwood site",
+      "sourceUrl": "https://invinity.com/case-study-invinity-copwood-vfb-energy-hub/",
+      "credit": "Invinity Energy Systems; photo courtesy of Gamesa Electric",
+      "license": "Copyright respective rights holders; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Copwood 20.7MWh项目现场安装照；项目页称待2026年接网，不代表已商业运行。",
+      "subjects": ["company:vanadium-invinity", "route:vanadium:history"]
+    },
+    {
+      "id": "flow-iron-chromium-lankao",
+      "src": "/chronicle/flow-iron-chromium-lankao-1.jpg",
+      "alt": "Lankao iron-chromium flow battery demonstration project team and project banner",
+      "sourceUrl": "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202607/t20260721_251616.html",
+      "credit": "国家科技传播中心；原报道配图",
+      "license": "政府网站转载图片；保留来源与主体信息；项目内研究展示。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "兰考2.5MW/15MWh铁铬液流项目照片；报道记载2026年投运。",
+      "subjects": ["company:iron-chromium-cesc", "route:iron-chromium:history"]
+    },
+    {
+      "id": "flow-iron-chromium-lankao-site",
+      "src": "/chronicle/flow-iron-chromium-lankao-2.jpg",
+      "alt": "Aerial overview of the Lankao iron-chromium flow battery project site",
+      "sourceUrl": "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202607/t20260721_251616.html",
+      "credit": "国家科技传播中心；原报道配图",
+      "license": "政府网站转载图片；保留来源与主体信息；项目内研究展示。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "兰考项目场地鸟瞰背景，不单独作为电池设备或额定性能证据。",
+      "subjects": ["company:iron-chromium-cesc"]
+    },
+    {
+      "id": "flow-junan-project",
+      "src": "/chronicle/flow-junan-project.png",
+      "alt": "JUNAN Energy storage charging project visit with zinc-bromine system display",
+      "sourceUrl": "https://en.junanes.com/%E5%8C%97%E4%BA%AC%E6%B4%9B%E6%96%AF%E8%BE%BE%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%A2%86%E5%AF%BC%E4%B8%80%E8%A1%8C%E8%8E%85%E4%B8%B4%E5%90%9B%E5%AE%89%E5%82%A8/",
+      "credit": "Hubei JUNAN Energy Storage Technology Co., Ltd.",
+      "license": "Copyright JUNAN Energy; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2025官方参访报道中的光储充示范项目参观照片；企业背景图，不证明产品容量或第三方验收。",
+      "subjects": ["company:zinc-bromine-junan", "route:zinc-bromine:history"]
+    },
+    {
+      "id": "flow-quino-pilot",
+      "src": "/chronicle/flow-quino-pilot.jpg",
+      "alt": "Quino Energy pilot battery test equipment and engineers",
+      "sourceUrl": "https://quinoenergy.com/quino-energy-announces-100kwh-pilot-and-plans-for-global-expansion/",
+      "credit": "Quino Energy, Inc.",
+      "license": "Copyright Quino Energy; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "水系有机醌液流10kW/100kWh试点研发照片；2024公告称原型启用，不是材料显微图。",
+      "subjects": ["company:organic-quino", "route:organic:history"]
+    },
+    {
+      "id": "flow-cmblu-mercedes",
+      "src": "/chronicle/flow-cmblu-mercedes.jpeg",
+      "alt": "CMBlu and Mercedes-Benz Organic SolidFlow 11 MWh order press graphic with rendered storage system",
+      "sourceUrl": "https://www.cmblu.com/press-media/mercedes-benz-orders-first-sustainable-solidflow-energy-storage-system-by-cmblu-energy",
+      "credit": "CMBlu Energy AG; Mercedes-Benz Group AG",
+      "license": "Copyright CMBlu Energy and Mercedes-Benz as applicable; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "official-illustration",
+      "context": "11MWh订单新闻拼图含系统渲染；原文目标2025年下半年实现，图不是投运现场实拍。",
+      "subjects": ["company:organic-cmblu", "route:organic:history"]
+    },
+    {
+      "id": "policy-ndrc-2025-flow",
+      "src": "/chronicle/policy-ndrc-2025.png",
+      "alt": "Screenshot of the 2025 NDRC and NEA special action plan for large-scale new energy storage construction",
+      "sourceUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/t20250912_1400427_ext.html",
+      "credit": "国家发展改革委、国家能源局",
+      "license": "政府网站原文截图；保留文件号和来源；项目内研究展示。",
+      "status": "usable",
+      "kind": "document",
+      "context": "发改能源〔2025〕1144号提及液流电池储能进一步商业化；泛液流政策，不区分具体化学路线。",
+      "subjects": ["scene:flow-policy"]
+    }
+  ]
+}
+

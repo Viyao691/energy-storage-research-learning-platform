@@ -1,0 +1,73 @@
+.workspace-v2 .search-page, .workspace-v2 .library-page { display: grid; gap: 20px; }
+.workspace-v2 .search-form {
+  border-top: 1px solid var(--v2-line) !important;
+  border-radius: 13px;
+  display: grid;
+  gap: 16px;
+  padding: 24px !important;
+}
+.workspace-v2 .search-form .search-query label { margin: 0 0 8px; }
+.workspace-v2 .search-form .search-query input { min-height: 48px; }
+.workspace-v2 .search-form .search-filter-grid { grid-template-columns: minmax(130px, 1fr) minmax(130px, 1fr) minmax(180px, 1.2fr); gap: 14px; }
+.workspace-v2 .search-form .check-option,
+.workspace-v2 .search-form .source-option { background: var(--v2-surface-alt); border-color: var(--v2-line); color: var(--v2-ink); }
+.workspace-v2 .search-form .source-option.disabled { color: var(--v2-muted); opacity: .7; }
+.workspace-v2 .search-form .source-options { border-color: var(--v2-line); display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 16px 0 0; }
+.workspace-v2 .search-form .source-options legend { float: left; font-size: 13px; margin-right: 14px; padding: 10px 0; }
+.workspace-v2 .search-form .source-option { margin: 0; min-height: 39px; padding: 8px 11px; }
+.workspace-v2 .search-form .row { align-items: center; gap: 18px; margin: 0; }
+.workspace-v2 .search-form .row .muted { font-size: 12px; }
+.workspace-v2 .search-summary { margin: 4px 0 0; }
+.workspace-v2 .search-results { gap: 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.workspace-v2 .search-result { border: 1px solid var(--v2-line) !important; display: flex; flex-direction: column; min-width: 0; padding: 22px !important; transform: none !important; }
+.workspace-v2 .search-result:hover { border-color: var(--v2-accent) !important; }
+.workspace-v2 .search-result h2 { color: var(--v2-ink); font-size: 19px; line-height: 1.42; overflow-wrap: anywhere; }
+.workspace-v2 .search-result .result-topline { align-items: flex-start; flex-wrap: wrap; }
+.workspace-v2 .search-result .result-side-controls { margin-left: auto; }
+.workspace-v2 .search-result .relevance strong { color: var(--v2-ink); }
+.workspace-v2 .search-result .relevance span,
+.workspace-v2 .search-result .result-meta { color: var(--v2-muted); }
+.workspace-v2 .search-result .result-abstract { color: var(--v2-muted); font-size: 14px; line-height: 1.58; }
+.workspace-v2 .search-result .result-facts { margin-top: auto; padding-top: 12px; }
+.workspace-v2 .search-result .result-facts div { background: var(--v2-surface-alt); }
+.workspace-v2 .search-result .legal-hint { border-color: var(--v2-accent); color: var(--v2-muted); }
+.workspace-v2 .search-result .result-actions { margin-top: 14px; }
+.workspace-v2 .library-count { color: var(--v2-muted); font-size: 13px; margin: 0; }
+.workspace-v2 .library-paper-grid { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.workspace-v2 .library-paper-card { display: flex; flex-direction: column; min-height: 294px; min-width: 0; padding: 20px !important; }
+.workspace-v2 .library-paper-card h2 { font-size: 19px; line-height: 1.38; margin: 13px 0 7px; overflow-wrap: anywhere; }
+.workspace-v2 .library-paper-card h2 a { color: var(--v2-ink); text-decoration: none; }
+.workspace-v2 .library-paper-card h2 a:hover { text-decoration: underline; }
+.workspace-v2 .library-paper-top { align-items: center; display: flex; justify-content: space-between; }
+.workspace-v2 .library-document-mark { align-items: center; background: var(--v2-surface-alt); border: 1px solid var(--v2-line); border-radius: 9px; color: var(--v2-accent); display: flex; height: 42px; justify-content: center; width: 42px; }
+.workspace-v2 .library-document-mark svg { height: 29px; width: 24px; }
+.workspace-v2 .library-paper-card .library-keywords { margin: 14px 0; }
+.workspace-v2 .library-paper-card .paper-light-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.workspace-v2 .library-paper-card .paper-light-tags em { background: var(--v2-surface-alt); border: 1px solid var(--v2-line); border-radius: 999px; color: var(--v2-muted); font-size: 11px; font-style: normal; padding: 2px 7px; }
+.workspace-v2 .library-card-actions { align-items: center; border-top: 1px solid var(--v2-line); display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 14px; }
+.workspace-v2 .library-card-actions > button:first-child { font-size: 12px; padding: 7px 11px; }
+.workspace-v2 .library-card-actions .paper-state-buttons { margin-left: auto; }
+.workspace-v2 .library-card-actions button { white-space: nowrap; }
+.workspace-v2 .library-preview h3 { color: var(--v2-ink); font-size: 24px; line-height: 1.3; margin: 15px 0 10px; }
+.workspace-v2 .library-preview h4 { color: var(--v2-ink); font-size: 14px; margin: 24px 0 8px; }
+.workspace-v2 .library-preview .button { display: inline-flex; margin-top: 22px; }
+.workspace-v2 .citation-card .citation-preview-button { font-size: 12px; margin-top: 6px; padding: 7px 11px; }
+html[data-theme="dark"] .workspace-v2 .search-result .result-facts div,
+html[data-theme="dark"] .workspace-v2 .search-form .check-option,
+html[data-theme="dark"] .workspace-v2 .search-form .source-option,
+html[data-theme="dark"] .workspace-v2 .library-document-mark,
+html[data-theme="dark"] .workspace-v2 .library-paper-card .paper-light-tags em { background: var(--v2-surface-alt) !important; border-color: var(--v2-line); color: var(--v2-ink); }
+html[data-theme="dark"] .workspace-v2 .search-result .result-meta,
+html[data-theme="dark"] .workspace-v2 .search-result .legal-hint,
+html[data-theme="dark"] .workspace-v2 .search-result .result-abstract { color: var(--v2-muted); }
+@media (max-width: 1250px) {
+  .workspace-v2 .library-paper-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 1100px) {
+  .workspace-v2 .search-results { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .workspace-v2 .search-form .search-filter-grid, .workspace-v2 .library-paper-grid { grid-template-columns: 1fr; }
+  .workspace-v2 .search-form .source-options legend { float: none; width: 100%; }
+  .workspace-v2 .search-form .source-option { width: 100%; }
+}

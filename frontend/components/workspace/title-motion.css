@@ -1,0 +1,4 @@
+.title-motion-warp { line-height: inherit; }
+.title-motion-tech { display: inline-block; width: min(100%, calc(var(--title-chars) * 1.15em + .5em)); height: 2.1em; margin: -.25em 0 -.25em; vertical-align: middle; }
+.title-motion-tech .tech-text { min-height: 0; }
+.title-motion-focus { font: inherit; letter-spacing: inherit; }

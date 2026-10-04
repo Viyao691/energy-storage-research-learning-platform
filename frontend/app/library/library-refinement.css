@@ -1,0 +1,86 @@
+.workspace-v2 .refinement-page.library-page .library-paper-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-card {
+  grid-template-columns: 136px minmax(0, 1fr);
+  min-height: 230px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-visual {
+  min-height: 100%;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-artwork {
+  min-height: 0;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-artwork-fallback {
+  height: 100%;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-artwork img,
+.workspace-v2 .refinement-page.library-page .library-pdf-cover {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.workspace-v2 .refinement-page.library-page .library-pdf-cover {
+  object-position: center top;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-content {
+  padding: 16px 18px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-card h2 {
+  font-size: 21px;
+  line-height: 1.35;
+}
+
+.workspace-v2 .refinement-page.library-page .library-paper-card .paper-list-meta small,
+.workspace-v2 .refinement-page.library-page .library-paper-card .paper-light-tags em,
+.workspace-v2 .refinement-page.library-page .library-paper-card .library-keywords > span:first-child,
+.workspace-v2 .refinement-page.library-page .library-paper-card .library-keywords small,
+.workspace-v2 .refinement-page.library-page .library-paper-top .status {
+  font-size: 15px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-card-actions {
+  gap: 8px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-card-actions button {
+  font-size: 16px;
+  min-height: 44px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-card-actions > button:first-child {
+  padding: 8px 13px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-card-actions .paper-state-button {
+  height: 44px;
+  width: 44px;
+}
+
+.workspace-v2 .refinement-page.library-page .library-card-actions .paper-state-button svg {
+  height: 23px;
+  width: 23px;
+}
+
+@media (max-width: 420px) {
+  .workspace-v2 .refinement-page.library-page .library-paper-card {
+    grid-template-columns: 104px minmax(0, 1fr);
+  }
+
+  .workspace-v2 .refinement-page.library-page .library-paper-content {
+    padding: 12px;
+  }
+
+  .workspace-v2 .refinement-page.library-page .library-paper-card h2 {
+    font-size: 20px;
+  }
+}

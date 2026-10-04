@@ -1,0 +1,2238 @@
+{
+  "routes": 25,
+  "missingCompanies": [
+    {
+      "route": "铁铬液流",
+      "id": "iron-chromium-imabattery",
+      "subject": "company:iron-chromium-imabattery"
+    },
+    {
+      "route": "化学载体储氢",
+      "id": "hydrogen-carrier-sinopec-lohc",
+      "subject": "company:hydrogen-carrier-sinopec-lohc"
+    }
+  ],
+  "audit": [
+    {
+      "route": "固态电池",
+      "backgrounds": [
+        "toyota-solid-state-prototype",
+        "material-sulfide-ai",
+        "material-oxide-ai",
+        "material-halide-ai",
+        "material-polymer-ai",
+        "material-composite-ai",
+        "quantumscape-qse5-sample",
+        "bmw-solid-power",
+        "skon-aem-cover",
+        "samsung-s-line",
+        "prologium-taoke-factory",
+        "welion-ev-solution",
+        "qingtao-mg4-semi-solid",
+        "ganfeng-solid-state-exhibit",
+        "market-nea-2025"
+      ],
+      "realPhotos": [
+        "toyota-solid-state-prototype",
+        "quantumscape-qse5-sample",
+        "bmw-solid-power",
+        "samsung-s-line",
+        "ganfeng-solid-state-exhibit"
+      ],
+      "years": [
+        {
+          "year": "1967",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "1973",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "1975",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "1992",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "1998",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2007",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2011",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2016",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2018",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2020",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2021",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2022",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2023",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2024",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2025",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "year": "2026",
+          "asset": "policy-solid-standard-2026"
+        }
+      ],
+      "materials": [
+        {
+          "id": "sulfide",
+          "asset": "material-sulfide-ai"
+        },
+        {
+          "id": "oxide",
+          "asset": "material-oxide-ai"
+        },
+        {
+          "id": "halide",
+          "asset": "material-halide-ai"
+        },
+        {
+          "id": "polymer",
+          "asset": "material-polymer-ai"
+        },
+        {
+          "id": "composite",
+          "asset": "material-composite-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "quantumscape",
+          "asset": "quantumscape-qse5-sample"
+        },
+        {
+          "id": "powerco",
+          "asset": "quantumscape-qse5-sample"
+        },
+        {
+          "id": "solid-power",
+          "asset": "bmw-solid-power"
+        },
+        {
+          "id": "bmw",
+          "asset": "bmw-solid-power"
+        },
+        {
+          "id": "sk-on",
+          "asset": "skon-aem-cover"
+        },
+        {
+          "id": "toyota",
+          "asset": "toyota-solid-state-prototype"
+        },
+        {
+          "id": "samsung-sdi",
+          "asset": "samsung-s-line"
+        },
+        {
+          "id": "prologium",
+          "asset": "prologium-taoke-factory"
+        },
+        {
+          "id": "welion",
+          "asset": "welion-ev-solution"
+        },
+        {
+          "id": "qingtao",
+          "asset": "qingtao-mg4-semi-solid"
+        },
+        {
+          "id": "ganfeng",
+          "asset": "ganfeng-solid-state-exhibit"
+        }
+      ]
+    },
+    {
+      "route": "锂离子",
+      "backgrounds": [
+        "catl-shenxing-lfp",
+        "material-lithium-layered-ai",
+        "material-lithium-graphite-ai",
+        "sony-np-fw50-2021",
+        "byd-blade-editorial",
+        "panasonic-energy-factory-2024",
+        "market-nea-2025"
+      ],
+      "realPhotos": [
+        "catl-shenxing-lfp",
+        "sony-np-fw50-2021",
+        "panasonic-energy-factory-2024"
+      ],
+      "years": [
+        {
+          "year": "1980",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "1985",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "1991",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "1997",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "2019",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "2021",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "2023",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "2024",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "2025",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "year": "2026",
+          "asset": "catl-shenxing-lfp"
+        }
+      ],
+      "materials": [
+        {
+          "id": "lithium-layered",
+          "asset": "material-lithium-layered-ai"
+        },
+        {
+          "id": "lithium-lfp",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "id": "lithium-graphite",
+          "asset": "material-lithium-graphite-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "lithium-sony",
+          "asset": "sony-np-fw50-2021"
+        },
+        {
+          "id": "lithium-byd",
+          "asset": "byd-blade-editorial"
+        },
+        {
+          "id": "lithium-catl",
+          "asset": "catl-shenxing-lfp"
+        },
+        {
+          "id": "lithium-panasonic",
+          "asset": "panasonic-energy-factory-2024"
+        }
+      ]
+    },
+    {
+      "route": "钠离子",
+      "backgrounds": [
+        "catl-naxtra-sodium",
+        "material-sodium-layered-ai",
+        "material-sodium-prussian-ai",
+        "material-sodium-hard-carbon-ai",
+        "hina-sodium-cell-launch",
+        "datang-hina-sodium-storage",
+        "faradion-brand-2020",
+        "market-nea-2025"
+      ],
+      "realPhotos": [
+        "catl-naxtra-sodium",
+        "hina-sodium-cell-launch",
+        "datang-hina-sodium-storage"
+      ],
+      "years": [
+        {
+          "year": "2000",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2012",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2017",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2019",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2021",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2022",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2023",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2024",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2025",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "year": "2026",
+          "asset": "catl-naxtra-sodium"
+        }
+      ],
+      "materials": [
+        {
+          "id": "sodium-layered",
+          "asset": "material-sodium-layered-ai"
+        },
+        {
+          "id": "sodium-prussian",
+          "asset": "material-sodium-prussian-ai"
+        },
+        {
+          "id": "sodium-hard-carbon",
+          "asset": "material-sodium-hard-carbon-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "sodium-hina",
+          "asset": "hina-sodium-cell-launch"
+        },
+        {
+          "id": "sodium-catl",
+          "asset": "catl-naxtra-sodium"
+        },
+        {
+          "id": "sodium-datang-hina",
+          "asset": "datang-hina-sodium-storage"
+        },
+        {
+          "id": "sodium-faradion",
+          "asset": "faradion-brand-2020"
+        }
+      ]
+    },
+    {
+      "route": "全钒液流",
+      "backgrounds": [
+        "flow-sumitomo-hokkaido",
+        "rongke-dalian-tanks",
+        "material-vanadium-concept",
+        "material-flow-membrane-concept",
+        "material-flow-carbon-felt-concept",
+        "flow-invinity-copwood",
+        "rongke-dalian-site",
+        "rongke-dalian-stack"
+      ],
+      "realPhotos": [
+        "flow-sumitomo-hokkaido",
+        "rongke-dalian-tanks",
+        "flow-invinity-copwood",
+        "rongke-dalian-site",
+        "rongke-dalian-stack"
+      ],
+      "years": [
+        {
+          "year": "1984",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "1985",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "1986",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "1991",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2011",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2013",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2015",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2021",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2022",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2024",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "year": "2025",
+          "asset": "flow-sumitomo-hokkaido"
+        }
+      ],
+      "materials": [
+        {
+          "id": "vanadium-sulfate",
+          "asset": "rongke-dalian-tanks"
+        },
+        {
+          "id": "vanadium-mixed-acid",
+          "asset": "material-vanadium-concept"
+        },
+        {
+          "id": "vanadium-membrane",
+          "asset": "material-flow-membrane-concept"
+        },
+        {
+          "id": "vanadium-carbon",
+          "asset": "material-flow-carbon-felt-concept"
+        }
+      ],
+      "companies": [
+        {
+          "id": "vanadium-sumitomo",
+          "asset": "flow-sumitomo-hokkaido"
+        },
+        {
+          "id": "vanadium-invinity",
+          "asset": "flow-invinity-copwood"
+        },
+        {
+          "id": "vanadium-rongke",
+          "asset": "rongke-dalian-site"
+        }
+      ]
+    },
+    {
+      "route": "铁铬液流",
+      "backgrounds": [
+        "flow-iron-chromium-lankao",
+        "material-iron-chromium-concept",
+        "material-flow-carbon-felt-concept",
+        "material-flow-membrane-concept"
+      ],
+      "realPhotos": [
+        "flow-iron-chromium-lankao"
+      ],
+      "years": [
+        {
+          "year": "1974",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "1981",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "1982",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "1983",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "1985",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "2018",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "2023",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "2024",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "2025",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "year": "2026",
+          "asset": "flow-iron-chromium-lankao"
+        }
+      ],
+      "materials": [
+        {
+          "id": "iron-chromium-electrolyte",
+          "asset": "material-iron-chromium-concept"
+        },
+        {
+          "id": "iron-chromium-electrode",
+          "asset": "material-flow-carbon-felt-concept"
+        },
+        {
+          "id": "iron-chromium-membrane",
+          "asset": "material-flow-membrane-concept"
+        }
+      ],
+      "companies": [
+        {
+          "id": "iron-chromium-cesc",
+          "asset": "flow-iron-chromium-lankao"
+        },
+        {
+          "id": "iron-chromium-imabattery"
+        }
+      ]
+    },
+    {
+      "route": "锌溴液流",
+      "backgrounds": [
+        "flow-junan-project",
+        "redflow-zbm-2009",
+        "material-zinc-bromine-concept",
+        "material-flow-membrane-concept"
+      ],
+      "realPhotos": [
+        "flow-junan-project",
+        "redflow-zbm-2009"
+      ],
+      "years": [
+        {
+          "year": "1981",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "1983",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "1985",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "1991",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "2021",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "2023",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "2024",
+          "asset": "flow-junan-project"
+        },
+        {
+          "year": "2025",
+          "asset": "redflow-zbm-2009"
+        },
+        {
+          "year": "2026",
+          "asset": "flow-junan-project"
+        }
+      ],
+      "materials": [
+        {
+          "id": "zinc-bromine-zinc",
+          "asset": "material-zinc-bromine-concept"
+        },
+        {
+          "id": "zinc-bromine-bromine",
+          "asset": "material-zinc-bromine-concept"
+        },
+        {
+          "id": "zinc-bromine-electrolyte",
+          "asset": "material-zinc-bromine-concept"
+        },
+        {
+          "id": "zinc-bromine-membrane",
+          "asset": "material-flow-membrane-concept"
+        }
+      ],
+      "companies": [
+        {
+          "id": "zinc-bromine-junan",
+          "asset": "flow-junan-project"
+        },
+        {
+          "id": "zinc-bromine-redflow-history",
+          "asset": "redflow-zbm-2009"
+        }
+      ]
+    },
+    {
+      "route": "有机液流",
+      "backgrounds": [
+        "flow-quino-pilot",
+        "material-organic-quinone-concept",
+        "material-flow-carbon-felt-concept",
+        "material-flow-membrane-concept",
+        "material-organic-solid-active-concept",
+        "flow-cmblu-mercedes"
+      ],
+      "realPhotos": [
+        "flow-quino-pilot"
+      ],
+      "years": [
+        {
+          "year": "2011",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2014",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2015",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2016",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2018",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2021",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2022",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2023",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2024",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2025",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "year": "2026",
+          "asset": "flow-quino-pilot"
+        }
+      ],
+      "materials": [
+        {
+          "id": "organic-quinone",
+          "asset": "material-organic-quinone-concept"
+        },
+        {
+          "id": "organic-viologen-tempo",
+          "asset": "material-organic-quinone-concept"
+        },
+        {
+          "id": "organic-carbon",
+          "asset": "material-flow-carbon-felt-concept"
+        },
+        {
+          "id": "organic-polymer-membrane",
+          "asset": "material-flow-membrane-concept"
+        },
+        {
+          "id": "organic-solidflow",
+          "asset": "material-organic-solid-active-concept"
+        }
+      ],
+      "companies": [
+        {
+          "id": "organic-quino",
+          "asset": "flow-quino-pilot"
+        },
+        {
+          "id": "organic-cmblu",
+          "asset": "flow-cmblu-mercedes"
+        }
+      ]
+    },
+    {
+      "route": "抽水蓄能",
+      "backgrounds": [
+        "photo-revision-mechanical-cruachan-hall",
+        "mechanical-cruachan-reservoir",
+        "mechanical-cruachan-turbine-hall",
+        "photo-revision-mechanical-edf-grandmaison",
+        "photo-revision-mechanical-fengning-machine-hall"
+      ],
+      "realPhotos": [
+        "photo-revision-mechanical-cruachan-hall",
+        "mechanical-cruachan-reservoir",
+        "mechanical-cruachan-turbine-hall",
+        "photo-revision-mechanical-edf-grandmaison",
+        "photo-revision-mechanical-fengning-machine-hall"
+      ],
+      "years": [
+        {
+          "year": "1890年代",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "1929",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "1965",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "1973",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "1985",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "1990",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "2021",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "2022",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "2024",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        }
+      ],
+      "materials": [
+        {
+          "id": "pumped-hydro-reservoir",
+          "asset": "mechanical-cruachan-reservoir"
+        },
+        {
+          "id": "pumped-hydro-waterway",
+          "asset": "mechanical-cruachan-turbine-hall"
+        },
+        {
+          "id": "pumped-hydro-pump-turbine",
+          "asset": "mechanical-cruachan-turbine-hall"
+        },
+        {
+          "id": "pumped-hydro-variable-speed",
+          "asset": "mechanical-cruachan-turbine-hall"
+        }
+      ],
+      "companies": [
+        {
+          "id": "pumped-hydro-edf",
+          "asset": "photo-revision-mechanical-edf-grandmaison"
+        },
+        {
+          "id": "pumped-hydro-drax",
+          "asset": "photo-revision-mechanical-cruachan-hall"
+        },
+        {
+          "id": "pumped-hydro-state-grid",
+          "asset": "photo-revision-mechanical-fengning-machine-hall"
+        }
+      ]
+    },
+    {
+      "route": "绝热压缩空气",
+      "backgrounds": [
+        "photo-revision-mechanical-feicheng-machinehall",
+        "mechanical-caes-adiabatic-ai",
+        "photo-revision-mechanical-zhangjiakou-expander",
+        "photo-revision-mechanical-hydrostor-goderich",
+        "photo-revision-mechanical-feicheng-panorama"
+      ],
+      "realPhotos": [
+        "photo-revision-mechanical-feicheng-machinehall",
+        "photo-revision-mechanical-zhangjiakou-expander",
+        "photo-revision-mechanical-hydrostor-goderich",
+        "photo-revision-mechanical-feicheng-panorama"
+      ],
+      "years": [
+        {
+          "year": "2010",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2013",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2016",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2017",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2018",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2019",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2022",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2023",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2024",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-mechanical-feicheng-machinehall"
+        }
+      ],
+      "materials": [
+        {
+          "id": "caes-adiabatic-air",
+          "asset": "mechanical-caes-adiabatic-ai"
+        },
+        {
+          "id": "caes-adiabatic-thermal",
+          "asset": "mechanical-caes-adiabatic-ai"
+        },
+        {
+          "id": "caes-adiabatic-machinery",
+          "asset": "photo-revision-mechanical-zhangjiakou-expander"
+        },
+        {
+          "id": "caes-adiabatic-heat-exchanger",
+          "asset": "mechanical-caes-adiabatic-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "caes-adiabatic-hydrostor",
+          "asset": "photo-revision-mechanical-hydrostor-goderich"
+        },
+        {
+          "id": "caes-adiabatic-iet-cas",
+          "asset": "photo-revision-mechanical-zhangjiakou-expander"
+        }
+      ]
+    },
+    {
+      "route": "常规压缩空气",
+      "backgrounds": [
+        "photo-revision-mechanical-huntorf",
+        "photo-revision-mechanical-mcintosh",
+        "mechanical-caes-conventional-ai",
+        "photo-revision-mechanical-huntorf-commons"
+      ],
+      "realPhotos": [
+        "photo-revision-mechanical-huntorf",
+        "photo-revision-mechanical-mcintosh",
+        "photo-revision-mechanical-huntorf-commons"
+      ],
+      "years": [
+        {
+          "year": "1978",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "1991",
+          "asset": "photo-revision-mechanical-mcintosh"
+        },
+        {
+          "year": "2003",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "2010",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "2011",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "2012",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "2019",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "2020",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-mechanical-huntorf"
+        }
+      ],
+      "materials": [
+        {
+          "id": "caes-conventional-air",
+          "asset": "mechanical-caes-conventional-ai"
+        },
+        {
+          "id": "caes-conventional-compressor",
+          "asset": "mechanical-caes-conventional-ai"
+        },
+        {
+          "id": "caes-conventional-combustor",
+          "asset": "mechanical-caes-conventional-ai"
+        },
+        {
+          "id": "caes-conventional-recuperator",
+          "asset": "mechanical-caes-conventional-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "caes-conventional-uniper",
+          "asset": "photo-revision-mechanical-huntorf"
+        },
+        {
+          "id": "caes-conventional-powersouth",
+          "asset": "photo-revision-mechanical-mcintosh"
+        }
+      ]
+    },
+    {
+      "route": "液态空气",
+      "backgrounds": [
+        "photo-revision-mechanical-pilsworth",
+        "mechanical-carrington-groundbreaking",
+        "photo-revision-mechanical-slough-pilot"
+      ],
+      "realPhotos": [
+        "photo-revision-mechanical-pilsworth",
+        "mechanical-carrington-groundbreaking",
+        "photo-revision-mechanical-slough-pilot"
+      ],
+      "years": [
+        {
+          "year": "1977",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2008",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2010",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2013",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2015",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2018",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2022",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2024",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "year": "2026",
+          "asset": "photo-revision-mechanical-pilsworth"
+        }
+      ],
+      "materials": [
+        {
+          "id": "liquid-air-liquid",
+          "asset": "mechanical-carrington-groundbreaking"
+        },
+        {
+          "id": "liquid-air-liquefier",
+          "asset": "mechanical-carrington-groundbreaking"
+        },
+        {
+          "id": "liquid-air-thermal",
+          "asset": "mechanical-carrington-groundbreaking"
+        },
+        {
+          "id": "liquid-air-expander",
+          "asset": "mechanical-carrington-groundbreaking"
+        }
+      ],
+      "companies": [
+        {
+          "id": "liquid-air-highview",
+          "asset": "photo-revision-mechanical-pilsworth"
+        },
+        {
+          "id": "liquid-air-birmingham",
+          "asset": "photo-revision-mechanical-slough-pilot"
+        }
+      ]
+    },
+    {
+      "route": "飞轮",
+      "backgrounds": [
+        "photo-revision-mechanical-amber-miramar",
+        "mechanical-beacon-stephentown",
+        "photo-revision-mechanical-amber-dlsu"
+      ],
+      "realPhotos": [
+        "photo-revision-mechanical-amber-miramar",
+        "mechanical-beacon-stephentown",
+        "photo-revision-mechanical-amber-dlsu"
+      ],
+      "years": [
+        {
+          "year": "1950",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2002",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2004",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2006",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2011",
+          "asset": "mechanical-beacon-stephentown"
+        },
+        {
+          "year": "2014",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2015",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2018",
+          "asset": "mechanical-beacon-stephentown"
+        },
+        {
+          "year": "2024",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        }
+      ],
+      "materials": [
+        {
+          "id": "flywheel-rotor",
+          "asset": "mechanical-beacon-stephentown"
+        },
+        {
+          "id": "flywheel-bearing",
+          "asset": "mechanical-beacon-stephentown"
+        },
+        {
+          "id": "flywheel-vacuum",
+          "asset": "mechanical-beacon-stephentown"
+        },
+        {
+          "id": "flywheel-electronics",
+          "asset": "mechanical-beacon-stephentown"
+        }
+      ],
+      "companies": [
+        {
+          "id": "flywheel-beacon",
+          "asset": "mechanical-beacon-stephentown"
+        },
+        {
+          "id": "flywheel-amber",
+          "asset": "photo-revision-mechanical-amber-miramar"
+        }
+      ]
+    },
+    {
+      "route": "重力储能",
+      "backgrounds": [
+        "photo-revision-mechanical-gravitricity-leith",
+        "mechanical-rudong-gravity",
+        "photo-revision-mechanical-rudong-tower",
+        "mechanical-ares-gravityline",
+        "photo-revision-mechanical-rudong-aerial"
+      ],
+      "realPhotos": [
+        "photo-revision-mechanical-gravitricity-leith",
+        "mechanical-rudong-gravity",
+        "photo-revision-mechanical-rudong-tower",
+        "mechanical-ares-gravityline",
+        "photo-revision-mechanical-rudong-aerial"
+      ],
+      "years": [
+        {
+          "year": "2011",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2016",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2017",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2018",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2020",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2021",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2023",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2024",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "year": "2026",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        }
+      ],
+      "materials": [
+        {
+          "id": "gravity-mass",
+          "asset": "mechanical-rudong-gravity"
+        },
+        {
+          "id": "gravity-hoist",
+          "asset": "mechanical-rudong-gravity"
+        },
+        {
+          "id": "gravity-structure",
+          "asset": "mechanical-rudong-gravity"
+        },
+        {
+          "id": "gravity-control",
+          "asset": "mechanical-rudong-gravity"
+        }
+      ],
+      "companies": [
+        {
+          "id": "gravity-energy-vault",
+          "asset": "photo-revision-mechanical-rudong-tower"
+        },
+        {
+          "id": "gravity-cnty",
+          "asset": "photo-revision-mechanical-rudong-tower"
+        },
+        {
+          "id": "gravity-gravitricity",
+          "asset": "photo-revision-mechanical-gravitricity-leith"
+        },
+        {
+          "id": "gravity-ares",
+          "asset": "mechanical-ares-gravityline"
+        }
+      ]
+    },
+    {
+      "route": "显热储能",
+      "backgrounds": [
+        "thermal-rondo-western",
+        "photo-revision-thermal-antora-module",
+        "photo-revision-thermal-polar",
+        "material-thermal-sensible-ai",
+        "photo-revision-thermal-antora-carbon"
+      ],
+      "realPhotos": [
+        "thermal-rondo-western",
+        "photo-revision-thermal-antora-module",
+        "photo-revision-thermal-polar",
+        "photo-revision-thermal-antora-carbon"
+      ],
+      "years": [
+        {
+          "year": "1975",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "1996",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2001",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2008",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2015",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2018",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2019",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2022",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "year": "2023",
+          "asset": "photo-revision-thermal-antora-module"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-thermal-polar"
+        },
+        {
+          "year": "2026",
+          "asset": "thermal-rondo-western"
+        }
+      ],
+      "materials": [
+        {
+          "id": "thermal-sensible-water",
+          "asset": "material-thermal-sensible-ai"
+        },
+        {
+          "id": "thermal-sensible-salt",
+          "asset": "material-thermal-sensible-ai"
+        },
+        {
+          "id": "thermal-sensible-solid",
+          "asset": "photo-revision-thermal-antora-carbon"
+        },
+        {
+          "id": "thermal-sensible-insulation",
+          "asset": "material-thermal-sensible-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "thermal-sensible-rondo",
+          "asset": "thermal-rondo-western"
+        },
+        {
+          "id": "thermal-sensible-antora",
+          "asset": "photo-revision-thermal-antora-module"
+        }
+      ]
+    },
+    {
+      "route": "潜热储能",
+      "backgrounds": [
+        "thermal-mga-tomago",
+        "photo-revision-thermal-mga-pilot",
+        "material-thermal-latent-ai",
+        "photo-revision-thermal-mga-blocks",
+        "photo-revision-thermal-sunamp-gomon"
+      ],
+      "realPhotos": [
+        "thermal-mga-tomago",
+        "photo-revision-thermal-mga-pilot",
+        "photo-revision-thermal-mga-blocks",
+        "photo-revision-thermal-sunamp-gomon"
+      ],
+      "years": [
+        {
+          "year": "1948",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2011",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2015",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2017",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2018",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2023",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2024",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "year": "2025",
+          "asset": "photo-revision-thermal-mga-pilot"
+        },
+        {
+          "year": "2026",
+          "asset": "thermal-mga-tomago"
+        }
+      ],
+      "materials": [
+        {
+          "id": "thermal-latent-paraffin",
+          "asset": "material-thermal-latent-ai"
+        },
+        {
+          "id": "thermal-latent-salt-hydrate",
+          "asset": "material-thermal-latent-ai"
+        },
+        {
+          "id": "thermal-latent-metal",
+          "asset": "photo-revision-thermal-mga-blocks"
+        },
+        {
+          "id": "thermal-latent-encapsulation",
+          "asset": "material-thermal-latent-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "thermal-latent-mga",
+          "asset": "thermal-mga-tomago"
+        },
+        {
+          "id": "thermal-latent-sunamp",
+          "asset": "photo-revision-thermal-sunamp-gomon"
+        }
+      ]
+    },
+    {
+      "route": "热化学储能",
+      "backgrounds": [
+        "thermal-cache-duke",
+        "material-thermal-thermochemical-ai",
+        "photo-revision-thermal-dlr-reactor",
+        "photo-revision-thermal-saltx",
+        "photo-revision-thermal-tempo-real-0",
+        "photo-revision-thermal-dlr-calogy"
+      ],
+      "realPhotos": [
+        "thermal-cache-duke",
+        "photo-revision-thermal-dlr-reactor",
+        "photo-revision-thermal-saltx",
+        "photo-revision-thermal-tempo-real-0",
+        "photo-revision-thermal-dlr-calogy"
+      ],
+      "years": [
+        {
+          "year": "1977",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2009",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2013",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2015",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2016",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2021",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2022",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2023",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2024",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2025",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "year": "2026",
+          "asset": "thermal-cache-duke"
+        }
+      ],
+      "materials": [
+        {
+          "id": "thermal-thermochemical-adsorption",
+          "asset": "material-thermal-thermochemical-ai"
+        },
+        {
+          "id": "thermal-thermochemical-salt-hydration",
+          "asset": "material-thermal-thermochemical-ai"
+        },
+        {
+          "id": "thermal-thermochemical-hydroxide",
+          "asset": "photo-revision-thermal-dlr-reactor"
+        },
+        {
+          "id": "thermal-thermochemical-carbonation",
+          "asset": "material-thermal-thermochemical-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "thermal-thermochemical-saltx",
+          "asset": "photo-revision-thermal-saltx"
+        },
+        {
+          "id": "thermal-thermochemical-cache",
+          "asset": "thermal-cache-duke"
+        },
+        {
+          "id": "thermal-thermochemical-tempo",
+          "asset": "photo-revision-thermal-tempo-real-0"
+        }
+      ]
+    },
+    {
+      "route": "高压气态储氢",
+      "backgrounds": [
+        "hydrogen-gas-enric-tubebundle",
+        "material-hydrogen-gas-ai",
+        "material-hydrogen-gas-cavern-ai",
+        "hydrogen-hitrf-official",
+        "hydrogen-gas-doe-vessel-2011"
+      ],
+      "realPhotos": [
+        "hydrogen-gas-enric-tubebundle",
+        "hydrogen-hitrf-official"
+      ],
+      "years": [
+        {
+          "year": "1972",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2002",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2005",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2010",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2011",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2013",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2014",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2022",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        },
+        {
+          "year": "2025",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        }
+      ],
+      "materials": [
+        {
+          "id": "hydrogen-gas-liner",
+          "asset": "material-hydrogen-gas-ai"
+        },
+        {
+          "id": "hydrogen-gas-fiber",
+          "asset": "material-hydrogen-gas-ai"
+        },
+        {
+          "id": "hydrogen-gas-controls",
+          "asset": "material-hydrogen-gas-ai"
+        },
+        {
+          "id": "hydrogen-gas-cavern",
+          "asset": "material-hydrogen-gas-cavern-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "hydrogen-gas-nrel-hitrf",
+          "asset": "hydrogen-hitrf-official"
+        },
+        {
+          "id": "hydrogen-gas-hexagon-lincoln",
+          "asset": "hydrogen-gas-doe-vessel-2011"
+        },
+        {
+          "id": "hydrogen-gas-enric",
+          "asset": "hydrogen-gas-enric-tubebundle"
+        }
+      ]
+    },
+    {
+      "route": "液氢储能",
+      "backgrounds": [
+        "hydrogen-liquid-nasa-lh2-sphere",
+        "material-hydrogen-liquid-ai",
+        "genh2-cs900-equipment",
+        "hydrogen-liquid-enric-tank",
+        "genh2-macroflash"
+      ],
+      "realPhotos": [
+        "hydrogen-liquid-nasa-lh2-sphere",
+        "genh2-cs900-equipment",
+        "hydrogen-liquid-enric-tank",
+        "genh2-macroflash"
+      ],
+      "years": [
+        {
+          "year": "1898",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "1963",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2013",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2015",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2017",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2022",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2023",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2024",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2025",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "year": "2026",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        }
+      ],
+      "materials": [
+        {
+          "id": "hydrogen-liquid-vessel",
+          "asset": "material-hydrogen-liquid-ai"
+        },
+        {
+          "id": "hydrogen-liquid-insulation",
+          "asset": "material-hydrogen-liquid-ai"
+        },
+        {
+          "id": "hydrogen-liquid-conversion",
+          "asset": "material-hydrogen-liquid-ai"
+        },
+        {
+          "id": "hydrogen-liquid-transfer",
+          "asset": "material-hydrogen-liquid-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "hydrogen-liquid-nasa-ksc",
+          "asset": "hydrogen-liquid-nasa-lh2-sphere"
+        },
+        {
+          "id": "hydrogen-liquid-genh2-doe",
+          "asset": "genh2-cs900-equipment"
+        },
+        {
+          "id": "hydrogen-liquid-enric",
+          "asset": "hydrogen-liquid-enric-tank"
+        }
+      ]
+    },
+    {
+      "route": "固态储氢",
+      "backgrounds": [
+        "hydrogen-solid-gkn-nrel-flatirons",
+        "material-hydrogen-solid-ai"
+      ],
+      "realPhotos": [
+        "hydrogen-solid-gkn-nrel-flatirons"
+      ],
+      "years": [
+        {
+          "year": "1970",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "1974",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "1997",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "2003",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "2022",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "2023",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "2024",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "2025",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        },
+        {
+          "year": "2026",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        }
+      ],
+      "materials": [
+        {
+          "id": "hydrogen-solid-intermetallic",
+          "asset": "material-hydrogen-solid-ai"
+        },
+        {
+          "id": "hydrogen-solid-magnesium",
+          "asset": "material-hydrogen-solid-ai"
+        },
+        {
+          "id": "hydrogen-solid-complex",
+          "asset": "material-hydrogen-solid-ai"
+        },
+        {
+          "id": "hydrogen-solid-adsorbent",
+          "asset": "material-hydrogen-solid-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "hydrogen-solid-gkn-nrel",
+          "asset": "hydrogen-solid-gkn-nrel-flatirons"
+        }
+      ]
+    },
+    {
+      "route": "化学载体储氢",
+      "backgrounds": [
+        "hydrogen-carrier-lohc-erlangen",
+        "material-hydrogen-carrier-ai",
+        "hydrogen-carrier-syzygy-lotte-ulsan"
+      ],
+      "realPhotos": [
+        "hydrogen-carrier-lohc-erlangen",
+        "hydrogen-carrier-syzygy-lotte-ulsan"
+      ],
+      "years": [
+        {
+          "year": "1913",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2008",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2013",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2014",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2020",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2022",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2024",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2025",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "year": "2026",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        }
+      ],
+      "materials": [
+        {
+          "id": "hydrogen-carrier-lohc",
+          "asset": "material-hydrogen-carrier-ai"
+        },
+        {
+          "id": "hydrogen-carrier-ammonia",
+          "asset": "material-hydrogen-carrier-ai"
+        },
+        {
+          "id": "hydrogen-carrier-methanol",
+          "asset": "material-hydrogen-carrier-ai"
+        },
+        {
+          "id": "hydrogen-carrier-formic",
+          "asset": "material-hydrogen-carrier-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "hydrogen-carrier-hydrogenious",
+          "asset": "hydrogen-carrier-lohc-erlangen"
+        },
+        {
+          "id": "hydrogen-carrier-syzygy-lotte",
+          "asset": "hydrogen-carrier-syzygy-lotte-ulsan"
+        },
+        {
+          "id": "hydrogen-carrier-sinopec-lohc"
+        }
+      ]
+    },
+    {
+      "route": "超级电容",
+      "backgrounds": [
+        "supercapacitor-skeleton-d60-cells",
+        "supercapacitor-inl-ultracap-test",
+        "material-supercapacitor-ai",
+        "supercapacitor-skelmod-162v",
+        "supercapacitor-leipzig-production",
+        "supercapacitor-jianghai-edlc-module"
+      ],
+      "realPhotos": [
+        "supercapacitor-skeleton-d60-cells",
+        "supercapacitor-inl-ultracap-test",
+        "supercapacitor-skelmod-162v",
+        "supercapacitor-leipzig-production",
+        "supercapacitor-jianghai-edlc-module"
+      ],
+      "years": [
+        {
+          "year": "1957",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "1966",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "2006",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "2010",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "2013",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "2015",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "2021",
+          "asset": "supercapacitor-inl-ultracap-test"
+        },
+        {
+          "year": "2023",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        },
+        {
+          "year": "2025",
+          "asset": "supercapacitor-skeleton-d60-cells"
+        }
+      ],
+      "materials": [
+        {
+          "id": "supercapacitor-carbon",
+          "asset": "material-supercapacitor-ai"
+        },
+        {
+          "id": "supercapacitor-pseudocapacitive",
+          "asset": "material-supercapacitor-ai"
+        },
+        {
+          "id": "supercapacitor-electrolyte",
+          "asset": "material-supercapacitor-ai"
+        },
+        {
+          "id": "supercapacitor-module",
+          "asset": "supercapacitor-skelmod-162v"
+        }
+      ],
+      "companies": [
+        {
+          "id": "supercapacitor-skeleton",
+          "asset": "supercapacitor-leipzig-production"
+        },
+        {
+          "id": "supercapacitor-jianghai",
+          "asset": "supercapacitor-jianghai-edlc-module"
+        },
+        {
+          "id": "supercapacitor-inl-idaho-falls",
+          "asset": "supercapacitor-inl-ultracap-test"
+        }
+      ]
+    },
+    {
+      "route": "超导磁储能",
+      "backgrounds": [
+        "smes-kyuden-module",
+        "material-smes-ai",
+        "smes-kyuden-coil",
+        "smes-cas-2025-magnet",
+        "smes-zhongshan-groundbreaking",
+        "smes-kyuden-control"
+      ],
+      "realPhotos": [
+        "smes-kyuden-module",
+        "smes-kyuden-coil",
+        "smes-cas-2025-magnet",
+        "smes-zhongshan-groundbreaking",
+        "smes-kyuden-control"
+      ],
+      "years": [
+        {
+          "year": "1970",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "1981",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "1983",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "2003",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "2007",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "2013",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "2024",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "2025",
+          "asset": "smes-kyuden-module"
+        },
+        {
+          "year": "2026",
+          "asset": "smes-kyuden-module"
+        }
+      ],
+      "materials": [
+        {
+          "id": "smes-conductor",
+          "asset": "material-smes-ai"
+        },
+        {
+          "id": "smes-magnet",
+          "asset": "smes-kyuden-coil"
+        },
+        {
+          "id": "smes-cryogenic",
+          "asset": "smes-cas-2025-magnet"
+        },
+        {
+          "id": "smes-converter",
+          "asset": "material-smes-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "smes-zhongshan-project",
+          "asset": "smes-zhongshan-groundbreaking"
+        },
+        {
+          "id": "smes-kyuden",
+          "asset": "smes-kyuden-module"
+        }
+      ]
+    },
+    {
+      "route": "铅酸",
+      "backgrounds": [
+        "ec-lead-acid-tianneng-tn12-150",
+        "material-electrochemical-lead-acid-ai",
+        "enersys-powersafe-sbs-official"
+      ],
+      "realPhotos": [
+        "ec-lead-acid-tianneng-tn12-150",
+        "enersys-powersafe-sbs-official"
+      ],
+      "years": [
+        {
+          "year": "1859",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "1881",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "1957",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "1973",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "2007",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "2009",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "2011",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "2012",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "2023",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "year": "2024",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        }
+      ],
+      "materials": [
+        {
+          "id": "lead-material-pbo2",
+          "asset": "material-electrochemical-lead-acid-ai"
+        },
+        {
+          "id": "lead-material-negative",
+          "asset": "material-electrochemical-lead-acid-ai"
+        },
+        {
+          "id": "lead-material-electrolyte",
+          "asset": "material-electrochemical-lead-acid-ai"
+        },
+        {
+          "id": "lead-material-thin-plate",
+          "asset": "material-electrochemical-lead-acid-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "electrochemical-lead-acid-tianneng",
+          "asset": "ec-lead-acid-tianneng-tn12-150"
+        },
+        {
+          "id": "electrochemical-lead-acid-enersys",
+          "asset": "enersys-powersafe-sbs-official"
+        }
+      ]
+    },
+    {
+      "route": "锌基电池",
+      "backgrounds": [
+        "ec-zinc-eos-z3-cutaway",
+        "material-electrochemical-zinc-ai",
+        "photo-company-extra-hfips-salon3",
+        "hfips-zinc-hydrogel-2025"
+      ],
+      "realPhotos": [
+        "photo-company-extra-hfips-salon3"
+      ],
+      "years": [
+        {
+          "year": "1800",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2012",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2016",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2017",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2018",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2023",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2024",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2025",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "year": "2026",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        }
+      ],
+      "materials": [
+        {
+          "id": "zinc-material-anode",
+          "asset": "material-electrochemical-zinc-ai"
+        },
+        {
+          "id": "zinc-material-cathode",
+          "asset": "material-electrochemical-zinc-ai"
+        },
+        {
+          "id": "zinc-material-electrolyte",
+          "asset": "material-electrochemical-zinc-ai"
+        },
+        {
+          "id": "zinc-material-separator",
+          "asset": "material-electrochemical-zinc-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "electrochemical-zinc-eos",
+          "asset": "ec-zinc-eos-z3-cutaway"
+        },
+        {
+          "id": "electrochemical-zinc-hfips",
+          "asset": "photo-company-extra-hfips-salon3"
+        }
+      ]
+    },
+    {
+      "route": "金属空气",
+      "backgrounds": [
+        "ec-metal-air-form-grid-test",
+        "material-electrochemical-metal-air-ai",
+        "photo-company-extra-sinap-gate"
+      ],
+      "realPhotos": [
+        "ec-metal-air-form-grid-test",
+        "photo-company-extra-sinap-gate"
+      ],
+      "years": [
+        {
+          "year": "1933",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "1978",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "1996",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2006",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2012",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2018",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2021",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2023",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2024",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2025",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "year": "2026",
+          "asset": "ec-metal-air-form-grid-test"
+        }
+      ],
+      "materials": [
+        {
+          "id": "metal-air-material-iron",
+          "asset": "material-electrochemical-metal-air-ai"
+        },
+        {
+          "id": "metal-air-material-air",
+          "asset": "material-electrochemical-metal-air-ai"
+        },
+        {
+          "id": "metal-air-material-electrolyte",
+          "asset": "material-electrochemical-metal-air-ai"
+        },
+        {
+          "id": "metal-air-material-reversible",
+          "asset": "material-electrochemical-metal-air-ai"
+        }
+      ],
+      "companies": [
+        {
+          "id": "electrochemical-metal-air-form",
+          "asset": "ec-metal-air-form-grid-test"
+        },
+        {
+          "id": "electrochemical-metal-air-sinap",
+          "asset": "photo-company-extra-sinap-gate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+.workspace-v2-research-material .app-main { position: relative; }
+.workspace-v2-research-material .app-main > .energy-material-backdrop { position: absolute; z-index: 0; top: 32px; right: 0; width: min(84%, 1100px); height: 540px; pointer-events: none; animation: none !important; opacity: .15; background: url('/workspace/motion/electrode-carbon-albedo-v1.png') center / cover; filter: grayscale(.72) contrast(.72); -webkit-mask-image: radial-gradient(ellipse at 100% 44%, #000 0%, transparent 73%); mask-image: radial-gradient(ellipse at 100% 44%, #000 0%, transparent 73%); }
+html[data-theme='dark'] .workspace-v2-research-material .app-main > .energy-material-backdrop { opacity: .13; filter: grayscale(.55) contrast(.85); }
+@media (max-width: 700px) { .workspace-v2-research-material .app-main > .energy-material-backdrop, html[data-theme='dark'] .workspace-v2-research-material .app-main > .energy-material-backdrop { width: 100%; height: 460px; opacity: .1; } }

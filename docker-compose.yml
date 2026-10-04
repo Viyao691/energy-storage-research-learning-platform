@@ -1,0 +1,46 @@
+services:
+  backend:
+    restart: unless-stopped
+    build:
+      context: ./backend
+    env_file: .env
+    environment:
+      DATABASE_URL: sqlite:////app/data/energy_copilot.db
+      PAPER_STORAGE_PATH: /app/data/papers
+      DOCUMENT_AI_MODEL_PATH: /app/models
+      PADDLE_PDX_CACHE_HOME: /app/models/paddlex
+      DOCLING_ARTIFACTS_PATH: /app/models/docling
+      DOCLING_ENABLE_REMOTE_SERVICES: "false"
+      DOCLING_ALLOW_EXTERNAL_PLUGINS: "false"
+    volumes:
+      - energy_data:/app/data
+      - document_ai_models:/app/models
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "127.0.0.1:${BACKEND_HOST_PORT:-8000}:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    restart: unless-stopped
+    build:
+      context: ./frontend
+      args:
+        NPM_REGISTRY: ${NPM_REGISTRY:-https://registry.npmjs.org}
+    environment:
+      BACKEND_API_URL: http://backend:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${FRONTEND_HOST_PORT:-3000}:3000"
+
+volumes:
+  energy_data:
+    name: energy_copilot_data
+  document_ai_models:
+    name: energy_copilot_document_ai_models

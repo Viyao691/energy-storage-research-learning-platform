@@ -1,0 +1,173 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    name: Backend tests (Python 3.12)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+
+      - name: Run backend tests
+        run: python -m pytest tests -q
+        env:
+          DATABASE_URL: sqlite:////tmp/ci/energy_copilot.db
+          PAPER_STORAGE_PATH: /tmp/ci/papers
+          MODEL_PROVIDER: mock
+
+  production-integrations:
+    name: PostgreSQL migrations and Redis/RQ integration
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_DB: energy_test
+          POSTGRES_USER: energy
+          POSTGRES_PASSWORD: test-only-password
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U energy -d energy_test"
+          --health-interval 10s --health-timeout 5s --health-retries 10
+      redis:
+        image: redis:8.2.1-alpine
+        ports: ["6379:6379"]
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s --health-timeout 5s --health-retries 10
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - name: Upgrade empty PostgreSQL database
+        run: alembic -c alembic.ini upgrade head
+        env:
+          DATABASE_URL: postgresql+psycopg://energy:test-only-password@localhost:5432/energy_test
+      - name: Verify PostgreSQL and real Redis/RQ
+        run: python -m pytest tests/test_production_integrations_phase7.py -q
+        env:
+          POSTGRES_TEST_URL: postgresql+psycopg://energy:test-only-password@localhost:5432/energy_test
+          REDIS_TEST_URL: redis://localhost:6379/15
+
+  frontend:
+    name: Frontend tests, types & build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check (tsc)
+        run: npx tsc --noEmit
+
+      - name: Frontend tests
+        run: npm run test
+
+      - name: Production build
+        run: npm run build
+
+      - name: Check generated types are in sync with OpenAPI schema
+        run: |
+          npm run generate:types
+          git diff --exit-code -- lib/api.generated.d.ts || {
+            echo "::error::frontend/lib/api.generated.d.ts is out of date. Run: npm run generate:types after backend schema changes."
+            exit 1
+          }
+
+  openapi:
+    name: OpenAPI schema export check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install backend dependencies
+        working-directory: backend
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Export OpenAPI schema and check drift
+        working-directory: backend
+        run: |
+          python -m scripts.export_openapi
+          git diff --exit-code -- openapi.json || {
+            echo "::error::backend/openapi.json is out of date. Run: python -m scripts.export_openapi in backend/ after schema changes."
+            exit 1
+          }
+        env:
+          DATABASE_URL: sqlite:////tmp/ci/ci.db
+          PAPER_STORAGE_PATH: /tmp/ci/papers
+          MODEL_PROVIDER: mock
+
+  security:
+    name: Dependency and secret safety
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install audit tools and dependencies
+        working-directory: backend
+        run: pip install -r requirements.txt -r requirements-dev.txt
+      - name: Static security scan
+        working-directory: backend
+        run: bandit -r app -x tests -ll
+      - name: Python dependency audit
+        working-directory: backend
+        run: pip-audit -r requirements.txt
+      - name: Secret scanner self-test and repository scan
+        working-directory: backend
+        run: python -m scripts.scan_secrets --self-test
+      - name: Frontend dependency audit
+        working-directory: frontend
+        run: npm ci --ignore-scripts && node scripts/audit-policy.mjs

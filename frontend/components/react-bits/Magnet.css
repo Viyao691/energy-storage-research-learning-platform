@@ -1,0 +1,2 @@
+.react-bits-magnet { position: relative; display: inline-block; }
+@media (prefers-reduced-motion: reduce), (hover: none) { .react-bits-magnet > div { transform: none !important; transition: none !important; } }

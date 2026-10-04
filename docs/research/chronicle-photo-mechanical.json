@@ -1,0 +1,330 @@
+{
+  "assets": [
+    {
+      "id": "photo-revision-mechanical-cruachan-hall",
+      "src": "/chronicle/photo-revision-mechanical-cruachan-hall.jpg",
+      "alt": "Drax图集中的Cruachan地下抽水蓄能机组大厅实景",
+      "sourceUrl": "https://www.drax.com/uk/what-we-do/cruachan-power-station/",
+      "imageUrl": "https://www.drax.com/wp-content/uploads/2025/12/Cruachan_brand_assets_2019-45-1920x1080.jpg",
+      "credit": "Drax Group plc",
+      "license": "Drax媒体图片，非开放许可；本项目依授权用于本地非商业研究展示并署名。Drax新闻媒体条款限定新闻编辑用途；外部再发布需依Drax条款另行确认。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "不同于已登记的Cruachan机组图；Drax官方Cruachan图库的地下机组大厅照片，表示现有抽水蓄能设施背景，不代表Cruachan 2规划项目。",
+      "subjects": [
+        "company:pumped-hydro-drax",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "适合Cruachan/Drax历史及设备内容；不是新扩建项目实景。"
+    },
+    {
+      "id": "photo-revision-mechanical-zhangjiakou-expander",
+      "src": "/chronicle/photo-revision-mechanical-zhangjiakou-expander.png",
+      "alt": "张家口100MW先进压缩空气储能示范项目安装中的膨胀机主机",
+      "sourceUrl": "https://iet.cas.cn/news/zh/202112/t20211208_6290573.html",
+      "imageUrl": "https://iet.cas.cn/news/zh/202112/W020211208582760014377.png",
+      "credit": "中国科学院工程热物理研究所",
+      "license": "研究所新闻图，页面未声明开放许可；按用户授权用于本地研究展示并注明原出处，不代表外部发布权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2021-12-08报道核心膨胀机主机完成安装；当时报道写计划年底试运行，本图只证明安装节点，不作为后续投运状态证明。",
+      "subjects": [
+        "company:caes-adiabatic-iet-cas",
+        "route:caes-adiabatic:papers",
+        "material:caes-adiabatic-machinery",
+        "event:caes-adiabatic:2021"
+      ],
+      "bindingNotes": "绑定张家口膨胀机及其2021安装节点；不借作传统补燃CAES图片。"
+    },
+    {
+      "id": "photo-revision-mechanical-feicheng-panorama",
+      "src": "/chronicle/photo-revision-mechanical-feicheng-panorama.png",
+      "alt": "肥城300MW先进压缩空气储能电站项目全景",
+      "sourceUrl": "https://www.cas.cn/cm/202404/t20240430_5013393.shtml",
+      "imageUrl": "https://www.cas.cn/cm/202404/W020240430584062796835.png",
+      "credit": "中国科学院工程热物理研究所供图，经中国科学院页面刊载",
+      "license": "官方新闻图片，未标开放许可；按用户授权用于本地研究展示并保留署名，外部再发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2024-04-30首次并网报道配图；肥城先进CAES为回收压缩热的先进系统，不属于传统补燃CAES。",
+      "subjects": [
+        "company:caes-adiabatic-iet-cas",
+        "route:caes-adiabatic:storage",
+        "event:caes-adiabatic:2024"
+      ],
+      "bindingNotes": "匹配肥城项目并网/储能章节，不标记为张家口项目。"
+    },
+    {
+      "id": "photo-revision-mechanical-feicheng-machinehall",
+      "src": "/chronicle/photo-revision-mechanical-feicheng-machinehall.png",
+      "alt": "肥城300MW先进压缩空气储能国家示范电站主厂房内景",
+      "sourceUrl": "https://www.cas.cn/cm/202404/t20240430_5013393.shtml",
+      "imageUrl": "https://www.cas.cn/cm/202404/W020240430584062917923.png",
+      "credit": "中国科学院工程热物理研究所供图，经中国科学院页面刊载",
+      "license": "官方新闻图片，未标开放许可；按用户授权用于本地研究展示并保留署名，外部再发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2024-04-30首次并网报道所配主厂房实景；照片对应肥城先进CAES，不能外推为所有CAES厂房布局。",
+      "subjects": [
+        "company:caes-adiabatic-iet-cas",
+        "route:caes-adiabatic:storage",
+        "event:caes-adiabatic:2024"
+      ],
+      "bindingNotes": "与肥城全景为不同机位、同一项目；可作为厂内设备与站区的两种视角。"
+    },
+    {
+      "id": "photo-revision-mechanical-huntorf",
+      "src": "/chronicle/photo-revision-mechanical-huntorf.webp",
+      "alt": "德国联邦政府储能专题刊载的Huntorf压缩空气储能电站照片",
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/schwerpunkte/adele-koennte-nach-stassfurt-kommen-411972",
+      "imageUrl": "https://www.bundesregierung.de/resource/image/239660/16x9/1023/575/8c468ebd9aa612041d63076b32835271/64F2F2A033F5101300ED6041431A3217/2012-02-01-druckluftspeicher-kraftwerk-in-huntorf.webp",
+      "credit": "E.ON Kraftwerke GmbH（政府页面原署名）",
+      "license": "德国联邦政府页面刊载的历史照片，未声明开放许可；本地研究展示依用户授权，保留原署名，不代表外部复用权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2012-02-02联邦政府文章用该图说明自1978年运行的Huntorf传统补燃CAES；照片不是1978年建成时的历史档案。",
+      "subjects": [
+        "company:caes-conventional-uniper",
+        "route:caes-conventional:history"
+      ],
+      "bindingNotes": "可用于Huntorf/Uniper常规CAES背景，不作为A-CAES示例。"
+    },
+    {
+      "id": "photo-revision-mechanical-huntorf-commons",
+      "src": "/chronicle/photo-revision-mechanical-huntorf-commons.jpg",
+      "alt": "从德国下萨克森州L865公路旁拍摄的Huntorf压缩空气储能电站",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kraftwerk_Huntorf.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kraftwerk_Huntorf.jpg/1280px-Kraftwerk_Huntorf.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "credit": "KGF / Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International（CC BY 4.0）；署名KGF，链接来源与https://creativecommons.org/licenses/by/4.0，并说明如有编辑。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "作者标注拍摄于2025-07-09，是当前厂区视角；不是Huntorf1978投运时照片。",
+      "subjects": [
+        "company:caes-conventional-uniper",
+        "route:caes-conventional:history"
+      ],
+      "bindingNotes": "Huntorf现场外观的CC BY授权视角；与2012政府文章照片不同。"
+    },
+    {
+      "id": "photo-revision-mechanical-mcintosh",
+      "src": "/chronicle/photo-revision-mechanical-mcintosh.jpg",
+      "alt": "NETL CAES研讨会演示文稿中标注的阿拉巴马州McIntosh CAES电站照片",
+      "sourceUrl": "https://netl.doe.gov/sites/default/files/netl-file/22TMCES_VanWalleghem.pdf",
+      "imageUrl": "https://netl.doe.gov/sites/default/files/netl-file/22TMCES_VanWalleghem.pdf（第3页嵌入图像）",
+      "credit": "DOE/NETL研讨会材料；幻灯片图注指明McIntosh CAES Plant in McIntosh, Alabama，原照片作者未在该幻灯片标明",
+      "license": "政府实验室公开演示文稿中的照片；原照片权利未在幻灯片单独说明。仅依授权用于本地研究展示并保留来源，不宣称公共领域或可外发。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "从可公开访问的DOE NETL CAES技术研讨会PDF第3页提取照片；仅显示McIntosh设施。该源文件还含Hydrostor图，本项目未提取或复用它。",
+      "subjects": [
+        "company:caes-conventional-powersouth",
+        "route:caes-conventional:history"
+      ],
+      "bindingNotes": "McIntosh为1991投运的传统补燃CAES；不把站址内其他天然气机组混为CAES设备。"
+    },
+    {
+      "id": "photo-revision-mechanical-pilsworth",
+      "src": "/chronicle/photo-revision-mechanical-pilsworth.jpg",
+      "alt": "Highview Power Pilsworth液态空气储能示范站实景",
+      "sourceUrl": "https://highviewpower.com/news-announcements/world-first-liquid-air-energy-storage-plant/",
+      "imageUrl": "https://highviewpower.com/wp-content/uploads/2018/06/Highview-Power-Worlds-first-liquid-air-energy-storage-plant-1-scaled-1-1024x683.jpg",
+      "credit": "Highview Power",
+      "license": "Highview官方新闻图，未标开放许可；按用户授权用于本地非商业研究展示并署名，外部发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2018-06-05公告的Pilsworth 5MW/15MWh并网级示范照片；原公告称当时正式启动，不据此推断其目前仍运行。",
+      "subjects": [
+        "company:liquid-air-highview",
+        "route:liquid-air:history",
+        "event:liquid-air:2018"
+      ],
+      "bindingNotes": "精确匹配Pilsworth液空示范；不是普通低温工业厂或电池站。"
+    },
+    {
+      "id": "photo-revision-mechanical-slough-pilot",
+      "src": "/chronicle/photo-revision-mechanical-slough-pilot.jpg",
+      "alt": "Highview 350kW/2.5MWh液态空气储能试验装置照片",
+      "sourceUrl": "https://www.birmingham.ac.uk/news-archive/2015/singaporean-delegation-explore-innovative-birmingham-research-in-cold-and-power",
+      "imageUrl": "https://www.birmingham.ac.uk/Images/College-EPS-only/Energy/Highview-Power-Storage-pilot-liquid-air-energy-storage-plant-in-Slough-Cropped-453x328-Cropped-249x180.x492771e1.jpg?f=webp&q=80&w=1440",
+      "credit": "Highview Power Storage / University of Birmingham刊载",
+      "license": "大学新闻照片，未声明开放许可；依授权用于本地研究展示并署名，不宣称可公开再发布。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "大学2015年访问报道中的Highview试验系统；该350kW/2.5MWh系统2014年从Slough移至伯明翰研究平台，照片不代表当前持续运行。",
+      "subjects": [
+        "company:liquid-air-highview",
+        "company:liquid-air-birmingham",
+        "route:liquid-air:history"
+      ],
+      "bindingNotes": "适合液空研发/装置历史，不绑定未经来源支持的具体年份节点。"
+    },
+    {
+      "id": "photo-revision-mechanical-amber-miramar",
+      "src": "/chronicle/photo-revision-mechanical-amber-miramar.jpg",
+      "alt": "Amber Kinetics在Miramar航展展示的集装箱式飞轮储能系统",
+      "sourceUrl": "https://amberkinetics.com/pr/amber-kinetics-unveils-new-containerized-installation-system/",
+      "imageUrl": "https://amberkinetics.com/wp-content/uploads/2025/05/hq720.jpg",
+      "credit": "Amber Kinetics, Inc.",
+      "license": "企业官方新闻图，未标开放许可；依授权用于本地非商业研究展示并署名，外部发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司文章记载系统于2024年Miramar航展亮相，后续测试/安装为计划；此图只作为产品展示背景，不声称该图就是2025年已调试完成现场。",
+      "subjects": [
+        "company:flywheel-amber",
+        "route:flywheel:history"
+      ],
+      "bindingNotes": "对应Amber Kinetics的集装箱式飞轮路线；2025正式调试状态另由其公告支持。"
+    },
+    {
+      "id": "photo-revision-mechanical-amber-dlsu",
+      "src": "/chronicle/photo-revision-mechanical-amber-dlsu.png",
+      "alt": "Amber Kinetics菲律宾德拉萨大学飞轮创新安装现场",
+      "sourceUrl": "https://amberkinetics.com/installation/the-worlds-only-flywheel-innovation-hub/",
+      "imageUrl": "https://amberkinetics.com/wp-content/uploads/2020/05/DLSU.png",
+      "credit": "Amber Kinetics, Inc.",
+      "license": "企业官方案例照片，未标开放许可；依授权用于本地非商业研究展示并署名，外部发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Amber Kinetics称德拉萨大学新产品导入安装于2020年初投运并用于测试、原型验证与安全测试。",
+      "subjects": [
+        "company:flywheel-amber",
+        "route:flywheel:history",
+        "event:flywheel:2020"
+      ],
+      "bindingNotes": "与2011 Beacon站场景不同，展示Amber Kinetics的研发/安装背景。"
+    },
+    {
+      "id": "photo-revision-mechanical-gravitricity-leith",
+      "src": "/chronicle/photo-revision-mechanical-gravitricity-leith.jpg",
+      "alt": "Gravitricity在爱丁堡Leith搭建的250kW重力储能演示设备",
+      "sourceUrl": "https://gravitricity.com/gravitricity-250kw-demonstrator-stores-power-for-first-time/",
+      "imageUrl": "https://gravitricity.com/wp-content/uploads/2023/12/Projects-gravitricity-Demonstrator-500px.jpg",
+      "credit": "Gravitricity Ltd",
+      "license": "Gravitricity官方项目照片，未标开放许可；依授权用于本地研究展示并署名，外部发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司于2021年完成250kW并网演示，使用15米试验架和两只各25吨重物；照片为实际Leith演示装置，不代表商业矿井项目已投运。",
+      "subjects": [
+        "company:gravity-gravitricity",
+        "route:gravity:history",
+        "event:gravity:2021"
+      ],
+      "bindingNotes": "与Energy Vault如东塔式项目、ARES轨道方案画面分开。"
+    },
+    {
+      "id": "photo-revision-mechanical-rudong-tower",
+      "src": "/chronicle/photo-revision-mechanical-rudong-tower.jpg",
+      "alt": "Energy Vault如东EVx重力储能塔施工中的实景",
+      "sourceUrl": "https://www.energyvault.com/projects/rudong",
+      "imageUrl": "https://www.energyvault.com/hubfs/raw_assets/public/ev-website-2026/images/proj-rudong-2.jpg",
+      "credit": "Energy Vault",
+      "license": "企业官方项目图库，未标开放许可；依授权用于本地非商业研究展示并署名，外部发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官方项目图库将该图说明为如东EVx施工中的重力储能塔；图片未单独注明拍摄日，故只说明施工阶段，不绑定某年施工节点。",
+      "subjects": [
+        "company:gravity-energy-vault",
+        "company:gravity-cnty",
+        "route:gravity:history"
+      ],
+      "bindingNotes": "具体如东EVx项目；图片展示施工状态，不作为商业运营状态证明。"
+    },
+    {
+      "id": "photo-revision-mechanical-rudong-aerial",
+      "src": "/chronicle/photo-revision-mechanical-rudong-aerial.jpg",
+      "alt": "如东EVx重力储能塔施工期航拍图",
+      "sourceUrl": "https://www.energyvault.com/projects/rudong",
+      "imageUrl": "https://www.energyvault.com/hubfs/raw_assets/public/ev-website-2026/images/proj-v42-rudong-c3.jpg",
+      "credit": "Energy Vault",
+      "license": "企业官方项目图库，未标开放许可；依授权用于本地非商业研究展示并署名，外部发布需另行核权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官方项目图库标注为如东EVx塔的航拍施工景观；拍摄日未标注，不将施工画面解释成已投运全景。",
+      "subjects": [
+        "company:gravity-energy-vault",
+        "company:gravity-cnty",
+        "route:gravity:history"
+      ],
+      "bindingNotes": "与厂房拖车组装图、Gravitricity井架演示以及ARES开发场地互不替代。"
+    },
+    {
+      "id": "photo-revision-mechanical-edf-grandmaison",
+      "src": "/chronicle/photo-revision-mechanical-edf-grandmaison.jpg",
+      "alt": "EDF Grand’Maison抽水蓄能电站1号机组检修回装中的大型转子部件",
+      "sourceUrl": "https://www.edf.fr/hydraulique-isere-drome/centrale-edf-grandmaison-un-controle-inedit-depuis-sa-mise-en-fonctionnement",
+      "imageUrl": "https://www.edf.fr/sites/groupe/files/styles/img_1066x800/public/2024-05/remontage%201.jpg?itok=Mg0_WBqR",
+      "credit": "© EDF – medeo（EDF官方页面署名）",
+      "license": "EDF版权；来源未标注CC开放许可或外部再发布许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "EDF 2024-05-13官方维护报道中，Grand’Maison 1号发电机组检修后的回装现场照片。表示该具体抽水蓄能电站设备维护背景，不作为某一新年度建设节点。",
+      "subjects": [
+        "company:pumped-hydro-edf",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "精确匹配EDF Grand’Maison设施及机组，不与Drax或丰宁项目混用。"
+    },
+    {
+      "id": "photo-revision-mechanical-fengning-machine-hall",
+      "src": "/chronicle/photo-revision-mechanical-fengning-machine-hall.jpg",
+      "alt": "丰宁抽水蓄能电站地下厂房内的部分机组",
+      "sourceUrl": "https://www.fengning.gov.cn/art/2023/1/31/art_3203_910576.html",
+      "imageUrl": "https://www.fengning.gov.cn/cms_files/jcms1/web33/site/picture/-1/230131103816046009.jpg",
+      "credit": "张腾扬、李佳园摄影报道（原页面图注）",
+      "license": "丰宁县政府网站转载图片；来源未声明CC开放许可或外部再发布许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "丰宁县政府官网转载页面图注为“丰宁抽水蓄能电站部分机组”，刊于2023-01-31。用于国网新源丰宁电站和机组背景，不绑定具体投产年度节点。",
+      "subjects": [
+        "company:pumped-hydro-state-grid",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "精确匹配国网新源丰宁；不是抽蓄原理图，也不代表其他国网项目。"
+    },
+    {
+      "id": "photo-revision-mechanical-fengning-lower-reservoir",
+      "src": "/chronicle/photo-revision-mechanical-fengning-lower-reservoir.jpg",
+      "alt": "丰宁抽水蓄能电站下水库航拍实景",
+      "sourceUrl": "https://www.fengning.gov.cn/art/2023/1/31/art_3203_910576.html",
+      "imageUrl": "https://www.fengning.gov.cn/cms_files/jcms1/web33/site/picture/-1/230131103816319021.jpg",
+      "credit": "张腾扬、李佳园摄影报道（原页面图注）",
+      "license": "丰宁县政府网站转载图片；来源未声明CC开放许可或外部再发布许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "丰宁县政府官网转载页面图注为“丰宁抽水蓄能电站下水库”，刊于2023-01-31。对应真实水库现场，不能与机组照片互相替代。",
+      "subjects": [
+        "company:pumped-hydro-state-grid",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "精确匹配国网新源丰宁下水库设施背景，不绑定具体投产年度节点。"
+    },
+    {
+      "id": "photo-revision-mechanical-hydrostor-goderich",
+      "src": "/chronicle/photo-revision-mechanical-hydrostor-goderich.jpg",
+      "alt": "Hydrostor Goderich先进压缩空气储能设施的管路与设备现场",
+      "sourceUrl": "https://hydrostor.ca/wp-content/uploads/2025/04/Hydrostor-Brochure.pdf#page=3",
+      "imageUrl": "https://hydrostor.ca/wp-content/uploads/2025/04/Hydrostor-Brochure.pdf#page=3（图注：Goderich Energy Storage Center – Ontario, Canada）",
+      "credit": "Hydrostor官方宣传册；该页未列摄影者",
+      "license": "Hydrostor版权；来源未声明CC开放许可或外部再发布许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Hydrostor官方2025年宣传册第3页的实景照片，页内图注明确为Goderich Energy Storage Center，安大略省。照片对应已投运的Goderich旧参考设施背景，不是Willow Rock或其他未来项目效果图。",
+      "subjects": [
+        "company:caes-adiabatic-hydrostor",
+        "route:caes-adiabatic:history"
+      ],
+      "bindingNotes": "精确匹配Hydrostor Goderich A-CAES；不得标注为Willow Rock或计划项目。"
+    }
+  ],
+  "blockedSources": [
+    {
+      "url": "https://www.uniper.energy/sites/default/files/styles/teaser_lg_1x_640x640/public/2026-07/kraftwerk_huntorf_original_2746.jpg?h=c9f6c133&itok=MK4dak6q",
+      "reason": "HTTP 403 Forbidden；未重试或绕过，改用德国联邦政府历史图片与CC BY摄影。"
+    },
+    {
+      "url": "https://gcec.com/wp-content/uploads/caes_mcintoshplant.png",
+      "reason": "HTTP 403 Forbidden；未重试或绕过，McIntosh照片改取公开DOE/NETL CAES研讨会PDF中的明确标注照片。"
+    }
+  ]
+}

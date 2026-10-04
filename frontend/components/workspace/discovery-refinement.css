@@ -1,0 +1,48 @@
+.discovery-kicker { color: var(--v2-accent, #a77924); font-size: 11px; font-weight: 800; letter-spacing: .14em; margin: 0 0 7px; }
+.workspace-v2 .search-result-refined { display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 18px; padding: 18px !important; }
+.search-result-artwork, .search-result-artwork .topic-artwork-visual { height: 148px; margin: 0; width: 148px; }
+.search-result-content { display: flex; flex-direction: column; min-width: 0; }
+.search-result-content .result-facts { margin-top: 8px; }
+.upload-refined { gap: 18px; }
+.upload-process { align-items: center; background: linear-gradient(125deg, #fffdf8, #f1f6fb); border: 1px solid #d9e2eb; border-radius: 16px; display: grid; gap: 24px; grid-template-columns: 190px minmax(0, 1fr); padding: 20px 24px; }
+.upload-process-artwork, .upload-process-artwork .topic-artwork-visual { height: 190px; margin: 0; width: 190px; }
+.upload-process-copy h2 { color: var(--v2-ink, #17334e); font-size: 21px; margin: 0 0 14px; }
+.upload-process-steps { display: grid; gap: 10px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.upload-process-steps > div { border-left: 2px solid #d8c18f; padding: 4px 10px; }
+.upload-process-steps span { color: #9b752b; display: block; font-size: 11px; font-weight: 800; margin-bottom: 5px; }
+.upload-process-steps strong { color: var(--v2-ink, #17334e); font-size: 14px; }
+.upload-process-steps p { color: var(--v2-muted, #637487); font-size: 12px; line-height: 1.5; margin: 5px 0 0; }
+.workspace-v2 .help-card-refined { display: grid; gap: 14px; grid-template-columns: 76px minmax(0, 1fr); padding: 18px !important; }
+.help-card-artwork, .help-card-artwork .topic-artwork-visual { height: 76px; margin: 0; width: 76px; }
+.help-card-artwork .topic-artwork-caption { display: none; }
+.help-card-copy { min-width: 0; }
+.help-card-copy h2 { font-size: 17px; line-height: 1.4; margin: 0 30px 8px 0; padding: 0; }
+.help-card-copy p { font-size: 13px; line-height: 1.65; overflow-wrap: anywhere; }
+.help-card-refined .help-number { right: 0; top: 0; }
+.onboarding-intro { align-items: center; display: flex; justify-content: space-between; max-width: 860px; }
+.onboarding-intro h1 { margin: 0 0 7px; }
+.onboarding-intro .lead { margin: 0; }
+.onboarding-refined .steps { display: flex; gap: 7px; max-width: 860px; }
+.onboarding-refined .steps .step { border-radius: 99px; flex: 1 1 0; height: 6px; }
+.workspace-v2 .app-main .onboarding-refined .onboarding-step-card { background: linear-gradient(145deg, #fffdf9, #f7f9fb) !important; border: 1px solid #dce3e8 !important; border-top: 3px solid var(--editorial-gold) !important; border-radius: 14px; padding: 26px !important; }
+html[data-theme="dark"] .upload-process { background: linear-gradient(125deg, #102438, #15283a); border-color: #36516a; }
+html[data-theme="dark"] .upload-process-copy h2, html[data-theme="dark"] .upload-process-steps strong { color: #e0eaf2; }
+html[data-theme="dark"] .upload-process-steps > div { border-color: #826a3b; }
+html[data-theme="dark"] .upload-process-steps p { color: #adbdc9; }
+html[data-theme="dark"] .workspace-v2 .app-main .onboarding-refined .onboarding-step-card { background: linear-gradient(145deg, #11253a, #14263a) !important; border: 1px solid #385169 !important; border-top: 3px solid var(--editorial-gold) !important; }
+@media (max-width: 700px) {
+  .workspace-v2 .search-result-refined { grid-template-columns: 82px minmax(0, 1fr); gap: 11px; padding: 13px !important; }
+  .search-result-artwork, .search-result-artwork .topic-artwork-visual { height: 82px; width: 82px; }
+  .upload-process { align-items: start; grid-template-columns: 86px minmax(0, 1fr); gap: 12px; padding: 15px; }
+  .upload-process-artwork, .upload-process-artwork .topic-artwork-visual { height: 86px; width: 86px; }
+  .upload-process-steps { grid-column: 1 / -1; grid-template-columns: 1fr; }
+  .upload-process-steps > div { display: grid; grid-template-columns: 28px 1fr; }
+  .upload-process-steps span { grid-row: span 2; }
+  .workspace-v2 .help-card-refined { grid-template-columns: 58px minmax(0, 1fr); gap: 11px; }
+  .help-card-artwork, .help-card-artwork .topic-artwork-visual { height: 58px; width: 58px; }
+  .onboarding-refined .onboarding-step-card { padding: 18px !important; }
+}
+@media (max-width: 440px) {
+  .workspace-v2 .search-result-refined { grid-template-columns: 1fr; }
+  .search-result-artwork, .search-result-artwork .topic-artwork-visual { height: 112px; width: 112px; }
+}

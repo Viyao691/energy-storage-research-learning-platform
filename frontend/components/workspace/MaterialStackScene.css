@@ -1,0 +1,41 @@
+.workspace-v2-material .app-main { position: relative; }
+.workspace-v2-material .app-main > .material-stack-scene { position: absolute; z-index: 3; right: clamp(22px, 3.1vw, 48px); top: 56px; width: min(65%, 780px); height: 310px; }
+.material-stack-scene { color: var(--v2-ink); perspective: 1100px; }
+.material-stack-group { position: relative; width: 100%; height: 270px; transform-style: preserve-3d; transition: transform .45s ease-out; }
+.material-stack-layer { position: absolute; left: 0; width: 100%; overflow: hidden; pointer-events: none; transition: transform .48s cubic-bezier(.22, 1, .36, 1); animation: material-stack-arrive .78s cubic-bezier(.22, 1, .36, 1) backwards; }
+.material-stack-layer img { position: absolute; display: block; width: 100%; height: auto; max-width: none; left: 0; user-select: none; }
+.material-stack-copper { top: -29px; aspect-ratio: 1536 / 384; --material-start: 25px; }
+.material-stack-copper img { top: 0; }
+.material-stack-separator { top: 64px; aspect-ratio: 1536 / 296; --material-start: -17px; animation-delay: .1s; }
+.material-stack-separator img { top: -129.73%; }
+.material-stack-aluminum { top: 135px; aspect-ratio: 1536 / 344; --material-start: -48px; animation-delay: .18s; }
+.material-stack-aluminum img { top: -197.67%; }
+@keyframes material-stack-arrive { from { opacity: .6; transform: translateY(var(--material-start)); } to { opacity: 1; transform: translateY(0); } }
+.material-stack-group:hover .material-stack-copper,
+.material-stack-scene[data-expanded="true"] .material-stack-copper { transform: translateY(-21px); }
+.material-stack-group:hover .material-stack-aluminum,
+.material-stack-scene[data-expanded="true"] .material-stack-aluminum { transform: translateY(26px); }
+.material-stack-caption { align-items: center; display: flex; gap: 14px; justify-content: flex-end; min-height: 35px; position: absolute; right: 2%; top: 275px; }
+.material-stack-caption span { color: var(--v2-muted); font-size: 11px; letter-spacing: .04em; }
+.material-stack-caption button { background: var(--v2-surface) !important; border: 1px solid var(--v2-line) !important; border-radius: 6px; color: var(--v2-ink) !important; cursor: pointer; font-family: inherit; font-size: 12px; font-weight: 600; min-height: 32px; padding: 5px 10px; }
+.material-stack-caption button:hover { border-color: var(--v2-accent) !important; }
+.material-stack-caption button:focus-visible { outline: 2px solid var(--v2-accent); outline-offset: 2px; }
+.material-stack-scene[data-active="false"] .material-stack-layer { animation-play-state: paused; }
+.workspace-v2-material .app-main :is(.data-import-artwork, .compare-topic-artwork) { display: none !important; }
+.workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header.workspace-header-artwork { align-items: flex-start; flex-direction: column; gap: 12px; justify-content: flex-start; background: transparent !important; background-image: none !important; border-color: transparent !important; box-shadow: none !important; min-height: 355px; }
+.workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header.workspace-header-artwork::before,
+.workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header.workspace-header-artwork::after,
+.workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header .workspace-illustration-slot { content: none !important; display: none !important; }
+.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header > div:first-child { width: min(30%, 300px); }
+.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header-action { align-self: flex-start; margin: 0; }
+.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header h1 { font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", Georgia, serif !important; }
+html[data-theme="dark"] .workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header.workspace-header-artwork { background: transparent !important; background-image: none !important; border-color: transparent !important; box-shadow: none !important; }
+@media (max-width: 700px) {
+  .workspace-v2-material .app-main > .material-stack-scene { top: 205px; right: 16px; width: calc(100% - 32px); height: 300px; }
+  .material-stack-group { height: 260px; }
+  .material-stack-caption { top: 260px; right: 0; }
+  .workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header.workspace-header-artwork { min-height: 510px; }
+  .workspace-v2.workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header.workspace-header-artwork { gap: 8px; }
+  .workspace-v2-material .app-main :is(.research-data-workspace, .compare-workspace) .workspace-header > div:first-child { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .material-stack-layer { animation: none !important; transition: none; } .material-stack-group { transform: none !important; transition: none; } }

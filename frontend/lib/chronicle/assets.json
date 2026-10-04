@@ -1,0 +1,2538 @@
+{
+  "assets": [
+    {
+      "id": "blythe",
+      "src": null,
+      "alt": "Blythe solar power facility and battery energy storage project in Riverside County, California",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blythe_Solar_Project_(52357952013).jpg",
+      "credit": "Bureau of Land Management California",
+      "license": "U.S. federal government work; public domain in the United States. Credit retained as provenance.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "真实光伏与电池储能项目；不代表固态电池",
+      "subjects": [
+        "scene:storage"
+      ]
+    },
+    {
+      "id": "reid-gardner",
+      "src": null,
+      "alt": "Reid Gardner utility-scale battery energy storage project near Moapa, Nevada",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reid_Gardner_BESS.jpg",
+      "credit": "Sig. Chiocciola (CC0 1.0)",
+      "license": "CC0 1.0 Universal Public Domain Dedication.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "真实电网储能项目；不代表固态电池",
+      "subjects": [
+        "scene:storage"
+      ]
+    },
+    {
+      "id": "wellesley",
+      "src": null,
+      "alt": "Grid-scale battery containers at Wellesley Municipal Light Plant in Massachusetts",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grid_batteries_at_Wellesley_Municipal_Light_Plant_August_2026.jpg",
+      "credit": "4300streetcar, CC BY 4.0",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0); attribution required.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "真实市政电网电池；不代表固态电池",
+      "subjects": [
+        "scene:storage"
+      ]
+    },
+    {
+      "id": "tesvolt-rheineck",
+      "src": null,
+      "alt": "TESVOLT battery energy storage system in Rheineck, Switzerland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesvolt_battery_energy_storage_system_Rheineck.jpg",
+      "credit": "Kecko (Eastern Switzerland), CC BY 2.0",
+      "license": "Creative Commons Attribution 2.0 Generic (CC BY 2.0); attribution required.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "真实电网储能项目；不代表固态电池，源站下载未成功",
+      "subjects": [
+        "scene:storage"
+      ]
+    },
+    {
+      "id": "bmw-solid-power",
+      "src": "/chronicle/bmw-i7-solid-power.jpg",
+      "alt": "BMW i7 test vehicle using large-format all-solid-state battery cells from Solid Power",
+      "sourceUrl": "https://www.press.bmwgroup.com/africa-dom-easteurope/photo/compilation/T0450240EN/bmw-group-and-solid-power-are-testing-all-solid-state-battery-cells-in-a-bmw-i7",
+      "credit": "BMW Group PressClub; © BMW AG. Use under PressClub press-purpose terms; third-party image rights may apply.",
+      "license": "Copyright BMW AG; PressClub terms limit use to press purposes and prohibit commercial copying/distribution. Local attributed editorial/educational research display; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "BMW i7搭载Solid Power全固态电芯进行测试的车辆",
+      "subjects": [
+        "company:bmw",
+        "company:solid-power"
+      ]
+    },
+    {
+      "id": "toyota-solid-state-prototype",
+      "src": "/chronicle/toyota-solid-state-battery.jpg",
+      "alt": "Toyota all-solid-state battery stack prototype shown in its 2023 technology presentation",
+      "sourceUrl": "https://global.toyota/en/newsroom/corporate/39330500.html",
+      "credit": "Toyota Motor Corporation",
+      "license": "Toyota Download Agreement: editorial or personal non-commercial use only; commercial use prohibited. Local attributed editorial/educational research display; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Toyota展台原型堆叠样品；标签注明“All-solid-state battery (Stack: prototype)”，未标电解质化学体系",
+      "subjects": [
+        "scene:history",
+        "scene:materials",
+        "company:toyota"
+      ]
+    },
+    {
+      "id": "quantumscape-qse5-sample",
+      "src": "/chronicle/quantumscape-qse5-sample.png",
+      "alt": "QuantumScape QSE-5 B-sample solid-state battery cell beside a dimensions chart",
+      "sourceUrl": "https://www.quantumscape.com/a-first-look-at-the-qse-5-b-sample/",
+      "credit": "QuantumScape Battery, Inc.",
+      "license": "© QuantumScape Battery, Inc.; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "QuantumScape官方QSE-5 B样品实物照片；PowerCo合作验证关联仅用于企业背景，PowerCo公布的A样品循环数据不是此图中B样品的测试结果。",
+      "subjects": [
+        "scene:history",
+        "company:quantumscape",
+        "company:powerco"
+      ]
+    },
+    {
+      "id": "idemitsu-sulfide-plant",
+      "src": "/chronicle/idemitsu-sulfide-plant.jpg",
+      "alt": "Idemitsu solid-electrolyte demonstration plant in Japan",
+      "sourceUrl": "https://www.idemitsu.com/en/news/2021/211105_2.html",
+      "credit": "Idemitsu Kosan Co., Ltd.",
+      "license": "© Idemitsu Kosan Co., Ltd.; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Idemitsu硫化物固态电解质示范设施外观；工厂图不等同电芯性能证明",
+      "subjects": [
+        "scene:materials",
+        "company:idemitsu"
+      ]
+    },
+    {
+      "id": "samsung-s-line",
+      "src": "/chronicle/samsung-sline.png",
+      "alt": "Samsung SDI S-Line all-solid-state battery pilot line at its Suwon research center",
+      "sourceUrl": "https://news.samsungsdi.com/global/people-culture/view?seq=286",
+      "credit": "Samsung SDI Newsroom",
+      "license": "© Samsung SDI, all rights reserved; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Samsung SDI官方图注标识水原研究中心S-Line全固态电池试验线",
+      "subjects": [
+        "scene:history",
+        "company:samsung-sdi"
+      ]
+    },
+    {
+      "id": "catl-21c-lab",
+      "src": "/chronicle/catl-21c-lab.jpg",
+      "alt": "CATL 21C Lab opening and research facility",
+      "sourceUrl": "https://www.catl.com/en/news/476.html",
+      "credit": "Contemporary Amperex Technology Co., Limited (CATL)",
+      "license": "© CATL; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "CATL官方21C实验室报道配图，作为企业研究背景；报道提及多种前沿电池研发，不指认具体固态样品",
+      "subjects": [
+        "scene:materials",
+        "company:catl"
+      ]
+    },
+    {
+      "id": "mercedes-factorial-eqs",
+      "src": null,
+      "alt": "Mercedes-Benz EQS solid-state battery test car developed with Factorial",
+      "sourceUrl": "https://group.mercedes-benz.com/technology/e-mobility/electric-drive/solid-state-battery-test-car.html",
+      "credit": "Mercedes-Benz Group AG",
+      "license": "© Mercedes-Benz Group AG; official image endpoint denied direct download. No separate image reuse license confirmed.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "官方报道称EQS集成Factorial固态B样电池并于2025年启动道路测试；照片未能下载",
+      "subjects": [
+        "scene:history",
+        "company:factorial",
+        "company:mercedes-benz"
+      ]
+    },
+    {
+      "id": "prologium-taoke-factory",
+      "src": "/chronicle/prologium-dunkirk.png",
+      "alt": "ProLogium official rendering of its Dunkirk gigafactory site",
+      "sourceUrl": "https://prologium.com/prologium-advances-dunkirk-gigafactory-as-site-infrastructure-and-localization-work-accelerate/",
+      "credit": "ProLogium Technology Co., Ltd.",
+      "license": "© ProLogium Technology Co., Ltd.; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "document",
+      "context": "ProLogium官方工厂建设进度文章中的厂区规划渲染图，不是已建成工厂实拍或电芯性能证据。",
+      "subjects": [
+        "company:prologium"
+      ]
+    },
+    {
+      "id": "ornl-star-lab",
+      "src": null,
+      "alt": "ORNL STAR Lab researcher examines a laboratory-scale solid-state battery cell in a glovebox",
+      "sourceUrl": "https://www.ornl.gov/news/star-lab-tests-whether-battery-advances-can-scale",
+      "credit": "Carlos Jones/ORNL, U.S. Department of Energy",
+      "license": "Official article identifies photographer and subject but gives no image-reuse license; reuse terms unconfirmed.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "ORNL报道展示实验室固态电池研究；未作为页面图片使用",
+      "subjects": [
+        "scene:materials"
+      ]
+    },
+    {
+      "id": "material-sulfide-ai",
+      "src": "/chronicle/material-sulfide-ai.png",
+      "alt": "Schematic illustration of a sulfide solid electrolyte battery structure",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:sulfide"
+      ]
+    },
+    {
+      "id": "material-oxide-ai",
+      "src": "/chronicle/material-oxide-ai.png",
+      "alt": "Schematic illustration of an oxide solid electrolyte battery structure",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:oxide"
+      ]
+    },
+    {
+      "id": "material-halide-ai",
+      "src": "/chronicle/material-halide-ai.png",
+      "alt": "Schematic illustration of a halide solid electrolyte battery structure",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:halide"
+      ]
+    },
+    {
+      "id": "material-polymer-ai",
+      "src": "/chronicle/material-polymer-ai.png",
+      "alt": "Schematic illustration of a polymer solid electrolyte battery structure",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:polymer"
+      ]
+    },
+    {
+      "id": "material-composite-ai",
+      "src": "/chronicle/material-composite-ai.png",
+      "alt": "Schematic illustration of a composite solid electrolyte battery structure",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:composite"
+      ]
+    },
+    {
+      "id": "policy-ndrc-2025",
+      "src": "/chronicle/policy-ndrc-2025.png",
+      "alt": "Screenshot of the National Development and Reform Commission 2025–2027 action plan for new-type energy storage",
+      "sourceUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/t20250912_1400427_ext.html",
+      "credit": "国家发展和改革委员会",
+      "license": "政府网站原文截图；来源与日期保留；项目内研究展示",
+      "status": "usable",
+      "kind": "document",
+      "context": "国家发改委2025年9月12日发布的新型储能规模化建设专项行动方案（2025—2027年）；不构成全固态部署证明",
+      "subjects": [
+        "scene:policy"
+      ]
+    },
+    {
+      "id": "market-nea-2025",
+      "src": "/chronicle/market-nea-2025.png",
+      "alt": "Screenshot of the National Energy Administration's 2025 new energy storage capacity statistics",
+      "sourceUrl": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html",
+      "credit": "国家能源局",
+      "license": "政府网站原文截图；来源与日期保留；项目内研究展示",
+      "status": "usable",
+      "kind": "document",
+      "context": "国家能源局2026年1月30日公布2025年底新型储能累计装机136 GW/351 GWh；全技术路线统计，非固态电池专属",
+      "subjects": [
+        "scene:market"
+      ]
+    },
+    {
+      "id": "catl-naxtra-sodium",
+      "src": "/chronicle/catl-naxtra-sodium.png",
+      "alt": "CATL Naxtra passenger-vehicle sodium-ion battery product image",
+      "sourceUrl": "https://www.catl.com/en/news/6401.html",
+      "credit": "Contemporary Amperex Technology Co., Limited (CATL)",
+      "license": "© CATL, all rights reserved; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "CATL 2025年官方Naxtra钠离子电池产品图；不是固态电池，也不独立验证网页性能声明",
+      "subjects": [
+        "company:sodium-catl",
+        "route:sodium:history"
+      ]
+    },
+    {
+      "id": "catl-shenxing-lfp",
+      "src": "/chronicle/catl-shenxing-lfp.png",
+      "alt": "CATL second-generation Shenxing lithium iron phosphate battery product image",
+      "sourceUrl": "https://www.catl.com/en/news/6401.html",
+      "credit": "Contemporary Amperex Technology Co., Limited (CATL)",
+      "license": "© CATL, all rights reserved; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "CATL 2025年官方第二代神行LFP电池产品图；锂离子路线，不是固态电池；性能参数属于企业发布",
+      "subjects": [
+        "company:lithium-catl",
+        "material:lithium-lfp",
+        "route:lithium:history"
+      ]
+    },
+    {
+      "id": "skon-aem-cover",
+      "src": "/chronicle/skon-aem-cover.jpg",
+      "alt": "Advanced Energy Materials cover image shown in SK On's solid-state battery research article",
+      "sourceUrl": "https://eng.sk.com/news/sk-on-unveils-r-d-breakthroughs-on-all-solid-state-batteries",
+      "credit": "SK On article; journal cover artwork © Wiley-VCH GmbH",
+      "license": "Copyrighted journal cover reproduced on SK On's official article; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "document",
+      "context": "SK On官方研发文章配图为期刊封面/论文视觉，不是SK On电芯实拍；论文涉及聚合物-氧化物复合与硫化物固态电解质。",
+      "subjects": [
+        "company:sk-on"
+      ]
+    },
+    {
+      "id": "welion-ev-solution",
+      "src": "/chronicle/welion-ev-solution.jpg",
+      "alt": "WeLion official EV battery solution illustration showing a cell pack in an electric vehicle",
+      "sourceUrl": "https://www.welion.tech/en/solution/a1/",
+      "credit": "WeLion New Energy Technology Co., Ltd.",
+      "license": "© WeLion; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "document",
+      "context": "WeLion官方电动汽车方案页插图（含NIO标记车辆），不是电芯实拍；页面称方案使用半固态电芯，不能当作全固态证据。",
+      "subjects": [
+        "company:welion",
+        "company:nio"
+      ]
+    },
+    {
+      "id": "qingtao-mg4-semi-solid",
+      "src": "/chronicle/saic-mg4-1.png",
+      "alt": "SAIC MG official graphic explaining the MG4 semi-solid-state battery layer design",
+      "sourceUrl": "https://www.saicmg.com/brand/information/news/app-6729/",
+      "credit": "SAIC MG; © SAIC Motor Corporation Limited",
+      "license": "© SAIC Motor; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "document",
+      "context": "上汽MG官方MG4半固态电池图解；上汽官方产品材料称与清陶动力合作，图示不是全固态电芯实物照片。",
+      "subjects": [
+        "company:qingtao"
+      ]
+    },
+    {
+      "id": "ganfeng-solid-state-exhibit",
+      "src": "/chronicle/ganfeng-ssb-product.jpg",
+      "alt": "Ganfeng Lithium exhibition booth with solid-state battery exhibit signage",
+      "sourceUrl": "https://www.ganfenglithium.com/new_detail/id/67.html",
+      "credit": "Ganfeng Lithium Co., Ltd.",
+      "license": "© Ganfeng Lithium; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "赣锋锂业官方CIBF报道配图，展台标示固态电池；展会展示不代表量产或第三方性能验证。",
+      "subjects": [
+        "company:ganfeng"
+      ]
+    },
+    {
+      "id": "panasonic-energy-factory-2024",
+      "src": "/chronicle/panasonic-4680-2.jpg",
+      "alt": "Panasonic Energy factory building shown in the company's 4680 battery production-readiness release",
+      "sourceUrl": "https://news.panasonic.com/global/press/en240909-7",
+      "credit": "Panasonic Energy Co., Ltd.",
+      "license": "Official newsroom press image; copyright remains with Panasonic. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Panasonic官方4680圆柱电池生产准备新闻所配工厂照片；对应生产地点背景，不是4680电芯近照。",
+      "subjects": [
+        "company:lithium-panasonic"
+      ]
+    },
+    {
+      "id": "hina-sodium-cell-launch",
+      "src": "/chronicle/hina-cell-1.jpg",
+      "alt": "HiNa Battery official sodium-ion product launch image displaying its cells",
+      "sourceUrl": "https://www.hinabattery.com/en/index.php?id=63",
+      "credit": "HiNa Battery Technology Co., Ltd.",
+      "license": "© HiNa Battery; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "中科海钠2023年产品发布图，画面包含钠离子方形与圆柱电芯产品；作为产品外观资料，不是电化学性能证据。",
+      "subjects": [
+        "company:sodium-hina",
+        "route:sodium:history"
+      ]
+    },
+    {
+      "id": "datang-hina-sodium-storage",
+      "src": "/chronicle/datang-hina-2.jpg",
+      "alt": "China Datang battery energy storage containers at the official sodium-ion project site",
+      "sourceUrl": "https://www.hinabattery.com/en/index.php?id=67",
+      "credit": "HiNa Battery Technology Co., Ltd.; China Datang project image",
+      "license": "© HiNa Battery/China Datang as applicable; no separate image reuse license found. Local attributed research display only; no external publication.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "中科海钠官方报道配图，展示大唐钠离子储能项目的集装箱系统；系统投运背景，不表示固态电池或单体参数。",
+      "subjects": [
+        "company:sodium-datang-hina"
+      ]
+    },
+    {
+      "id": "material-lithium-layered-ai",
+      "src": "/chronicle/material-lithium-layered-ai.png",
+      "alt": "AI-generated schematic of a layered lithium cathode material",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:lithium-layered"
+      ]
+    },
+    {
+      "id": "material-lithium-graphite-ai",
+      "src": "/chronicle/material-lithium-graphite-ai.png",
+      "alt": "AI-generated schematic of graphite anode structure in a lithium-ion battery",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:lithium-graphite"
+      ]
+    },
+    {
+      "id": "material-sodium-layered-ai",
+      "src": "/chronicle/material-sodium-layered-ai.png",
+      "alt": "AI-generated schematic of a layered sodium cathode material",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:sodium-layered"
+      ]
+    },
+    {
+      "id": "material-sodium-prussian-ai",
+      "src": "/chronicle/material-sodium-prussian-ai.png",
+      "alt": "AI-generated schematic of a Prussian blue analogue sodium cathode",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:sodium-prussian"
+      ]
+    },
+    {
+      "id": "material-sodium-hard-carbon-ai",
+      "src": "/chronicle/material-sodium-hard-carbon-ai.png",
+      "alt": "AI-generated schematic of a hard-carbon sodium-ion anode",
+      "sourceUrl": "/research/chronicle",
+      "credit": "AI生成 · 结构示意",
+      "license": "项目生成素材",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "AI结构示意 · 非实测显微图",
+      "subjects": [
+        "scene:materials",
+        "material:sodium-hard-carbon"
+      ]
+    },
+    {
+      "id": "policy-miit-manufacturing-2025",
+      "src": "/chronicle/policy-miit-manufacturing-2025.png",
+      "alt": "Screenshot of MIIT's 2025 action plan for high-quality development of new energy storage manufacturing",
+      "sourceUrl": "https://www.miit.gov.cn/jgsj/dzs/wjfb/art/2025/art_269983a459934b72a51261cb7b1de958.html",
+      "credit": "工业和信息化部等部门",
+      "license": "政府网站原文截图；保留来源和文件号；项目内研究展示",
+      "status": "usable",
+      "kind": "document",
+      "context": "工信部联电子〔2025〕7号《新型储能制造业高质量发展行动方案》，研发与制造政策背景，不是产品认证或投产证明。",
+      "subjects": [
+        "scene:lithium-policy",
+        "scene:sodium-policy"
+      ]
+    },
+    {
+      "id": "policy-solid-tax-2026",
+      "src": "/chronicle/policy-solid-tax-2026.png",
+      "alt": "Screenshot of China's 2026 battery consumption tax notice",
+      "sourceUrl": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5251171/content.html",
+      "credit": "国家税务总局、财政部",
+      "license": "政府网站原文截图；保留来源和日期；项目内研究展示",
+      "status": "usable",
+      "kind": "document",
+      "context": "2026年第20号公告；税收适用取决于公告列明电池类别、用途和免税条件，不能据此推断某全固态产品自动免税。",
+      "subjects": [
+        "scene:solid-policy"
+      ]
+    },
+    {
+      "id": "policy-solid-standard-2026",
+      "src": "/chronicle/policy-solid-standard-2026.png",
+      "alt": "Screenshot of China's GB/T 48093.1-2026 solid-state battery terminology standard",
+      "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0DDCACACCCCB7818FBB76F0C42E022D3",
+      "credit": "国家市场监督管理总局、国家标准化管理委员会",
+      "license": "国家标准信息公共服务平台原文截图；来源保留；项目内研究展示",
+      "status": "usable",
+      "kind": "document",
+      "context": "GB/T 48093.1-2026《电化学储能电池术语 第1部分：固态电池》，用于术语口径；标准实施日期2028-01-01。",
+      "subjects": [
+        "scene:solid-standard"
+      ]
+    },
+    {
+      "id": "sony-nexelion-reference",
+      "src": null,
+      "alt": "Sony 2005 Nexelion hybrid lithium-ion battery product image",
+      "sourceUrl": "https://www.sony.com/en/SonyInfo/News/Press/200502/05-006E/",
+      "credit": "Sony Group Corporation",
+      "license": "Official page; direct image endpoint could not be retrieved, no usable local image.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "Sony 2005 Nexelion产品资料可作锂离子历史来源；它不是1991年初代锂离子电池照片，图片直链获取失败。",
+      "subjects": [
+        "company:lithium-sony"
+      ]
+    },
+    {
+      "id": "byd-blade-reference",
+      "src": null,
+      "alt": "BYD Blade Battery reference page",
+      "sourceUrl": "https://media.byd.com/section/technology/blade-battery/?lang=eng",
+      "credit": "BYD Company Limited",
+      "license": "BYD media asset download requires login; no public image license/asset was retrieved.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "BYD官方媒体资源下载要求登录，未取得可本地使用的图片；不以其他企业电芯代替。",
+      "subjects": [
+        "company:lithium-byd"
+      ]
+    },
+    {
+      "id": "faradion-sodium-reference",
+      "src": null,
+      "alt": "Faradion sodium-ion battery company reference",
+      "sourceUrl": "https://www.ril.com/news-media/press-releases/reliance-new-energy-solar-acquire-faradion-limited",
+      "credit": "Reliance Industries Limited / Faradion",
+      "license": "Official acquisition page available; no directly accessible official image located in this pass.",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "context": "未在Faradion及Reliance官方来源取得可用图片，保留来源线索，不使用其他钠离子企业照片代替。",
+      "subjects": [
+        "company:sodium-faradion"
+      ]
+    },
+    {
+      "id": "byd-blade-editorial",
+      "src": "/chronicle/byd-blade-editorial.jpg",
+      "alt": "比亚迪刀片电池官方宣传图，含2024年Electrifying创新奖标识与电池包渲染图",
+      "sourceUrl": "https://bydukmedia.com/en/galleries/technology/technology.html",
+      "credit": "BYD UK Media / Electrifying.com award mark",
+      "license": "BYD UK Media gallery states assets are copyright free for editorial and media use only, unless an additional credit or copyright notice is supplied. Credit retained; local research/editorial display.",
+      "status": "usable",
+      "kind": "official-illustration",
+      "context": "600×600官方公开媒体预览图，已实际查看；包含刀片电池包渲染和2024获奖标识，不是工厂照片、1991历史产品或第二代刀片实物图。下载源：https://s3-eu-west-2.amazonaws.com/byd.epresspacks.com/epa/22dcf972e71d451a/images/preview/BYD-Blade-Battery-Electrifyingcom.jpg；2026-10-03获取。",
+      "subjects": [
+        "company:lithium-byd"
+      ]
+    },
+    {
+      "id": "faradion-brand-2020",
+      "src": "/chronicle/faradion-brand-2020.png",
+      "alt": "Faradion于2020年公布的灰蓝色企业品牌标识",
+      "sourceUrl": "https://faradion.co.uk/faradion-announces-new-brand-identity/",
+      "credit": "Faradion Limited",
+      "license": "© Faradion; all rights reserved. No separate image reuse license found. Local attributed research identification only; no external publication permission established.",
+      "status": "usable",
+      "kind": "brand-mark",
+      "context": "1100×575官方2020-11-26品牌新闻稿配图，已实际查看；是Faradion品牌标识，不是Reliance集团、电芯、工厂或商业装机照片。下载源：https://faradion.co.uk/wp-content/uploads/2020/11/Faradion-banner-2-1.png；2026-10-03获取。",
+      "subjects": [
+        "company:sodium-faradion"
+      ]
+    },
+    {
+      "id": "flow-sumitomo-hokkaido",
+      "src": "/chronicle/flow-sumitomo-hokkaido.jpg",
+      "alt": "Sumitomo Electric Hokkaido Minami-Hayakita vanadium redox flow battery project in winter",
+      "sourceUrl": "https://sumitomoelectric.com/products/flow-batteries/case-studies/hokkaido-wind-integration",
+      "credit": "Sumitomo Electric Industries, Ltd.",
+      "license": "Copyright Sumitomo Electric; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "北海道南早来17MW/51MWh全钒液流项目实景，2022年4月投运；不是电芯性能证据。",
+      "subjects": [
+        "company:vanadium-sumitomo",
+        "route:vanadium:history"
+      ]
+    },
+    {
+      "id": "flow-invinity-copwood",
+      "src": "/chronicle/flow-invinity-copwood.jpg",
+      "alt": "Installed Invinity vanadium flow battery containers at the Copwood site",
+      "sourceUrl": "https://invinity.com/case-study-invinity-copwood-vfb-energy-hub/",
+      "credit": "Invinity Energy Systems; photo courtesy of Gamesa Electric",
+      "license": "Copyright respective rights holders; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Copwood 20.7MWh项目现场安装照；项目页称待2026年接网，不代表已商业运行。",
+      "subjects": [
+        "company:vanadium-invinity",
+        "route:vanadium:history"
+      ]
+    },
+    {
+      "id": "flow-iron-chromium-lankao",
+      "src": "/chronicle/flow-iron-chromium-lankao-1.jpg",
+      "alt": "Lankao iron-chromium flow battery demonstration project team and project banner",
+      "sourceUrl": "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202607/t20260721_251616.html",
+      "credit": "国家科技传播中心；原报道配图",
+      "license": "政府网站转载图片；保留来源与主体信息；项目内研究展示。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "兰考2.5MW/15MWh铁铬液流项目照片；报道记载2026年投运。",
+      "subjects": [
+        "company:iron-chromium-cesc",
+        "route:iron-chromium:history"
+      ]
+    },
+    {
+      "id": "flow-iron-chromium-lankao-site",
+      "src": "/chronicle/flow-iron-chromium-lankao-2.jpg",
+      "alt": "Aerial overview of the Lankao iron-chromium flow battery project site",
+      "sourceUrl": "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202607/t20260721_251616.html",
+      "credit": "国家科技传播中心；原报道配图",
+      "license": "政府网站转载图片；保留来源与主体信息；项目内研究展示。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "兰考项目场地鸟瞰背景，不单独作为电池设备或额定性能证据。",
+      "subjects": [
+        "company:iron-chromium-cesc"
+      ]
+    },
+    {
+      "id": "flow-junan-project",
+      "src": "/chronicle/flow-junan-project.png",
+      "alt": "JUNAN Energy storage charging project visit with zinc-bromine system display",
+      "sourceUrl": "https://en.junanes.com/%E5%8C%97%E4%BA%AC%E6%B4%9B%E6%96%AF%E8%BE%BE%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%A2%86%E5%AF%BC%E4%B8%80%E8%A1%8C%E8%8E%85%E4%B8%B4%E5%90%9B%E5%AE%89%E5%82%A8/",
+      "credit": "Hubei JUNAN Energy Storage Technology Co., Ltd.",
+      "license": "Copyright JUNAN Energy; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2025官方参访报道中的光储充示范项目参观照片；企业背景图，不证明产品容量或第三方验收。",
+      "subjects": [
+        "company:zinc-bromine-junan",
+        "route:zinc-bromine:history"
+      ]
+    },
+    {
+      "id": "flow-quino-pilot",
+      "src": "/chronicle/flow-quino-pilot.jpg",
+      "alt": "Quino Energy pilot battery test equipment and engineers",
+      "sourceUrl": "https://quinoenergy.com/quino-energy-announces-100kwh-pilot-and-plans-for-global-expansion/",
+      "credit": "Quino Energy, Inc.",
+      "license": "Copyright Quino Energy; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "水系有机醌液流10kW/100kWh试点研发照片；2024公告称原型启用，不是材料显微图。",
+      "subjects": [
+        "company:organic-quino",
+        "route:organic:history"
+      ]
+    },
+    {
+      "id": "flow-cmblu-mercedes",
+      "src": "/chronicle/flow-cmblu-mercedes.jpeg",
+      "alt": "CMBlu and Mercedes-Benz Organic SolidFlow 11 MWh order press graphic with rendered storage system",
+      "sourceUrl": "https://www.cmblu.com/press-media/mercedes-benz-orders-first-sustainable-solidflow-energy-storage-system-by-cmblu-energy",
+      "credit": "CMBlu Energy AG; Mercedes-Benz Group AG",
+      "license": "Copyright CMBlu Energy and Mercedes-Benz as applicable; no open license found. Local attributed research display only; external publication rights not established.",
+      "status": "usable",
+      "kind": "official-illustration",
+      "context": "11MWh订单新闻拼图含系统渲染；原文目标2025年下半年实现，图不是投运现场实拍。",
+      "subjects": [
+        "company:organic-cmblu",
+        "route:organic:history"
+      ]
+    },
+    {
+      "id": "policy-ndrc-2025-flow",
+      "src": "/chronicle/policy-ndrc-2025.png",
+      "alt": "Screenshot of the 2025 NDRC and NEA special action plan for large-scale new energy storage construction",
+      "sourceUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/t20250912_1400427_ext.html",
+      "credit": "国家发展改革委、国家能源局",
+      "license": "政府网站原文截图；保留文件号和来源；项目内研究展示。",
+      "status": "usable",
+      "kind": "document",
+      "context": "发改能源〔2025〕1144号提及液流电池储能进一步商业化；泛液流政策，不区分具体化学路线。",
+      "subjects": [
+        "scene:flow-policy"
+      ]
+    },
+    {
+      "id": "material-vanadium-concept",
+      "src": "/chronicle/material-vanadium-ai.png",
+      "alt": "全钒水系液流电池、电解液与多孔电极示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:vanadium-sulfate",
+        "material:vanadium-mixed-acid"
+      ]
+    },
+    {
+      "id": "material-iron-chromium-concept",
+      "src": "/chronicle/material-iron-chromium-ai.png",
+      "alt": "铁铬水系电解液与电极析氢副反应示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:iron-chromium-electrolyte"
+      ]
+    },
+    {
+      "id": "material-zinc-bromine-concept",
+      "src": "/chronicle/material-zinc-bromine-ai.png",
+      "alt": "锌沉积与含溴电解液的混合液流结构示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:zinc-bromine-zinc",
+        "material:zinc-bromine-bromine",
+        "material:zinc-bromine-electrolyte"
+      ]
+    },
+    {
+      "id": "material-organic-quinone-concept",
+      "src": "/chronicle/material-organic-quinone-ai.png",
+      "alt": "溶解态有机活性物质与水系液流电池示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:organic-quinone",
+        "material:organic-viologen-tempo"
+      ]
+    },
+    {
+      "id": "material-flow-carbon-felt-concept",
+      "src": "/chronicle/material-flow-carbon-felt-ai.png",
+      "alt": "水系电解液浸润多孔碳电极示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "多孔碳电极概念纹理，不代表任何论文样品或特定碳毡组成",
+      "subjects": [
+        "material:vanadium-carbon",
+        "material:iron-chromium-electrode",
+        "material:organic-carbon"
+      ]
+    },
+    {
+      "id": "material-flow-membrane-concept",
+      "src": "/chronicle/material-flow-membrane-ai.png",
+      "alt": "液流电池膜与两侧电解液的概念示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "水相隔膜通用概念，不代表具体商业膜、离子选择性或实验厚度",
+      "subjects": [
+        "material:vanadium-membrane",
+        "material:iron-chromium-membrane",
+        "material:zinc-bromine-membrane",
+        "material:organic-polymer-membrane"
+      ]
+    },
+    {
+      "id": "material-organic-solid-active-concept",
+      "src": "/chronicle/material-organic-solid-active-ai.png",
+      "alt": "固体有机活性材料与水系流动结构的概念示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "固体有机储能形态与水相的通用概念；不是CMBlu专有装置、材料样品或颗粒运动机理",
+      "subjects": [
+        "material:organic-solidflow"
+      ]
+    },
+    {
+      "id": "mechanical-cruachan-turbine-hall",
+      "src": "/chronicle/mechanical-cruachan-turbine-hall.jpg",
+      "alt": "Underground machine hall and reversible pump-turbines at Cruachan pumped-storage station",
+      "sourceUrl": "https://www.drax.com/press_release/drax-kickstarts-planning-process-to-expand-its-iconic-hollow-mountain-cruachan-power-station/",
+      "credit": "Drax Group plc",
+      "license": "Drax terms permit non-commercial news-related editorial use of press-release media content by journalists/reporters/broadcasters/bloggers; credited local research display only; no external publication permission implied.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Cruachan地下机房与可逆水泵水轮机 · 工程照片",
+      "subjects": [
+        "company:pumped-hydro-drax",
+        "route:pumped-hydro:history",
+        "material:pumped-hydro-waterway",
+        "material:pumped-hydro-turbine",
+        "material:pumped-hydro-control",
+        "route:pumped-hydro:papers"
+      ]
+    },
+    {
+      "id": "mechanical-cruachan-reservoir",
+      "src": "/chronicle/mechanical-cruachan-reservoir.jpg",
+      "alt": "Cruachan pumped-storage upper reservoir dam at Loch Awe in Scotland",
+      "sourceUrl": "https://www.drax.com/press_release/drax-kickstarts-planning-process-to-expand-its-iconic-hollow-mountain-cruachan-power-station/",
+      "credit": "Drax Group plc",
+      "license": "Drax terms permit non-commercial news-related editorial use of press-release media content by journalists/reporters/broadcasters/bloggers; credited local research display only; no external publication permission implied.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Cruachan上水库与大坝 · 工程照片",
+      "subjects": [
+        "company:pumped-hydro-drax",
+        "route:pumped-hydro:history",
+        "material:pumped-hydro-reservoir"
+      ]
+    },
+    {
+      "id": "policy-pumped-hydro-nea-2026",
+      "src": "/chronicle/policy-pumped-hydro-nea-2026.png",
+      "alt": "国家能源局2026年2月发布的2025年抽水蓄能投运统计原页",
+      "sourceUrl": "https://www.nea.gov.cn/20260212/742b8c6a078347b0b39de676c05c5d58/c.html",
+      "credit": "国家能源局 · 原文页面资料",
+      "license": "Government source-page screenshot for credited local research reference; no open-photo license claimed.",
+      "status": "usable",
+      "kind": "document",
+      "context": "国家能源局原文 · 2025抽水蓄能投运统计（2026-02-12发布）",
+      "subjects": [
+        "scene:pumped-hydro-policy"
+      ]
+    },
+    {
+      "id": "mechanical-carrington-groundbreaking",
+      "src": "/chronicle/mechanical-carrington-groundbreaking.jpg",
+      "alt": "Highview Carrington液态空气储能项目开工现场，前景可见项目效果图",
+      "sourceUrl": "https://highviewpower.com/news-announcements/mayor-of-greater-manchester-andy-burnham-officially-breaks-ground-on-highviews-pioneering-liquid-air-energy-storage-facility-in-carrington-manchester/",
+      "credit": "Highview Power",
+      "license": "Highview官方新闻照片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2025年开工活动现场；Carrington设计50MW/300MWh且仍在建设，不是已投运设备照片。",
+      "subjects": [
+        "company:liquid-air-highview",
+        "route:liquid-air:history",
+        "material:liquid-air-liquid",
+        "material:liquid-air-liquefier",
+        "material:liquid-air-thermal",
+        "material:liquid-air-expander"
+      ]
+    },
+    {
+      "id": "mechanical-beacon-stephentown",
+      "src": "/chronicle/mechanical-beacon-stephentown.jpg",
+      "alt": "Beacon Power Stephentown电网级飞轮储能站航拍，可见成排飞轮机组和控制设备",
+      "sourceUrl": "https://beaconpower.com/stephentown-new-york/",
+      "credit": "Beacon Power, LLC",
+      "license": "Beacon Power官网图片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Stephentown 20MW设施，含200台飞轮，2011年商业运行。",
+      "subjects": [
+        "company:flywheel-beacon",
+        "route:flywheel:history",
+        "material:flywheel-rotor",
+        "material:flywheel-bearing",
+        "material:flywheel-vacuum",
+        "material:flywheel-electronics",
+        "event:flywheel:2011",
+        "event:flywheel:2018"
+      ]
+    },
+    {
+      "id": "mechanical-rudong-gravity",
+      "src": "/chronicle/mechanical-rudong-gravity.jpg",
+      "alt": "如东EVx重力储能设施组装厂房内成排的重力块运输拖车",
+      "sourceUrl": "https://www.energyvault.com/projects/rudong",
+      "credit": "Energy Vault",
+      "license": "Energy Vault官方项目页图片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "如东EVx厂房与重物运输拖车 · 2024首组充放电单元测试及调试",
+      "subjects": [
+        "company:gravity-energy-vault",
+        "company:gravity-cnty",
+        "route:gravity:history",
+        "material:gravity-mass",
+        "material:gravity-hoist",
+        "material:gravity-structure",
+        "material:gravity-control"
+      ]
+    },
+    {
+      "id": "mechanical-ares-gravityline",
+      "src": "/chronicle/mechanical-ares-gravityline.jpg",
+      "alt": "ARES Pahrump重力储能开发现场，代表在工程车辆前介绍轨道式项目",
+      "sourceUrl": "https://aresnorthamerica.com/nevada-project/",
+      "credit": "ARES North America",
+      "license": "ARES官方项目照片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Pahrump开发/开工活动照片，未展示完整GravityLine质量车；项目仍在开发，设计功率5MW。",
+      "subjects": [
+        "company:gravity-ares",
+        "route:gravity:history"
+      ]
+    },
+    {
+      "id": "mechanical-caes-adiabatic-ai",
+      "src": "/chronicle/mechanical-caes-adiabatic-ai.png",
+      "alt": "压缩热回收、蓄热床与地下储气的绝热CAES概念结构",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "压缩热回收路线概念构图，非实际项目照片或逐管道工程图",
+      "subjects": [
+        "route:caes-adiabatic:history",
+        "material:caes-adiabatic-air",
+        "material:caes-adiabatic-thermal",
+        "material:caes-adiabatic-machinery",
+        "material:caes-adiabatic-heat-exchanger"
+      ]
+    },
+    {
+      "id": "mechanical-caes-conventional-ai",
+      "src": "/chronicle/mechanical-caes-conventional-ai.png",
+      "alt": "排出压缩热、燃气补热与洞室储气的常规CAES概念结构",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "燃料补热路线概念构图，非实际项目照片或定量热力图",
+      "subjects": [
+        "route:caes-conventional:history",
+        "material:caes-conventional-air",
+        "material:caes-conventional-compressor",
+        "material:caes-conventional-combustor",
+        "material:caes-conventional-recuperator"
+      ]
+    },
+    {
+      "id": "policy-caes-nea-2026",
+      "src": "/chronicle/policy-caes-nea-2026.png",
+      "alt": "国家能源局2026发布的2025新型储能进展原页",
+      "sourceUrl": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html",
+      "credit": "国家能源局",
+      "license": "Official source-page screenshot for credited local research reference; no open-photo license claimed.",
+      "status": "usable",
+      "kind": "document",
+      "context": "2025行业总结 · 压缩空气工程商运进展",
+      "subjects": [
+        "scene:caes-adiabatic-policy"
+      ]
+    },
+    {
+      "id": "policy-mechanical-trials-nea-2024",
+      "src": "/chronicle/policy-mechanical-trials-nea-2024.png",
+      "alt": "国家能源局2024新型储能试点示范项目发布会原页",
+      "sourceUrl": "https://www.nea.gov.cn/2024-04/29/c_1212357869.htm",
+      "credit": "国家能源局",
+      "license": "Official source-page screenshot for credited local research reference; no open-photo license claimed.",
+      "status": "usable",
+      "kind": "document",
+      "context": "2024试点示范获选数量 · 非投运装机统计",
+      "subjects": [
+        "scene:gravity-policy",
+        "scene:flywheel-policy"
+      ]
+    },
+    {
+      "id": "policy-liquid-air-ofgem-2026",
+      "src": "/chronicle/policy-liquid-air-ofgem-2026.png",
+      "alt": "Ofgem2026长时储能收入机制进展原页",
+      "sourceUrl": "https://www.ofgem.gov.uk/press-release/ofgem-boosts-long-duration-storage-secure-more-homegrown-energy-customers",
+      "credit": "Ofgem",
+      "license": "Official source-page screenshot for credited local research reference; no open-photo license claimed.",
+      "status": "usable",
+      "kind": "document",
+      "context": "2026首轮长时储能拟选择进展 · 非项目投运",
+      "subjects": [
+        "scene:liquid-air-policy"
+      ]
+    },
+    {
+      "id": "policy-caes-conventional-cpuc",
+      "src": "/chronicle/policy-caes-conventional-cpuc.png",
+      "alt": "CPUC智能电网与压缩空气示范支持原页",
+      "sourceUrl": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/infrastructure/smart-grid-landing-page",
+      "credit": "California Public Utilities Commission",
+      "license": "Official source-page screenshot for credited local research reference; no open-photo license claimed.",
+      "status": "usable",
+      "kind": "document",
+      "context": "美国监管机构压缩空气示范研究资料",
+      "subjects": [
+        "scene:caes-conventional-policy"
+      ]
+    },
+    {
+      "id": "material-thermal-sensible-ai",
+      "src": "/chronicle/material-thermal-sensible-ai.png",
+      "alt": "水、熔盐与固体填充床显热储存概念剖面",
+      "sourceUrl": "",
+      "credit": "内置imagegen生成",
+      "license": "项目生成的概念背景；非实验图或工程实景",
+      "status": "usable",
+      "subjects": [
+        "material:thermal-sensible-water",
+        "material:thermal-sensible-salt",
+        "material:thermal-sensible-solid",
+        "material:thermal-sensible-insulation"
+      ],
+      "kind": "ai-illustration",
+      "context": "储热结构概念示意，非具体配方或试样"
+    },
+    {
+      "id": "material-thermal-latent-ai",
+      "src": "/chronicle/material-thermal-latent-ai.png",
+      "alt": "相变介质胶囊与换热管概念剖面",
+      "sourceUrl": "",
+      "credit": "内置imagegen生成",
+      "license": "项目生成的概念背景；非实验图或工程实景",
+      "status": "usable",
+      "subjects": [
+        "material:thermal-latent-paraffin",
+        "material:thermal-latent-salt-hydrate",
+        "material:thermal-latent-metal",
+        "material:thermal-latent-encapsulation"
+      ],
+      "kind": "ai-illustration",
+      "context": "储热结构概念示意，非具体配方或试样"
+    },
+    {
+      "id": "material-thermal-thermochemical-ai",
+      "src": "/chronicle/material-thermal-thermochemical-ai.png",
+      "alt": "多孔介质反应器与蒸汽/气体回路概念剖面",
+      "sourceUrl": "",
+      "credit": "内置imagegen生成",
+      "license": "项目生成的概念背景；非实验图或工程实景",
+      "status": "usable",
+      "subjects": [
+        "material:thermal-thermochemical-adsorption",
+        "material:thermal-thermochemical-salt-hydration",
+        "material:thermal-thermochemical-hydroxide",
+        "material:thermal-thermochemical-carbonation"
+      ],
+      "kind": "ai-illustration",
+      "context": "储热结构概念示意，非具体配方或试样"
+    },
+    {
+      "id": "policy-thermal-ndrc-2022",
+      "src": "/chronicle/policy-thermal-ndrc-2022.png",
+      "alt": "国家发展改革委2022新型储能实施方案发布页",
+      "sourceUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202203/t20220321_1319772.html",
+      "credit": "国家发展改革委原文发布页",
+      "license": "原始政策资料截图，链接回原文",
+      "status": "usable",
+      "subjects": [
+        "scene:thermal-publication"
+      ],
+      "kind": "document",
+      "context": "2022实施方案发布页；附件涉及热（冷）储能研发与示范"
+    },
+    {
+      "id": "thermal-rondo-western",
+      "src": "/chronicle/thermal-rondo-western.jpg",
+      "alt": "Rondo Energy在加州工业设施的热电池建筑现场",
+      "sourceUrl": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+      "sourceImageUrl": "https://images.prismic.io/rondo/aO6L855xUNkB19P-_holmes_western_meta.jpg?auto=compress,format",
+      "credit": "Rondo Energy；图片取自2025-10-16项目公告",
+      "license": "Rondo网站版权保留；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Rondo加州100 MWh热储能装置现场；图中为设备外壳，不是耐火砖/电阻丝材料照片。",
+      "subjects": [
+        "company:thermal-sensible-rondo",
+        "route:thermal-sensible:history"
+      ]
+    },
+    {
+      "id": "thermal-mga-tomago",
+      "src": "/chronicle/thermal-mga-tomago.webp",
+      "alt": "MGA Thermal Tomago热储能示范装置与蒸汽系统",
+      "sourceUrl": "https://mgathermal.com/flagship-projects/mga-demonstration-plant",
+      "sourceImageUrl": "https://cdn.prod.website-files.com/6a374d4888d86c8f3b708bda/6a51f05a5c4d93162225b833_Project%20-%20Plant%20-%20Hero1.webp",
+      "credit": "MGA Thermal；图片展示Tomago项目设施",
+      "license": "官网未提供开放许可声明；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Tomago 5 MWhth示范设施照片；不作为合金微观结构或潜热材料样品证据。",
+      "subjects": [
+        "company:thermal-latent-mga",
+        "route:thermal-latent:history"
+      ]
+    },
+    {
+      "id": "thermal-cache-duke",
+      "src": "/chronicle/thermal-cache-duke.jpg",
+      "alt": "Cache Energy在Duke Energy Mt. Holly测试现场的热化学储能模块",
+      "sourceUrl": "https://www.cache-energy.com/insights/cache-energy-demonstrates-rapid-modular-thermochemical-storage-at-duke-energys-mt-holly-facility",
+      "sourceImageUrl": "https://www.cache-energy.com/images/cache-img-07.jpg",
+      "credit": "Cache Energy；图片说明为2026-03-05 Mt. Holly测试现场模块",
+      "license": "Cache Energy网站版权保留；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "热化学模块在Duke测试现场；图像说明依据页面标题/正文，模块额定容量未披露。",
+      "subjects": [
+        "company:thermal-thermochemical-cache",
+        "route:thermal-thermochemical:history"
+      ]
+    },
+    {
+      "id": "thermal-sunamp-thermino",
+      "src": "/chronicle/thermal-sunamp-thermino.png",
+      "alt": "Sunamp Thermino 70e P58相变热水储能系统方案图",
+      "sourceUrl": "https://sunamp.com/en-ca/case-studies/sunamp-thermal-batteries-reduce-peak-load-in-a-new-york-office-building-a-nyserda-program/",
+      "sourceImageUrl": "https://sunamp.com/en-ca/wp-content/uploads/sites/19/2024/10/thermino-system-300x208.png",
+      "credit": "Sunamp；Thermino官方产品图",
+      "license": "Sunamp网站版权保留；本地科研展示引用，不能据此推定对外转载授权。",
+      "status": "usable",
+      "kind": "document",
+      "context": "官方案例方案图（300×208）；示出Thermino 70e与热水系统连接，非产品实拍或PCM样品。",
+      "subjects": [
+        "company:thermal-latent-sunamp",
+        "route:thermal-latent:history"
+      ]
+    },
+    {
+      "id": "thermal-policy-14th-plan-page6",
+      "src": "/chronicle/thermal-policy-14th-plan.png",
+      "alt": "国家发展改革委、国家能源局《十四五新型储能发展实施方案》涉及热储能原文页",
+      "sourceUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202203/P020220321543703119995.pdf",
+      "credit": "国家发展改革委、国家能源局；原文PDF第6页，2022年1月29日印发、3月21日公开",
+      "license": "政府网站公开文件；保留来源与文件信息，具体转载许可按政府网站规则核对。",
+      "status": "usable",
+      "kind": "document",
+      "context": "原始政府文件页面截图；明确提出高效储热日到周、周到季尺度示范。",
+      "subjects": [
+        "scene:thermal-policy"
+      ]
+    },
+    {
+      "id": "hydrogen-policy-ndrc-2022",
+      "src": "/chronicle/hydrogen-policy-ndrc-2022-02.png",
+      "alt": "国家发改委《氢能产业发展中长期规划（2021—2035年）》第2页原文截图",
+      "sourceUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202203/t20220323_1320038.html",
+      "sourceImageUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202203/P020220323314396580505.pdf",
+      "credit": "国家发展改革委等部门；官方PDF第2页",
+      "license": "政府政策原文截图，注明来源供研究引用",
+      "status": "usable",
+      "kind": "document",
+      "context": "2022-03-23发布，原文论及氢作为可再生能源大规模、长周期储能载体。",
+      "subjects": [
+        "scene:hydrogen-policy"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-doe-vessel-2011",
+      "src": "/chronicle/hydrogen-gas-doe-vessel-2011-06.png",
+      "alt": "DOE氢能计划2011报告中的高压氢气压力容器资格测试照片和测试项目",
+      "sourceUrl": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review11/pd021_baldwin_2011_o.pdf",
+      "credit": "U.S. DOE Hydrogen Program / Lincoln Composites; FY2011报告第6页",
+      "license": "报告图像未标开放许可；仅本地研究展示并保留原始署名",
+      "status": "usable",
+      "kind": "document",
+      "context": "Lincoln Composites历史研发容器的3600 psi资格测试，非当前商业部署照片。",
+      "subjects": [
+        "company:hydrogen-gas-hexagon-lincoln"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-nasa-lh2-sphere",
+      "src": "/chronicle/hydrogen-liquid-nasa-lh2-sphere.jpg",
+      "alt": "NASA肯尼迪航天中心液氢储存球罐",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/kennedy/kennedy-plays-critical-role-in-large-scale-liquid-hydrogen-tank-development/",
+      "sourceImageUrl": "https://images-assets.nasa.gov/image/KSC-20191001-PH-CSH01_0019/KSC-20191001-PH-CSH01_0019~large.jpg",
+      "credit": "NASA/Ben Smegelsky",
+      "license": "NASA图片，按NASA署名规则注明摄影者与来源",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "LC-39B旧球罐真实照片，照片拍摄于2019；用于说明NASA的低温推进剂储存工程背景。",
+      "subjects": [
+        "route:hydrogen-liquid:history",
+        "company:hydrogen-liquid-nasa-ksc"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-lohc-erlangen",
+      "src": "/chronicle/hydrogen-carrier-lohc-erlangen.jpg",
+      "alt": "Hydrogenious LOHC Erlangen加氢站的ReleaseBox装置",
+      "sourceUrl": "https://hydrogenious.net/how/hrs-erlangen/",
+      "sourceImageUrl": "https://hydrogenious.net/wp-content/uploads/Hydrogen_Refueling_Station_Erlangen_LOHC_Release_Box_-Hydrogenious_LOHC-1920x1054.jpg",
+      "credit": "© Hydrogenious LOHC Technologies",
+      "license": "项目页提供新闻图片下载；图像不属于开放许可，外部发布或转载需另行确认许可",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Erlangen H₂Sektor真实LOHC放氢设备；用于本地科研展示。",
+      "subjects": [
+        "route:hydrogen-carrier:history",
+        "company:hydrogen-carrier-hydrogenious"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-syzygy-lotte-ulsan",
+      "src": "/chronicle/hydrogen-carrier-syzygy-lotte-ulsan.jpg",
+      "alt": "Syzygy与Lotte Chemical在韩国Ulsan测试的电驱氨裂解反应器",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/syzygy-plasmonics-and-lotte-chemical-unlock-ammonia-as-a-hydrogen-carrier-in-asia-successfully-complete-trial-of-ammonia-e-cracking-unit-302360343.html",
+      "sourceImageUrl": "https://mma.prnewswire.com/media/2606228/Syzygy_Rigel_Reactor_Ulsan_Korea.jpg?p=facebook",
+      "credit": "Syzygy Plasmonics（公司新闻稿配图）",
+      "license": "未声明开放许可；限本地非公开研究展示，外部发布需取得权利人许可",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2024年12月完成现场性能测试的氨裂解设备，不表示商业运行或完整储电闭环。",
+      "subjects": [
+        "route:hydrogen-carrier:history",
+        "company:hydrogen-carrier-syzygy-lotte"
+      ]
+    },
+    {
+      "id": "hydrogen-solid-gkn-nrel-flatirons",
+      "src": "/chronicle/hydrogen-solid-gkn-nrel-flatirons.jpg",
+      "alt": "GKN Hydrogen金属氢化物储氢系统在NREL Flatirons园区",
+      "sourceUrl": "https://www.nlr.gov/news/detail/program/2024/heavy-metal-debut-a-world-class-metal-hydride-system",
+      "sourceImageUrl": "https://www.nlr.gov/images/libraries/news/program/2024/heavy-metal-92239-bdy.jpg?Status=Master&sfvrsn=fd61eae0_0",
+      "credit": "Photo by Gregory Cooper, NREL",
+      "license": "NLR官方新闻图片，注明NREL摄影署名；仅本地研究展示，外部转载需依源站权利条款确认",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "NREL 2024-11-14官方报道中的HEVHY METAL示范系统实景；用于固态氢储存项目背景，不是材料显微图。",
+      "subjects": [
+        "route:hydrogen-solid:history",
+        "company:hydrogen-solid-gkn-nrel"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-enric-tubebundle",
+      "src": "/chronicle/hydrogen-gas-enric-tubebundle.jpg",
+      "alt": "中集安瑞科官网展示的高压氢气管束设备",
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "sourceImageUrl": "https://en.enricgroup.com/public/cms/images/clean-img41.jpg",
+      "credit": "中集安瑞科官网产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司官网氢气管束产品图；作为高压气态储运装备背景，不指认其为松原项目现场照片。",
+      "subjects": [
+        "route:hydrogen-gas:history",
+        "company:hydrogen-gas-enric"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-enric-trailer",
+      "src": "/chronicle/hydrogen-gas-enric-trailer.jpg",
+      "alt": "中集安瑞科官网展示的氢气管束运输半挂车",
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "sourceImageUrl": "https://en.enricgroup.com/public/cms/images/clean-img42.jpg",
+      "credit": "中集安瑞科官网产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司官网展示运输车辆产品，不声称对应某个具体投运项目。",
+      "subjects": [
+        "route:hydrogen-gas:history",
+        "company:hydrogen-gas-enric"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-enric-tank",
+      "src": "/chronicle/hydrogen-liquid-enric-tank.jpg",
+      "alt": "中集安瑞科官网展示的液氢储罐设备",
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "sourceImageUrl": "https://en.enricgroup.com/public/cms/images/clean-img43.jpg",
+      "credit": "中集安瑞科官网产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司官网液氢储罐产品图；不指认为2013文昌罐或2025专项示范罐实景。",
+      "subjects": [
+        "route:hydrogen-liquid:history",
+        "company:hydrogen-liquid-enric"
+      ]
+    },
+    {
+      "id": "material-hydrogen-gas-ai",
+      "src": "/chronicle/material-hydrogen-gas-ai.png",
+      "alt": "高压气态储氢机理示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "储氢部件与机理概念示意",
+      "subjects": [
+        "material:hydrogen-gas-liner",
+        "material:hydrogen-gas-fiber",
+        "material:hydrogen-gas-controls"
+      ]
+    },
+    {
+      "id": "material-hydrogen-liquid-ai",
+      "src": "/chronicle/material-hydrogen-liquid-ai.png",
+      "alt": "液氢储能机理示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "储氢部件与机理概念示意",
+      "subjects": [
+        "material:hydrogen-liquid-vessel",
+        "material:hydrogen-liquid-insulation",
+        "material:hydrogen-liquid-conversion",
+        "material:hydrogen-liquid-transfer"
+      ]
+    },
+    {
+      "id": "material-hydrogen-solid-ai",
+      "src": "/chronicle/material-hydrogen-solid-ai.png",
+      "alt": "固态储氢机理示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "储氢部件与机理概念示意",
+      "subjects": [
+        "material:hydrogen-solid-intermetallic",
+        "material:hydrogen-solid-magnesium",
+        "material:hydrogen-solid-complex",
+        "material:hydrogen-solid-adsorbent"
+      ]
+    },
+    {
+      "id": "material-hydrogen-carrier-ai",
+      "src": "/chronicle/material-hydrogen-carrier-ai.png",
+      "alt": "化学载体储氢机理示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "储氢部件与机理概念示意",
+      "subjects": [
+        "material:hydrogen-carrier-lohc",
+        "material:hydrogen-carrier-ammonia",
+        "material:hydrogen-carrier-methanol",
+        "material:hydrogen-carrier-formic"
+      ]
+    },
+    {
+      "id": "material-hydrogen-gas-cavern-ai",
+      "src": "/chronicle/material-hydrogen-gas-cavern-ai.png",
+      "alt": "地下储氢机理示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "储氢部件与机理概念示意",
+      "subjects": [
+        "material:hydrogen-gas-cavern"
+      ]
+    },
+    {
+      "id": "supercapacitor-policy-nea-2021",
+      "src": "/chronicle/em-policy-nea-2021.png",
+      "alt": "国家能源局与科技部《十四五能源领域科技创新规划》第21页，列出超导、电介质电容器技术攻关及10MW级超级电容器示范",
+      "sourceUrl": "https://zfxxgk.nea.gov.cn/2021-11/29/c_1310540453.htm",
+      "sourceImageUrl": "https://zfxxgk.nea.gov.cn/1310540453_16488568862671n.pdf",
+      "credit": "国家能源局、科学技术部；官方规划PDF第21页",
+      "license": "政府公开规划原文页面截图，保留发布机关、文号与页码。",
+      "status": "usable",
+      "kind": "document",
+      "context": "2021-11-29联合印发《十四五能源领域科技创新规划》（国能发科技〔2021〕58号）；用于功率型储能技术政策背景。",
+      "subjects": [
+        "scene:supercapacitor-policy",
+        "scene:smes-policy"
+      ]
+    },
+    {
+      "id": "supercapacitor-skeleton-d60-cells",
+      "src": "/chronicle/em-supercapacitor-skeleton-cells.png",
+      "alt": "Skeleton SkelCap超级电容器单体产品图",
+      "sourceUrl": "https://www.skeletontech.com/en/skelcap-supercapacitors",
+      "sourceImageUrl": "https://www.skeletontech.com/hubfs/skeleton-supercapacitor-cells.png",
+      "credit": "Skeleton Technologies产品页面",
+      "license": "官网产品图，页面标注©2026 All rights reserved；本地科研展示引用，外部发布需取得许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "厂商D60系列单体产品图；外观产品图，不是电网储能系统或材料显微照片。",
+      "subjects": [
+        "company:supercapacitor-skeleton",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "supercapacitor-jianghai-edlc-module",
+      "src": "/chronicle/em-supercapacitor-jianghai-module.png",
+      "alt": "江海股份官网展示的EDLC超级电容模组产品",
+      "sourceUrl": "https://www.jianghai.com/product_aluElecapacitor_17",
+      "sourceImageUrl": "https://www.jianghai.com/file/upload/2020/02/24/1582510229322.png",
+      "credit": "南通江海电容器股份有限公司产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "产品页将其列为EDLC模组SMSP；不是兆瓦级电站或材料微结构。",
+      "subjects": [
+        "company:supercapacitor-jianghai",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "supercapacitor-inl-ultracap-test",
+      "src": "/chronicle/em-supercapacitor-inl-field.jpg",
+      "alt": "Idaho Falls Power超容现场验证期间的设备与工程人员",
+      "sourceUrl": "https://www.energy.gov/cmei/water/articles/first-kind-tests-demonstrate-how-small-hydropower-plants-and-energy-storage-can",
+      "sourceImageUrl": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2022-01/idaho-falls-power-image3.jpg?itok=XW70pIiP",
+      "credit": "Idaho National Laboratory（DOE报道图片署名）",
+      "license": "DOE报道标注图片来源为INL；注明署名与原报道，仅用于本地科研展示。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2021年小水电+超容黑启动/孤岛试验现场设备背景；照片不提供超容额定能量信息。",
+      "subjects": [
+        "company:supercapacitor-inl-idaho-falls",
+        "route:supercapacitor:history",
+        "event:supercapacitor:2021",
+        "route:supercapacitor:papers"
+      ]
+    },
+    {
+      "id": "smes-zhongshan-groundbreaking",
+      "src": "/chronicle/em-smes-zhongshan-construction.png",
+      "alt": "中山市高性能高温超导材料及磁储能应用示范工程开工仪式",
+      "sourceUrl": "https://www.zs.gov.cn/gzw/zdxm/content/post_2515267.html",
+      "sourceImageUrl": "https://www.zs.gov.cn/img/0/414/414530/2515267.png",
+      "credit": "中山市国资委项目开工公告图片",
+      "license": "政府网站公开项目报道配图，未标开放许可；本地科研展示注明来源，外部发布需确认许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2025年工程开工仪式实景，照片仅作项目时间背景；不是SMES设备或已投运现场。",
+      "subjects": [
+        "company:smes-zhongshan-project",
+        "route:smes:history"
+      ]
+    },
+    {
+      "id": "material-supercapacitor-ai",
+      "src": "/chronicle/material-supercapacitor-ai.png",
+      "alt": "超级电容机理与部件示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "机理概念示意",
+      "subjects": [
+        "material:supercapacitor-carbon",
+        "material:supercapacitor-pseudocapacitive",
+        "material:supercapacitor-electrolyte",
+        "material:supercapacitor-module"
+      ]
+    },
+    {
+      "id": "material-smes-ai",
+      "src": "/chronicle/material-smes-ai.png",
+      "alt": "超导磁储能机理与部件示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "机理概念示意",
+      "subjects": [
+        "material:smes-conductor",
+        "material:smes-magnet",
+        "material:smes-cryogenic",
+        "material:smes-converter"
+      ]
+    },
+    {
+      "id": "ec-policy-ndrc-2025",
+      "src": "/chronicle/policy-ndrc-2025.png",
+      "alt": "国家发展改革委、国家能源局新型储能专项行动方案通知页",
+      "sourceUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/t20250912_1400427_ext.html",
+      "sourceImageUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/P020250912338810699902.pdf",
+      "credit": "国家发展改革委、国家能源局，发改能源〔2025〕1144号",
+      "license": "政府网站政策原文截图，保留发文机关与日期。",
+      "status": "usable",
+      "kind": "document",
+      "context": "2025-09-12发布、方案落款2025-08-27；总政策背景，不代表化学路线成熟认证。",
+      "subjects": [
+        "scene:electrochemical-policy"
+      ]
+    },
+    {
+      "id": "ec-lead-acid-tianneng-tn12-150",
+      "src": "/chronicle/ec-lead-acid-tianneng-product-final.png",
+      "alt": "天能官方储能手册中的TN12-150铅炭电池产品",
+      "sourceUrl": "https://www.tianneng.com/Public/Uploads/uploadfile2/files/20231011/tiannengchuneng.pdf",
+      "sourceImageUrl": "https://www.tianneng.com/Public/Uploads/uploadfile2/files/20231011/tiannengchuneng.pdf#page=8",
+      "credit": "天能电池集团储能产品目录",
+      "license": "官网产品图未标开放许可；本地科研展示署名来源，外部发布需许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "产品外观，非和平共储现场或显微图；12V、150Ah@25°C、20小时率。",
+      "subjects": [
+        "company:electrochemical-lead-acid-tianneng",
+        "route:electrochemical-lead-acid:history"
+      ]
+    },
+    {
+      "id": "ec-zinc-eos-z3-cutaway",
+      "src": "/chronicle/ec-zinc-eos-z3-tech.jpg",
+      "alt": "Eos Z3静态锌卤电池模块剖面图",
+      "sourceUrl": "https://www.eose.com/technology/",
+      "sourceImageUrl": "https://www.eose.com/wp-content/uploads/2023/04/technology-tab-full-text.jpg",
+      "credit": "Eos Energy Enterprises官网技术页",
+      "license": "公司官网图片保留版权；仅本地科研展示署名引用，外部发布需许可。",
+      "status": "usable",
+      "kind": "document",
+      "context": "厂商产品构造图，非实测显微图，也非锌溴液流设备。",
+      "subjects": [
+        "company:electrochemical-zinc-eos",
+        "route:electrochemical-zinc:history"
+      ]
+    },
+    {
+      "id": "ec-metal-air-form-grid-test",
+      "src": "/chronicle/ec-metal-air-form-grid-test.jpg",
+      "alt": "Form Energy在加州Sacramento Valley测试的首套并网铁空气系统",
+      "sourceUrl": "https://formenergy.com/about/",
+      "sourceImageUrl": "https://formenergy.com/wp-content/uploads/2025/08/f8915102-7415-4d89-bda5-cd8e4cdfbf47-2048x1819.jpg",
+      "credit": "Form Energy官网进展时间线",
+      "license": "公司官网版权图片；本地科研展示标明来源，外部发布需许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官网标为2023年首套并网现场测试系统，非商业运行的长期性能证据。",
+      "subjects": [
+        "company:electrochemical-metal-air-form",
+        "route:electrochemical-metal-air:history"
+      ]
+    },
+    {
+      "id": "ec-metal-air-form-demo-transport",
+      "src": "/chronicle/ec-metal-air-form-cambridge.jpg",
+      "alt": "Form Energy首个铁空气商业示范系统出厂装运照片",
+      "sourceUrl": "https://formenergy.com/about/",
+      "sourceImageUrl": "https://formenergy.com/wp-content/uploads/2025/10/photos-1536x1002.jpg",
+      "credit": "Form Energy官网进展时间线",
+      "license": "公司官网版权图片；本地科研展示标明来源，外部发布需许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官网称2025年系统运往Great River Energy示范地点；装运不等于运行验收。",
+      "subjects": [
+        "company:electrochemical-metal-air-form",
+        "route:electrochemical-metal-air:history"
+      ]
+    },
+    {
+      "id": "material-electrochemical-lead-acid-ai",
+      "src": "/chronicle/material-electrochemical-lead-acid-ai.png",
+      "alt": "lead-acid电池机理概念示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "通用机理与部件示意",
+      "subjects": [
+        "material:electrochemical-lead-acid-pbo2",
+        "material:electrochemical-lead-acid-sponge-lead-carbon",
+        "material:electrochemical-lead-acid-sulfuric-acid-agm-gel",
+        "material:electrochemical-lead-acid-thin-plate-pure-lead"
+      ]
+    },
+    {
+      "id": "material-electrochemical-zinc-ai",
+      "src": "/chronicle/material-electrochemical-zinc-ai.png",
+      "alt": "zinc电池机理概念示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "通用机理与部件示意",
+      "subjects": [
+        "material:electrochemical-zinc-zinc-anode",
+        "material:electrochemical-zinc-cathode",
+        "material:electrochemical-zinc-aqueous-electrolyte",
+        "material:electrochemical-zinc-separator-static-module"
+      ]
+    },
+    {
+      "id": "material-electrochemical-metal-air-ai",
+      "src": "/chronicle/material-electrochemical-metal-air-ai.png",
+      "alt": "metal-air电池机理概念示意",
+      "sourceUrl": "",
+      "credit": "内置图像生成工具",
+      "license": "本项目概念示意",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "通用机理与部件示意",
+      "subjects": [
+        "material:electrochemical-metal-air-iron-anode",
+        "material:electrochemical-metal-air-air-cathode",
+        "material:electrochemical-metal-air-electrolyte",
+        "material:electrochemical-metal-air-reversible-cell"
+      ]
+    },
+    {
+      "id": "hydrogen-hitrf-official",
+      "src": "/chronicle/hydrogen-hitrf-official.jpg",
+      "alt": "NLR HITRF高压氢设施",
+      "sourceUrl": "https://www.nlr.gov/hydrogen/facilities",
+      "credit": "NLR官方设施照片",
+      "subjects": [
+        "company:hydrogen-gas-nrel-hitrf",
+        "route:hydrogen-gas:papers"
+      ],
+      "context": "高压氢基础设施测试平台 · NLR",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "enersys-powersafe-sbs-official",
+      "src": "/chronicle/enersys-powersafe-sbs-official.png",
+      "alt": "EnerSys PowerSafe SBS铅酸电池",
+      "sourceUrl": "https://www.enersys.com/en/products/batteries/powersafe/powersafe-sbs/",
+      "credit": "EnerSys官方产品照片",
+      "subjects": [
+        "company:electrochemical-lead-acid-enersys",
+        "route:electrochemical-lead-acid:storage"
+      ],
+      "context": "PowerSafe SBS产品 · 非East Penn项目照片",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "supercapacitor-skelmod-162v",
+      "src": "/chronicle/supercapacitor-skelmod-162v.png",
+      "alt": "Skeleton SkelMod 162V超级电容模组",
+      "sourceUrl": "https://www.skeletontech.com/en/supercapacitor-modules",
+      "credit": "Skeleton官方模组照片",
+      "subjects": [
+        "route:supercapacitor:storage",
+        "material:supercapacitor-module"
+      ],
+      "context": "SkelMod 162V模组 · 产品资料",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "supercapacitor-leipzig-production",
+      "src": "/chronicle/supercapacitor-leipzig-production.webp",
+      "alt": "Skeleton莱比锡超级电容工厂生产厅",
+      "sourceUrl": "https://www.skeletontech.com/news/gallery-construction-of-our-leipzig-superfactory",
+      "credit": "Skeleton / ecoPARKS",
+      "subjects": [
+        "company:supercapacitor-skeleton"
+      ],
+      "context": "莱比锡工厂建设期间生产厅 · 2023图片资料",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-cas-2025-magnet",
+      "src": "/chronicle/smes-cas-2025-magnet.png",
+      "alt": "中科院2025迫流冷却高温超导储能磁体设施",
+      "sourceUrl": "https://www.cas.cn/syky/202512/t20251203_5091164.shtml",
+      "credit": "中国科学院储能磁体研究图片",
+      "subjects": [
+        "route:smes:papers",
+        "material:smes-cryogenic"
+      ],
+      "context": "2025迫流冷却储能磁体实验设施 · 研究背景",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-kyuden-module",
+      "src": "/chronicle/smes-kyuden-module.jpg",
+      "alt": "九州电力1kWh/1MW SMES模块设备",
+      "sourceUrl": "https://www.sc.kyushu-u.ac.jp/~jcryo-qw/meeting/20110422/study8.pdf",
+      "credit": "九州电力2011技术报告第8页",
+      "subjects": [
+        "company:smes-kyuden",
+        "route:smes:history"
+      ],
+      "context": "九州电力1kWh/1MW SMES原型 · 历史设备照片",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-kyuden-coil",
+      "src": "/chronicle/smes-kyuden-coil.jpg",
+      "alt": "九州电力模块型SMES超导线圈",
+      "sourceUrl": "https://www.sc.kyushu-u.ac.jp/~jcryo-qw/meeting/20110422/study8.pdf",
+      "credit": "九州电力2011技术报告第8页",
+      "subjects": [
+        "material:smes-magnet"
+      ],
+      "context": "九州电力NbTi模块型SMES线圈 · 历史设备照片",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-kyuden-control",
+      "src": "/chronicle/smes-kyuden-control.jpg",
+      "alt": "九州电力SMES控制设备",
+      "sourceUrl": "https://www.sc.kyushu-u.ac.jp/~jcryo-qw/meeting/20110422/study8.pdf",
+      "credit": "九州电力2011技术报告第11页",
+      "subjects": [
+        "route:smes:storage"
+      ],
+      "context": "九州电力SMES系统控制设备 · 试验资料",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-thermal-antora-carbon",
+      "route": "显热储能",
+      "src": "/chronicle/photo-revision-thermal-antora-carbon.jpg",
+      "alt": "Antora 固体碳储热块实物",
+      "sourceUrl": "https://www.antora.com/technology",
+      "originalUrl": "https://file-transforms.antora.com/production/Retouched-Images/ARPA_E_ANTORA_0030T01-2-1-edit.jpg?w=1000&h=1000&q=75&auto=format&fit=clip&dm=1727306157&s=2cb80836a23bc706b6c16b8f420dd6c1",
+      "credit": "Antora Energy",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1000,
+      "height": 1000,
+      "subjects": [
+        "material:thermal-sensible-solid",
+        "route:thermal-sensible:papers"
+      ],
+      "notes": "官网明确图注为两列堆放的固体碳块；不是该页另一个标注 rendering 的单块示意。",
+      "status": "usable",
+      "priority": 10,
+      "context": "Antora 固体碳储热块实物"
+    },
+    {
+      "id": "photo-revision-thermal-antora-module",
+      "route": "显热储能",
+      "src": "/chronicle/photo-revision-thermal-antora-module.jpg",
+      "alt": "Antora 工业设施外的热电池模块",
+      "sourceUrl": "https://www.antora.com/technology",
+      "originalUrl": "https://file-transforms.antora.com/production/Retouched-Images/Mask-group1.jpg?w=1000&h=1000&q=75&auto=format&fit=clip&dm=1727306196&s=4f9e8f115bf47a295f02dbcaaabbb6f2",
+      "credit": "Antora Energy",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1000,
+      "height": 1000,
+      "subjects": [
+        "company:thermal-sensible-antora"
+      ],
+      "notes": "官网技术页明确指认为 Antora 模块；图片本身未标拍摄年月，不单独绑定 2023 Wellhead 事件。",
+      "status": "usable",
+      "priority": 10,
+      "context": "Antora 工业设施外的热电池模块"
+    },
+    {
+      "id": "photo-revision-thermal-polar",
+      "route": "显热储能",
+      "src": "/chronicle/photo-revision-thermal-polar.jpg",
+      "alt": "2025 年 Pornainen 砂储热设施启用现场",
+      "sourceUrl": "https://polarnightenergy.com/news/worlds-largest-sand-battery-now-in-operation/",
+      "originalUrl": "https://polarnightenergy.com/wp-content/uploads/PNE-toukokuu-2025-10_grade-scaled.jpg",
+      "credit": "Polar Night Energy",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 2560,
+      "height": 1707,
+      "subjects": [
+        "event:thermal-sensible:2025",
+        "route:thermal-sensible:storage"
+      ],
+      "notes": "对应 2025-06-11 启用公告。1 MW_th / 100 MWh_th；介质为皂石碎料。",
+      "status": "usable",
+      "priority": 10,
+      "context": "2025 年 Pornainen 砂储热设施启用现场"
+    },
+    {
+      "id": "photo-revision-thermal-mga-blocks",
+      "route": "潜热储能",
+      "src": "/chronicle/photo-revision-thermal-mga-blocks.webp",
+      "alt": "MGA 复合储热块实物",
+      "sourceUrl": "https://mgathermalstorage.squarespace.com/energystorage",
+      "originalUrl": "https://static1.squarespace.com/static/6371bcf77af85562378f3932/t/63cf28a4eb65a102c882bbbb/1674520740546/_NDY2359+-+clean.png?format=1500w",
+      "credit": "MGA Thermal",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1500,
+      "height": 1000,
+      "subjects": [
+        "material:thermal-latent-metal",
+        "route:thermal-latent:papers"
+      ],
+      "notes": "官网储能页的复合储热块实拍；用于说明块体/金属相变复合结构，不能当作纯铝、盐水合物或某论文试样。",
+      "status": "usable",
+      "priority": 10,
+      "context": "MGA 复合储热块实物"
+    },
+    {
+      "id": "photo-revision-thermal-mga-pilot",
+      "route": "潜热储能",
+      "src": "/chronicle/photo-revision-thermal-mga-pilot.webp",
+      "alt": "MGA Tomago 示范装置内部",
+      "sourceUrl": "https://mgathermalstorage.squarespace.com/pilot",
+      "originalUrl": "https://images.squarespace-cdn.com/content/v1/6371bcf77af85562378f3932/e09bfb6f-b3ba-47c9-8ffb-0d05e7b5d600/Demo+Unit+4.png",
+      "credit": "MGA Thermal",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1377,
+      "height": 832,
+      "subjects": [
+        "event:thermal-latent:2025",
+        "route:thermal-latent:storage"
+      ],
+      "notes": "官方 pilot 页照片，管路与储热模块内部视角，与现有外观图不同；绑定 2025 Tomago 示范节点。",
+      "status": "usable",
+      "priority": 10,
+      "context": "MGA Tomago 示范装置内部"
+    },
+    {
+      "id": "photo-revision-thermal-sunamp-gomon",
+      "route": "潜热储能",
+      "src": "/chronicle/photo-revision-thermal-sunamp-gomon.png",
+      "alt": "Sunamp 与 Gomon 2025 年中国工厂合作发布现场及产品",
+      "sourceUrl": "https://sunamp.com/blog/sunamp-partners-with-gomon-to-launch-china-factory-expanding-heat-battery-production-to-asia-pacific/",
+      "originalUrl": "https://sunamp.com/wp-content/uploads/2025/11/Untitled-design-2025-11-27T122643.632.png",
+      "credit": "Sunamp / Gomon",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1200,
+      "height": 627,
+      "subjects": [
+        "company:thermal-latent-sunamp"
+      ],
+      "notes": "2025-11 官方报道，现场展示产品；不是厂内生产线照片，也不是盐水合物内部显微图。",
+      "status": "usable",
+      "priority": 10,
+      "context": "Sunamp 与 Gomon 2025 年中国工厂合作发布现场及产品"
+    },
+    {
+      "id": "photo-revision-thermal-saltx",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-saltx.png",
+      "alt": "SaltX 2019 年柏林试验储热装置新闻配图",
+      "sourceUrl": "https://news.cision.com/saltx-technology-holding-ab/r/saltx-s-pilot-plant-in-berlin-is-up-and-running,c2767314",
+      "originalUrl": "https://mb.cision.com/Public/11067/2767296/9ebb5b2a08b5f5c9_800x800ar.png",
+      "credit": "SaltX Technology / Cision",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 800,
+      "height": 407,
+      "subjects": [
+        "company:thermal-thermochemical-saltx"
+      ],
+      "notes": "2019-03-20 官方公告，包含真实设备照片及原发布版式文字；这是历史储热试验站，不能标成当前 EAC 煅烧设备。",
+      "status": "usable",
+      "priority": 10,
+      "context": "SaltX 2019 年柏林试验储热装置新闻配图"
+    },
+    {
+      "id": "photo-revision-thermal-dlr-reactor",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-dlr-reactor.jpg",
+      "alt": "DLR CWS 石灰热化学储热试验台",
+      "sourceUrl": "https://www.dlr.de/en/tt/images/test-stand-cws-heat-storage-in-lime-stone",
+      "originalUrl": "https://www.dlr.de/en/tt/images/test-stand-cws-heat-storage-in-lime-stone/@@images/image-2000-b8cf9b0a6d9cb7a99f1b09a53343337e.jpeg",
+      "credit": "DLR",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 2000,
+      "height": 1333,
+      "subjects": [
+        "material:thermal-thermochemical-hydroxide"
+      ],
+      "notes": "原图页给出最多 10 kW_th、8 kWh 化学储热、约 22 kg Ca(OH)₂；与 2013 论文约 20 kg 试验数据分别记录，不合并同一工况或强绑年份。",
+      "status": "usable",
+      "priority": 10,
+      "context": "DLR CWS 石灰热化学储热试验台"
+    },
+    {
+      "id": "photo-revision-thermal-dlr-calogy",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-dlr-calogy.jpg",
+      "alt": "DLR CALOGY 长时储热供暖原型系统",
+      "sourceUrl": "https://www.dlr.de/en/tt/research-transfer/projects/project-archive/2025/calogy",
+      "originalUrl": "https://www.dlr.de/en/tt/research-transfer/projects/project-archive/2025/calogy/pilotanlage-zur-energiespeicherung-und-erneuerbaren-waermebereitstellung/@@images/image-1000-2fffeea2074c2467f954e752c81bc72b.jpeg",
+      "credit": "DLR",
+      "license": "CC BY-NC-ND 3.0（原页注明；保留署名，非商业引用，不改图）",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1000,
+      "height": 666,
+      "subjects": [
+        "route:thermal-thermochemical:storage"
+      ],
+      "notes": "左侧储料容器、中部反应器、右侧热水罐；项目 2024-05 至 2025-06，原型/试验用途，不绑定 HEAT-INSYDE 住宅节点。",
+      "status": "usable",
+      "priority": 10,
+      "context": "DLR CALOGY 长时储热供暖原型系统"
+    },
+    {
+      "id": "photo-revision-thermal-tempo-real-0",
+      "route": "热化学储能",
+      "src": "/chronicle/photo-revision-thermal-tempo-real-0.webp",
+      "alt": "Tempo 研究人员操作高温研究设备",
+      "sourceUrl": "https://tempoenergy.com/company/",
+      "originalUrl": "https://tempoenergy.com/wp-content/uploads/2026/04/KING5329-1246.webp",
+      "credit": "Tempo",
+      "license": "版权归原发布方；公开页面未提供开放转载授权，不宣称公共领域或 CC 许可。",
+      "kind": "real-photo",
+      "usable": true,
+      "width": 1246,
+      "height": 831,
+      "subjects": [
+        "company:thermal-thermochemical-tempo",
+        "route:thermal-thermochemical:papers"
+      ],
+      "notes": "Tempo 官方公司页研发现场实拍。只描述研究与设备，不根据照片推断具体反应器型号、温度、容量或工业投运。",
+      "status": "usable",
+      "priority": 10,
+      "context": "Tempo 研究人员操作高温研究设备"
+    },
+    {
+      "id": "sony-np-fw50-2021",
+      "src": "/chronicle/sony-np-fw50-2021.jpg",
+      "alt": "Sony NP-FW50锂离子电池",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Sony_NP-FW50_Lithium-Ion_Rechargeable_Battery.jpg",
+      "credit": "Tosdos0012 · CC BY-SA 4.0",
+      "subjects": [
+        "company:lithium-sony"
+      ],
+      "context": "2021拍摄NP-FW50产品 · 非1991首代电芯",
+      "license": "CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/；原图未改造，页面裁切",
+      "kind": "real-photo",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "rongke-dalian-site",
+      "src": "/chronicle/rongke-dalian-site.png",
+      "alt": "融科大连全钒液流储能项目全景",
+      "sourceUrl": "https://english.cas.cn/special-reports/highlights_2022/202512/t20251219_1138282.shtml",
+      "credit": "DICP / 中国科学院",
+      "subjects": [
+        "company:vanadium-rongke",
+        "route:vanadium:storage"
+      ],
+      "context": "大连液流储能项目 · 2022项目资料",
+      "license": "版权归DICP原发布方；署名技术研究展示，未声称开放许可",
+      "kind": "real-photo",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "rongke-dalian-stack",
+      "src": "/chronicle/rongke-dalian-stack.png",
+      "alt": "融科大连项目电堆设备",
+      "sourceUrl": "https://english.cas.cn/special-reports/highlights_2022/202512/t20251219_1138282.shtml",
+      "credit": "DICP / 中国科学院",
+      "subjects": [
+        "route:vanadium:papers"
+      ],
+      "context": "大连全钒项目电堆设备 · 研究背景",
+      "license": "版权归DICP原发布方；署名技术研究展示，未声称开放许可",
+      "kind": "real-photo",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "rongke-dalian-tanks",
+      "src": "/chronicle/rongke-dalian-tanks.png",
+      "alt": "融科大连项目电解液储罐",
+      "sourceUrl": "https://english.cas.cn/special-reports/highlights_2022/202512/t20251219_1138282.shtml",
+      "credit": "DICP / 中国科学院",
+      "subjects": [
+        "material:vanadium-sulfate"
+      ],
+      "context": "全钒项目电解液储罐 · 非电解液微观样品",
+      "license": "版权归DICP原发布方；署名技术研究展示，未声称开放许可",
+      "kind": "real-photo",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "photo-company-extra-ima",
+      "src": "/chronicle/photo-company-extra-ima.png",
+      "subjects": [
+        "company:iron-chromium-imabattery"
+      ],
+      "alt": "IMA Battery 官方标识",
+      "caption": "IMA Battery 官方标识",
+      "kind": "brand-mark",
+      "usable": true,
+      "sourceUrl": "https://imabattery.com/about-us",
+      "originalUrl": "https://img1.wsimg.com/isteam/ip/de569468-3dbc-4fd6-93b5-ef8fa36a22a6/Screen%20Shot%202022-01-03%20at%202.58.24%20PM_preview_r.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true",
+      "credit": "IMA Battery",
+      "license": "原发布方保留版权；公开页面未提供开放转载许可。",
+      "width": 600,
+      "height": 411,
+      "notes": "官网 about-us 候选图经目视为公司标识，不是产品或项目照片。仅可作企业身份配图，不应作为沉浸式设备背景。",
+      "status": "reference-only",
+      "priority": 10,
+      "context": "IMA Battery 官方标识"
+    },
+    {
+      "id": "photo-company-extra-hfips-salon3",
+      "src": "/chronicle/photo-company-extra-hfips-salon3.jpg",
+      "subjects": [
+        "company:electrochemical-zinc-hfips"
+      ],
+      "alt": "合肥固体所 2021 年能源材料学术沙龙现场（机构活动，非锌水凝胶电池样品）",
+      "caption": "合肥固体所 2021 年能源材料学术沙龙现场（机构活动，非锌水凝胶电池样品）",
+      "kind": "real-photo",
+      "usable": true,
+      "sourceUrl": "https://issp.cas.cn/gts/xwzx/zhxw/202106/t20210611_643428.html",
+      "originalUrl": "https://issp.cas.cn/gts/xwzx/zhxw/202106/W020250312610475657148.jpg",
+      "credit": "中国科学院合肥物质科学研究院固体物理研究所",
+      "license": "原发布方保留版权；公开页面未提供开放转载许可。",
+      "width": 600,
+      "height": 399,
+      "notes": "官方 2021-06-11 报道所内能源材料报告现场；胡林华参与主题报告。仅代表机构科研交流环境，不声称图中装置/演示内容属于 2025 锌水凝胶研究。",
+      "status": "usable",
+      "priority": 10,
+      "context": "合肥固体所 2021 年能源材料学术沙龙现场（机构活动，非锌水凝胶电池样品）"
+    },
+    {
+      "id": "photo-company-extra-sinap-gate",
+      "src": "/chronicle/photo-company-extra-sinap-gate.png",
+      "subjects": [
+        "company:electrochemical-metal-air-sinap"
+      ],
+      "alt": "上海应用物理研究所所门（机构背景，非金属空气电池设备）",
+      "caption": "上海应用物理研究所所门（机构背景，非金属空气电池设备）",
+      "kind": "real-photo",
+      "usable": true,
+      "sourceUrl": "https://www.sinap.cas.cn/zt/anniversary60/",
+      "originalUrl": "https://www.sinap.cas.cn/zt/anniversary60/syly/201907/W020240701616756408749.jpg",
+      "credit": "中国科学院上海应用物理研究所",
+      "license": "原发布方保留版权；公开页面未提供开放转载许可。",
+      "width": 342,
+      "height": 220,
+      "notes": "60 周年官网摄影栏目原图标注“所门口”。342 像素宽，适合淡化小图或卡片，不建议高清全屏；不推断具体拍摄年月。",
+      "status": "usable",
+      "priority": 10,
+      "context": "上海应用物理研究所所门（机构背景，非金属空气电池设备）"
+    },
+    {
+      "id": "redflow-zbm-2009",
+      "src": "/chronicle/redflow-zbm-2009.jpg",
+      "alt": "Redflow 2009 ZBM锌溴电池模块",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RedFlow_ZBM_Module.jpg",
+      "credit": "RedFlow Technologies Ltd · CC BY 2.5",
+      "subjects": [
+        "company:zinc-bromine-redflow-history"
+      ],
+      "context": "2009 ZBM历史产品实拍 · 非2024 Barona项目",
+      "kind": "real-photo",
+      "license": "CC BY 2.5 https://creativecommons.org/licenses/by/2.5/；原文件未修改，仅网页布局裁切",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "genh2-cs900-equipment",
+      "src": "/chronicle/genh2-cs900-equipment.webp",
+      "alt": "GenH2总部CS900低温测试设备",
+      "sourceUrl": "https://genh2.com/solutions/cryogenic-testing-equipment/",
+      "credit": "GenH2官方设备资料",
+      "subjects": [
+        "company:hydrogen-liquid-genh2-doe"
+      ],
+      "context": "GenH2 CS900低温测试设备 · 非NASA球罐",
+      "kind": "real-photo",
+      "license": "版权归官方发布方；署名技术研究展示，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "genh2-macroflash",
+      "src": "/chronicle/genh2-macroflash.png",
+      "alt": "GenH2 Macroflash低温材料测试仪",
+      "sourceUrl": "https://genh2.com/solutions/cryogenic-testing-equipment/",
+      "credit": "GenH2官方设备资料",
+      "subjects": [
+        "route:hydrogen-liquid:papers"
+      ],
+      "context": "Macroflash测试设备 · 低温研究背景",
+      "kind": "real-photo",
+      "license": "版权归官方发布方；署名技术研究展示，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "hfips-zinc-hydrogel-2025",
+      "src": "/chronicle/hfips-zinc-hydrogel-2025.jpg",
+      "alt": "HFIPS 2025锌水凝胶电池性能对照原图",
+      "sourceUrl": "https://english.hf.cas.cn/nr/bth/202506/t20250624_1046068.html",
+      "credit": "中国科学院合肥物质科学研究院",
+      "subjects": [
+        "route:electrochemical-zinc:papers"
+      ],
+      "context": "2025水凝胶研究性能对照 · 原始科研图",
+      "kind": "document",
+      "license": "版权归官方发布方；署名技术研究展示，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-cruachan-hall",
+      "src": "/chronicle/photo-revision-mechanical-cruachan-hall.jpg",
+      "alt": "Drax图集中的Cruachan地下抽水蓄能机组大厅实景",
+      "sourceUrl": "https://www.drax.com/uk/what-we-do/cruachan-power-station/",
+      "imageUrl": "https://www.drax.com/wp-content/uploads/2025/12/Cruachan_brand_assets_2019-45-1920x1080.jpg",
+      "credit": "Drax Group plc",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。Drax媒体图片条款限定新闻编辑用途，详见来源页。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "不同于已登记的Cruachan机组图；Drax官方Cruachan图库的地下机组大厅照片，表示现有抽水蓄能设施背景，不代表Cruachan 2规划项目。",
+      "subjects": [
+        "company:pumped-hydro-drax",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "适合Cruachan/Drax历史及设备内容；不是新扩建项目实景。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-zhangjiakou-expander",
+      "src": "/chronicle/photo-revision-mechanical-zhangjiakou-expander.png",
+      "alt": "张家口100MW先进压缩空气储能示范项目安装中的膨胀机主机",
+      "sourceUrl": "https://iet.cas.cn/news/zh/202112/t20211208_6290573.html",
+      "imageUrl": "https://iet.cas.cn/news/zh/202112/W020211208582760014377.png",
+      "credit": "中国科学院工程热物理研究所",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2021-12-08报道核心膨胀机主机完成安装；当时报道写计划年底试运行，本图只证明安装节点，不作为后续投运状态证明。",
+      "subjects": [
+        "company:caes-adiabatic-iet-cas",
+        "route:caes-adiabatic:papers",
+        "material:caes-adiabatic-machinery",
+        "event:caes-adiabatic:2021"
+      ],
+      "bindingNotes": "绑定张家口膨胀机及其2021安装节点；不借作传统补燃CAES图片。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-feicheng-panorama",
+      "src": "/chronicle/photo-revision-mechanical-feicheng-panorama.png",
+      "alt": "肥城300MW先进压缩空气储能电站项目全景",
+      "sourceUrl": "https://www.cas.cn/cm/202404/t20240430_5013393.shtml",
+      "imageUrl": "https://www.cas.cn/cm/202404/W020240430584062796835.png",
+      "credit": "中国科学院工程热物理研究所供图，经中国科学院页面刊载",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "肥城先进CAES项目全景 · 2024首次并网资料",
+      "subjects": [
+        "company:caes-adiabatic-iet-cas",
+        "route:caes-adiabatic:storage"
+      ],
+      "bindingNotes": "匹配肥城项目并网/储能章节，不标记为张家口项目。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-feicheng-machinehall",
+      "src": "/chronicle/photo-revision-mechanical-feicheng-machinehall.png",
+      "alt": "肥城300MW先进压缩空气储能国家示范电站主厂房内景",
+      "sourceUrl": "https://www.cas.cn/cm/202404/t20240430_5013393.shtml",
+      "imageUrl": "https://www.cas.cn/cm/202404/W020240430584062917923.png",
+      "credit": "中国科学院工程热物理研究所供图，经中国科学院页面刊载",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "肥城先进CAES主厂房 · 同路线设备背景（非应城项目）",
+      "subjects": [
+        "company:caes-adiabatic-iet-cas",
+        "route:caes-adiabatic:storage",
+        "route:caes-adiabatic:history"
+      ],
+      "bindingNotes": "与肥城全景为不同机位、同一项目；可作为厂内设备与站区的两种视角。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-huntorf",
+      "src": "/chronicle/photo-revision-mechanical-huntorf.webp",
+      "alt": "德国联邦政府储能专题刊载的Huntorf压缩空气储能电站照片",
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/schwerpunkte/adele-koennte-nach-stassfurt-kommen-411972",
+      "imageUrl": "https://www.bundesregierung.de/resource/image/239660/16x9/1023/575/8c468ebd9aa612041d63076b32835271/64F2F2A033F5101300ED6041431A3217/2012-02-01-druckluftspeicher-kraftwerk-in-huntorf.webp",
+      "credit": "E.ON Kraftwerke GmbH（政府页面原署名）",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2012-02-02联邦政府文章用该图说明自1978年运行的Huntorf传统补燃CAES；照片不是1978年建成时的历史档案。",
+      "subjects": [
+        "company:caes-conventional-uniper",
+        "route:caes-conventional:history",
+        "event:caes-conventional:1978"
+      ],
+      "bindingNotes": "可用于Huntorf/Uniper常规CAES背景，不作为A-CAES示例。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-huntorf-commons",
+      "src": "/chronicle/photo-revision-mechanical-huntorf-commons.jpg",
+      "alt": "从德国下萨克森州L865公路旁拍摄的Huntorf压缩空气储能电站",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kraftwerk_Huntorf.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kraftwerk_Huntorf.jpg/1280px-Kraftwerk_Huntorf.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "credit": "KGF / Wikimedia Commons",
+      "license": "Creative Commons Attribution 4.0 International（CC BY 4.0）；署名KGF，链接来源与https://creativecommons.org/licenses/by/4.0，并说明如有编辑。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "作者标注拍摄于2025-07-09，是当前厂区视角；不是Huntorf1978投运时照片。",
+      "subjects": [
+        "company:caes-conventional-uniper",
+        "route:caes-conventional:history",
+        "route:caes-conventional:papers"
+      ],
+      "bindingNotes": "Huntorf现场外观的CC BY授权视角；与2012政府文章照片不同。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-mcintosh",
+      "src": "/chronicle/photo-revision-mechanical-mcintosh.jpg",
+      "alt": "NETL CAES研讨会演示文稿中标注的阿拉巴马州McIntosh CAES电站照片",
+      "sourceUrl": "https://netl.doe.gov/sites/default/files/netl-file/22TMCES_VanWalleghem.pdf",
+      "imageUrl": "https://netl.doe.gov/sites/default/files/netl-file/22TMCES_VanWalleghem.pdf（第3页嵌入图像）",
+      "credit": "DOE/NETL研讨会材料；幻灯片图注指明McIntosh CAES Plant in McIntosh, Alabama，原照片作者未在该幻灯片标明",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "从可公开访问的DOE NETL CAES技术研讨会PDF第3页提取照片；仅显示McIntosh设施。该源文件还含Hydrostor图，本项目未提取或复用它。",
+      "subjects": [
+        "company:caes-conventional-powersouth",
+        "route:caes-conventional:history",
+        "event:caes-conventional:1991",
+        "route:caes-conventional:storage"
+      ],
+      "bindingNotes": "McIntosh为1991投运的传统补燃CAES；不把站址内其他天然气机组混为CAES设备。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-pilsworth",
+      "src": "/chronicle/photo-revision-mechanical-pilsworth.jpg",
+      "alt": "Highview Power Pilsworth液态空气储能示范站实景",
+      "sourceUrl": "https://highviewpower.com/news-announcements/world-first-liquid-air-energy-storage-plant/",
+      "imageUrl": "https://highviewpower.com/wp-content/uploads/2018/06/Highview-Power-Worlds-first-liquid-air-energy-storage-plant-1-scaled-1-1024x683.jpg",
+      "credit": "Highview Power",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2018-06-05公告的Pilsworth 5MW/15MWh并网级示范照片；原公告称当时正式启动，不据此推断其目前仍运行。",
+      "subjects": [
+        "company:liquid-air-highview",
+        "route:liquid-air:history",
+        "event:liquid-air:2018",
+        "route:liquid-air:storage"
+      ],
+      "bindingNotes": "精确匹配Pilsworth液空示范；不是普通低温工业厂或电池站。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-slough-pilot",
+      "src": "/chronicle/photo-revision-mechanical-slough-pilot.jpg",
+      "alt": "Highview 350kW/2.5MWh液态空气储能试验装置照片",
+      "sourceUrl": "https://www.birmingham.ac.uk/news-archive/2015/singaporean-delegation-explore-innovative-birmingham-research-in-cold-and-power",
+      "imageUrl": "https://www.birmingham.ac.uk/Images/College-EPS-only/Energy/Highview-Power-Storage-pilot-liquid-air-energy-storage-plant-in-Slough-Cropped-453x328-Cropped-249x180.x492771e1.jpg?f=webp&q=80&w=1440",
+      "credit": "Highview Power Storage / University of Birmingham刊载",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "大学2015年访问报道中的Highview试验系统；该350kW/2.5MWh系统2014年从Slough移至伯明翰研究平台，照片不代表当前持续运行。",
+      "subjects": [
+        "company:liquid-air-highview",
+        "company:liquid-air-birmingham",
+        "route:liquid-air:history",
+        "route:liquid-air:papers"
+      ],
+      "bindingNotes": "适合液空研发/装置历史，不绑定未经来源支持的具体年份节点。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-amber-miramar",
+      "src": "/chronicle/photo-revision-mechanical-amber-miramar.jpg",
+      "alt": "Amber Kinetics在Miramar航展展示的集装箱式飞轮储能系统",
+      "sourceUrl": "https://amberkinetics.com/pr/amber-kinetics-unveils-new-containerized-installation-system/",
+      "imageUrl": "https://amberkinetics.com/wp-content/uploads/2025/05/hq720.jpg",
+      "credit": "Amber Kinetics, Inc.",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司文章记载系统于2024年Miramar航展亮相，后续测试/安装为计划；此图只作为产品展示背景，不声称该图就是2025年已调试完成现场。",
+      "subjects": [
+        "company:flywheel-amber",
+        "route:flywheel:history",
+        "route:flywheel:storage"
+      ],
+      "bindingNotes": "对应Amber Kinetics的集装箱式飞轮路线；2025正式调试状态另由其公告支持。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-amber-dlsu",
+      "src": "/chronicle/photo-revision-mechanical-amber-dlsu.png",
+      "alt": "Amber Kinetics菲律宾德拉萨大学飞轮创新安装现场",
+      "sourceUrl": "https://amberkinetics.com/installation/the-worlds-only-flywheel-innovation-hub/",
+      "imageUrl": "https://amberkinetics.com/wp-content/uploads/2020/05/DLSU.png",
+      "credit": "Amber Kinetics, Inc.",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Amber Kinetics称德拉萨大学新产品导入安装于2020年初投运并用于测试、原型验证与安全测试。",
+      "subjects": [
+        "company:flywheel-amber",
+        "route:flywheel:history",
+        "event:flywheel:2020",
+        "route:flywheel:papers"
+      ],
+      "bindingNotes": "与2011 Beacon站场景不同，展示Amber Kinetics的研发/安装背景。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-gravitricity-leith",
+      "src": "/chronicle/photo-revision-mechanical-gravitricity-leith.jpg",
+      "alt": "Gravitricity在爱丁堡Leith搭建的250kW重力储能演示设备",
+      "sourceUrl": "https://gravitricity.com/gravitricity-250kw-demonstrator-stores-power-for-first-time/",
+      "imageUrl": "https://gravitricity.com/wp-content/uploads/2023/12/Projects-gravitricity-Demonstrator-500px.jpg",
+      "credit": "Gravitricity Ltd",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司于2021年完成250kW并网演示，使用15米试验架和两只各25吨重物；照片为实际Leith演示装置，不代表商业矿井项目已投运。",
+      "subjects": [
+        "company:gravity-gravitricity",
+        "route:gravity:history",
+        "event:gravity:2021",
+        "route:gravity:papers"
+      ],
+      "bindingNotes": "与Energy Vault如东塔式项目、ARES轨道方案画面分开。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-rudong-tower",
+      "src": "/chronicle/photo-revision-mechanical-rudong-tower.jpg",
+      "alt": "Energy Vault如东EVx重力储能塔施工中的实景",
+      "sourceUrl": "https://www.energyvault.com/projects/rudong",
+      "imageUrl": "https://www.energyvault.com/hubfs/raw_assets/public/ev-website-2026/images/proj-rudong-2.jpg",
+      "credit": "Energy Vault",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官方项目图库将该图说明为如东EVx施工中的重力储能塔；图片未单独注明拍摄日，故只说明施工阶段，不绑定某年施工节点。",
+      "subjects": [
+        "company:gravity-energy-vault",
+        "company:gravity-cnty",
+        "route:gravity:history"
+      ],
+      "bindingNotes": "具体如东EVx项目；图片展示施工状态，不作为商业运营状态证明。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-rudong-aerial",
+      "src": "/chronicle/photo-revision-mechanical-rudong-aerial.jpg",
+      "alt": "如东EVx重力储能塔施工期航拍图",
+      "sourceUrl": "https://www.energyvault.com/projects/rudong",
+      "imageUrl": "https://www.energyvault.com/hubfs/raw_assets/public/ev-website-2026/images/proj-v42-rudong-c3.jpg",
+      "credit": "Energy Vault",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "官方项目图库标注为如东EVx塔的航拍施工景观；拍摄日未标注，不将施工画面解释成已投运全景。",
+      "subjects": [
+        "company:gravity-energy-vault",
+        "company:gravity-cnty",
+        "route:gravity:history",
+        "route:gravity:storage"
+      ],
+      "bindingNotes": "与厂房拖车组装图、Gravitricity井架演示以及ARES开发场地互不替代。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-edf-grandmaison",
+      "src": "/chronicle/photo-revision-mechanical-edf-grandmaison.jpg",
+      "alt": "EDF Grand’Maison抽水蓄能电站1号机组检修回装中的大型转子部件",
+      "sourceUrl": "https://www.edf.fr/hydraulique-isere-drome/centrale-edf-grandmaison-un-controle-inedit-depuis-sa-mise-en-fonctionnement",
+      "imageUrl": "https://www.edf.fr/sites/groupe/files/styles/img_1066x800/public/2024-05/remontage%201.jpg?itok=Mg0_WBqR",
+      "credit": "© EDF – medeo（EDF官方页面署名）",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "EDF 2024-05-13官方维护报道中，Grand’Maison 1号发电机组检修后的回装现场照片。表示该具体抽水蓄能电站设备维护背景，不作为某一新年度建设节点。",
+      "subjects": [
+        "company:pumped-hydro-edf",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "精确匹配EDF Grand’Maison设施及机组，不与Drax或丰宁项目混用。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-fengning-machine-hall",
+      "src": "/chronicle/photo-revision-mechanical-fengning-machine-hall.jpg",
+      "alt": "丰宁抽水蓄能电站地下厂房内的部分机组",
+      "sourceUrl": "https://www.fengning.gov.cn/art/2023/1/31/art_3203_910576.html",
+      "imageUrl": "https://www.fengning.gov.cn/cms_files/jcms1/web33/site/picture/-1/230131103816046009.jpg",
+      "credit": "张腾扬、李佳园摄影报道（原页面图注）",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "丰宁县政府官网转载页面图注为“丰宁抽水蓄能电站部分机组”，刊于2023-01-31。用于国网新源丰宁电站和机组背景，不绑定具体投产年度节点。",
+      "subjects": [
+        "company:pumped-hydro-state-grid",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "精确匹配国网新源丰宁；不是抽蓄原理图，也不代表其他国网项目。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-fengning-lower-reservoir",
+      "src": "/chronicle/photo-revision-mechanical-fengning-lower-reservoir.jpg",
+      "alt": "丰宁抽水蓄能电站下水库航拍实景",
+      "sourceUrl": "https://www.fengning.gov.cn/art/2023/1/31/art_3203_910576.html",
+      "imageUrl": "https://www.fengning.gov.cn/cms_files/jcms1/web33/site/picture/-1/230131103816319021.jpg",
+      "credit": "张腾扬、李佳园摄影报道（原页面图注）",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "丰宁县政府官网转载页面图注为“丰宁抽水蓄能电站下水库”，刊于2023-01-31。对应真实水库现场，不能与机组照片互相替代。",
+      "subjects": [
+        "company:pumped-hydro-state-grid",
+        "route:pumped-hydro:history"
+      ],
+      "bindingNotes": "精确匹配国网新源丰宁下水库设施背景，不绑定具体投产年度节点。",
+      "priority": 10
+    },
+    {
+      "id": "photo-revision-mechanical-hydrostor-goderich",
+      "src": "/chronicle/photo-revision-mechanical-hydrostor-goderich.jpg",
+      "alt": "Hydrostor Goderich先进压缩空气储能设施的管路与设备现场",
+      "sourceUrl": "https://hydrostor.ca/wp-content/uploads/2025/04/Hydrostor-Brochure.pdf#page=3",
+      "imageUrl": "https://hydrostor.ca/wp-content/uploads/2025/04/Hydrostor-Brochure.pdf#page=3（图注：Goderich Energy Storage Center – Ontario, Canada）",
+      "credit": "Hydrostor官方宣传册；该页未列摄影者",
+      "license": "版权归原发布方；原页未声明开放许可，保留出处和署名。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Hydrostor官方2025年宣传册第3页的实景照片，页内图注明确为Goderich Energy Storage Center，安大略省。照片对应已投运的Goderich旧参考设施背景，不是Willow Rock或其他未来项目效果图。",
+      "subjects": [
+        "company:caes-adiabatic-hydrostor",
+        "route:caes-adiabatic:history"
+      ],
+      "bindingNotes": "精确匹配Hydrostor Goderich A-CAES；不得标注为Willow Rock或计划项目。",
+      "priority": 10
+    }
+  ]
+}

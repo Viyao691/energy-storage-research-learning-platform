@@ -1,0 +1,4 @@
+.paper-artwork { position: relative; overflow: hidden; aspect-ratio: 1; border-radius: 12px; background: #e4e8e9; }
+.paper-artwork img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.paper-artwork-slot-22, .paper-artwork-slot-24 { background: #35404a; }
+[data-theme="dark"] .paper-artwork { background: #1b2831; }

@@ -1,0 +1,63 @@
+.workspace-v2 .app-main:has(> .onboarding-refined) {
+  background-color: #f2f5f4;
+  background-image: linear-gradient(90deg, #f2f5f4 0%, rgba(242,245,244,.98) 29%, rgba(242,245,244,.9) 47%, rgba(242,245,244,.5) 64%, rgba(242,245,244,.03) 84%), url('/workspace/onboarding-campus/background-light.png');
+  background-position: center, 72% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.workspace-v2 .app-main .onboarding-refined {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: none;
+  min-height: calc(100svh - 190px);
+  padding: 34px 0 70px;
+}
+.onboarding-refined > :is(.onboarding-intro, .steps, .onboarding-step-card) { width: min(58%, 800px); }
+.onboarding-refined .onboarding-intro { min-height: 170px; gap: 14px; }
+.onboarding-refined .onboarding-intro > div:first-child { min-width: 0; }
+.onboarding-campus-gate {
+  flex: 0 0 min(42%, 330px);
+  width: min(42%, 330px);
+  aspect-ratio: 3 / 1;
+  background: url('/workspace/onboarding-campus/gate-cutout-light.png') center / contain no-repeat;
+  filter: drop-shadow(0 7px 12px rgba(34, 57, 72, .17));
+}
+.workspace-v2 .app-main .onboarding-refined .onboarding-step-card {
+  background: linear-gradient(135deg, rgba(255,253,249,.96), rgba(245,249,250,.92)) !important;
+  box-shadow: 0 20px 55px rgba(41,69,83,.08), inset 0 1px rgba(255,255,255,.9);
+  backdrop-filter: blur(12px);
+}
+html[data-theme='dark'] .workspace-v2 .app-main:has(> .onboarding-refined) {
+  background-color: #111f2c !important;
+  background-image: linear-gradient(90deg, #111f2c 0%, rgba(17,31,44,.98) 29%, rgba(17,31,44,.91) 47%, rgba(17,31,44,.52) 64%, rgba(17,31,44,.08) 84%), url('/workspace/onboarding-campus/background-dark.png') !important;
+  background-position: center, 72% center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+html[data-theme='dark'] .onboarding-campus-gate {
+  background-image: url('/workspace/onboarding-campus/gate-cutout-dark.png');
+  filter: drop-shadow(0 7px 14px rgba(219, 160, 93, .18));
+}
+html[data-theme='dark'] .workspace-v2 .app-main .onboarding-refined .onboarding-step-card {
+  background: linear-gradient(135deg,rgba(18,40,59,.97),rgba(15,34,51,.92)) !important;
+  box-shadow: 0 20px 55px rgba(0,5,15,.2), inset 0 1px rgba(122,206,232,.12);
+}
+@media (max-width: 1100px) {
+  .onboarding-refined > :is(.onboarding-intro, .steps, .onboarding-step-card) { width: min(72%, 800px); }
+}
+@media (max-width: 700px) {
+  .workspace-v2 .app-main:has(> .onboarding-refined) {
+    background-image: linear-gradient(180deg, rgba(242,245,244,.98) 0%, rgba(242,245,244,.96) 52%, rgba(242,245,244,.76) 100%), url('/workspace/onboarding-campus/background-light.png');
+    background-position: center, 72% bottom;
+  }
+  html[data-theme='dark'] .workspace-v2 .app-main:has(> .onboarding-refined) {
+    background-image: linear-gradient(180deg, rgba(17,31,44,.98) 0%, rgba(17,31,44,.96) 52%, rgba(17,31,44,.76) 100%), url('/workspace/onboarding-campus/background-dark.png') !important;
+    background-position: center, 72% bottom !important;
+  }
+  .workspace-v2 .app-main .onboarding-refined { padding: 12px 0 70px; min-height: calc(100svh - 170px); }
+  .onboarding-refined > :is(.onboarding-intro, .steps, .onboarding-step-card) { width: 100%; }
+  .onboarding-refined .onboarding-intro { align-items: flex-start; flex-direction: column; }
+  .onboarding-campus-gate { flex: none; width: min(300px, 80%); }
+}

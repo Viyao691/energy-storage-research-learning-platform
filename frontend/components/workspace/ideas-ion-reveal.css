@@ -1,0 +1,13 @@
+.ideas-ion-reveal {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  background: url('/workspace/motion/ideas-ion-reveal-light.png') center / cover no-repeat;
+  -webkit-mask-image: radial-gradient(circle 240px at var(--reveal-x, -300px) var(--reveal-y, -300px), #000 0%, #000 39%, rgba(0,0,0,.82) 61%, rgba(0,0,0,.35) 81%, transparent 100%);
+  mask-image: radial-gradient(circle 240px at var(--reveal-x, -300px) var(--reveal-y, -300px), #000 0%, #000 39%, rgba(0,0,0,.82) 61%, rgba(0,0,0,.35) 81%, transparent 100%);
+  transition: opacity .25s ease;
+}
+html[data-theme='dark'] .ideas-ion-reveal { background-image: url('/workspace/motion/ideas-ion-reveal-dark.png'); }
+@media (max-width: 560px) { .ideas-ion-reveal { -webkit-mask-image: radial-gradient(circle 155px at var(--reveal-x, -300px) var(--reveal-y, -300px), #000 0%, #000 45%, transparent 100%); mask-image: radial-gradient(circle 155px at var(--reveal-x, -300px) var(--reveal-y, -300px), #000 0%, #000 45%, transparent 100%); } }
+@media (prefers-reduced-motion: reduce) { .ideas-ion-reveal { transition: none; } }

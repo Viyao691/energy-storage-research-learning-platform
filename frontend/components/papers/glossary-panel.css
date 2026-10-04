@@ -1,0 +1,36 @@
+.glossary-panel__terms { display: grid; gap: 9px; margin: 14px 0 22px; }
+.glossary-panel__terms > div { background: #f6fafb; border: 1px solid #d7e5e9; border-radius: 11px; padding: 11px 13px; }
+.glossary-panel__terms dt { color: #174c67; font-weight: 700; }
+.glossary-panel__terms dd { color: #385467; line-height: 1.6; margin: 5px 0 0; }
+.glossary-panel__chat { border-top: 1px solid #d9e2e5; padding-top: 17px; }
+.glossary-panel__chat h3 { font-size: 18px; margin: 0 0 5px; }
+.glossary-panel__answer { background: #f4f9fa; border-left: 3px solid #4998b5; border-radius: 8px; margin: 13px 0; padding: 12px 14px; }
+.glossary-panel__answer p { line-height: 1.65; margin: 7px 0; white-space: pre-wrap; }
+.glossary-panel__answer small { color: #5b7687; }
+.glossary-prompt { display: grid; gap: 8px; max-width: 760px; margin-top: 16px; }
+.glossary-prompt > label { color: var(--v2-ink, #19364d); font-size: 16px; font-weight: 700; }
+.glossary-prompt__field { background: #f7fbfc; border: 1px solid #a6c5d3; border-radius: 20px; box-shadow: inset 0 1px #fff, 0 8px 24px #173b4d12; overflow: hidden; padding: 13px 14px 10px; position: relative; transition: border-color .22s ease, box-shadow .22s ease; }
+.glossary-prompt__field:focus-within { border-color: #4b9ab9; box-shadow: inset 0 1px #fff, 0 0 0 3px #79c8e33d, 0 12px 30px #2b6e8926; }
+html #workspace-action-surface .reader-workspace .glossary-prompt textarea { background: transparent !important; border: 0 !important; border-radius: 0; box-shadow: none !important; color: var(--v2-ink, #19364d); display: block; font: inherit; font-size: 16px !important; height: 48px; line-height: 24px; max-height: 156px; min-height: 48px !important; outline: 0 !important; padding: 0 !important; resize: none; width: 100%; }
+.glossary-prompt textarea::placeholder { color: #6c8799; }
+.glossary-prompt__bar { align-items: center; color: #607b8e; display: flex; font-size: 13px; gap: 9px; min-height: 44px; }
+.glossary-prompt__count { margin-left: auto; white-space: nowrap; }
+html #workspace-action-surface .reader-workspace .glossary-prompt__send { align-items: center; background: #145b7d !important; border: 1px solid #145b7d !important; border-radius: 14px !important; box-shadow: 0 5px 13px #0f587a30 !important; color: #fff !important; display: inline-flex; flex: 0 0 44px; height: 44px; justify-content: center; min-height: 44px; padding: 0 !important; width: 44px; }
+html #workspace-action-surface .reader-workspace .glossary-prompt__send:disabled { cursor: default; opacity: .6; }
+html #workspace-action-surface .reader-workspace .glossary-prompt__send:focus-visible { outline: 3px solid #69b5d5 !important; outline-offset: 3px; }
+.glossary-prompt__send:active { transform: scale(.9); }
+.glossary-prompt__glyph { height: 23px; transform-origin: center; width: 23px; }
+.glossary-prompt__spark { background: #9cdef7; border-radius: 50%; box-shadow: 0 0 8px #70cafa; height: 3px; opacity: 0; pointer-events: none; position: absolute; width: 3px; }
+.glossary-prompt__spark--one { bottom: 16px; left: 22%; }.glossary-prompt__spark--two { bottom: 26px; left: 59%; }.glossary-prompt__spark--three { bottom: 11px; left: 83%; }
+.glossary-prompt__field[data-typing] .glossary-prompt__spark { animation: glossary-spark .65s ease-out 1; }
+.glossary-prompt__field[data-typing] .glossary-prompt__spark--two { animation-delay: .1s; }.glossary-prompt__field[data-typing] .glossary-prompt__spark--three { animation-delay: .2s; }
+@keyframes glossary-spark { 0% { opacity: 0; transform: translateY(0); } 25% { opacity: .75; } 100% { opacity: 0; transform: translateY(-18px); } }
+html[data-theme="dark"] .glossary-panel__terms > div, html[data-theme="dark"] .glossary-panel__answer { background: #123044; border-color: #3c6170; }
+html[data-theme="dark"] .glossary-panel__terms dt { color: #add9ed; }
+html[data-theme="dark"] .glossary-panel__terms dd, html[data-theme="dark"] .glossary-panel__answer small { color: #b3cad5; }
+html[data-theme="dark"] .glossary-panel__chat { border-color: #3c6170; }
+html[data-theme="dark"] .glossary-prompt__field { background: #0c2638; border-color: #416a7c; box-shadow: inset 0 1px #c8eaf020, 0 8px 24px #03142166; }
+html[data-theme="dark"] .glossary-prompt__bar { color: #aac8d7; }
+html[data-theme="dark"] .glossary-prompt textarea::placeholder { color: #94b3c5; }
+@media (max-width: 540px) { .glossary-prompt__bar { font-size: 11px; } }
+@media (prefers-reduced-motion: reduce) { .glossary-prompt__spark { animation: none !important; } .glossary-prompt__send:active { transform: none; } .glossary-prompt__field { transition: none; } }

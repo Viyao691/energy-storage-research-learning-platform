@@ -1,0 +1,34 @@
+[project]
+name = "energy-research-copilot-backend"
+version = "0.1.0"
+description = "Energy Research Copilot FastAPI backend"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi==0.115.12",
+    "uvicorn[standard]==0.34.2",
+    "sqlalchemy==2.0.40",
+    "alembic==1.15.2",
+    "Mako==1.3.10",
+    "pydantic-settings==2.14.0",
+    "python-multipart==0.0.20",
+    "PyMuPDF==1.25.5",
+    "httpx==0.28.1",
+    "httpcore==1.0.9",
+    "pytest==8.3.5",
+    "cryptography==45.0.2",
+    "paddlepaddle==3.3.1",
+    "paddleocr[doc-parser]==3.7.0",
+    "docling==2.123.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Under the DSH file sandbox the default system TEMP basetemp is not writable;
+# run local Windows tests with an explicit project-local basetemp:
+#   .\venv\Scripts\python.exe -m pytest tests -q --basetemp .pytest-tmp -p no:cacheprovider
+
+[tool.uv]
+# Local development syncs exactly what the Docker image installs
+# (backend/Dockerfile).  Keep requirements.txt in sync with [project.dependencies]
+# for image builds; uv is the local-first path and pins Python 3.12 so the
+# SQLAlchemy 2.0.40 incompatibility with Python 3.14 can no longer bite.

@@ -1,0 +1,130 @@
+{
+  "assets": [
+    {
+      "id": "hydrogen-hitrf-official",
+      "src": "/chronicle/hydrogen-hitrf-official.jpg",
+      "alt": "NLR HITRF高压氢设施",
+      "sourceUrl": "https://www.nlr.gov/hydrogen/facilities",
+      "credit": "NLR官方设施照片",
+      "subjects": [
+        "company:hydrogen-gas-nrel-hitrf",
+        "route:hydrogen-gas:papers"
+      ],
+      "context": "高压氢基础设施测试平台 · NLR",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "enersys-powersafe-sbs-official",
+      "src": "/chronicle/enersys-powersafe-sbs-official.png",
+      "alt": "EnerSys PowerSafe SBS铅酸电池",
+      "sourceUrl": "https://www.enersys.com/en/products/batteries/powersafe/powersafe-sbs/",
+      "credit": "EnerSys官方产品照片",
+      "subjects": [
+        "company:electrochemical-lead-acid-enersys",
+        "route:electrochemical-lead-acid:storage"
+      ],
+      "context": "PowerSafe SBS产品 · 非East Penn项目照片",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "supercapacitor-skelmod-162v",
+      "src": "/chronicle/supercapacitor-skelmod-162v.png",
+      "alt": "Skeleton SkelMod 162V超级电容模组",
+      "sourceUrl": "https://www.skeletontech.com/en/supercapacitor-modules",
+      "credit": "Skeleton官方模组照片",
+      "subjects": [
+        "route:supercapacitor:storage",
+        "material:supercapacitor-module"
+      ],
+      "context": "SkelMod 162V模组 · 产品资料",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "supercapacitor-leipzig-production",
+      "src": "/chronicle/supercapacitor-leipzig-production.webp",
+      "alt": "Skeleton莱比锡超级电容工厂生产厅",
+      "sourceUrl": "https://www.skeletontech.com/news/gallery-construction-of-our-leipzig-superfactory",
+      "credit": "Skeleton / ecoPARKS",
+      "subjects": [
+        "company:supercapacitor-skeleton",
+        "event:supercapacitor:2023"
+      ],
+      "context": "莱比锡工厂建设期间生产厅 · 2023图片资料",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-cas-2025-magnet",
+      "src": "/chronicle/smes-cas-2025-magnet.png",
+      "alt": "中科院2025迫流冷却高温超导储能磁体设施",
+      "sourceUrl": "https://www.cas.cn/syky/202512/t20251203_5091164.shtml",
+      "credit": "中国科学院储能磁体研究图片",
+      "subjects": [
+        "route:smes:papers",
+        "material:smes-cryogenic"
+      ],
+      "context": "2025迫流冷却储能磁体实验设施 · 研究背景",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-kyuden-module",
+      "src": "/chronicle/smes-kyuden-module.jpg",
+      "alt": "九州电力1kWh/1MW SMES模块设备",
+      "sourceUrl": "https://www.sc.kyushu-u.ac.jp/~jcryo-qw/meeting/20110422/study8.pdf",
+      "credit": "九州电力2011技术报告第8页",
+      "subjects": [
+        "company:smes-kyuden",
+        "event:smes:1994"
+      ],
+      "context": "九州电力1kWh/1MW SMES原型 · 历史设备照片",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-kyuden-coil",
+      "src": "/chronicle/smes-kyuden-coil.jpg",
+      "alt": "九州电力模块型SMES超导线圈",
+      "sourceUrl": "https://www.sc.kyushu-u.ac.jp/~jcryo-qw/meeting/20110422/study8.pdf",
+      "credit": "九州电力2011技术报告第8页",
+      "subjects": [
+        "material:smes-magnet"
+      ],
+      "context": "九州电力NbTi模块型SMES线圈 · 历史设备照片",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    },
+    {
+      "id": "smes-kyuden-control",
+      "src": "/chronicle/smes-kyuden-control.jpg",
+      "alt": "九州电力SMES控制设备",
+      "sourceUrl": "https://www.sc.kyushu-u.ac.jp/~jcryo-qw/meeting/20110422/study8.pdf",
+      "credit": "九州电力2011技术报告第11页",
+      "subjects": [
+        "route:smes:storage"
+      ],
+      "context": "九州电力SMES系统控制设备 · 试验资料",
+      "kind": "real-photo",
+      "license": "官方公开资料；用于署名技术研究展示，版权归原权利方，未声称开放许可",
+      "status": "usable",
+      "priority": 10
+    }
+  ]
+}

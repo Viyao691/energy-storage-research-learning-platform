@@ -1,0 +1,95 @@
+{
+  "assets": [
+    {
+      "id": "mechanical-cruachan-turbine-hall",
+      "src": "/chronicle/mechanical-cruachan-turbine-hall.jpg",
+      "alt": "Underground machine hall and reversible pump-turbines at Cruachan pumped-storage station",
+      "sourceUrl": "https://www.drax.com/press_release/drax-kickstarts-planning-process-to-expand-its-iconic-hollow-mountain-cruachan-power-station/",
+      "credit": "Drax Group plc",
+      "license": "Drax terms permit non-commercial news-related editorial use of press-release media content by journalists/reporters/broadcasters/bloggers; credited local research display only; no external publication permission implied.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Drax 2021 Cruachan press release photo captioned turbine hall; real underground reversible hydro machinery, not a rendering.",
+      "subjects": [
+        "company:pumped-hydro-drax",
+        "route:pumped-hydro:history"
+      ]
+    },
+    {
+      "id": "mechanical-cruachan-reservoir",
+      "src": "/chronicle/mechanical-cruachan-reservoir.jpg",
+      "alt": "Cruachan pumped-storage upper reservoir dam at Loch Awe in Scotland",
+      "sourceUrl": "https://www.drax.com/press_release/drax-kickstarts-planning-process-to-expand-its-iconic-hollow-mountain-cruachan-power-station/",
+      "credit": "Drax Group plc",
+      "license": "Drax terms permit non-commercial news-related editorial use of press-release media content by journalists/reporters/broadcasters/bloggers; credited local research display only; no external publication permission implied.",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Drax press release image of Cruachan existing reservoir/dam; project infrastructure, not proposed Cruachan II rendering.",
+      "subjects": [
+        "company:pumped-hydro-drax",
+        "route:pumped-hydro:history"
+      ]
+    },
+    {
+      "id": "mechanical-carrington-groundbreaking",
+      "src": "/chronicle/mechanical-carrington-groundbreaking.jpg",
+      "alt": "Highview Carrington液态空气储能项目开工现场，前景可见项目效果图",
+      "sourceUrl": "https://highviewpower.com/news-announcements/mayor-of-greater-manchester-andy-burnham-officially-breaks-ground-on-highviews-pioneering-liquid-air-energy-storage-facility-in-carrington-manchester/",
+      "credit": "Highview Power",
+      "license": "Highview官方新闻照片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2025年开工活动现场；Carrington设计50MW/300MWh且仍在建设，不是已投运设备照片。",
+      "subjects": [
+        "company:liquid-air-highview",
+        "route:liquid-air:history"
+      ]
+    },
+    {
+      "id": "mechanical-beacon-stephentown",
+      "src": "/chronicle/mechanical-beacon-stephentown.jpg",
+      "alt": "Beacon Power Stephentown电网级飞轮储能站航拍，可见成排飞轮机组和控制设备",
+      "sourceUrl": "https://beaconpower.com/stephentown-new-york/",
+      "credit": "Beacon Power, LLC",
+      "license": "Beacon Power官网图片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Stephentown 20MW设施，含200台飞轮，2011年商业运行。",
+      "subjects": [
+        "company:flywheel-beacon",
+        "route:flywheel:history"
+      ]
+    },
+    {
+      "id": "mechanical-rudong-gravity",
+      "src": "/chronicle/mechanical-rudong-gravity.jpg",
+      "alt": "如东EVx重力储能设施组装厂房内成排的重力块运输拖车",
+      "sourceUrl": "https://www.energyvault.com/projects/rudong",
+      "credit": "Energy Vault",
+      "license": "Energy Vault官方项目页图片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "如东EVx厂房实拍；图中为重力块运输拖车而非电池机架。项目设计25MW/100MWh，2024年完成测试与调试。",
+      "subjects": [
+        "company:gravity-energy-vault",
+        "company:gravity-cnty",
+        "route:gravity:history"
+      ]
+    },
+    {
+      "id": "mechanical-ares-gravityline",
+      "src": "/chronicle/mechanical-ares-gravityline.jpg",
+      "alt": "ARES Pahrump重力储能开发现场，代表在工程车辆前介绍轨道式项目",
+      "sourceUrl": "https://aresnorthamerica.com/nevada-project/",
+      "credit": "ARES North America",
+      "license": "ARES官方项目照片，未标开放许可；按授权用于本地非商业研究展示并署名，外部发布需另行确认权利。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Pahrump开发/开工活动照片，未展示完整GravityLine质量车；项目仍在开发，设计功率5MW。",
+      "subjects": [
+        "company:gravity-ares",
+        "route:gravity:history"
+      ]
+    }
+  ]
+}

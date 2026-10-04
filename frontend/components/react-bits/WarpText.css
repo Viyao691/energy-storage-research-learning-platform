@@ -1,0 +1,23 @@
+.warp-text {
+  position: relative;
+  display: inline-block;
+  width: max-content;
+  max-width: 100%;
+  min-height: 1.35em;
+  vertical-align: bottom;
+  white-space: pre-wrap;
+  isolation: isolate;
+  border-radius: inherit;
+}
+.warp-text__fallback { white-space: pre-wrap; }
+.warp-text--ready .warp-text__fallback { color: transparent; }
+
+.warp-text canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+

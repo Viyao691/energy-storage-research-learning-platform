@@ -1,0 +1,549 @@
+{
+  "routes": [
+    "hydrogen-gas",
+    "hydrogen-liquid",
+    "hydrogen-solid",
+    "hydrogen-carrier"
+  ],
+  "profiles": [
+    {
+      "id": "hydrogen-gas-nrel-hitrf",
+      "country": "美国",
+      "summary": "NREL研究设施，集成制氢、压缩、缓冲储气与加注设备，用于基础设施性能验证，不是商业储能电站。",
+      "listing": "美国国家实验室项目；不适用上市/市值。",
+      "scale": [
+        "线性活塞压缩机：415→900 bar，480 kg/day；隔膜压缩机：20→930 bar，60 kg/h。"
+      ],
+      "asOf": "NREL设备说明，页面当前访问于2026-10-03",
+      "sources": [
+        {
+          "label": "NREL HITRF",
+          "url": "https://www.nrel.gov/hydrogen/hitrf-animation?print="
+        },
+        {
+          "label": "DOE Hydrogen Storage",
+          "url": "https://www.energy.gov/cmei/fuels/hydrogen-storage"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-gas-hexagon-lincoln",
+      "country": "美国",
+      "summary": "Lincoln Composites是DOE历史项目承研方，当时为Hexagon Composites集团成员；该材料仅记录2011年前后的容器资格验证，不推断其当前组织归属或当前产品状态。",
+      "listing": "历史项目单位；本条不填当前上市关系/市值。",
+      "scale": [
+        "DOE报告记载3,600 psi压力容器完成资格测试；2012年项目报告描述约8,500 L水容积设计和ISO框架方案，属于当年开发目标。"
+      ],
+      "asOf": "DOE FY2011 / FY2012报告",
+      "sources": [
+        {
+          "label": "DOE FY2011 review",
+          "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review11/pd021_baldwin_2011_o.pdf"
+        },
+        {
+          "label": "DOE FY2012 report",
+          "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/progress12/iii_6_knudsen_2012.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-nasa-ksc",
+      "country": "美国",
+      "summary": "NASA肯尼迪航天中心为Artemis发射系统管理低温推进剂基础设施；LC-39B球罐是航天推进剂储罐案例。",
+      "listing": "美国联邦机构；不适用上市/市值。",
+      "scale": [
+        "新球罐83英尺直径、1.25百万美制加仑可用LH₂；2025年完成供液验证测试。"
+      ],
+      "asOf": "测试报道2025-07-25；参考指南2026版",
+      "sources": [
+        {
+          "label": "NASA LH2 tank testing",
+          "url": "https://www.nasa.gov/blogs/missions/2025/07/25/nasa-tests-new-liquid-hydrogen-tank-for-crewed-artemis-missions/"
+        },
+        {
+          "label": "NASA Artemis II reference guide",
+          "url": "https://www.nasa.gov/wp-content/uploads/2026/01/a2-reference-guide-012825.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-genh2-doe",
+      "country": "美国",
+      "summary": "CB&I、Shell、GenH2、NASA Marshall及休斯敦大学合作研究大型液氢储罐；GenH2为项目技术参与方。",
+      "listing": "GenH2为私营技术企业；公司称其为Philomaxcap AG子公司，未将母公司行情归作GenH2市值。",
+      "scale": [
+        "项目完成最高100,000 m³级大型LH₂储罐概念设计；实际验证采用NASA Marshall场地的小型示范罐。"
+      ],
+      "asOf": "项目公告2025-04-15",
+      "sources": [
+        {
+          "label": "GenH2/CB&I/Shell announcement",
+          "url": "https://genh2.com/press-release/liquid-hydrogen-storage-tank-first-commercial-scale-design-demonstrated-by-cbi-and-shell/"
+        },
+        {
+          "label": "GenH2 DOE selection",
+          "url": "https://genh2.com/press-release/shell-led-consortium-selected-by-doe/"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-solid-gkn-nrel",
+      "country": "美国/德国合作项目",
+      "summary": "GKN Hydrogen、NREL和SoCalGas合作，在NREL Flatirons园区示范金属氢化物储氢系统；金属与氢反应形成氢化物，放氢需要供热。",
+      "listing": "GKN Hydrogen非上市项目合作方；未填市值。",
+      "scale": [
+        "最多500 kg H₂，两个20英尺ISO箱；与1.25 MW PEM电解槽和1 MW PEM燃料电池组成集成验证链。",
+        "2024年报道时已commissioned，正在验证性能与应用工况。"
+      ],
+      "asOf": "NREL报道2024-11-14",
+      "sources": [
+        {
+          "label": "NREL HEVHY METAL",
+          "url": "https://www.nrel.gov/news/program/2024/heavy-metal-debut-a-world-class-metal-hydride-system.html"
+        },
+        {
+          "label": "DOE ARIES technical transcript",
+          "url": "https://www.energy.gov/cmei/fuels/july-h2iq-hour-aries-flatirons-campus-mw-scale-hydrogen-system-research-text-version"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-hydrogenious",
+      "country": "德国",
+      "summary": "Hydrogenious LOHC Technologies开发以苄基甲苯为载体的液态有机储氢与放氢系统，成立于2013年。",
+      "listing": "私营公司；公司2024资料称员工超过230人，未披露上市市值。",
+      "scale": [
+        "Erlangen站自2022-07运行；释放能力9,000 kg H₂/year、地下储存1.5 t H₂；ReleaseBox 10约1 kg/h。"
+      ],
+      "asOf": "项目页当前数据；员工数据来自2024资料",
+      "sources": [
+        {
+          "label": "Erlangen H2Sektor",
+          "url": "https://hydrogenious.net/how/hrs-erlangen/"
+        },
+        {
+          "label": "Hydrogenious 2024 company press information",
+          "url": "https://hydrogenious.net/wp-content/uploads/240216_Press_Information_IPCEI_GHBD_Hydrogenious_LOHC_EN.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-syzygy-lotte",
+      "country": "美国/韩国联合示范",
+      "summary": "Syzygy Plasmonics提供电驱氨裂解反应器，Lotte Chemical提供Ulsan测试现场，Sumitomo提供物流支持；氨作为氢载体后需裂解释放氢。",
+      "listing": "Syzygy为私营企业；LOTTE Chemical为韩国上市公司，但此处未记录未核定日期的市值。",
+      "scale": [
+        "2024-12现场性能测试；新闻稿披露最佳试验点为290 kg H₂/day、99%转化率、81%能效、11 kWh/kg-H₂。后续商业化仍处计划阶段。"
+      ],
+      "asOf": "公司新闻稿2025-01-27",
+      "sources": [
+        {
+          "label": "Syzygy company-issued press release",
+          "url": "https://www.prnewswire.com/news-releases/syzygy-plasmonics-and-lotte-chemical-unlock-ammonia-as-a-hydrogen-carrier-in-asia-successfully-complete-trial-of-ammonia-e-cracking-unit-302360343.html"
+        },
+        {
+          "label": "LOTTE 2022 collaboration announcement",
+          "url": "https://www.lottechem.com/en/media/news/609/view.do"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-gas-enric",
+      "country": "中国",
+      "summary": "中集安瑞科控股有限公司制造高压氢气储运装备，也经营液氢储运设备；其披露覆盖管束集装箱、球罐及车载IV型瓶。",
+      "listing": "中集安瑞科控股有限公司，香港主板3899.HK；隶属中集集团。此处不把母公司市值列作子公司市值。",
+      "scale": [
+        "集团口径：2025年收入人民币263.26亿元、归母净利润11.35亿元；业务跨多个能源装备板块，不代表氢储运分部收入。",
+        "2025年第二代30MPa氢气管束集装箱批量出货；向松原项目交付15台氢气球罐和8套压缩机缓冲罐。",
+        "IV型储氢瓶合资公司当年出口超过800支，非全部由中集安瑞科独立制造。"
+      ],
+      "asOf": "财务数据披露于2026-03-25；装备/交付数据对应2025年度。",
+      "sources": [
+        {
+          "label": "2025年度业绩及氢能业务披露",
+          "url": "https://tc.enricgroup.com/companyupdate/97"
+        },
+        {
+          "label": "公司概况（上市、员工与集团关系）",
+          "url": "https://tc.enricgroup.com/about"
+        },
+        {
+          "label": "储氢与运输产品页",
+          "url": "https://www.enricgroup.com/zhongyouchucun"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-enric",
+      "country": "中国",
+      "summary": "中集安瑞科提供液氢储罐等低温装备；公司称2013年曾向海南文昌交付300m³液氢储罐。2025年披露的国内首台液氢球罐通过国家重点专项评审验收。",
+      "listing": "中集安瑞科控股有限公司，香港主板3899.HK；集团财务规模不等于液氢业务规模。",
+      "scale": [
+        "2013年交付文昌300m³液氢储罐（官网历史业务说明）。",
+        "2025年为国家重点专项交付国内首台液氢球罐并通过专家评审验收；来源称其助力民用液氢全产业链示范，不等同于全国商业运行能力。",
+        "集团口径：2025年收入人民币263.26亿元、归母净利润11.35亿元。"
+      ],
+      "asOf": "历史交付信息来自公司产品页；专项信息来自2025年度业绩披露（2026-03-25）。",
+      "sources": [
+        {
+          "label": "储氢与运输产品页",
+          "url": "https://www.enricgroup.com/zhongyouchucun"
+        },
+        {
+          "label": "2025年度业绩及液氢储运业务披露",
+          "url": "https://tc.enricgroup.com/companyupdate/97"
+        },
+        {
+          "label": "公司概况（上市与集团关系）",
+          "url": "https://tc.enricgroup.com/about"
+        }
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-sinopec-lohc",
+      "country": "中国",
+      "summary": "中国石化2025年报告披露，已完成有机液体储氢脱氢催化剂中试放大研究，示范装置建设推进并开工；目前应作为研发与示范建设阶段记录。",
+      "listing": "中国石油化工股份有限公司为上海、香港上市主体（600028.SH / 0386.HK）；本条不录入未核实市值。",
+      "scale": [
+        "公司2025年可持续发展报告仅披露催化剂中试放大和示范装置开工，未披露装置处理量、已投运日期或商业化交付规模。",
+        "不可将中石化集团总体营收或炼化体量解释为LOHC业务体量。"
+      ],
+      "asOf": "中国石化《2025年可持续发展报告》，2026年发布。",
+      "sources": [
+        {
+          "label": "中国石化2025年可持续发展报告",
+          "url": "https://www.sinopec.com/u/cms/gfzw/202603/22170726tr36.pdf"
+        }
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "hydrogen-gas-lincoln-3600psi-test",
+      "companyId": "hydrogen-gas-hexagon-lincoln",
+      "year": 2011,
+      "title": "Lincoln Composites高压容器资格测试",
+      "copy": "DOE年度审查记载3,600 psi压力容器完成多项安全资格测试；该页照片是历史研发设备，不能据此推断当前量产或电站部署。",
+      "facts": [
+        "完成静水爆破、压力循环、泄漏先兆破坏、环境、缺陷容限等资格测试。",
+        "DOE后续报告中的约8,500 L是设计容积指标，不是氢气质量或电站储能量。"
+      ],
+      "sourceUrl": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review11/pd021_baldwin_2011_o.pdf",
+      "subjects": [
+        "company:hydrogen-gas-hexagon-lincoln",
+        "route:hydrogen-gas:history"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-nasa-lc39b",
+      "companyId": "hydrogen-liquid-nasa-ksc",
+      "year": 2025,
+      "title": "NASA LC-39B液氢球罐供液测试",
+      "copy": "NASA验证Pad 39B新旧球罐向移动发射台供液；这是航天推进剂设施的运行与测试案例。",
+      "facts": [
+        "新球罐1.25百万美制加仑可用LH₂。",
+        "液氢温度约−423°F；参考指南列出新隔热方案降低46%蒸发损失。"
+      ],
+      "sourceUrl": "https://www.nasa.gov/blogs/missions/2025/07/25/nasa-tests-new-liquid-hydrogen-tank-for-crewed-artemis-missions/",
+      "subjects": [
+        "company:hydrogen-liquid-nasa-ksc",
+        "route:hydrogen-liquid:history"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-genh2-design",
+      "companyId": "hydrogen-liquid-genh2-doe",
+      "year": 2025,
+      "title": "大型液氢储罐概念设计完成",
+      "copy": "CB&I、Shell、GenH2、NASA和休斯敦大学报告完成大储罐概念设计；研究中的最大设计值并非实际建成罐体容量。",
+      "facts": [
+        "设计研究覆盖最高100,000 m³的储罐概念。",
+        "采用较小示范罐进行材料、隔热与运行周期验证。"
+      ],
+      "sourceUrl": "https://genh2.com/press-release/liquid-hydrogen-storage-tank-first-commercial-scale-design-demonstrated-by-cbi-and-shell/",
+      "subjects": [
+        "company:hydrogen-liquid-genh2-doe",
+        "route:hydrogen-liquid:history"
+      ]
+    },
+    {
+      "id": "hydrogen-solid-hevhy-metal",
+      "companyId": "hydrogen-solid-gkn-nrel",
+      "year": 2024,
+      "title": "Flatirons金属氢化物系统commissioned",
+      "copy": "NREL与GKN Hydrogen、SoCalGas推进500 kg级金属氢化物系统集成示范，当前用途是性能与系统耦合验证。",
+      "facts": [
+        "最多500 kg H₂，两个20英尺ISO箱。",
+        "与1.25 MW电解槽、1 MW燃料电池形成电—氢—电研究链；完整往返效率未在报道中给出。"
+      ],
+      "sourceUrl": "https://www.nrel.gov/news/program/2024/heavy-metal-debut-a-world-class-metal-hydride-system.html",
+      "subjects": [
+        "company:hydrogen-solid-gkn-nrel",
+        "route:hydrogen-solid:history"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-erlangen-lohc",
+      "companyId": "hydrogen-carrier-hydrogenious",
+      "year": 2022,
+      "title": "Erlangen LOHC供氢站投运",
+      "copy": "H₂Sektor在既有加氢站加入液态有机载体输送与放氢步骤，说明示范链条已运行；并非电网级储电项目。",
+      "facts": [
+        "释放能力9,000 kg H₂/year，地下储存1.5 t H₂。",
+        "30英尺ReleaseBox 10约1 kg/h，放氢后加压至45 bar并接入350/700 bar加注链。"
+      ],
+      "sourceUrl": "https://hydrogenious.net/how/hrs-erlangen/",
+      "subjects": [
+        "company:hydrogen-carrier-hydrogenious",
+        "route:hydrogen-carrier:history"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-ulsan-ammonia-cracker",
+      "companyId": "hydrogen-carrier-syzygy-lotte",
+      "year": 2024,
+      "title": "Ulsan电驱氨裂解系统完成现场性能测试",
+      "copy": "Syzygy与Lotte Chemical在Ulsan完成试验，验证氨裂解放氢设备；该测试不涵盖全链条储电往返效率。",
+      "facts": [
+        "新闻稿记录2024年12月完成现场测试。",
+        "最佳试验点为290 kg H₂/day、99%转化率、81%能效、11 kWh/kg-H₂。"
+      ],
+      "sourceUrl": "https://www.prnewswire.com/news-releases/syzygy-plasmonics-and-lotte-chemical-unlock-ammonia-as-a-hydrogen-carrier-in-asia-successfully-complete-trial-of-ammonia-e-cracking-unit-302360343.html",
+      "subjects": [
+        "company:hydrogen-carrier-syzygy-lotte",
+        "route:hydrogen-carrier:history"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-enric-2025-dispatch",
+      "companyId": "hydrogen-gas-enric",
+      "year": 2025,
+      "title": "30MPa氢气管束批量出货与松原储氢装备交付",
+      "copy": "中集安瑞科披露其第二代30MPa管束式集装箱实现批量出货，并向松原项目交付15台氢气球罐及8套压缩机缓冲罐，表明企业具备储运装备和项目交付活动；这不是电站放电能力或储氢业务收入数据。",
+      "facts": [
+        "2025年第二代30MPa高压氢气管束集装箱批量出货。",
+        "松原项目交付15台氢气球罐与8套压缩机缓冲罐。",
+        "集团2025年营收为人民币263.26亿元，不能视作氢业务收入。"
+      ],
+      "sourceUrl": "https://tc.enricgroup.com/companyupdate/97",
+      "subjects": [
+        "company:hydrogen-gas-enric",
+        "route:hydrogen-gas:history"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-enric-2013-delivery",
+      "companyId": "hydrogen-liquid-enric",
+      "year": 2013,
+      "title": "文昌300m³液氢储罐交付",
+      "copy": "中集安瑞科官网记载2013年向海南文昌交付300m³液氢储罐。该数字是储罐容积，不是氢质量、发电量或电力储能时长。",
+      "facts": [
+        "公司产品页记载该项交付发生于2013年。",
+        "2025年度公司披露另有国家重点专项液氢球罐通过专家评审验收；未据此推断批量商业投运。"
+      ],
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "subjects": [
+        "company:hydrogen-liquid-enric",
+        "route:hydrogen-liquid:history"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-enric-2025-special-project",
+      "companyId": "hydrogen-liquid-enric",
+      "year": 2025,
+      "title": "国家重点专项液氢球罐通过评审验收",
+      "copy": "公司2025年度业绩披露称，向国家重点专项交付国内首台液氢球罐并通过专家评审验收。该公告描述专项示范成果，不证明已有全国性商业运营规模。",
+      "facts": [
+        "交付对象为国家重点专项；通过专家评审验收。",
+        "报道未披露储罐容积、静态蒸发率或液氢全链条运行数据。"
+      ],
+      "sourceUrl": "https://tc.enricgroup.com/companyupdate/97",
+      "subjects": [
+        "company:hydrogen-liquid-enric",
+        "route:hydrogen-liquid:history"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-sinopec-lohc-2025",
+      "companyId": "hydrogen-carrier-sinopec-lohc",
+      "year": 2025,
+      "title": "有机液体储氢脱氢催化剂完成中试放大研究",
+      "copy": "中国石化年度报告记录催化剂中试放大完成、示范装置开工建设。该进展仍属于研发和示范阶段，报告未给出商业化投运或完整氢储存—释氢—发电效率。",
+      "facts": [
+        "完成有机液体储氢脱氢催化剂中试放大研究。",
+        "示范装置建设推进并实现开工，报告未披露规模和投运节点。"
+      ],
+      "sourceUrl": "https://www.sinopec.com/u/cms/gfzw/202603/22170726tr36.pdf",
+      "subjects": [
+        "company:hydrogen-carrier-sinopec-lohc",
+        "route:hydrogen-carrier:history"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "hydrogen-policy-ndrc-2022",
+      "src": "/chronicle/hydrogen-policy-ndrc-2022-02.png",
+      "alt": "国家发改委《氢能产业发展中长期规划（2021—2035年）》第2页原文截图",
+      "sourceUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202203/t20220323_1320038.html",
+      "sourceImageUrl": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202203/P020220323314396580505.pdf",
+      "credit": "国家发展改革委等部门；官方PDF第2页",
+      "license": "政府政策原文截图，注明来源供研究引用",
+      "status": "usable",
+      "kind": "document",
+      "context": "2022-03-23发布，原文论及氢作为可再生能源大规模、长周期储能载体。",
+      "subjects": [
+        "scene:hydrogen-policy"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-doe-vessel-2011",
+      "src": "/chronicle/hydrogen-gas-doe-vessel-2011-06.png",
+      "alt": "DOE氢能计划2011报告中的高压氢气压力容器资格测试照片和测试项目",
+      "sourceUrl": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review11/pd021_baldwin_2011_o.pdf",
+      "credit": "U.S. DOE Hydrogen Program / Lincoln Composites; FY2011报告第6页",
+      "license": "报告图像未标开放许可；仅本地研究展示并保留原始署名",
+      "status": "usable",
+      "kind": "document",
+      "context": "Lincoln Composites历史研发容器的3600 psi资格测试，非当前商业部署照片。",
+      "subjects": [
+        "route:hydrogen-gas:history",
+        "company:hydrogen-gas-hexagon-lincoln"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-nasa-lh2-sphere",
+      "src": "/chronicle/hydrogen-liquid-nasa-lh2-sphere.jpg",
+      "alt": "NASA肯尼迪航天中心液氢储存球罐",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/kennedy/kennedy-plays-critical-role-in-large-scale-liquid-hydrogen-tank-development/",
+      "sourceImageUrl": "https://images-assets.nasa.gov/image/KSC-20191001-PH-CSH01_0019/KSC-20191001-PH-CSH01_0019~large.jpg",
+      "credit": "NASA/Ben Smegelsky",
+      "license": "NASA图片，按NASA署名规则注明摄影者与来源",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "LC-39B旧球罐真实照片，照片拍摄于2019；用于说明NASA的低温推进剂储存工程背景。",
+      "subjects": [
+        "route:hydrogen-liquid:history",
+        "company:hydrogen-liquid-nasa-ksc"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-lohc-erlangen",
+      "src": "/chronicle/hydrogen-carrier-lohc-erlangen.jpg",
+      "alt": "Hydrogenious LOHC Erlangen加氢站的ReleaseBox装置",
+      "sourceUrl": "https://hydrogenious.net/how/hrs-erlangen/",
+      "sourceImageUrl": "https://hydrogenious.net/wp-content/uploads/Hydrogen_Refueling_Station_Erlangen_LOHC_Release_Box_-Hydrogenious_LOHC-1920x1054.jpg",
+      "credit": "© Hydrogenious LOHC Technologies",
+      "license": "项目页提供新闻图片下载；图像不属于开放许可，外部发布或转载需另行确认许可",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "Erlangen H₂Sektor真实LOHC放氢设备；用于本地科研展示。",
+      "subjects": [
+        "route:hydrogen-carrier:history",
+        "company:hydrogen-carrier-hydrogenious"
+      ]
+    },
+    {
+      "id": "hydrogen-carrier-syzygy-lotte-ulsan",
+      "src": "/chronicle/hydrogen-carrier-syzygy-lotte-ulsan.jpg",
+      "alt": "Syzygy与Lotte Chemical在韩国Ulsan测试的电驱氨裂解反应器",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/syzygy-plasmonics-and-lotte-chemical-unlock-ammonia-as-a-hydrogen-carrier-in-asia-successfully-complete-trial-of-ammonia-e-cracking-unit-302360343.html",
+      "sourceImageUrl": "https://mma.prnewswire.com/media/2606228/Syzygy_Rigel_Reactor_Ulsan_Korea.jpg?p=facebook",
+      "credit": "Syzygy Plasmonics（公司新闻稿配图）",
+      "license": "未声明开放许可；限本地非公开研究展示，外部发布需取得权利人许可",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2024年12月完成现场性能测试的氨裂解设备，不表示商业运行或完整储电闭环。",
+      "subjects": [
+        "route:hydrogen-carrier:history",
+        "company:hydrogen-carrier-syzygy-lotte"
+      ]
+    },
+    {
+      "id": "hydrogen-solid-gkn-nrel-flatirons",
+      "src": "/chronicle/hydrogen-solid-gkn-nrel-flatirons.jpg",
+      "alt": "GKN Hydrogen金属氢化物储氢系统在NREL Flatirons园区",
+      "sourceUrl": "https://www.nlr.gov/news/detail/program/2024/heavy-metal-debut-a-world-class-metal-hydride-system",
+      "sourceImageUrl": "https://www.nlr.gov/images/libraries/news/program/2024/heavy-metal-92239-bdy.jpg?Status=Master&sfvrsn=fd61eae0_0",
+      "credit": "Photo by Gregory Cooper, NREL",
+      "license": "NLR官方新闻图片，注明NREL摄影署名；仅本地研究展示，外部转载需依源站权利条款确认",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "NREL 2024-11-14官方报道中的HEVHY METAL示范系统实景；用于固态氢储存项目背景，不是材料显微图。",
+      "subjects": [
+        "route:hydrogen-solid:history",
+        "company:hydrogen-solid-gkn-nrel"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-enric-tubebundle",
+      "src": "/chronicle/hydrogen-gas-enric-tubebundle.jpg",
+      "alt": "中集安瑞科官网展示的高压氢气管束设备",
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "sourceImageUrl": "https://en.enricgroup.com/public/cms/images/clean-img41.jpg",
+      "credit": "中集安瑞科官网产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司官网氢气管束产品图；作为高压气态储运装备背景，不指认其为松原项目现场照片。",
+      "subjects": [
+        "route:hydrogen-gas:history",
+        "company:hydrogen-gas-enric"
+      ]
+    },
+    {
+      "id": "hydrogen-gas-enric-trailer",
+      "src": "/chronicle/hydrogen-gas-enric-trailer.jpg",
+      "alt": "中集安瑞科官网展示的氢气管束运输半挂车",
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "sourceImageUrl": "https://en.enricgroup.com/public/cms/images/clean-img42.jpg",
+      "credit": "中集安瑞科官网产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司官网展示运输车辆产品，不声称对应某个具体投运项目。",
+      "subjects": [
+        "route:hydrogen-gas:history",
+        "company:hydrogen-gas-enric"
+      ]
+    },
+    {
+      "id": "hydrogen-liquid-enric-tank",
+      "src": "/chronicle/hydrogen-liquid-enric-tank.jpg",
+      "alt": "中集安瑞科官网展示的液氢储罐设备",
+      "sourceUrl": "https://www.enricgroup.com/zhongyouchucun",
+      "sourceImageUrl": "https://en.enricgroup.com/public/cms/images/clean-img43.jpg",
+      "credit": "中集安瑞科官网产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "公司官网液氢储罐产品图；不指认为2013文昌罐或2025专项示范罐实景。",
+      "subjects": [
+        "route:hydrogen-liquid:history",
+        "company:hydrogen-liquid-enric"
+      ]
+    }
+  ],
+  "materialImageGaps": [
+    {
+      "subject": "hydrogen-gas composite pressure-vessel material",
+      "gap": "未找到可明确作为该容器碳纤维复合层样本的一手开放照片；现有DOE图是整机/测试。",
+      "recommendation": "用结构示意展示内衬、纤维缠绕层与外保护层，标注非实物剖面。"
+    },
+    {
+      "subject": "hydrogen-liquid cryogenic insulation material",
+      "gap": "NASA照片为储罐设施，不是微玻璃球绝热材料实物图。",
+      "recommendation": "可绘制微玻璃球夹层与真空/制冷边界结构示意，并注明非NASA实物剖面。"
+    },
+    {
+      "subject": "hydrogen-solid metal hydride",
+      "gap": "已有NREL/GKN示范系统实景图，但未找到可确认的金属氢化物粉末、床层或微结构照片。",
+      "recommendation": "以清楚标注非实测显微图的吸氢/放氢热流与粉床结构示意补足材料视图。"
+    },
+    {
+      "subject": "hydrogen-carrier LOHC/ammonia materials",
+      "gap": "现有照片是设备/项目照片，没有苄基甲苯或氨载体化学材料样品的一手图。",
+      "recommendation": "分别用LOHC加氢/脱氢和NH₃裂解流程示意，标注非实物照片。"
+    }
+  ]
+}

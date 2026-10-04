@@ -1,0 +1,9 @@
+.specular-interactions-anchor{display:none}.specular-interactions-overlay{position:fixed;z-index:1000;pointer-events:none;overflow:visible}.specular-interactions-overlay canvas{display:block;width:100%;height:100%}
+
+/* The same eligibility marker drives the one-canvas highlight and the resting glass surface. */
+html #workspace-action-surface [data-specular-action]{background:linear-gradient(145deg,#f1fafcbb,#c8e1ea8c)!important;border:1px solid #7aabbf!important;border-radius:10px!important;box-shadow:inset 0 1px #fff,0 5px 15px #143d541b!important;color:#16445d!important;backdrop-filter:blur(10px) saturate(1.2);-webkit-backdrop-filter:blur(10px) saturate(1.2);text-decoration:none}
+html #workspace-action-surface [data-specular-action]:hover{background:linear-gradient(145deg,#f6fdfff0,#cde8f0b8)!important;border-color:#4b91ad!important;box-shadow:inset 0 1px #fff,0 7px 18px #12486829!important}
+html[data-theme=dark] #workspace-action-surface [data-specular-action]{background:linear-gradient(145deg,#244e6a9c,#0d2a42ae)!important;border-color:#84b9cc!important;box-shadow:inset 0 1px #ffffff50,0 6px 18px #010d1c55!important;color:#e8f6fb!important}
+html[data-theme=dark] #workspace-action-surface [data-specular-action]:hover{background:linear-gradient(145deg,#35647eb8,#163d5bb8)!important;border-color:#b1d7e4!important}
+html #workspace-action-surface [data-specular-action]:focus-visible{outline:3px solid #73b6d7;outline-offset:2px}
+html #workspace-action-surface [data-specular-action][aria-disabled=true],html #workspace-action-surface [data-specular-action]:disabled{opacity:.55}

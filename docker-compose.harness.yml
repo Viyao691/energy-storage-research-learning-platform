@@ -1,0 +1,9 @@
+services:
+  backend:
+    volumes:
+      - type: bind
+        source: ./local_state/energy-data
+        target: /app/data
+      - type: bind
+        source: ./local_state/document-ai-models
+        target: /app/models

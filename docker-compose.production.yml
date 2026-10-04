@@ -1,0 +1,119 @@
+name: energy-research-copilot-production
+
+services:
+  caddy:
+    image: caddy:2.10.2-alpine
+    restart: unless-stopped
+    env_file: .env.production
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks: [edge]
+    depends_on:
+      frontend:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        BACKEND_API_URL: http://backend:8000
+    restart: unless-stopped
+    environment:
+      BACKEND_API_URL: http://backend:8000
+    expose: ["3000"]
+    networks: [edge, internal]
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/help"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    env_file: .env.production
+    environment:
+      DATABASE_URL: postgresql+psycopg://energy:${POSTGRES_PASSWORD}@postgres:5432/energy
+      REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      PAPER_STORAGE_PATH: /app/data/papers
+      BACKUP_PATH: /app/data/backups
+      DOCUMENT_AI_MODEL_PATH: /app/models
+    expose: ["8000"]
+    volumes:
+      - energy_data:/app/data
+      - document_ai_models:/app/models
+    networks: [internal]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  worker:
+    build: ./backend
+    restart: unless-stopped
+    command: ["rq", "worker", "--url", "redis://:${REDIS_PASSWORD}@redis:6379/0", "--serializer", "rq.serializers.JSONSerializer", "energy-research"]
+    env_file: .env.production
+    environment:
+      DATABASE_URL: postgresql+psycopg://energy:${POSTGRES_PASSWORD}@postgres:5432/energy
+      REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      PAPER_STORAGE_PATH: /app/data/papers
+      BACKUP_PATH: /app/data/backups
+      DOCUMENT_AI_MODEL_PATH: /app/models
+    volumes:
+      - energy_data:/app/data
+      - document_ai_models:/app/models
+    networks: [internal]
+    depends_on:
+      backend: {condition: service_healthy}
+
+  redis:
+    image: redis:8.2.1-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${REDIS_PASSWORD}"]
+    volumes: ["redis_data:/data"]
+    networks: [internal]
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a \"$$REDIS_PASSWORD\" ping | grep PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: energy
+      POSTGRES_USER: energy
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+    networks: [internal]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U energy -d energy"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+networks:
+  edge:
+  internal:
+    internal: true
+
+volumes:
+  energy_data:
+  document_ai_models:
+  redis_data:
+  postgres_data:
+  caddy_data:
+  caddy_config:

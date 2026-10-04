@@ -1,0 +1,25 @@
+.workspace-v2 .research-results { display: grid; gap: 16px; padding: 16px 0; }
+.workspace-v2 .research-result { padding: 16px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
+.workspace-v2 .research-result h3, .workspace-v2 .research-result h4 { margin: 8px 0; font-size: 16px; line-height: 1.6; }
+.workspace-v2 .research-result p, .workspace-v2 .research-results-empty { font-size: 16px; line-height: 1.8; }
+.workspace-v2 .research-result p { display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+.workspace-v2 .research-result-meta { display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px; color: var(--muted); }
+.workspace-v2 .research-daily-refined .daily-notice-copy p, .workspace-v2 .research-daily-refined .daily-run-counts, .workspace-v2 .subscriptions-workspace .subscription-query { font-size: 16px; }
+.workspace-v2 .research-daily-refined .daily-notice time, .workspace-v2 .research-daily-refined .daily-run-top time, .workspace-v2 .subscriptions-workspace .subscription-meta, .workspace-v2 .subscription-feedback { font-size: 14px; }
+.workspace-v2 .research-run-axis-label, .workspace-v2 .research-run-date-label { font-size: 14px; }
+.workspace-v2 .research-results-toggle { margin-top: 12px; font-size: 15px; }
+.workspace-v2 .app-main .subscriptions-workspace .subscription-content-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 7px 12px; border: 1px solid var(--v2-line); border-radius: 8px; color: var(--v2-ink); font-size: 16px; text-decoration: none; }
+.workspace-v2 .app-main .research-daily-refined a.research-results-toggle { display: inline-flex; font-size: 15px; line-height: 1.6; }
+
+.workspace-v2 .research-news-panel { margin-bottom: 24px; }
+.workspace-v2 .research-news-group + .research-news-group { margin-top: 20px; }
+.workspace-v2 .research-news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: 640px; overflow-y: auto; }
+@media (max-width: 720px) { .workspace-v2 .research-news-grid { grid-template-columns: 1fr; } }
+
+.workspace-v2 .app-main .research-daily-refined :is(.daily-metric-heading > span, .daily-kicker, .daily-panel-kicker, .daily-panel-heading > span, .daily-artwork-note, .daily-notice time, .daily-run-top time, .daily-notice .workspace-status, .daily-run-top .workspace-status, .daily-status-row > div, .daily-status-row strong, .daily-run-warning, .daily-run-error, .daily-notice-artwork .topic-artwork-caption) { font-size: 14px; line-height: 1.5; }
+.workspace-v2 .app-main .research-daily-refined :is(.daily-notice-copy > p, .daily-notice h3, .daily-run-counts, .daily-empty strong, .daily-empty p, .daily-state) { font-size: 16px; line-height: 1.7; }
+.workspace-v2 .app-main .subscriptions-workspace :is(.subscription-topic-type, .subscription-card .subscription-meta span, .subscription-total, .subscription-section-heading p, .refinement-kicker, .subscription-history-panel li > span, .subscription-card .workspace-status, .subscription-artwork .topic-artwork-caption) { font-size: 14px; line-height: 1.5; }
+.workspace-v2 .app-main .subscriptions-workspace :is(.subscription-card .subscription-query, .subscription-details summary, .subscription-card .subscription-actions button, .subscription-history-panel li > strong, .subscription-runs-empty, .subscription-create-form p, .subscription-create-form label) { font-size: 16px; line-height: 1.7; }
+.workspace-v2 .app-main :is(.research-daily-refined, .subscriptions-workspace) .research-run-chart :is(.research-run-chart-kicker, .research-run-chart-legend, .research-run-axis-label, .research-run-date-label, .research-run-chart-tooltip, .research-run-chart-empty p) { font-size: 14px; }
+.workspace-v2 .app-main :is(.research-daily-refined, .subscriptions-workspace) .research-result { background: var(--v2-surface); border-color: var(--v2-line); }
+.workspace-v2 .app-main :is(.research-daily-refined, .subscriptions-workspace) .research-result-meta { color: var(--v2-muted); }

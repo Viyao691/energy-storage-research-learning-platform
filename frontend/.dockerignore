@@ -1,0 +1,17 @@
+node_modules
+.next
+coverage
+npm-debug.log*
+.env*
+public/model
+public/models
+public/home-hero/models
+*.glb
+*.gltf
+*.blend
+*.fbx
+*.obj
+*.mtl
+*.stl
+*.pem
+*.key

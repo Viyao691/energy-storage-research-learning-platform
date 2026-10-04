@@ -1,0 +1,41 @@
+{
+  "name": "energy-research-copilot-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "test": "vitest run --exclude tests/archive/**",
+    "generate:types": "node scripts/generate-api-types.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "katex": "^0.16.22",
+    "mermaid": "^11.17.0",
+    "next": "15.5.22",
+    "ogl": "^1.0.11",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "@types/three": "0.185.4",
+    "jsdom": "^30.0.0",
+    "typescript": "5.8.3",
+    "vitest": "3.2.7"
+  },
+  "overrides": {
+    "postcss": "8.5.18",
+    "sharp": "0.35.0"
+  }
+}

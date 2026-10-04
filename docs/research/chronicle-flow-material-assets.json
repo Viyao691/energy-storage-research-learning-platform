@@ -1,0 +1,111 @@
+{
+  "assets": [
+    {
+      "id": "material-vanadium-concept",
+      "src": "/chronicle/material-vanadium-ai.png",
+      "alt": "全钒水系液流电池、电解液与多孔电极示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:vanadium-sulfate",
+        "material:vanadium-mixed-acid"
+      ]
+    },
+    {
+      "id": "material-iron-chromium-concept",
+      "src": "/chronicle/material-iron-chromium-ai.png",
+      "alt": "铁铬水系电解液与电极析氢副反应示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:iron-chromium-electrolyte"
+      ]
+    },
+    {
+      "id": "material-zinc-bromine-concept",
+      "src": "/chronicle/material-zinc-bromine-ai.png",
+      "alt": "锌沉积与含溴电解液的混合液流结构示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:zinc-bromine-zinc",
+        "material:zinc-bromine-bromine",
+        "material:zinc-bromine-electrolyte"
+      ]
+    },
+    {
+      "id": "material-organic-quinone-concept",
+      "src": "/chronicle/material-organic-quinone-ai.png",
+      "alt": "溶解态有机活性物质与水系液流电池示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "该路线概念结构，不代表具体配方、氧化态对应颜色、实测材料样品或厂商设备",
+      "subjects": [
+        "material:organic-quinone",
+        "material:organic-viologen-tempo"
+      ]
+    },
+    {
+      "id": "material-flow-carbon-felt-concept",
+      "src": "/chronicle/material-flow-carbon-felt-ai.png",
+      "alt": "水系电解液浸润多孔碳电极示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "多孔碳电极概念纹理，不代表任何论文样品或特定碳毡组成",
+      "subjects": [
+        "material:vanadium-carbon",
+        "material:iron-chromium-electrode",
+        "material:organic-carbon"
+      ]
+    },
+    {
+      "id": "material-flow-membrane-concept",
+      "src": "/chronicle/material-flow-membrane-ai.png",
+      "alt": "液流电池膜与两侧电解液的概念示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "水相隔膜通用概念，不代表具体商业膜、离子选择性或实验厚度",
+      "subjects": [
+        "material:vanadium-membrane",
+        "material:iron-chromium-membrane",
+        "material:zinc-bromine-membrane",
+        "material:organic-polymer-membrane"
+      ]
+    },
+    {
+      "id": "material-organic-solid-active-concept",
+      "src": "/chronicle/material-organic-solid-active-ai.png",
+      "alt": "固体有机活性材料与水系流动结构的概念示意",
+      "sourceUrl": "",
+      "credit": "结构示意",
+      "license": "Generated with built-in image_gen for this project.",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "context": "固体有机储能形态与水相的通用概念；不是CMBlu专有装置、材料样品或颗粒运动机理",
+      "subjects": [
+        "material:organic-solidflow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.true-focus { position: relative; display: inline-block; max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+.true-focus__part { position: relative; transition: filter .4s ease; }
+.true-focus__frame { position: absolute; top: 0; left: 0; z-index: 1; box-sizing: border-box; pointer-events: none; opacity: 0; transition: transform .45s ease, width .45s ease, height .45s ease, opacity .2s ease; }
+.true-focus__frame i { position: absolute; width: 9px; height: 9px; border: 2px solid #6b998c; filter: drop-shadow(0 0 3px #6b998c66); }
+.true-focus__frame i:nth-child(1) { top: -4px; left: -4px; border-right: 0; border-bottom: 0; }
+.true-focus__frame i:nth-child(2) { top: -4px; right: -4px; border-left: 0; border-bottom: 0; }
+.true-focus__frame i:nth-child(3) { bottom: -4px; left: -4px; border-right: 0; border-top: 0; }
+.true-focus__frame i:nth-child(4) { bottom: -4px; right: -4px; border-left: 0; border-top: 0; }
+html[data-theme="dark"] .true-focus__frame i { border-color: #a6c9bd; filter: drop-shadow(0 0 3px #a6c9bd77); }
+@media (prefers-reduced-motion: reduce) { .true-focus__part { filter: none !important; transition: none; } .true-focus__frame { display: none; } }

@@ -1,0 +1,25 @@
+.app-sidebar--landscape { isolation: isolate; }
+.app-sidebar-landscape {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+  opacity: .42;
+  mask-image: linear-gradient(to bottom, transparent, #000 55%);
+}
+.app-sidebar-landscape > span {
+  position: absolute;
+  inset-block: 0;
+  right: 0;
+  /* Clip one panel of the original pair, including its central divider. */
+  width: calc(200% + 8px);
+  background: url("/workspace/sidebar/energy-landscape-pair.png") center / cover no-repeat;
+}
+html:not([data-theme="dark"]) .workspace-v2 .app-sidebar-landscape > span {
+  left: 0;
+  right: auto;
+}
+@media (max-width: 980px) {
+  .app-sidebar-landscape { display: none; }
+}

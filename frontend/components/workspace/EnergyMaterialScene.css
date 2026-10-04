@@ -1,0 +1,59 @@
+.workspace-v2-energy .app-main { position: relative; }
+.workspace-v2-energy .app-main > :not(.energy-material-scene) { position: relative; z-index: 1; }
+.workspace-v2-energy .app-main > .energy-material-scene { position: absolute; inset: 0 0 auto; z-index: 0; height: 385px; overflow: hidden; pointer-events: none; }
+.energy-material-scene { --energy-progress: 0; --energy-zoom: 1.13; --energy-pointer-x: 0; --energy-pointer-y: 0; --energy-cell-size: clamp(380px, 45vw, 610px); }
+.energy-material-scene-carbon { --energy-atlas: url('/workspace/motion/carbon-layers-v2.png'); --carbon-shell-size: clamp(160px, 22vw, 260px); --carbon-core-size: clamp(110px, 14vw, 170px); --carbon-gap: clamp(20px, 3.5vw, 44px); }
+.energy-material-scene-layers { --energy-atlas: url('/workspace/motion/electrode-layers-v2.png'); }
+.energy-material-scene-roll { --energy-atlas: url('/workspace/motion/wound-layers-v2.png'); }
+.energy-layer-frame { position: absolute; inset: 0; overflow: hidden; clip-path: inset(6% 5% 6% 38% round 22px); }
+.energy-layer-cell { position: absolute; width: var(--energy-cell-size); height: var(--energy-cell-size); right: 2%; top: 50%; transform-origin: center; }
+.energy-layer-cell-atmosphere { inset: 0 auto auto 0; width: 100%; height: 100%; background-image: var(--energy-atlas, none); background-size: 200% 200%; background-position: 100% 100%; opacity: calc(.15 + var(--energy-progress) * .15); filter: blur(1px); -webkit-mask-image: linear-gradient(90deg, transparent, #000 38%, #000 82%, transparent); mask-image: linear-gradient(90deg, transparent, #000 38%, #000 82%, transparent); transform: scale(var(--energy-zoom)); }
+.energy-layer-cell-0 { z-index: 1; transform: translate3d(calc(var(--energy-pointer-x) * -7px + var(--energy-progress) * -40px), calc(-50% + var(--energy-pointer-y) * -7px + var(--energy-progress) * 7px), 0) scale(var(--energy-zoom)); }
+.energy-layer-cell-1 { z-index: 2; transform: translate3d(calc(var(--energy-pointer-x) * 10px + var(--energy-progress) * 17px), calc(-50% + var(--energy-pointer-y) * 9px + var(--energy-progress) * -18px), 0) scale(var(--energy-zoom)); }
+.energy-layer-cell-2 { z-index: 3; transform: translate3d(calc(var(--energy-pointer-x) * 16px + var(--energy-progress) * 44px), calc(-50% + var(--energy-pointer-y) * 14px + var(--energy-progress) * 21px), 0) scale(var(--energy-zoom)); }
+.energy-layer-ambient { position: absolute; inset: 0; background-image: var(--energy-atlas, none); background-size: 200% 200%; background-repeat: no-repeat; animation: energy-layer-breathe 6s ease-in-out infinite alternate; }
+.energy-layer-cell-0 .energy-layer-ambient { background-position: 0 0; animation-delay: -.7s; }
+.energy-layer-cell-1 .energy-layer-ambient { background-position: 100% 0; animation-delay: -2.3s; }
+.energy-layer-cell-2 .energy-layer-ambient { background-position: 0 100%; animation-delay: -4s; }
+.energy-material-scene-carbon .energy-layer-cell-atmosphere { opacity: calc(.14 + var(--energy-progress) * .09); }
+.energy-material-scene-carbon .energy-layer-cell-0 { width: var(--carbon-shell-size); height: var(--carbon-shell-size); right: 8%; top: 55%; z-index: 3; transform: translate3d(calc(var(--energy-pointer-x) * 3px + var(--energy-progress) * 12px), calc(-50% + var(--energy-pointer-y) * 3px), 0) scale(calc(1.04 - var(--energy-progress) * .04)); }
+.energy-material-scene-carbon .energy-layer-cell-1 { width: var(--carbon-core-size); height: var(--carbon-core-size); right: calc(8% + var(--carbon-shell-size) + var(--carbon-gap)); top: 50%; z-index: 4; transform: translate3d(calc(var(--energy-pointer-x) * -3px - var(--energy-progress) * 12px), calc(-50% + var(--energy-pointer-y) * -3px), 0) scale(calc(1.04 - var(--energy-progress) * .04)); }
+.energy-material-scene-carbon .energy-layer-cell-2 { width: 100px; height: 100px; right: calc(8% + var(--carbon-shell-size) + 28px); top: 83%; z-index: 5; transform: translate3d(calc(var(--energy-pointer-x) * 2px), calc(-50% + var(--energy-pointer-y) * 2px + var(--energy-progress) * 8px), 0) scale(calc(1.04 - var(--energy-progress) * .04)); }
+.energy-material-scene-layers .energy-layer-cell-atmosphere { opacity: calc(.11 + var(--energy-progress) * .1); }
+.energy-material-scene-layers .energy-layer-cell-0 { width: 420px; height: 420px; right: 14%; top: 31%; z-index: 1; }
+.energy-material-scene-layers .energy-layer-cell-1 { width: 420px; height: 420px; right: 11%; top: 51%; z-index: 2; }
+.energy-material-scene-layers .energy-layer-cell-2 { width: 350px; height: 350px; right: 17%; top: 95%; z-index: 3; }
+.energy-material-scene-layers .energy-layer-cell-2 .energy-layer-ambient { clip-path: inset(0 0 35% 0); }
+.energy-material-scene-roll .energy-layer-cell-atmosphere { opacity: calc(.1 + var(--energy-progress) * .12); }
+.energy-material-scene-roll .energy-layer-cell-0 { width: 300px; height: 300px; right: 20%; top: 52%; z-index: 3; }
+.energy-material-scene-roll .energy-layer-cell-1 { width: 295px; height: 295px; right: 9%; top: 45%; z-index: 2; }
+.energy-material-scene-roll .energy-layer-cell-2 { width: 265px; height: 265px; right: 12%; top: 64%; z-index: 4; }
+.energy-material-scene-roll .energy-layer-cell-2 .energy-layer-ambient { clip-path: inset(0 0 6% 0); }
+@keyframes energy-layer-breathe { from { transform: translate3d(0, -4px, 0); } to { transform: translate3d(0, 5px, 0); } }
+.energy-material-scene[data-active='false'] .energy-layer-ambient { animation-play-state: paused; }
+.workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header.workspace-header-artwork { align-items: flex-start; flex-direction: column; justify-content: flex-start; gap: 10px; min-height: 325px; background: transparent !important; background-image: none !important; border-color: transparent !important; box-shadow: none !important; }
+.workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header.workspace-header-artwork::before,
+.workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header.workspace-header-artwork::after,
+.workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header .workspace-illustration-slot { content: none !important; display: none !important; }
+.workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header > div:first-child { width: min(35%, 370px); }
+.workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header-action { align-self: flex-start; margin: 0; }
+html[data-theme='dark'] .workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header.workspace-header-artwork { background: transparent !important; border-color: transparent !important; box-shadow: none !important; }
+@media (max-width: 700px) {
+  .workspace-v2-energy .app-main > .energy-material-scene { height: 430px; }
+  .energy-material-scene { --energy-cell-size: min(98vw, 425px); }
+  .energy-layer-cell { right: 0; top: 64%; }
+  .energy-material-scene-carbon .energy-layer-cell-0 { width: 45vw; height: 45vw; right: 4%; top: 70%; }
+  .energy-material-scene-carbon .energy-layer-cell-1 { width: 26vw; height: 26vw; right: 62%; top: 70%; }
+  .energy-material-scene-carbon .energy-layer-cell-2 { width: 20vw; height: 20vw; right: 49%; top: 92%; }
+  .energy-material-scene-layers .energy-layer-cell-0, .energy-material-scene-layers .energy-layer-cell-1 { width: 75vw; height: 75vw; }
+  .energy-material-scene-layers .energy-layer-cell-0 { right: 4%; top: 59%; }
+  .energy-material-scene-layers .energy-layer-cell-1 { right: 0; top: 71%; }
+  .energy-material-scene-layers .energy-layer-cell-2 { width: 68vw; height: 68vw; right: 8%; top: 97%; }
+  .energy-material-scene-roll .energy-layer-cell-0 { width: 60vw; height: 60vw; right: 31%; top: 60%; }
+  .energy-material-scene-roll .energy-layer-cell-1 { width: 56vw; height: 56vw; right: -1%; top: 61%; }
+  .energy-material-scene-roll .energy-layer-cell-2 { width: 50vw; height: 50vw; right: 2%; top: 75%; }
+  .energy-layer-frame { clip-path: inset(31% 2% 2% 2% round 18px); }
+  .workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header.workspace-header-artwork { min-height: 435px; }
+  .workspace-v2-energy .app-main :is(.search-page, .knowledge-page, .learning-workspace) .workspace-header > div:first-child { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .energy-layer-ambient { animation: none; } }

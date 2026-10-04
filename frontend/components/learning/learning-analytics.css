@@ -1,0 +1,77 @@
+.learning-analytics-refined.learning-analytics {
+  --la-ink: #182c43;
+  --la-muted: #68798d;
+  --la-line: rgba(71, 91, 113, .16);
+  background: linear-gradient(145deg, #fffefa, #f5f7f8 70%, #f0f3f4) !important;
+  border: 1px solid rgba(191, 153, 80, .2);
+  border-radius: 22px;
+  color: var(--la-ink);
+  gap: 10px;
+  padding: 18px;
+}
+.learning-analytics-refined .la-toolbar { align-items: flex-end; gap: 12px; }
+.learning-analytics-refined .la-toolbar h2 { color: var(--la-ink); font-size: 20px; margin: 2px 0 4px; }
+.learning-analytics-refined .la-toolbar p { color: var(--la-muted); font-size: 16px; margin: 0; }
+.learning-analytics-refined .la-kicker { color: #a47c35; font-size: 14px; font-weight: 800; letter-spacing: .16em; }
+.learning-analytics-refined .la-ranges { gap: 7px; }
+.learning-analytics-refined .la-ranges button { border-radius: 999px; font-family: "Times New Roman", "Noto Sans SC", sans-serif; font-size: 16px; min-width: 76px; }
+.learning-analytics-refined .la-ranges button[aria-pressed="true"] { background: #1c3854 !important; border-color: #1c3854 !important; color: white !important; }
+.learning-analytics-refined .la-summary { gap: 9px; }
+.learning-analytics-refined .la-summary span { background: #fff !important; border: 1px solid var(--la-line); border-radius: 13px; color: var(--la-muted); flex: 1 1 145px; font-size: 15px; gap: 3px; min-height: 64px; min-width: 0; padding: 8px 12px; }
+.learning-analytics-refined .la-summary strong { color: #1c3854; font-family: "Times New Roman", "Noto Serif SC", serif; font-size: 26px; font-weight: 700; }
+.learning-analytics-refined .la-chart-grid { display: grid; gap: 10px; grid-template-columns: minmax(0, 1.8fr) minmax(245px, .9fr); }
+.learning-analytics-refined .la-panel { background: rgba(255,255,255,.72); border: 1px solid var(--la-line); border-radius: 17px; min-width: 0; padding: 12px 14px; }
+.learning-analytics-refined .la-panel h3 { color: var(--la-ink); font-size: 17px; margin: 0; }
+.learning-analytics-refined .la-panel-heading { align-items: center; display: flex; justify-content: space-between; }
+.learning-analytics-refined .la-panel-heading p { color: var(--la-muted); font-family: "Times New Roman", "Noto Sans SC", sans-serif; font-size: 15px; margin: 5px 0 0; }
+.learning-analytics-refined .la-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 9px 0 1px; }
+.learning-analytics-refined .la-legend span { align-items: center; color: var(--la-muted); display: inline-flex; font-size: 15px; gap: 6px; }
+.learning-analytics-refined .la-legend i, .learning-analytics-refined .la-mastery-legend i { border-radius: 3px; display: inline-block; height: 9px; width: 9px; }
+.learning-analytics-refined .la-scroll-hint { display: none; }
+.learning-analytics-refined .la-activity-scroll { min-width: 0; overflow-x: auto; }
+.learning-analytics-refined .la-activity-svg { aspect-ratio: 900 / 240; display: block; height: auto; min-width: 900px; overflow: visible; width: 100%; }
+.learning-analytics-refined .la-grid-line { stroke: rgba(94,112,131,.16); stroke-dasharray: 3 5; stroke-width: 1; }
+.learning-analytics-refined .la-axis-label, .learning-analytics-refined .la-axis-title { fill: #718197; font-family: "Times New Roman", "Noto Sans SC", sans-serif; font-size: 16px; }
+.learning-analytics-refined .la-axis-title { font-size: 14px; }
+.learning-analytics-refined .la-mastery-content { align-items: center; display: flex; gap: 14px; justify-content: center; min-height: 155px; }
+.learning-analytics-refined .la-donut { align-items: center; border-radius: 50%; display: flex; flex: 0 0 124px; height: 124px; justify-content: center; position: relative; width: 124px; }
+.learning-analytics-refined .la-donut::before { background: #fffefa; border-radius: 50%; content: ""; inset: 17px; position: absolute; }
+.learning-analytics-refined .la-donut.is-empty { background: #e6e9ed !important; }
+.learning-analytics-refined .la-donut > span { color: var(--la-ink); font-family: "Times New Roman", "Noto Sans SC", sans-serif; font-size: 27px; font-weight: 700; line-height: 1.1; position: relative; text-align: center; }
+.learning-analytics-refined .la-donut small { color: var(--la-muted); display: block; font-size: 14px; font-weight: 500; margin-top: 4px; }
+.learning-analytics-refined .la-mastery-legend { display: grid; gap: 10px; list-style: none; margin: 0; padding: 0; width: min(100%, 205px); }
+.learning-analytics-refined .la-mastery-legend li { align-items: center; color: var(--la-muted); display: grid; font-size: 15px; gap: 9px; grid-template-columns: 10px 1fr auto; }
+.learning-analytics-refined .la-mastery-legend strong { color: var(--la-ink); }
+.learning-analytics-refined .la-lower-grid { gap: 10px; grid-template-columns: repeat(2, minmax(0,1fr)); }
+.learning-analytics-refined .la-rating-list { display: grid; gap: 9px; list-style: none; margin: 12px 0 2px; padding: 0; }
+.learning-analytics-refined .la-rating-list li { align-items: center; color: var(--la-muted); display: grid; font-size: 15px; gap: 10px; grid-template-columns: minmax(90px, auto) 1fr 32px; }
+.learning-analytics-refined .la-rating-track { background: #edf0f2; border-radius: 9px; height: 8px; overflow: hidden; }
+.learning-analytics-refined .la-rating-track i { background: #4b82bf; border-radius: inherit; display: block; height: 100%; }
+.learning-analytics-refined .la-rating-track i[data-tone="1"] { background: #38a99a; }
+.learning-analytics-refined .la-rating-track i[data-tone="2"] { background: #d9a441; }
+.learning-analytics-refined .la-rating-track i[data-tone="3"] { background: #8271bd; }
+.learning-analytics-refined .la-rating-list strong, .learning-analytics-refined .la-weakness strong { color: var(--la-ink); text-align: right; }
+.learning-analytics-refined .la-weakness { align-items: center; border-bottom: 1px solid var(--la-line); color: var(--la-muted); display: flex; justify-content: space-between; margin: 0; padding: 8px 0; }
+.learning-analytics-refined .la-weakness:first-of-type { margin-top: 6px; }
+.learning-analytics-refined .la-empty, .learning-analytics-refined .la-state { color: var(--la-muted); font-size: 15px; margin: 18px 0 4px; }
+.learning-analytics-refined .la-error { color: #ad4b45; }
+.learning-analytics-refined .la-activity-details { border-top: 1px solid var(--la-line); margin-top: 3px; padding-top: 8px; }
+.learning-analytics-refined .la-activity-details summary { color: var(--la-muted); cursor: pointer; font-family: "Times New Roman", "Noto Sans SC", sans-serif; font-size: 15px; list-style-position: inside; }
+.learning-analytics-refined .la-activity-details summary:focus-visible { border-radius: 4px; outline: 2px solid #4b82bf; outline-offset: 3px; }
+.learning-analytics-refined .la-table-scroll { max-height: 170px; overflow: auto; }
+.learning-analytics-refined .la-table-scroll table { border-collapse: collapse; font-family: "Times New Roman", "Noto Sans SC", sans-serif; font-size: 15px; margin-top: 8px; text-align: left; width: 100%; }
+.learning-analytics-refined .la-table-scroll caption { color: var(--la-muted); padding: 4px; text-align: left; }
+.learning-analytics-refined .la-table-scroll th, .learning-analytics-refined .la-table-scroll td { border-bottom: 1px solid var(--la-line); padding: 6px 8px; }
+.learning-analytics-refined .la-table-scroll th { color: var(--la-ink); }
+html[data-theme="dark"] .learning-analytics-refined.learning-analytics { --la-ink: #e9f0f7; --la-muted: #b6c5d3; --la-line: rgba(182,203,219,.16); background: linear-gradient(145deg, #173653, #102942 75%) !important; border-color: rgba(79,196,207,.2); color: var(--la-ink); }
+html[data-theme="dark"] .learning-analytics-refined .la-panel { background: rgba(9,29,47,.42); }
+html[data-theme="dark"] .learning-analytics-refined .la-summary span { background: #102942 !important; }
+html[data-theme="dark"] .learning-analytics-refined .la-summary strong { color: #f0ca73 !important; }
+html[data-theme="dark"] .learning-analytics-refined.learning-analytics .la-ranges button[aria-pressed="true"] { background: #f0ca73 !important; border-color: #f0ca73 !important; color: #132c42 !important; }
+html[data-theme="dark"] .learning-analytics-refined .la-donut::before { background: #173653; }
+html[data-theme="dark"] .learning-analytics-refined .la-donut.is-empty { background: #41566a !important; }
+html[data-theme="dark"] .learning-analytics-refined .la-grid-line { stroke: rgba(207,222,233,.16); }
+html[data-theme="dark"] .learning-analytics-refined .la-axis-label, html[data-theme="dark"] .learning-analytics-refined .la-axis-title { fill: #b6c5d3; }
+html[data-theme="dark"] .learning-analytics-refined .la-rating-track { background: #284359; }
+@media (max-width: 900px) { .learning-analytics-refined .la-chart-grid { grid-template-columns: minmax(0,1fr); } .learning-analytics-refined .la-mastery-content { justify-content: flex-start; min-height: 0; padding-top: 14px; } }
+@media (max-width: 600px) { .learning-analytics-refined .la-toolbar { align-items: stretch; } .learning-analytics-refined .la-ranges button { flex: 1; min-width: 0; } .learning-analytics-refined .la-panel { padding: 12px; } .learning-analytics-refined .la-scroll-hint { color: var(--la-muted); display: block; font-size: 14px; margin: 2px 0 0; } .learning-analytics-refined .la-table-scroll { overflow-x: auto; } .learning-analytics-refined .la-table-scroll table { min-width: 420px; } .learning-analytics-refined .la-mastery-content { flex-wrap: wrap; justify-content: center; } .learning-analytics-refined .la-mastery-legend { max-width: 220px; } .learning-analytics-refined .la-lower-grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,18 @@
+.scientific-workbench .scientific-fields { min-width: 0; margin: 0; padding: 14px; border: 1px solid var(--workspace-line); border-radius: 10px; }
+.scientific-workbench .scientific-fields legend { font-weight: 600; padding: 0 6px; }
+.scientific-workbench .scientific-purpose { margin: 0; line-height: 1.65; }
+.scientific-workbench .scientific-table-wrap { max-width: 100%; overflow-x: auto; margin: 10px 0; }
+.scientific-workbench .scientific-data-table { width: 100%; border-collapse: collapse; text-align: left; }
+.scientific-workbench .scientific-data-table caption { text-align: left; margin-bottom: 8px; font-size: 13px; color: var(--muted); }
+.scientific-workbench .scientific-data-table th, .scientific-workbench .scientific-data-table td { padding: 5px; vertical-align: top; }
+.scientific-workbench .scientific-data-table th:first-child { width: 32px; }
+.scientific-workbench .scientific-data-table input { width: 100%; min-width: 105px; box-sizing: border-box; }
+.scientific-workbench .scientific-data-table th input { margin-top: 5px; font-weight: normal; }
+.scientific-workbench .scientific-data-table input[readonly] { opacity: .8; }
+.scientific-workbench .scientific-data-table button { padding: 8px; white-space: nowrap; }
+.scientific-workbench .scientific-parameter-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.scientific-workbench .scientific-parameter-grid label { display: grid; gap: 5px; }
+.scientific-workbench .scientific-check { display: flex; gap: 8px; align-items: flex-start; margin: 10px 0; line-height: 1.5; }
+.scientific-workbench .scientific-check input { width: auto; flex: 0 0 auto; margin-top: 4px; }
+.scientific-workbench .scientific-advanced pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 300px; overflow-y: auto; font-size: 12px; }
+.scientific-workbench .scientific-advanced summary { cursor: pointer; }

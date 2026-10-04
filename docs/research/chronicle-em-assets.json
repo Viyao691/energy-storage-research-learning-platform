@@ -1,0 +1,281 @@
+{
+  "routes": [
+    "supercapacitor",
+    "smes"
+  ],
+  "profiles": [
+    {
+      "id": "supercapacitor-skeleton",
+      "country": "爱沙尼亚/德国",
+      "summary": "Skeleton Technologies为私营高功率超级电容企业，覆盖材料、电芯、模组与系统。产品页列出D60单体规格；公司将其作为秒级功率支撑设备，不能将电芯参数解释为电站性能。",
+      "listing": "私营企业，未披露上市市值。",
+      "scale": [
+        "D60单体：3.0 V、3400–5000 F、DC ESR 0.12–0.20 mΩ；厂商标称比功率28.4–36.48 kW/kg、比能量8.27–11.1 Wh/kg。",
+        "公司称2025年启用莱比锡工厂，投资€220m，设计年产能最高1200万只电芯、规划创造420个岗位；这些是设计产能/岗位，不是已实现产量或出货。"
+      ],
+      "asOf": "产品规格与工厂信息据公司页面，访问/发布截至2026-10-03。",
+      "sources": [
+        {
+          "label": "SkelCap D60产品规格",
+          "url": "https://www.skeletontech.com/en/skelcap-supercapacitors"
+        },
+        {
+          "label": "莱比锡工厂启用公告",
+          "url": "https://www.skeletontech.com/news/skeleton-opens-220-million-leipzig-factory-to-stabilise-europes-electrical-grid-and-ai-infrastructure"
+        }
+      ]
+    },
+    {
+      "id": "supercapacitor-jianghai",
+      "country": "中国",
+      "summary": "南通江海电容器股份有限公司生产铝电解、薄膜和超级电容器，官网列出EDLC与锂离子电容器单体及模组，应用包括电网后备、风电和轨道交通。",
+      "listing": "深圳证券交易所上市，002484.SZ。",
+      "scale": [
+        "2025年营业收入人民币54.84亿元，其中超级电容产品收入人民币3.52亿元、同比增长17.32%（公司年报）。",
+        "公司披露超级电容器在电网调频/SVG等方向有批量订单，并获“兆瓦级超级电容复合储能系统关键技术及工程应用”省科技进步奖；这不等同于兆瓦级独立超级电容电站已经部署。"
+      ],
+      "asOf": "2025年度报告于2026-04-10披露。",
+      "sources": [
+        {
+          "label": "2025年年报（深交所PDF）",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-10/226419ee-9a1c-4425-b3b4-e7da33cfff25.PDF"
+        },
+        {
+          "label": "江海超级电容器产品与模组页",
+          "url": "https://www.jianghai.com/product_aluElecapacitor_17"
+        }
+      ]
+    },
+    {
+      "id": "supercapacitor-inl-idaho-falls",
+      "country": "美国",
+      "summary": "DOE资助的INL、Idaho Falls Power与NREL联合现场试验，将超容接入小水电系统验证孤岛运行和黑启动支持；这是社区微电网韧性研究，不是独立大型储能站。",
+      "listing": "国家实验室与公用事业合作项目，不适用上市市值。",
+      "scale": [
+        "2021年4月现场试验持续一周；试验负载由两台各6 MW负载箱模拟。DOE没有在该报道披露超容储能设备的额定功率、能量或持续时间。"
+      ],
+      "asOf": "试验2021-04；DOE报道2022-03-09。",
+      "sources": [
+        {
+          "label": "DOE现场试验报道",
+          "url": "https://www.energy.gov/cmei/water/articles/first-kind-tests-demonstrate-how-small-hydropower-plants-and-energy-storage-can"
+        }
+      ]
+    },
+    {
+      "id": "smes-zhongshan-project",
+      "country": "中国",
+      "summary": "中山市高性能高温超导材料及磁储能应用示范工程由南方凯能（广东）电力集团旗下中山市农村电力工程有限公司承接，地点在翠亨新区110 kV滨海变电站旁。",
+      "listing": "项目与承建单位为地方国资体系，不把母集团规模或市值归作项目公司。",
+      "scale": [
+        "2025年动工公告给出设计5 MVA/10 MJ、投资人民币2.08亿元、最大输出功率不低于5 MW。10 MJ约2.78 kWh；若以5 MW持续输出，理想能量约2秒，未计转换和冷却损耗。",
+        "中山市2026年计划执行报告确认工程已投入运行；其运行状态不扩展为大规模长时储能成熟证明。"
+      ],
+      "asOf": "开工消息2025-05-19；投入运行由中山市2026-03-13报告确认。",
+      "sources": [
+        {
+          "label": "中山市国资委项目开工公告",
+          "url": "https://www.zs.gov.cn/gzw/zdxm/content/post_2515267.html"
+        },
+        {
+          "label": "中山市2025年计划执行情况报告",
+          "url": "https://www.zs.gov.cn/zwgk/ghzj/fzghjh/gmjjshfzghgy/content/post_2597701.html"
+        }
+      ]
+    },
+    {
+      "id": "smes-kyuden",
+      "country": "日本",
+      "summary": "九州电力参与超导电力网络控制技术研发，曾与中部电力、ISTEC及古河电工合作开发并验证电网控制用SMES。",
+      "listing": "九州电力为日本上市公用事业企业；未在此收录未核实日期的市值。",
+      "scale": [
+        "2007年度起，在古河日光发电细尾电站进行约半年实系连系试验；10 MW/20 MJ级系统用于验证光伏出力波动补偿、平滑和时段转移控制。",
+        "不要与九州电力1994年度开始开发的1 MW/1 kWh模块混为一谈；20 MJ折合约5.56 kWh，说明它面向快速控制而非长时放电。"
+      ],
+      "asOf": "九州电力官方企业史，回顾2007年度起的现场试验。",
+      "sources": [
+        {
+          "label": "九州电力SMES历史与实证说明",
+          "url": "https://www.kyuden.co.jp/company/history/energy/technology/technology-1.html"
+        }
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "supercapacitor-skeleton-leipzig-2025",
+      "companyId": "supercapacitor-skeleton",
+      "year": 2025,
+      "title": "莱比锡超级电容工厂启用",
+      "copy": "Skeleton称工厂已启用，设计年产能最高1200万只电芯、投资€220m。容量为公司披露的设计值；实际年产、合格率和电网项目装机量未由该公告量化。",
+      "facts": [
+        "产品页D60单体比能量为厂商标称8.27–11.1 Wh/kg，不能代替含功率变换、热管理、支撑结构的系统比能量。",
+        "公司新闻稿称工厂向部分电网与数据中心客户交付产品；该信息为公司披露。"
+      ],
+      "sourceUrl": "https://www.skeletontech.com/news/skeleton-opens-220-million-leipzig-factory-to-stabilise-europes-electrical-grid-and-ai-infrastructure",
+      "subjects": [
+        "company:supercapacitor-skeleton",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "supercapacitor-jianghai-2025-report",
+      "companyId": "supercapacitor-jianghai",
+      "year": 2025,
+      "title": "江海股份超级电容业务增长并取得批量订单",
+      "copy": "公司年报显示超级电容器收入人民币3.52亿元，并报告电网调频/SVG等应用出现批量订单。年报未给出这些订单对应的独立储能站数量和单站能量。",
+      "facts": [
+        "超级电容收入同比增长17.32%。",
+        "公司获奖项目为“兆瓦级超级电容复合储能系统关键技术及工程应用”，属于复合储能技术项目，不应描述为已部署同容量的纯超容电站。"
+      ],
+      "sourceUrl": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-10/226419ee-9a1c-4425-b3b4-e7da33cfff25.PDF",
+      "subjects": [
+        "company:supercapacitor-jianghai",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "supercapacitor-inl-blackstart-2021",
+      "companyId": "supercapacitor-inl-idaho-falls",
+      "year": 2021,
+      "title": "小水电+超级电容黑启动与孤岛试验",
+      "copy": "INL与Idaho Falls Power把超容接入小水电系统，现场试验显示超容承担快速、大功率短时响应，让水电机组逐步跟上负荷。DOE明确指出该设备不能提供电池式持续输出。",
+      "facts": [
+        "现场测试持续一周，研究黑启动与孤岛运行。",
+        "两台6 MW设备是模拟关键负荷的负载箱规格，不是超容装置额定功率。",
+        "DOE未在该篇披露设备的kW/kWh或放电时长。"
+      ],
+      "sourceUrl": "https://www.energy.gov/cmei/water/articles/first-kind-tests-demonstrate-how-small-hydropower-plants-and-energy-storage-can",
+      "subjects": [
+        "company:supercapacitor-inl-idaho-falls",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "smes-zhongshan-operational-2026",
+      "companyId": "smes-zhongshan-project",
+      "year": 2026,
+      "title": "中山高温超导磁储能示范工程投入运行",
+      "copy": "地方政府2026年计划执行报告确认示范工程已投入运行。其2025年开工公告所列5 MVA/10 MJ为设计规模；MJ换算为kWh后表明该系统的设计强项是瞬时功率支撑，不是长时能量搬移。",
+      "facts": [
+        "2025年开工公告：投资人民币2.08亿元，最大输出功率不低于5 MW，储能量不低于10 MJ。",
+        "2026年政府报告确认投入运行，但未给出当年的实测可用能量、响应曲线、冷却辅助能耗或年循环统计。"
+      ],
+      "sourceUrl": "https://www.zs.gov.cn/zwgk/ghzj/fzghjh/gmjjshfzghgy/content/post_2597701.html",
+      "subjects": [
+        "company:smes-zhongshan-project",
+        "route:smes:history"
+      ]
+    },
+    {
+      "id": "smes-kyuden-hosoo-2007",
+      "companyId": "smes-kyuden",
+      "year": 2007,
+      "title": "细尾电站10 MW/20 MJ级SMES实系试验",
+      "copy": "九州电力公司史记载该联合项目在水电与波动负荷并存的实电网进行SMES联调，目标为电网稳定控制与光伏出力管理。20 MJ仅约5.56 kWh，需将MW级功率与kWh级能量分开阅读。",
+      "facts": [
+        "2007年度起开展约半年实证，2011年4月以前试验确认预定控制功能动作。",
+        "项目与中部电力、ISTEC合作，获得古河电工支持，安装地点是古河日光发电细尾电站。"
+      ],
+      "sourceUrl": "https://www.kyuden.co.jp/company/history/energy/technology/technology-1.html",
+      "subjects": [
+        "company:smes-kyuden",
+        "route:smes:history"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "supercapacitor-policy-nea-2021",
+      "src": "/chronicle/em-policy-nea-2021.png",
+      "alt": "国家能源局与科技部《十四五能源领域科技创新规划》第21页，列出超导、电介质电容器技术攻关及10MW级超级电容器示范",
+      "sourceUrl": "https://zfxxgk.nea.gov.cn/2021-11/29/c_1310540453.htm",
+      "sourceImageUrl": "https://zfxxgk.nea.gov.cn/1310540453_16488568862671n.pdf",
+      "credit": "国家能源局、科学技术部；官方规划PDF第21页",
+      "license": "政府公开规划原文页面截图，保留发布机关、文号与页码。",
+      "status": "usable",
+      "kind": "document",
+      "context": "2021-11-29联合印发《十四五能源领域科技创新规划》（国能发科技〔2021〕58号）；用于功率型储能技术政策背景。",
+      "subjects": [
+        "scene:supercapacitor-policy",
+        "scene:smes-policy"
+      ]
+    },
+    {
+      "id": "supercapacitor-skeleton-d60-cells",
+      "src": "/chronicle/em-supercapacitor-skeleton-cells.png",
+      "alt": "Skeleton SkelCap超级电容器单体产品图",
+      "sourceUrl": "https://www.skeletontech.com/en/skelcap-supercapacitors",
+      "sourceImageUrl": "https://www.skeletontech.com/hubfs/skeleton-supercapacitor-cells.png",
+      "credit": "Skeleton Technologies产品页面",
+      "license": "官网产品图，页面标注©2026 All rights reserved；本地科研展示引用，外部发布需取得许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "厂商D60系列单体产品图；外观产品图，不是电网储能系统或材料显微照片。",
+      "subjects": [
+        "company:supercapacitor-skeleton",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "supercapacitor-jianghai-edlc-module",
+      "src": "/chronicle/em-supercapacitor-jianghai-module.png",
+      "alt": "江海股份官网展示的EDLC超级电容模组产品",
+      "sourceUrl": "https://www.jianghai.com/product_aluElecapacitor_17",
+      "sourceImageUrl": "https://www.jianghai.com/file/upload/2020/02/24/1582510229322.png",
+      "credit": "南通江海电容器股份有限公司产品页",
+      "license": "官网公开产品图，未标开放许可；用于本地科研展示，外部发布需另获许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "产品页将其列为EDLC模组SMSP；不是兆瓦级电站或材料微结构。",
+      "subjects": [
+        "company:supercapacitor-jianghai",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "supercapacitor-inl-ultracap-test",
+      "src": "/chronicle/em-supercapacitor-inl-field.jpg",
+      "alt": "Idaho Falls Power超容现场验证期间的设备与工程人员",
+      "sourceUrl": "https://www.energy.gov/cmei/water/articles/first-kind-tests-demonstrate-how-small-hydropower-plants-and-energy-storage-can",
+      "sourceImageUrl": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2022-01/idaho-falls-power-image3.jpg?itok=XW70pIiP",
+      "credit": "Idaho National Laboratory（DOE报道图片署名）",
+      "license": "DOE报道标注图片来源为INL；注明署名与原报道，仅用于本地科研展示。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2021年小水电+超容黑启动/孤岛试验现场设备背景；照片不提供超容额定能量信息。",
+      "subjects": [
+        "company:supercapacitor-inl-idaho-falls",
+        "route:supercapacitor:history"
+      ]
+    },
+    {
+      "id": "smes-zhongshan-groundbreaking",
+      "src": "/chronicle/em-smes-zhongshan-construction.png",
+      "alt": "中山市高性能高温超导材料及磁储能应用示范工程开工仪式",
+      "sourceUrl": "https://www.zs.gov.cn/gzw/zdxm/content/post_2515267.html",
+      "sourceImageUrl": "https://www.zs.gov.cn/img/0/414/414530/2515267.png",
+      "credit": "中山市国资委项目开工公告图片",
+      "license": "政府网站公开项目报道配图，未标开放许可；本地科研展示注明来源，外部发布需确认许可。",
+      "status": "usable",
+      "kind": "real-photo",
+      "context": "2025年工程开工仪式实景，照片仅作项目时间背景；不是SMES设备或已投运现场。",
+      "subjects": [
+        "company:smes-zhongshan-project",
+        "route:smes:history"
+      ]
+    }
+  ],
+  "materialImageGaps": [
+    {
+      "subject": "material:supercapacitor-carbon",
+      "gap": "现有图为单体/模组/试验设备，未找到能确认其对应活性碳电极孔结构的一手显微图。",
+      "recommendation": "如需微观背景，生成EDLC双电层与多孔碳离子吸附机制结构示意，明确标注AI示意、非实测显微图。"
+    },
+    {
+      "subject": "material:smes-coil",
+      "gap": "中山市现场照片为开工仪式，未找到可确认属于该项目超导线圈的设备照片；九州电力历史页也未提供公开实物图。",
+      "recommendation": "生成闭合超导线圈、低温冷却与变流器结构示意，标注AI示意、非现场设备照片。"
+    }
+  ]
+}

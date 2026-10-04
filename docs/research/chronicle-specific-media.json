@@ -1,0 +1,474 @@
+{
+  "purpose": "企业、材料路线与政策 chronology 图片溯源；企业素材限定在对象准确的官方图片或文件配图，AI图标示结构示意，政策图为政府原文截图。",
+  "assets": [
+    {
+      "id": "blythe",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blythe_Solar_Project_(52357952013).jpg",
+      "subjects": [
+        "scene:storage"
+      ],
+      "note": "真实光伏与电池储能项目；不代表固态电池"
+    },
+    {
+      "id": "reid-gardner",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reid_Gardner_BESS.jpg",
+      "subjects": [
+        "scene:storage"
+      ],
+      "note": "真实电网储能项目；不代表固态电池"
+    },
+    {
+      "id": "wellesley",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grid_batteries_at_Wellesley_Municipal_Light_Plant_August_2026.jpg",
+      "subjects": [
+        "scene:storage"
+      ],
+      "note": "真实市政电网电池；不代表固态电池"
+    },
+    {
+      "id": "tesvolt-rheineck",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesvolt_battery_energy_storage_system_Rheineck.jpg",
+      "subjects": [
+        "scene:storage"
+      ],
+      "note": "真实电网储能项目；不代表固态电池，源站下载未成功"
+    },
+    {
+      "id": "bmw-solid-power",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/bmw-i7-solid-power.jpg",
+      "sourceUrl": "https://www.press.bmwgroup.com/africa-dom-easteurope/photo/compilation/T0450240EN/bmw-group-and-solid-power-are-testing-all-solid-state-battery-cells-in-a-bmw-i7",
+      "subjects": [
+        "company:bmw",
+        "company:solid-power"
+      ],
+      "note": "BMW i7搭载Solid Power全固态电芯进行测试的车辆"
+    },
+    {
+      "id": "toyota-solid-state-prototype",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/toyota-solid-state-battery.jpg",
+      "sourceUrl": "https://global.toyota/en/newsroom/corporate/39330500.html",
+      "subjects": [
+        "scene:history",
+        "scene:materials",
+        "company:toyota"
+      ],
+      "note": "Toyota展台原型堆叠样品；标签注明“All-solid-state battery (Stack: prototype)”，未标电解质化学体系"
+    },
+    {
+      "id": "quantumscape-qse5-sample",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/quantumscape-qse5-sample.png",
+      "sourceUrl": "https://www.quantumscape.com/a-first-look-at-the-qse-5-b-sample/",
+      "subjects": [
+        "scene:history",
+        "company:quantumscape",
+        "company:powerco"
+      ],
+      "note": "QuantumScape官方QSE-5 B样品实物照片；PowerCo合作验证关联仅用于企业背景，PowerCo公布的A样品循环数据不是此图中B样品的测试结果。"
+    },
+    {
+      "id": "idemitsu-sulfide-plant",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/idemitsu-sulfide-plant.jpg",
+      "sourceUrl": "https://www.idemitsu.com/en/news/2021/211105_2.html",
+      "subjects": [
+        "scene:materials",
+        "material:sulfide",
+        "company:idemitsu"
+      ],
+      "note": "Idemitsu硫化物固态电解质示范设施外观；工厂图不等同电芯性能证明"
+    },
+    {
+      "id": "samsung-s-line",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/samsung-sline.png",
+      "sourceUrl": "https://news.samsungsdi.com/global/people-culture/view?seq=286",
+      "subjects": [
+        "scene:history",
+        "company:samsung-sdi"
+      ],
+      "note": "Samsung SDI官方图注标识水原研究中心S-Line全固态电池试验线"
+    },
+    {
+      "id": "catl-21c-lab",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/catl-21c-lab.jpg",
+      "sourceUrl": "https://www.catl.com/en/news/476.html",
+      "subjects": [
+        "scene:materials",
+        "company:catl"
+      ],
+      "note": "CATL官方21C实验室报道配图，作为企业研究背景；报道提及多种前沿电池研发，不指认具体固态样品"
+    },
+    {
+      "id": "mercedes-factorial-eqs",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://group.mercedes-benz.com/technology/e-mobility/electric-drive/solid-state-battery-test-car.html",
+      "subjects": [
+        "scene:history",
+        "company:factorial",
+        "company:mercedes-benz"
+      ],
+      "note": "官方报道称EQS集成Factorial固态B样电池并于2025年启动道路测试；照片未能下载"
+    },
+    {
+      "id": "prologium-taoke-factory",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/prologium-dunkirk.png",
+      "sourceUrl": "https://prologium.com/prologium-advances-dunkirk-gigafactory-as-site-infrastructure-and-localization-work-accelerate/",
+      "subjects": [
+        "company:prologium"
+      ],
+      "note": "ProLogium官方工厂建设进度文章中的厂区规划渲染图，不是已建成工厂实拍或电芯性能证据。"
+    },
+    {
+      "id": "ornl-star-lab",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://www.ornl.gov/news/star-lab-tests-whether-battery-advances-can-scale",
+      "subjects": [
+        "scene:materials"
+      ],
+      "note": "ORNL报道展示实验室固态电池研究；未作为页面图片使用"
+    },
+    {
+      "id": "material-sulfide-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-sulfide-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:sulfide"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-oxide-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-oxide-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:oxide"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-halide-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-halide-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:halide"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-polymer-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-polymer-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:polymer"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-composite-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-composite-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:composite"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "policy-ndrc-2025",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/policy-ndrc-2025.png",
+      "sourceUrl": "https://www.ndrc.gov.cn/xwdt/tzgg/202509/t20250912_1400427_ext.html",
+      "subjects": [
+        "scene:policy",
+        "scene:lithium-policy",
+        "scene:sodium-policy"
+      ],
+      "note": "国家发改委2025年9月12日发布的新型储能规模化建设专项行动方案（2025—2027年）；不构成全固态部署证明"
+    },
+    {
+      "id": "market-nea-2025",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/market-nea-2025.png",
+      "sourceUrl": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html",
+      "subjects": [
+        "scene:market"
+      ],
+      "note": "国家能源局2026年1月30日公布2025年底新型储能累计装机136 GW/351 GWh；全技术路线统计，非固态电池专属"
+    },
+    {
+      "id": "catl-naxtra-sodium",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/catl-naxtra-sodium.png",
+      "sourceUrl": "https://www.catl.com/en/news/6401.html",
+      "subjects": [
+        "company:sodium-catl",
+        "route:sodium:history"
+      ],
+      "note": "CATL 2025年官方Naxtra钠离子电池产品图；不是固态电池，也不独立验证网页性能声明"
+    },
+    {
+      "id": "catl-shenxing-lfp",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/catl-shenxing-lfp.png",
+      "sourceUrl": "https://www.catl.com/en/news/6401.html",
+      "subjects": [
+        "company:lithium-catl",
+        "material:lithium-lfp",
+        "route:lithium:history"
+      ],
+      "note": "CATL 2025年官方第二代神行LFP电池产品图；锂离子路线，不是固态电池；性能参数属于企业发布"
+    },
+    {
+      "id": "skon-aem-cover",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/skon-aem-cover.jpg",
+      "sourceUrl": "https://eng.sk.com/news/sk-on-unveils-r-d-breakthroughs-on-all-solid-state-batteries",
+      "subjects": [
+        "company:sk-on"
+      ],
+      "note": "SK On官方研发文章配图为期刊封面/论文视觉，不是SK On电芯实拍；论文涉及聚合物-氧化物复合与硫化物固态电解质。"
+    },
+    {
+      "id": "welion-ev-solution",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/welion-ev-solution.jpg",
+      "sourceUrl": "https://www.welion.tech/en/solution/a1/",
+      "subjects": [
+        "company:welion",
+        "company:nio"
+      ],
+      "note": "WeLion官方电动汽车方案页插图（含NIO标记车辆），不是电芯实拍；页面称方案使用半固态电芯，不能当作全固态证据。"
+    },
+    {
+      "id": "qingtao-mg4-semi-solid",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/saic-mg4-1.png",
+      "sourceUrl": "https://www.saicmg.com/brand/information/news/app-6729/",
+      "subjects": [
+        "company:qingtao"
+      ],
+      "note": "上汽MG官方MG4半固态电池图解；上汽官方产品材料称与清陶动力合作，图示不是全固态电芯实物照片。"
+    },
+    {
+      "id": "ganfeng-solid-state-exhibit",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/ganfeng-ssb-product.jpg",
+      "sourceUrl": "https://www.ganfenglithium.com/new_detail/id/67.html",
+      "subjects": [
+        "company:ganfeng"
+      ],
+      "note": "赣锋锂业官方CIBF报道配图，展台标示固态电池；展会展示不代表量产或第三方性能验证。"
+    },
+    {
+      "id": "panasonic-energy-factory-2024",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/panasonic-4680-2.jpg",
+      "sourceUrl": "https://news.panasonic.com/global/press/en240909-7",
+      "subjects": [
+        "company:lithium-panasonic"
+      ],
+      "note": "Panasonic官方4680圆柱电池生产准备新闻所配工厂照片；对应生产地点背景，不是4680电芯近照。"
+    },
+    {
+      "id": "hina-sodium-cell-launch",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/hina-cell-1.jpg",
+      "sourceUrl": "https://www.hinabattery.com/en/index.php?id=63",
+      "subjects": [
+        "company:sodium-hina",
+        "route:sodium:history"
+      ],
+      "note": "中科海钠2023年产品发布图，画面包含钠离子方形与圆柱电芯产品；作为产品外观资料，不是电化学性能证据。"
+    },
+    {
+      "id": "datang-hina-sodium-storage",
+      "status": "usable",
+      "kind": "real-photo",
+      "src": "/chronicle/datang-hina-2.jpg",
+      "sourceUrl": "https://www.hinabattery.com/en/index.php?id=67",
+      "subjects": [
+        "company:sodium-datang-hina"
+      ],
+      "note": "中科海钠官方报道配图，展示大唐钠离子储能项目的集装箱系统；系统投运背景，不表示固态电池或单体参数。"
+    },
+    {
+      "id": "material-lithium-layered-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-lithium-layered-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:lithium-layered"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-lithium-graphite-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-lithium-graphite-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:lithium-graphite"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-sodium-layered-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-sodium-layered-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:sodium-layered"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-sodium-prussian-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-sodium-prussian-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:sodium-prussian"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "material-sodium-hard-carbon-ai",
+      "status": "usable",
+      "kind": "ai-illustration",
+      "src": "/chronicle/material-sodium-hard-carbon-ai.png",
+      "sourceUrl": "/research/chronicle",
+      "subjects": [
+        "scene:materials",
+        "material:sodium-hard-carbon"
+      ],
+      "note": "AI结构示意 · 非实测显微图"
+    },
+    {
+      "id": "policy-miit-manufacturing-2025",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/policy-miit-manufacturing-2025.png",
+      "sourceUrl": "https://www.miit.gov.cn/jgsj/dzs/wjfb/art/2025/art_269983a459934b72a51261cb7b1de958.html",
+      "subjects": [
+        "scene:lithium-policy",
+        "scene:sodium-policy"
+      ],
+      "note": "工信部联电子〔2025〕7号《新型储能制造业高质量发展行动方案》，研发与制造政策背景，不是产品认证或投产证明。"
+    },
+    {
+      "id": "policy-solid-tax-2026",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/policy-solid-tax-2026.png",
+      "sourceUrl": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5251171/content.html",
+      "subjects": [
+        "scene:solid-policy"
+      ],
+      "note": "2026年第20号公告；税收适用取决于公告列明电池类别、用途和免税条件，不能据此推断某全固态产品自动免税。"
+    },
+    {
+      "id": "policy-solid-standard-2026",
+      "status": "usable",
+      "kind": "document",
+      "src": "/chronicle/policy-solid-standard-2026.png",
+      "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0DDCACACCCCB7818FBB76F0C42E022D3",
+      "subjects": [
+        "scene:solid-standard"
+      ],
+      "note": "GB/T 48093.1-2026《电化学储能电池术语 第1部分：固态电池》，用于术语口径；标准实施日期2028-01-01。"
+    },
+    {
+      "id": "sony-nexelion-reference",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://www.sony.com/en/SonyInfo/News/Press/200502/05-006E/",
+      "subjects": [
+        "company:lithium-sony"
+      ],
+      "note": "Sony 2005 Nexelion产品资料可作锂离子历史来源；它不是1991年初代锂离子电池照片，图片直链获取失败。"
+    },
+    {
+      "id": "byd-blade-reference",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://media.byd.com/section/technology/blade-battery/?lang=eng",
+      "subjects": [
+        "company:lithium-byd"
+      ],
+      "note": "BYD官方媒体资源下载要求登录，未取得可本地使用的图片；不以其他企业电芯代替。"
+    },
+    {
+      "id": "faradion-sodium-reference",
+      "status": "reference-only",
+      "kind": "real-photo",
+      "src": null,
+      "sourceUrl": "https://www.ril.com/news-media/press-releases/reliance-new-energy-solar-acquire-faradion-limited",
+      "subjects": [
+        "company:sodium-faradion"
+      ],
+      "note": "未在Faradion及Reliance官方来源取得可用图片，保留来源线索，不使用其他钠离子企业照片代替。"
+    }
+  ]
+}

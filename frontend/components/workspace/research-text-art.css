@@ -1,0 +1,5 @@
+@font-face { font-family: "Research XiaoWei"; src: url("/fonts/research-display/ZCOOLXiaoWei-Research.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+.learning-tech-heading { width: min(100%, 260px); height: 106px; min-height: 106px; margin: -17px 0 -13px -26px; }
+.research-empty-art { display: grid; align-content: center; width: min(100%, 820px); height: 320px; margin: 4px auto 10px; }
+.workspace-v2 .app-main .research-empty-art .particle-text { height: 160px; font-family: "Research XiaoWei", serif !important; font-weight: 400; }
+@media (max-width: 620px) { .learning-tech-heading { height: 92px; min-height: 92px; } .research-empty-art { height: 220px; } .workspace-v2 .app-main .research-empty-art .particle-text { height: 110px; } }

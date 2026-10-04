@@ -1,0 +1,29 @@
+.markdown-content .mermaid-block-wrap .mermaid-block {
+  display: block;
+  max-width: 100%;
+  overflow: auto;
+  background: #f9fcfd;
+  border-color: #b8d6df;
+  scrollbar-color: #8bb7c3 transparent;
+}
+.markdown-content .mermaid-block-wrap .mermaid-block[hidden] { display: none !important; }
+.markdown-content .mermaid-block-wrap .mermaid-block-scaler {
+  display: table;
+  width: max-content;
+  margin-inline: auto;
+  transform: none;
+}
+.markdown-content .mermaid-block-wrap .mermaid-block svg {
+  display: block;
+  max-width: none !important;
+  height: auto;
+}
+.markdown-content .mermaid-block-wrap .mermaid-block svg text,
+.markdown-content .mermaid-block-wrap .mermaid-block svg foreignObject {
+  font-size: 16px;
+}
+html[data-theme="dark"] .markdown-content .mermaid-block-wrap .mermaid-block {
+  background: #0c2535;
+  border-color: #4c7b89;
+  scrollbar-color: #5c8f9e transparent;
+}
