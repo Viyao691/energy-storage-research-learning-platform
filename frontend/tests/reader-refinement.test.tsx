@@ -59,14 +59,32 @@ function Reader({ pageCount, initialPage = 1 }: { pageCount: number; initialPage
 describe("refined PDF reader", () => {
   it("shows at most five real nearby page images and changes the selected PDF page", () => {
     render(<Reader pageCount={12} initialPage={6} />);
+    const originalReader = screen.getByTitle("PDF 阅读器");
     const rail = screen.getByRole("navigation", { name: "PDF 页面缩略图" });
     expect(rail.querySelectorAll("img")).toHaveLength(5);
     expect(Array.from(rail.querySelectorAll("img"), image => image.getAttribute("src"))).toEqual([
       "/pages/4/image", "/pages/5/image", "/pages/6/image", "/pages/7/image", "/pages/8/image"
     ]);
     fireEvent.click(screen.getByRole("button", { name: "跳转到第 8 页" }));
-    expect(screen.getByTitle("PDF 阅读器").getAttribute("src")).toContain("#page=8");
+    const nextReader = screen.getByTitle("PDF 阅读器");
+    expect(nextReader).not.toBe(originalReader);
+    expect(nextReader.getAttribute("src")).toContain("#page=8");
     expect(screen.getByRole("button", { name: "跳转到第 8 页" }).getAttribute("aria-current")).toBe("page");
+  });
+
+  it("recreates the embedded PDF when the page toolbar moves forward or back", () => {
+    render(<Reader pageCount={3} />);
+    const firstReader = screen.getByTitle("PDF 阅读器");
+
+    fireEvent.click(screen.getByRole("button", { name: "下一页" }));
+    const secondReader = screen.getByTitle("PDF 阅读器");
+    expect(secondReader).not.toBe(firstReader);
+    expect(secondReader.getAttribute("src")).toContain("#page=2");
+
+    fireEvent.click(screen.getByRole("button", { name: "上一页" }));
+    const returnedReader = screen.getByTitle("PDF 阅读器");
+    expect(returnedReader).not.toBe(secondReader);
+    expect(returnedReader.getAttribute("src")).toContain("#page=1");
   });
 
   it("keeps page thumbnails inside document boundaries and shows a page number on image failure", () => {

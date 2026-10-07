@@ -1,6 +1,10 @@
 # Current status
 
-Updated: 2026-10-04
+Updated: 2026-10-07
+
+## PDF page navigation fix
+
+The embedded reader now remounts when paper, PDF variant or selected page changes. Previously only the URL fragment changed while the native PDF viewer stayed on its prior page. Targeted reader tests (5) and the related detail test (1) passed. One frontend build and local frontend deployment succeeded; isolated Edge confirmed next/thumbnail/previous navigation reloads the PDF with no page errors. Backend and personal data were unchanged. The October 4 Windows portable ZIP has not been rebuilt; this fix is in current source.
 
 ## Windows x64 portable ZIP — released
 

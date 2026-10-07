@@ -138,6 +138,7 @@ export function PdfWorkspace(props: PdfWorkspaceProps) {
               {thumbnailPages.map(page => <PageThumbnail key={page} id={id} page={page} selected={page === boundedCurrentPage} onSelect={() => setCurrentPage(page)} />)}
             </nav>
             <iframe
+              key={`${id}:${pdfVariant}:${boundedCurrentPage}`}
               className="pdf-reader"
               title="PDF 阅读器"
               src={`${api.paperFileUrl(id, pdfVariant)}#page=${boundedCurrentPage}`}

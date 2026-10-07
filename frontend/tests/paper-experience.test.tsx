@@ -729,7 +729,7 @@ describe("paper PDF workspace", () => {
     await waitFor(() => {
       const nextPreview = screen.getByAltText("第 2 页预览");
       expect(nextPreview.getAttribute("src")).toContain("/pages/2/image");
-      expect(reader.getAttribute("src")).toContain("/file#page=2");
+      expect(screen.getByTitle("PDF 阅读器").getAttribute("src")).toContain("/file#page=2");
     });
   });
 

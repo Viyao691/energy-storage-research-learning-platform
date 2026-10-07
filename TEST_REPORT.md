@@ -1,5 +1,12 @@
 # Release verification
 
+## 2026-10-07 PDF navigation
+
+- Reader regression: red 2 failed/3 passed; green 5 passed. Related paper-detail test: 1 passed/39 skipped.
+- The broader paper-experience file returned 35 passed/5 failed; only help and external-comparison heading failures were identifiable in truncated output. It is not reported as passing; no full suites ran.
+- One frontend production build and local-only frontend update passed. Isolated Edge confirmed next, thumbnail and previous replace the iframe and reload the local PDF (4 requests including initial load), with no page errors.
+- No manual inspection of the internal PDF toolbar; its independent controls do not report page changes to outer state. The existing Windows release archive remains unchanged.
+
 ## Windows x64 portable runtime cold-start acceptance
 
 - One Windows portable build succeeded and complete Windows backend dependencies were installed. The runtime bundles Python 3.12, Node 24, Pandoc and OCR runtime libraries, with a local runtime proxy, Mock defaults and empty `data`.
