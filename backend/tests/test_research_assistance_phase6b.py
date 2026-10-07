@@ -73,6 +73,45 @@ def test_user_and_selected_evidence_ideas_and_experiment_checks(client: TestClie
     assert "Mock" in reviewed.json()["ai_review"]
 
 
+def test_delete_idea_removes_its_designs_but_preserves_other_records(client: TestClient) -> None:
+    idea_id = client.post("/api/v1/research-ideas", json={"title": "待删除想法"}).json()["id"]
+    other_idea_id = client.post("/api/v1/research-ideas", json={"title": "保留想法"}).json()["id"]
+    design_ids = [client.post("/api/v1/experiment-designs", json={"idea_id": idea_id, "title": f"设计 {index}"}).json()["id"] for index in (1, 2)]
+    other_design_id = client.post("/api/v1/experiment-designs", json={"idea_id": other_idea_id, "title": "保留设计"}).json()["id"]
+    imported = client.post("/api/v1/scientific-imports", files={"file": ("source.csv", b"x,y\n1,2\n", "text/csv")}).json()
+    dataset = client.post(f"/api/v1/scientific-imports/{imported['id']}/confirm", json={
+        "name": "保留数据", "domain": "general", "dataset_type": "table", "idea_id": idea_id,
+        "parameters": {"row_column_complete": True, "unit_complete": True},
+    }).json()
+
+    deleted = client.delete(f"/api/v1/research-ideas/{idea_id}")
+    assert deleted.status_code == 204
+    assert deleted.content == b""
+    assert [item["id"] for item in client.get("/api/v1/research-ideas").json()] == [other_idea_id]
+    assert {item["id"] for item in client.get("/api/v1/experiment-designs").json()} == {other_design_id}
+    assert all(client.get(f"/api/v1/experiment-designs/{design_id}").status_code == 404 for design_id in design_ids)
+    preserved = client.get("/api/v1/scientific-datasets").json()["items"]
+    assert preserved[0]["id"] == dataset["id"]
+    assert preserved[0]["idea_id"] is None
+    assert client.delete(f"/api/v1/research-ideas/{idea_id}").status_code == 404
+
+
+def test_delete_experiment_design_only_removes_itself(client: TestClient) -> None:
+    idea_id = client.post("/api/v1/research-ideas", json={"title": "保留想法"}).json()["id"]
+    design_id = client.post("/api/v1/experiment-designs", json={"idea_id": idea_id, "title": "待删除设计"}).json()["id"]
+    other_design_id = client.post("/api/v1/experiment-designs", json={"idea_id": idea_id, "title": "保留设计"}).json()["id"]
+
+    deleted = client.delete(f"/api/v1/experiment-designs/{design_id}")
+    assert deleted.status_code == 204
+    assert deleted.content == b""
+    assert client.get(f"/api/v1/experiment-designs/{design_id}").status_code == 404
+    assert client.get(f"/api/v1/experiment-designs/{other_design_id}").status_code == 200
+    assert [item["id"] for item in client.get("/api/v1/research-ideas").json()] == [idea_id]
+    assert client.delete(f"/api/v1/experiment-designs/{design_id}").status_code == 404
+    assert client.delete("/api/v1/experiment-designs/999999").status_code == 404
+    assert client.delete("/api/v1/research-ideas/999999").status_code == 404
+
+
 def test_markdown_export_uses_only_selected_evidence(client: TestClient) -> None:
     imported = client.post("/api/v1/scientific-imports", files={"file": ("data.csv", b"x,y\n1,2\n", "text/csv")}).json()
     dataset = client.post(f"/api/v1/scientific-imports/{imported['id']}/confirm", json={"name": "证据数据", "domain": "general", "dataset_type": "table", "units": {}, "parameters": {"row_column_complete": True, "unit_complete": True, "cells_complete": True}}).json()

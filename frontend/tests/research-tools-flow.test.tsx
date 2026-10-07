@@ -10,8 +10,8 @@ import IdeasPage from "../app/ideas/page";
 const { apiMock } = vi.hoisted(() => ({ apiMock: {
   scientificImports: vi.fn(), scientificImport: vi.fn(), allScientificDatasets: vi.fn(), uploadScientificImport: vi.fn(), confirmScientificImport: vi.fn(),
   scientificDataset: vi.fn(), updateScientificDataset: vi.fn(), scientificDatasetAnalyses: vi.fn(), runScientificAnalysis: vi.fn(), updateScientificDatasetState: vi.fn(),
-  researchIdeas: vi.fn(), papers: vi.fn(), createResearchIdea: vi.fn(), updateResearchIdea: vi.fn(), generateResearchIdea: vi.fn(),
-  experimentDesigns: vi.fn(), experimentDesign: vi.fn(), createExperimentDesign: vi.fn(), updateExperimentDesign: vi.fn(), reviewExperimentDesign: vi.fn(),
+  researchIdeas: vi.fn(), papers: vi.fn(), createResearchIdea: vi.fn(), updateResearchIdea: vi.fn(), deleteResearchIdea: vi.fn(), generateResearchIdea: vi.fn(),
+  experimentDesigns: vi.fn(), experimentDesign: vi.fn(), createExperimentDesign: vi.fn(), updateExperimentDesign: vi.fn(), deleteExperimentDesign: vi.fn(), reviewExperimentDesign: vi.fn(),
   createResearchExport: vi.fn(), researchExportUrl: vi.fn(), scientificExportUrl: vi.fn(),
 } }));
 vi.mock("../lib/api", () => ({ api: apiMock }));
@@ -30,6 +30,66 @@ beforeEach(() => {
   apiMock.researchIdeas.mockResolvedValue([]);
   apiMock.papers.mockResolvedValue({ items: [] });
   apiMock.experimentDesigns.mockResolvedValue([]);
+  apiMock.deleteResearchIdea.mockResolvedValue(undefined);
+  apiMock.deleteExperimentDesign.mockResolvedValue(undefined);
+});
+
+const deletionIdea = { id: 5, title: "问题", source_mode: "user", selected_paper_ids: [], selected_dataset_ids: [], hypothesis: "旧假设", evidence: "", novelty: "", falsification: "", feasibility: "", resources: "", evidence_gaps: "" };
+const deletionDesign = (id: number) => ({ id, idea_id: 5, title: "同名方案", variables: "", controls: "", replication: "", randomization: "", measurement: "", statistics: "", stopping_criteria: "", resources: "", risks: "", deterministic_findings: [], ai_review: "" });
+
+it("cancels idea deletion without a request, then removes its designs and active editors after confirmation", async () => {
+  const confirm = vi.spyOn(window, "confirm").mockReturnValueOnce(false).mockReturnValueOnce(true);
+  apiMock.researchIdeas.mockResolvedValue([deletionIdea]);
+  apiMock.experimentDesigns.mockResolvedValue([deletionDesign(9), deletionDesign(10)]);
+  apiMock.experimentDesign.mockResolvedValue(deletionDesign(9));
+  render(<IdeasPage />);
+  await userEvent.click(await screen.findByRole("button", { name: "编辑想法" }));
+  await userEvent.click(screen.getAllByRole("button", { name: "打开同名方案" })[0]);
+  await waitFor(() => expect(screen.getByRole("button", { name: "保存实验设计" })).toBeTruthy());
+  await userEvent.click(screen.getByRole("button", { name: "删除想法" }));
+  expect(apiMock.deleteResearchIdea).not.toHaveBeenCalled();
+  expect(screen.getByRole("button", { name: "保存实验设计" })).toBeTruthy();
+  await userEvent.click(screen.getByRole("button", { name: "删除想法" }));
+  await waitFor(() => expect(apiMock.deleteResearchIdea).toHaveBeenCalledWith(5));
+  await waitFor(() => expect(screen.queryByRole("button", { name: "删除想法" })).toBeNull());
+  expect(confirm).toHaveBeenCalledWith(expect.stringContaining("同时删除关联的 2 个实验设计"));
+  expect(screen.queryByRole("button", { name: "保存实验设计" })).toBeNull();
+  expect(screen.getByRole("button", { name: "保存科研想法" })).toBeTruthy();
+  confirm.mockRestore();
+});
+
+it("deletes only the chosen design ID even when saved titles match", async () => {
+  const confirm = vi.spyOn(window, "confirm").mockReturnValue(true);
+  apiMock.researchIdeas.mockResolvedValue([deletionIdea]);
+  apiMock.experimentDesigns.mockResolvedValue([deletionDesign(9), deletionDesign(10)]);
+  apiMock.experimentDesign.mockResolvedValue(deletionDesign(9));
+  render(<IdeasPage />);
+  await waitFor(() => expect(screen.getAllByRole("button", { name: "打开同名方案" })).toHaveLength(2));
+  await userEvent.click(screen.getAllByRole("button", { name: "打开同名方案" })[0]);
+  await userEvent.click(screen.getByRole("button", { name: "删除实验设计 #9：同名方案" }));
+  await waitFor(() => expect(apiMock.deleteExperimentDesign).toHaveBeenCalledWith(9));
+  expect(screen.getByRole("button", { name: "删除实验设计 #10：同名方案" })).toBeTruthy();
+  expect(screen.queryByRole("button", { name: "删除实验设计 #9：同名方案" })).toBeNull();
+  expect(screen.queryByRole("button", { name: "保存实验设计" })).toBeNull();
+  expect(screen.getByRole("button", { name: "删除想法" })).toBeTruthy();
+  expect(confirm).toHaveBeenCalledWith(expect.stringContaining("#9"));
+  confirm.mockRestore();
+});
+
+it("keeps idea, designs, and the active editor when deletion fails", async () => {
+  const confirm = vi.spyOn(window, "confirm").mockReturnValue(true);
+  apiMock.researchIdeas.mockResolvedValue([deletionIdea]);
+  apiMock.experimentDesigns.mockResolvedValue([deletionDesign(9)]);
+  apiMock.experimentDesign.mockResolvedValue(deletionDesign(9));
+  apiMock.deleteResearchIdea.mockRejectedValue(new Error("删除失败"));
+  render(<IdeasPage />);
+  await userEvent.click(await screen.findByRole("button", { name: "打开同名方案" }));
+  await userEvent.click(screen.getByRole("button", { name: "删除想法" }));
+  expect((await screen.findByRole("alert")).textContent).toContain("删除失败");
+  expect(screen.getByRole("button", { name: "删除想法" })).toBeTruthy();
+  expect(screen.getByRole("button", { name: "删除实验设计 #9：同名方案" })).toBeTruthy();
+  expect(screen.getByRole("button", { name: "保存实验设计" })).toBeTruthy();
+  confirm.mockRestore();
 });
 
 it("switches a historical XLSX sheet and requires explicit review before confirming", async () => {

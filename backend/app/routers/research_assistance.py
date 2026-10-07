@@ -14,9 +14,9 @@ from typing import Any, Literal
 import httpx
 
 from fastapi import Depends, File, HTTPException, UploadFile
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel, Field
-from sqlalchemy import select, update
+from sqlalchemy import delete, select, update
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -437,6 +437,16 @@ def register_research_assistance_routes(app, get_db) -> None:
         db.commit(); db.refresh(item)
         return _idea_response(item)
 
+    @app.delete("/api/v1/research-ideas/{idea_id}", status_code=204)
+    def delete_idea(idea_id: int, db: Session = Depends(get_db)) -> Response:
+        item = db.get(ResearchIdea, idea_id)
+        if item is None:
+            raise HTTPException(404, "科研想法不存在")
+        db.execute(delete(ExperimentDesign).where(ExperimentDesign.idea_id == idea_id))
+        db.delete(item)
+        db.commit()
+        return Response(status_code=204)
+
     @app.post("/api/v1/research-ideas/generate", response_model=ResearchIdeaResponse, status_code=201)
     def generate_idea(payload: ResearchIdeaGenerate, db: Session = Depends(get_db)) -> ResearchIdeaResponse:
         if not payload.paper_ids and not payload.dataset_ids:
@@ -508,6 +518,15 @@ def register_research_assistance_routes(app, get_db) -> None:
             item.ai_review = ""
         db.commit(); db.refresh(item)
         return _experiment_response(item)
+
+    @app.delete("/api/v1/experiment-designs/{design_id}", status_code=204)
+    def delete_experiment(design_id: int, db: Session = Depends(get_db)) -> Response:
+        item = db.get(ExperimentDesign, design_id)
+        if item is None:
+            raise HTTPException(404, "实验设计不存在")
+        db.delete(item)
+        db.commit()
+        return Response(status_code=204)
 
     @app.post("/api/v1/experiment-designs/{design_id}/review", response_model=ExperimentDesignResponse)
     def review_experiment(design_id: int, db: Session = Depends(get_db)) -> ExperimentDesignResponse:

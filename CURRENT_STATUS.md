@@ -2,6 +2,10 @@
 
 Updated: 2026-10-07
 
+## Delete research ideas and experiment designs
+
+Saved ideas now have a delete action whose confirmation shows the associated design count. Deleting an idea removes all its designs in one transaction; an individual design can also be deleted from its list entry or editor. Successful deletion clears related editing/export state; cancellation or failure preserves it. Source papers and datasets remain. Backend2 and frontend3 targeted tests passed, generated contracts were refreshed, and both local services were updated. Isolated Edge verified cancellation, individual deletion of duplicate-title designs, cascade count and editor cleanup using temporary records only. Existing personal records were untouched; no model calls or full suites ran. The October4 Windows ZIP has not been rebuilt.
+
 ## Paper diagrams and model output budget
 
 At the user's request, Codex subsequently repaired six truncated diagram tails using local evidence while preserving original prose. All eight diagrams in those six reports rendered in isolated previews, and saved API content matched the repairs. No DeepSeek requests were made. Private report contents, evidence and backups remain local and are excluded from this repository.

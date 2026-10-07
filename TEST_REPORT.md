@@ -1,5 +1,13 @@
 # Release verification
 
+## 2026-10-07 Idea and experiment design deletion
+
+- Backend targeted deletion tests: initial2 failures (405), final2 passed/7 deselected. Covers idea/design cascade scope, independent deletion, dataset preservation and404 responses.
+- Frontend deletion tests:3 passed, covering confirmation counts, cancellation/failure preservation and editor/list cleanup.
+- OpenAPI/type generation, one frontend production build, dependency-reusing backend source refresh and local3001/8001 deployment passed.
+- Isolated Edge created one temporary idea and three same-title designs: cancellation preserved records; individual deletion retained the idea and two designs; idea deletion confirmed count2, removed associated designs and cleared the editor. No page errors; temporary records cleaned. Existing personal records remained untouched.
+- No model calls, full suites or Windows ZIP rebuilds ran. Runtime logs and private data are excluded from the public repository.
+
 ## 2026-10-07 Paper diagrams and output budget
 
 - Subsequent offline Codex repair: six private report diagram tails were completed from local evidence, preserving existing prose. An isolated Edge preview rendered all eight diagrams in those six reports with no page errors; saved API content then matched each repaired field. No DeepSeek calls ran. Compatible report versions were retained, and diagram captions/evidence status identify the Codex contribution. Private evidence and backups are not included here.
