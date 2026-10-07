@@ -2,6 +2,10 @@
 
 Updated: 2026-10-07
 
+## Quiz layout and scientific notation
+
+Quiz radio controls are now 22×22px, aligned beside their option text with a 12px gap and at least a 44px clickable row. Prompts, options, explanations and reference points use the existing Markdown/math renderer; common k0 and numeric powers are formatted for display while source text and answer letters remain unchanged. Focused regression and production build passed; isolated desktop-dark and narrow-screen-light checks confirmed alignment, math rendering and label selection. The local frontend was updated. Backend and personal records were unchanged; the existing Windows release ZIP has not been rebuilt.
+
 ## PDF page navigation fix
 
 The embedded reader now remounts when paper, PDF variant or selected page changes. Previously only the URL fragment changed while the native PDF viewer stayed on its prior page. Targeted reader tests (5) and the related detail test (1) passed. One frontend build and local frontend deployment succeeded; isolated Edge confirmed next/thumbnail/previous navigation reloads the PDF with no page errors. Backend and personal data were unchanged. The October 4 Windows portable ZIP has not been rebuilt; this fix is in current source.

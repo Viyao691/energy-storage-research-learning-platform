@@ -1,5 +1,12 @@
 # Release verification
 
+## 2026-10-07 Quiz layout and notation
+
+- Focused quiz regression: red 1 failed/22 skipped (missing subscript rendering), green 1 passed/22 skipped. The test verifies rendering and original option-letter submission after clicking the label.
+- Initial frontend build found optional explanation text passed to a string-only renderer. After adding a presence check, the necessary rebuild and frontend deployment passed. Green regression preceded that small type fix; the final build and runtime checks cover the final source.
+- Isolated Edge at desktop-dark 1920px and narrow-screen-light 390px: radios22×22px, fixed12px text gap, minimum44px rows, aligned controls, options within viewport and label click selection. A scientific-notation question rendered one subscript and four powers with no math or page errors.
+- No real answers were submitted, personal data changed, models called, full suites run or Windows ZIP rebuilt.
+
 ## 2026-10-07 PDF navigation
 
 - Reader regression: red 2 failed/3 passed; green 5 passed. Related paper-detail test: 1 passed/39 skipped.

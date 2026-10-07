@@ -325,4 +325,23 @@ describe("learning system pages", () => {
     expect(await screen.findByRole("button", { name: "部分答对" })).toBeTruthy();
     expect(apiMock.submitLearningAttempt).toHaveBeenCalledWith(20, "我的回答");
   });
+
+  it("renders quiz notation while submitting the selected option letter", async () => {
+    apiMock.learningPack.mockResolvedValue({ ...pack, questions: [{ ...pack.questions[0], question_type: "multiple_choice", prompt: "速率常数 k0 与 10^-3：`k0` 和 $10^{-2}$ 保持原样", options: ["A. k0 = 10^-3", "B. k0 = 10^3", "C. 其他", "D. 无法判断"], attempts: [] }] });
+    apiMock.submitLearningAttempt.mockResolvedValue({ id: 30, question_id: 20, answer: "B", result: "incorrect", self_rating: null, explanation: "**解析**：k0 对应 10^-3", reference_points: ["**要点**：10^-3"], feedback_markdown: "", feedback_provider: "", feedback_model_name: "", feedback_prompt_version: "", feedback_evidence_status: "", feedback_generated_at: null });
+    render(createElement(LearningPackPage));
+    await userEvent.click(await screen.findByRole("button", { name: "自测" }));
+    const question = screen.getByText(/速率常数/).closest("article")!;
+    expect(question.querySelector("h3 .katex msub")).toBeTruthy();
+    expect(question.querySelector("h3 .katex msup")).toBeTruthy();
+    expect(question.querySelector("h3 code")?.textContent).toBe("k0");
+    expect(question.querySelectorAll(".learning-options label")).toHaveLength(4);
+    expect(question.querySelector(".learning-options .katex msub")).toBeTruthy();
+    await userEvent.click(question.querySelectorAll(".learning-options label")[1]);
+    await userEvent.click(screen.getByRole("button", { name: "提交答案" }));
+    expect(apiMock.submitLearningAttempt).toHaveBeenCalledWith(20, "B");
+    expect(await screen.findByText("解析")).toBeTruthy();
+    expect(question.querySelector(".learning-feedback .katex msup")).toBeTruthy();
+    expect(question.querySelector(".learning-feedback li strong")?.textContent).toBe("要点");
+  });
 });
