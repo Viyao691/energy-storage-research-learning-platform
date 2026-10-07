@@ -2,10 +2,11 @@
 
 ## 2026-10-07 Paper diagrams and output budget
 
+- Subsequent offline Codex repair: six private report diagram tails were completed from local evidence, preserving existing prose. An isolated Edge preview rendered all eight diagrams in those six reports with no page errors; saved API content then matched each repaired field. No DeepSeek calls ran. Compatible report versions were retained, and diagram captions/evidence status identify the Codex contribution. Private evidence and backups are not included here.
 - Flowchart pipe-label regression: red1 failed/12 skipped; green13 passed. Final backend targeted group12 passed/57 deselected, covering incomplete fenced/unfenced diagrams, CRLF, valid diagram prose, DeepSeek64000 report budgets, length responses and failed-report preservation.
 - One frontend build and a backend source refresh using installed dependencies passed. Frontend/backend deployment passed; after backend health became ready, health and the frontend paper proxy succeeded.
 - Isolated Edge confirmed both quick-understanding diagrams render for the affected example. Existing truncated diagrams in other report tabs remain incomplete; no missing scientific content was invented. No page errors occurred.
-- No real model calls, personal-report replacements, full suites or Windows archive rebuilds ran. Actual64000 model completion has not been verified; prior failed response details are unavailable.
+- No paid-model calls, full suites or Windows archive rebuilds ran. Actual64000 model completion has not been verified; prior failed response details are unavailable. The later offline repair changed only the targeted local report diagram tails and provenance; private contents remain excluded from GitHub.
 
 ## 2026-10-07 Quiz layout and notation
 

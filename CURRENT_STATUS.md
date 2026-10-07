@@ -4,7 +4,9 @@ Updated: 2026-10-07
 
 ## Paper diagrams and model output budget
 
-Flowchart square-node labels containing literal pipes are quoted for display so complete diagrams can render. The backend rejects clearly unfinished fenced or unfenced diagram tails while preserving previous reports. DeepSeek paper reports now allow64000 output tokens while retaining thinking; other providers and campus budgets are unchanged. Length errors distinguish empty and partial answers. Targeted frontend13/backend12 tests passed, both services were updated, and local health/API access passed. A complete failing diagram now renders; existing reports whose diagram content is missing still require regeneration. No real model requests or personal-report replacement were performed during this repair, and the existing Windows ZIP remains unchanged.
+At the user's request, Codex subsequently repaired six truncated diagram tails using local evidence while preserving original prose. All eight diagrams in those six reports rendered in isolated previews, and saved API content matched the repairs. No DeepSeek requests were made. Private report contents, evidence and backups remain local and are excluded from this repository.
+
+Flowchart square-node labels containing literal pipes are quoted for display so complete diagrams can render. The backend rejects clearly unfinished fenced or unfenced diagram tails while preserving previous reports. DeepSeek paper reports now allow64000 output tokens while retaining thinking; other providers and campus budgets are unchanged. Length errors distinguish empty and partial answers. Targeted frontend13/backend12 tests passed, both services were updated, and local health/API access passed. Missing diagram content requires evidence-based repair or regeneration and cannot be recovered by quoting labels alone. No paid-model requests were made, and the existing Windows ZIP remains unchanged.
 
 ## Quiz layout and scientific notation
 
