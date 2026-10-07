@@ -2,6 +2,10 @@
 
 Updated: 2026-10-07
 
+## Paper diagrams and model output budget
+
+Flowchart square-node labels containing literal pipes are quoted for display so complete diagrams can render. The backend rejects clearly unfinished fenced or unfenced diagram tails while preserving previous reports. DeepSeek paper reports now allow64000 output tokens while retaining thinking; other providers and campus budgets are unchanged. Length errors distinguish empty and partial answers. Targeted frontend13/backend12 tests passed, both services were updated, and local health/API access passed. A complete failing diagram now renders; existing reports whose diagram content is missing still require regeneration. No real model requests or personal-report replacement were performed during this repair, and the existing Windows ZIP remains unchanged.
+
 ## Quiz layout and scientific notation
 
 Quiz radio controls are now 22×22px, aligned beside their option text with a 12px gap and at least a 44px clickable row. Prompts, options, explanations and reference points use the existing Markdown/math renderer; common k0 and numeric powers are formatted for display while source text and answer letters remain unchanged. Focused regression and production build passed; isolated desktop-dark and narrow-screen-light checks confirmed alignment, math rendering and label selection. The local frontend was updated. Backend and personal records were unchanged; the existing Windows release ZIP has not been rebuilt.

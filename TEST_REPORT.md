@@ -1,5 +1,12 @@
 # Release verification
 
+## 2026-10-07 Paper diagrams and output budget
+
+- Flowchart pipe-label regression: red1 failed/12 skipped; green13 passed. Final backend targeted group12 passed/57 deselected, covering incomplete fenced/unfenced diagrams, CRLF, valid diagram prose, DeepSeek64000 report budgets, length responses and failed-report preservation.
+- One frontend build and a backend source refresh using installed dependencies passed. Frontend/backend deployment passed; after backend health became ready, health and the frontend paper proxy succeeded.
+- Isolated Edge confirmed both quick-understanding diagrams render for the affected example. Existing truncated diagrams in other report tabs remain incomplete; no missing scientific content was invented. No page errors occurred.
+- No real model calls, personal-report replacements, full suites or Windows archive rebuilds ran. Actual64000 model completion has not been verified; prior failed response details are unavailable.
+
 ## 2026-10-07 Quiz layout and notation
 
 - Focused quiz regression: red 1 failed/22 skipped (missing subscript rendering), green 1 passed/22 skipped. The test verifies rendering and original option-letter submission after clicking the label.

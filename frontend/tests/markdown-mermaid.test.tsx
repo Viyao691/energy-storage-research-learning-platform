@@ -26,6 +26,15 @@ afterEach(() => {
 });
 
 describe("MarkdownContent mermaid diagrams", () => {
+  it("quotes a literal pipe in an unquoted flowchart node label", async () => {
+    mermaidMock.render.mockResolvedValue({ svg: '<svg id="pouch-cell-diagram" />' });
+    render(<MermaidBlock code={'flowchart TD\n A[合成] -->|验证| F[组装NLFMO||HC<br/>软包全电池测试]\n F --> G[完成]'} />);
+    await waitFor(() => expect(mermaidMock.render).toHaveBeenCalledWith(
+      expect.any(String),
+      'flowchart TD\n A[合成] -->|验证| F["组装NLFMO||HC<br/>软包全电池测试"]\n F --> G[完成]',
+    ));
+  });
+
   it("normalizes chemical labels while preserving phases, node IDs, units and mathematics", () => {
     const source = 'flowchart LR\nNa2O["P2-O2 / P3 / O3; Na2/3TMO2; P2-Na0.67MnO2; LiFePO4; Fe3+; Na+; O2; 180 mAh/g; E^2; x_2"] -->|Na+| LiFePO4[Na_{x}MO_{2}]';
     expect(normalizeMermaidChemicalLabels(source)).toBe('flowchart LR\nNa2O["P2-O2 / P3 / O3; Na₂/₃TMO₂; P2-Na₀.₆₇MnO₂; LiFePO₄; Fe³⁺; Na⁺; O2; 180 mAh/g; E^2; x_2"] -->|Na⁺| LiFePO4[NaₓMO₂]');

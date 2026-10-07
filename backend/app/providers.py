@@ -10,6 +10,7 @@ import httpx
 
 from .paper_analysis import (
     AnalysisReportType,
+    IncompleteMermaidError,
     PaperAnalysisContext,
     build_report_prompt,
     parse_report_result,
@@ -812,7 +813,10 @@ class OpenAICompatibleProvider:
         response.raise_for_status()
         choice = response.json()["choices"][0]
         if choice.get("finish_reason") == "length":
-            raise ModelProviderError("模型输出达到上限，报告未保存；请稍后重试")
+            partial = choice.get("message", {}).get("content")
+            if not isinstance(partial, str) or not partial.strip():
+                raise ModelProviderError("模型输出预算耗尽，暂未返回正文；原报告保持不变。请提高输出上限后重新生成")
+            raise ModelProviderError("模型输出达到预算上限，部分报告未保存；请提高输出上限后重新生成")
         content = choice["message"]["content"]
         if not isinstance(content, str) or not content.strip():
             raise ValueError("empty model response")
@@ -884,6 +888,8 @@ class OpenAICompatibleProvider:
             AnalysisReportType.layman_understanding: 12000,
             AnalysisReportType.reviewer_analysis: 20000,
         }[report_type]
+        if self.name == "deepseek":
+            max_tokens = 64000
         request_timeout = max(self.timeout_seconds, {
             AnalysisReportType.quick_understanding: 180,
             AnalysisReportType.layman_understanding: 180,
@@ -893,6 +899,8 @@ class OpenAICompatibleProvider:
             content = self._chat_content(prompt, temperature=0.2, max_tokens=max_tokens, json_mode=True, timeout=request_timeout)
             parsed = parse_report_result(content, "AI归纳（待原文证据核验）", report_type)
             return AnalysisReportResult(parsed.report_markdown, parsed.evidence_status)
+        except IncompleteMermaidError as exc:
+            raise ModelProviderError("模型返回的流程图不完整，原报告保持不变；请重新生成") from exc
         except httpx.TimeoutException as exc:
             raise ModelProviderError("模型生成超时，原报告保持不变；请稍后重试") from exc
         except httpx.HTTPStatusError as exc:

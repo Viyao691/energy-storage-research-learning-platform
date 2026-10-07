@@ -233,6 +233,36 @@ def test_three_understanding_reports_use_independent_prompts_and_single_report_s
         parse_report_result('{"summary":"旧式总报告"}', "尚不确定")
 
 
+@pytest.mark.parametrize("report", [
+    '## 方法流程图\n```mermaid\nflowchart TD\nA["起点"] --> B["未完成',
+    '## 方法流程图\n```mermaid\nflowchart TD\nA["起点"] --> B["终点"]\nB -->|表征| D["\n```',
+    '## 方法流程图\n```mermaid\nflowchart TD\nA["起点"] -->\n```',
+    '## 方法流程图\nmermaid\nflowchart TD\nA["起点"] --> B["',
+    '## 方法流程图\nmermaid\nflowchart TD\nA["起点"] -->|表征| D[',
+    '## 方法流程图\r\n```mermaid\r\nflowchart TD\r\nA["起点"] --> B["\r\n```',
+])
+def test_report_rejects_obviously_incomplete_mermaid(report: str) -> None:
+    from app.paper_analysis import AnalysisReportType, IncompleteMermaidError, parse_report_result
+
+    with pytest.raises(IncompleteMermaidError):
+        parse_report_result(
+            json.dumps({"quick_understanding": report}),
+            "AI归纳（测试）",
+            AnalysisReportType.quick_understanding,
+        )
+
+
+def test_report_accepts_completed_mermaid_and_plain_prose() -> None:
+    from app.paper_analysis import AnalysisReportType, parse_report_result
+
+    report = '## 方法流程图\n```mermaid\nflowchart TD\nA["起点"] -->|表征| B["终点"]\n```\n\n结束。'
+    result = parse_report_result(json.dumps({"quick_understanding": report}), "AI归纳（测试）", AnalysisReportType.quick_understanding)
+    assert result.report_markdown == report
+    unfenced = '## 方法流程图\nmermaid\nflowchart TD\nA["起点"] -->|表征| B["终点"]\n\n这张图说明方法顺序。'
+    result = parse_report_result(json.dumps({"quick_understanding": unfenced}), "AI归纳（测试）", AnalysisReportType.quick_understanding)
+    assert result.report_markdown == unfenced
+
+
 def test_report_prompt_version_keeps_v4_and_v5_reports_usable() -> None:
     from app.paper_analysis import (
         AnalysisReportType, REPORT_PROMPT_VERSIONS, REPORT_SCHEMA_VERSIONS,

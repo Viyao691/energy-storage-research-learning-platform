@@ -62,6 +62,18 @@ class ParsedReportResult:
     evidence_status: str
 
 
+class IncompleteMermaidError(ValueError):
+    """A report contains an obviously unfinished Mermaid diagram."""
+
+
+def _incomplete_mermaid_tail(line: str) -> bool:
+    return bool(
+        re.search(r'\b[A-Za-z][\w-]*\[[^\]]*$', line)
+        or re.search(r'\b[A-Za-z][\w-]*\[\s*"[^"]*$', line)
+        or re.search(r'(?:-->|---)\s*(?:\|[^|]*\|\s*)?$', line)
+    )
+
+
 def _context_header(scope: str, article_type: str, parse_confidence: float) -> str:
     resolved_type = article_type.strip() or "未可靠识别"
     return (
@@ -298,6 +310,27 @@ def parse_report_result(content: str, evidence_status: str, report_type: Analysi
     report = parsed.get(report_type.value if report_type else "report_markdown")
     if not isinstance(report, str) or not report.strip():
         raise ValueError("analysis report must contain its non-empty report field")
+    fences = list(re.finditer(r"(?m)^[ \t]*```([^\r\n]*)\r?$", report))
+    for index, fence in enumerate(fences):
+        if fence.group(1).strip().lower() != "mermaid":
+            continue
+        if index + 1 >= len(fences) or fences[index + 1].group(1).strip():
+            raise IncompleteMermaidError("mermaid code fence is not closed")
+        graph = report[fence.end():fences[index + 1].start()].strip()
+        last_line = graph.splitlines()[-1].strip() if graph else ""
+        if _incomplete_mermaid_tail(last_line):
+            raise IncompleteMermaidError("mermaid graph ends mid-node or mid-edge")
+    for marker in re.finditer(r"(?m)^[ \t]*mermaid[ \t]*\r?\n[ \t]*flowchart[ \t]+(?:TD|LR|BT|RL)[ \t]*\r?$", report):
+        last_line = ""
+        for line in report[marker.end():].lstrip("\r\n").splitlines():
+            stripped = line.strip()
+            if not stripped or stripped.startswith(("#", "```")):
+                break
+            if not ("-->" in stripped or "---" in stripped or re.match(r"[A-Za-z][\w-]*\[", stripped)):
+                break
+            last_line = stripped
+        if _incomplete_mermaid_tail(last_line):
+            raise IncompleteMermaidError("mermaid graph ends mid-node or mid-edge")
     return ParsedReportResult(report.strip(), evidence_status)
 
 

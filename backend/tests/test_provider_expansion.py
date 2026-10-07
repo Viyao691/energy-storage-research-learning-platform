@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json as json_lib
+
 import httpx
 import pytest
 
@@ -199,3 +201,54 @@ def test_glm_47_disables_thinking_only_for_structured_requests(monkeypatch: pyte
     assert payloads[1]["thinking"] == {"type": "disabled"}
     assert "thinking" not in payloads[2]
     assert "thinking" not in payloads[3]
+
+
+def test_deepseek_paper_reports_keep_thinking_and_request_64000_tokens(monkeypatch: pytest.MonkeyPatch) -> None:
+    from app.paper_analysis import AnalysisReportType
+
+    payloads: list[dict[str, object]] = []
+
+    def fake_post(url: str, *, headers: dict[str, str], json: dict[str, object], timeout: int):
+        payloads.append(json)
+        task = next(item for item in AnalysisReportType if item.value in json["messages"][0]["content"])
+        content = json_lib.dumps({task.value: "## 完整报告\n\n内容。"})
+        return httpx.Response(200, json={"choices": [{"finish_reason": "stop", "message": {"content": content}}]}, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr("app.providers.httpx.post", fake_post)
+    for name in ("deepseek", "openai_compatible"):
+        provider = make_provider(name, "test-key", "https://example.com/v1", "model", 30)
+        for report_type in AnalysisReportType:
+            provider.analyze_report("paper", "text", report_type)
+    assert [item["max_tokens"] for item in payloads] == [64000] * 3 + [16000, 12000, 20000]
+    assert all("thinking" not in item for item in payloads)
+
+
+@pytest.mark.parametrize("content, expected", [
+    ("", "暂未返回正文"),
+    ("部分正文", "部分报告未保存"),
+])
+def test_deepseek_length_response_distinguishes_empty_and_partial(monkeypatch: pytest.MonkeyPatch, content: str, expected: str) -> None:
+    from app.paper_analysis import AnalysisReportType
+    from app.providers import ModelProviderError
+
+    def fake_post(url: str, *, headers: dict[str, str], json: dict[str, object], timeout: int):
+        return httpx.Response(200, json={"choices": [{"finish_reason": "length", "message": {"content": content}}]}, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr("app.providers.httpx.post", fake_post)
+    provider = make_provider("deepseek", "test-key", "", "deepseek-flash", 30)
+    with pytest.raises(ModelProviderError, match=expected):
+        provider.analyze_report("paper", "text", AnalysisReportType.quick_understanding)
+
+
+def test_deepseek_rejects_incomplete_diagram_with_specific_error(monkeypatch: pytest.MonkeyPatch) -> None:
+    from app.paper_analysis import AnalysisReportType
+    from app.providers import ModelProviderError
+
+    def fake_post(url: str, *, headers: dict[str, str], json: dict[str, object], timeout: int):
+        content = json_lib.dumps({"quick_understanding": '## 方法流程图\n```mermaid\nflowchart TD\nA["起点"] --> B["'})
+        return httpx.Response(200, json={"choices": [{"finish_reason": "stop", "message": {"content": content}}]}, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr("app.providers.httpx.post", fake_post)
+    provider = make_provider("deepseek", "test-key", "", "deepseek-flash", 30)
+    with pytest.raises(ModelProviderError, match="流程图不完整，原报告保持不变"):
+        provider.analyze_report("paper", "text", AnalysisReportType.quick_understanding)

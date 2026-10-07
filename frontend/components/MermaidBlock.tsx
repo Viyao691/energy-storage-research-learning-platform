@@ -12,6 +12,11 @@ const MIN_SCALE = 0.5;
 const MAX_SCALE = 3;
 const SCALE_STEP = 0.25;
 
+function quoteFlowchartPipeLabels(source: string): string {
+  if (!/^\s*(?:flowchart|graph)\s/m.test(source)) return source;
+  return source.replace(/(\b[A-Za-z_][\w-]*\[)([^\[\]"\n]*\|[^\[\]"\n]*)(\])/g, (_match, start: string, label: string, end: string) => `${start}"${label}"${end}`);
+}
+
 /**
  * Renders a ```mermaid fenced code block into an SVG diagram on the client.
  * Offers zoom controls for small mindmaps / dense flowcharts and falls back
@@ -19,7 +24,7 @@ const SCALE_STEP = 0.25;
  * syntax), so reports never crash on a bad Mermaid snippet.
  */
 export function MermaidBlock({ code }: MermaidBlockProps) {
-  code = stripMermaidPageReferences(normalizeMermaidChemicalLabels(code));
+  code = quoteFlowchartPipeLabels(stripMermaidPageReferences(normalizeMermaidChemicalLabels(code)));
   const scalerRef = useRef<HTMLDivElement>(null);
   const [error, setError] = useState<string>("");
   const [ready, setReady] = useState(false);
